@@ -24,16 +24,16 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BuildBundle_Attributes_Entitlements extends \Cantie\AppStoreConnect\Model
+class BuildBundle_Attributes_Entitlements extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 
 
 }
 
-class BuildBundle_Attributes extends \Cantie\AppStoreConnect\Model
+class BuildBundle_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $bundleId;
 	public $bundleType; // APP, APP_CLIP
@@ -244,7 +244,7 @@ class BuildBundle_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BuildBundle_Relationships_AppClipDomainCacheStatus_Links extends \Cantie\AppStoreConnect\Model
+class BuildBundle_Relationships_AppClipDomainCacheStatus_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -270,7 +270,7 @@ class BuildBundle_Relationships_AppClipDomainCacheStatus_Links extends \Cantie\A
 
 }
 
-class BuildBundle_Relationships_AppClipDomainCacheStatus_Data extends \Cantie\AppStoreConnect\Model
+class BuildBundle_Relationships_AppClipDomainCacheStatus_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipDomainStatuses';
 	public $id;
@@ -296,7 +296,7 @@ class BuildBundle_Relationships_AppClipDomainCacheStatus_Data extends \Cantie\Ap
 
 }
 
-class BuildBundle_Relationships_AppClipDomainCacheStatus extends \Cantie\AppStoreConnect\Model
+class BuildBundle_Relationships_AppClipDomainCacheStatus extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = BuildBundle_Relationships_AppClipDomainCacheStatus_Links::class;
 	protected $linksDataType = 'object';
@@ -336,7 +336,7 @@ class BuildBundle_Relationships_AppClipDomainCacheStatus extends \Cantie\AppStor
 
 }
 
-class BuildBundle_Relationships_AppClipDomainDebugStatus_Links extends \Cantie\AppStoreConnect\Model
+class BuildBundle_Relationships_AppClipDomainDebugStatus_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -362,7 +362,7 @@ class BuildBundle_Relationships_AppClipDomainDebugStatus_Links extends \Cantie\A
 
 }
 
-class BuildBundle_Relationships_AppClipDomainDebugStatus_Data extends \Cantie\AppStoreConnect\Model
+class BuildBundle_Relationships_AppClipDomainDebugStatus_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipDomainStatuses';
 	public $id;
@@ -388,7 +388,7 @@ class BuildBundle_Relationships_AppClipDomainDebugStatus_Data extends \Cantie\Ap
 
 }
 
-class BuildBundle_Relationships_AppClipDomainDebugStatus extends \Cantie\AppStoreConnect\Model
+class BuildBundle_Relationships_AppClipDomainDebugStatus extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = BuildBundle_Relationships_AppClipDomainDebugStatus_Links::class;
 	protected $linksDataType = 'object';
@@ -428,7 +428,7 @@ class BuildBundle_Relationships_AppClipDomainDebugStatus extends \Cantie\AppStor
 
 }
 
-class BuildBundle_Relationships_BetaAppClipInvocations_Links extends \Cantie\AppStoreConnect\Model
+class BuildBundle_Relationships_BetaAppClipInvocations_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -454,7 +454,7 @@ class BuildBundle_Relationships_BetaAppClipInvocations_Links extends \Cantie\App
 
 }
 
-class BuildBundle_Relationships_BetaAppClipInvocations_Data extends \Cantie\AppStoreConnect\Model
+class BuildBundle_Relationships_BetaAppClipInvocations_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaAppClipInvocations';
 	public $id;
@@ -480,7 +480,7 @@ class BuildBundle_Relationships_BetaAppClipInvocations_Data extends \Cantie\AppS
 
 }
 
-class BuildBundle_Relationships_BetaAppClipInvocations extends \Cantie\AppStoreConnect\Model
+class BuildBundle_Relationships_BetaAppClipInvocations extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = BuildBundle_Relationships_BetaAppClipInvocations_Links::class;
 	protected $linksDataType = 'object';
@@ -537,7 +537,7 @@ class BuildBundle_Relationships_BetaAppClipInvocations extends \Cantie\AppStoreC
 
 }
 
-class BuildBundle_Relationships_BuildBundleFileSizes_Links extends \Cantie\AppStoreConnect\Model
+class BuildBundle_Relationships_BuildBundleFileSizes_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -563,7 +563,7 @@ class BuildBundle_Relationships_BuildBundleFileSizes_Links extends \Cantie\AppSt
 
 }
 
-class BuildBundle_Relationships_BuildBundleFileSizes_Data extends \Cantie\AppStoreConnect\Model
+class BuildBundle_Relationships_BuildBundleFileSizes_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'buildBundleFileSizes';
 	public $id;
@@ -589,7 +589,7 @@ class BuildBundle_Relationships_BuildBundleFileSizes_Data extends \Cantie\AppSto
 
 }
 
-class BuildBundle_Relationships_BuildBundleFileSizes extends \Cantie\AppStoreConnect\Model
+class BuildBundle_Relationships_BuildBundleFileSizes extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = BuildBundle_Relationships_BuildBundleFileSizes_Links::class;
 	protected $linksDataType = 'object';
@@ -646,7 +646,7 @@ class BuildBundle_Relationships_BuildBundleFileSizes extends \Cantie\AppStoreCon
 
 }
 
-class BuildBundle_Relationships extends \Cantie\AppStoreConnect\Model
+class BuildBundle_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appClipDomainCacheStatusType = BuildBundle_Relationships_AppClipDomainCacheStatus::class;
 	protected $appClipDomainCacheStatusDataType = 'object';
@@ -720,7 +720,7 @@ class BuildBundle_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BuildBundle extends \Cantie\AppStoreConnect\Model
+class BuildBundle extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'buildBundles';
 	public $id;

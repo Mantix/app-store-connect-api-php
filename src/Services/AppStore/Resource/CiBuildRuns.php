@@ -24,22 +24,22 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\CiBuildRunResponse;
-use Cantie\AppStoreConnect\Services\AppStore\CiBuildRunCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\CiBuildActionsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BuildsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\CiBuildRunResponse;
+use Mantix\AppStoreConnect\Services\AppStore\CiBuildRunCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\CiBuildActionsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BuildsResponse;
 
 /**
  * The "ciBuildRuns" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $ciBuildRuns = $appStoreService->ciBuildRuns;
  *  </code>
  */
-class CiBuildRuns extends \Cantie\AppStoreConnect\Services\Resource
+class CiBuildRuns extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

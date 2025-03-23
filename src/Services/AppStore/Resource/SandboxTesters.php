@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\SandboxTestersV2Response;
-use Cantie\AppStoreConnect\Services\AppStore\SandboxTesterV2Response;
-use Cantie\AppStoreConnect\Services\AppStore\SandboxTesterV2UpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\SandboxTestersV2Response;
+use Mantix\AppStoreConnect\Services\AppStore\SandboxTesterV2Response;
+use Mantix\AppStoreConnect\Services\AppStore\SandboxTesterV2UpdateRequest;
 
 /**
  * The "sandboxTesters" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $sandboxTesters = $appStoreService->sandboxTesters;
  *  </code>
  */
-class SandboxTesters extends \Cantie\AppStoreConnect\Services\Resource
+class SandboxTesters extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

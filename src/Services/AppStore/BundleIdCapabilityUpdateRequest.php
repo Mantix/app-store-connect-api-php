@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BundleIdCapabilityUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class BundleIdCapabilityUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $capabilityType; // 
 	protected $settingsType = CapabilitySetting::class;
@@ -65,7 +65,7 @@ class BundleIdCapabilityUpdateRequest_Data_Attributes extends \Cantie\AppStoreCo
 
 }
 
-class BundleIdCapabilityUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class BundleIdCapabilityUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'bundleIdCapabilities';
 	public $id;
@@ -108,7 +108,7 @@ class BundleIdCapabilityUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BundleIdCapabilityUpdateRequest extends \Cantie\AppStoreConnect\Model
+class BundleIdCapabilityUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BundleIdCapabilityUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

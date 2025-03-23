@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class RoutingAppCoverage_Attributes extends \Cantie\AppStoreConnect\Model
+class RoutingAppCoverage_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $fileSize;
 	public $fileName;
@@ -96,7 +96,7 @@ class RoutingAppCoverage_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class RoutingAppCoverage_Relationships_AppStoreVersion_Links extends \Cantie\AppStoreConnect\Model
+class RoutingAppCoverage_Relationships_AppStoreVersion_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -122,7 +122,7 @@ class RoutingAppCoverage_Relationships_AppStoreVersion_Links extends \Cantie\App
 
 }
 
-class RoutingAppCoverage_Relationships_AppStoreVersion_Data extends \Cantie\AppStoreConnect\Model
+class RoutingAppCoverage_Relationships_AppStoreVersion_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersions';
 	public $id;
@@ -148,7 +148,7 @@ class RoutingAppCoverage_Relationships_AppStoreVersion_Data extends \Cantie\AppS
 
 }
 
-class RoutingAppCoverage_Relationships_AppStoreVersion extends \Cantie\AppStoreConnect\Model
+class RoutingAppCoverage_Relationships_AppStoreVersion extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = RoutingAppCoverage_Relationships_AppStoreVersion_Links::class;
 	protected $linksDataType = 'object';
@@ -188,7 +188,7 @@ class RoutingAppCoverage_Relationships_AppStoreVersion extends \Cantie\AppStoreC
 
 }
 
-class RoutingAppCoverage_Relationships extends \Cantie\AppStoreConnect\Model
+class RoutingAppCoverage_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appStoreVersionType = RoutingAppCoverage_Relationships_AppStoreVersion::class;
 	protected $appStoreVersionDataType = 'object';
@@ -211,7 +211,7 @@ class RoutingAppCoverage_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class RoutingAppCoverage extends \Cantie\AppStoreConnect\Model
+class RoutingAppCoverage extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'routingAppCoverages';
 	public $id;

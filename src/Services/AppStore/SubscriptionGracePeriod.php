@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionGracePeriod_Attributes extends \Cantie\AppStoreConnect\Model
+class SubscriptionGracePeriod_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $optIn;
 	public $sandboxOptIn;
@@ -78,7 +78,7 @@ class SubscriptionGracePeriod_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class SubscriptionGracePeriod extends \Cantie\AppStoreConnect\Model
+class SubscriptionGracePeriod extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionGracePeriods';
 	public $id;

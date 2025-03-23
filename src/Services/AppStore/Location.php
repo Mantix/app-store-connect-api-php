@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class Location extends \Cantie\AppStoreConnect\Model
+class Location extends \Mantix\AppStoreConnect\Model
 {
 	public $latitude;
 	public $longitude;

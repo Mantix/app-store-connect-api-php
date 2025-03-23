@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppPreviewSetCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppPreviewSetCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $previewType; // 
 
@@ -48,7 +48,7 @@ class AppPreviewSetCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect
 
 }
 
-class AppPreviewSetCreateRequest_Data_Relationships_AppStoreVersionLocalization_Data extends \Cantie\AppStoreConnect\Model
+class AppPreviewSetCreateRequest_Data_Relationships_AppStoreVersionLocalization_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionLocalizations';
 	public $id;
@@ -74,7 +74,7 @@ class AppPreviewSetCreateRequest_Data_Relationships_AppStoreVersionLocalization_
 
 }
 
-class AppPreviewSetCreateRequest_Data_Relationships_AppStoreVersionLocalization extends \Cantie\AppStoreConnect\Model
+class AppPreviewSetCreateRequest_Data_Relationships_AppStoreVersionLocalization extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppPreviewSetCreateRequest_Data_Relationships_AppStoreVersionLocalization_Data::class;
 	protected $dataDataType = 'object';
@@ -97,7 +97,7 @@ class AppPreviewSetCreateRequest_Data_Relationships_AppStoreVersionLocalization 
 
 }
 
-class AppPreviewSetCreateRequest_Data_Relationships_AppCustomProductPageLocalization_Data extends \Cantie\AppStoreConnect\Model
+class AppPreviewSetCreateRequest_Data_Relationships_AppCustomProductPageLocalization_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appCustomProductPageLocalizations';
 	public $id;
@@ -123,7 +123,7 @@ class AppPreviewSetCreateRequest_Data_Relationships_AppCustomProductPageLocaliza
 
 }
 
-class AppPreviewSetCreateRequest_Data_Relationships_AppCustomProductPageLocalization extends \Cantie\AppStoreConnect\Model
+class AppPreviewSetCreateRequest_Data_Relationships_AppCustomProductPageLocalization extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppPreviewSetCreateRequest_Data_Relationships_AppCustomProductPageLocalization_Data::class;
 	protected $dataDataType = 'object';
@@ -146,7 +146,7 @@ class AppPreviewSetCreateRequest_Data_Relationships_AppCustomProductPageLocaliza
 
 }
 
-class AppPreviewSetCreateRequest_Data_Relationships_AppStoreVersionExperimentTreatmentLocalization_Data extends \Cantie\AppStoreConnect\Model
+class AppPreviewSetCreateRequest_Data_Relationships_AppStoreVersionExperimentTreatmentLocalization_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionExperimentTreatmentLocalizations';
 	public $id;
@@ -172,7 +172,7 @@ class AppPreviewSetCreateRequest_Data_Relationships_AppStoreVersionExperimentTre
 
 }
 
-class AppPreviewSetCreateRequest_Data_Relationships_AppStoreVersionExperimentTreatmentLocalization extends \Cantie\AppStoreConnect\Model
+class AppPreviewSetCreateRequest_Data_Relationships_AppStoreVersionExperimentTreatmentLocalization extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppPreviewSetCreateRequest_Data_Relationships_AppStoreVersionExperimentTreatmentLocalization_Data::class;
 	protected $dataDataType = 'object';
@@ -195,7 +195,7 @@ class AppPreviewSetCreateRequest_Data_Relationships_AppStoreVersionExperimentTre
 
 }
 
-class AppPreviewSetCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppPreviewSetCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appStoreVersionLocalizationType = AppPreviewSetCreateRequest_Data_Relationships_AppStoreVersionLocalization::class;
 	protected $appStoreVersionLocalizationDataType = 'object';
@@ -252,7 +252,7 @@ class AppPreviewSetCreateRequest_Data_Relationships extends \Cantie\AppStoreConn
 
 }
 
-class AppPreviewSetCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppPreviewSetCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appPreviewSets';
 	protected $attributesType = AppPreviewSetCreateRequest_Data_Attributes::class;
@@ -302,7 +302,7 @@ class AppPreviewSetCreateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPreviewSetCreateRequest extends \Cantie\AppStoreConnect\Model
+class AppPreviewSetCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppPreviewSetCreateRequest_Data::class;
 	protected $dataDataType = 'object';

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppPreOrder_Attributes extends \Cantie\AppStoreConnect\Model
+class AppPreOrder_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $preOrderAvailableDate;
 	public $appReleaseDate;
@@ -52,7 +52,7 @@ class AppPreOrder_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPreOrder_Relationships_App_Links extends \Cantie\AppStoreConnect\Model
+class AppPreOrder_Relationships_App_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -78,7 +78,7 @@ class AppPreOrder_Relationships_App_Links extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPreOrder_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class AppPreOrder_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -104,7 +104,7 @@ class AppPreOrder_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPreOrder_Relationships_App extends \Cantie\AppStoreConnect\Model
+class AppPreOrder_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppPreOrder_Relationships_App_Links::class;
 	protected $linksDataType = 'object';
@@ -144,7 +144,7 @@ class AppPreOrder_Relationships_App extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPreOrder_Relationships extends \Cantie\AppStoreConnect\Model
+class AppPreOrder_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = AppPreOrder_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -167,7 +167,7 @@ class AppPreOrder_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPreOrder extends \Cantie\AppStoreConnect\Model
+class AppPreOrder extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appPreOrders';
 	public $id;

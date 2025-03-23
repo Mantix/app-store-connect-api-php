@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppPreOrderUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppPreOrderUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $appReleaseDate;
 
@@ -42,7 +42,7 @@ class AppPreOrderUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\M
 
 }
 
-class AppPreOrderUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppPreOrderUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appPreOrders';
 	public $id;
@@ -85,7 +85,7 @@ class AppPreOrderUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPreOrderUpdateRequest extends \Cantie\AppStoreConnect\Model
+class AppPreOrderUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppPreOrderUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

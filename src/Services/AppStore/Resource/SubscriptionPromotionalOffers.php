@@ -24,22 +24,22 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionPromotionalOfferResponse;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionPromotionalOfferCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionPromotionalOfferUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionPromotionalOfferPricesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionPromotionalOfferResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionPromotionalOfferCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionPromotionalOfferUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionPromotionalOfferPricesResponse;
 
 /**
  * The "subscriptionPromotionalOffers" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $subscriptionPromotionalOffers = $appStoreService->subscriptionPromotionalOffers;
  *  </code>
  */
-class SubscriptionPromotionalOffers extends \Cantie\AppStoreConnect\Services\Resource
+class SubscriptionPromotionalOffers extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

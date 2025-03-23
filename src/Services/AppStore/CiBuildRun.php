@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiBuildRun_Attributes_SourceCommit extends \Cantie\AppStoreConnect\Model
+class CiBuildRun_Attributes_SourceCommit extends \Mantix\AppStoreConnect\Model
 {
 	public $commitSha;
 	public $message;
@@ -96,7 +96,7 @@ class CiBuildRun_Attributes_SourceCommit extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiBuildRun_Attributes_DestinationCommit extends \Cantie\AppStoreConnect\Model
+class CiBuildRun_Attributes_DestinationCommit extends \Mantix\AppStoreConnect\Model
 {
 	public $commitSha;
 	public $message;
@@ -166,7 +166,7 @@ class CiBuildRun_Attributes_DestinationCommit extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class CiBuildRun_Attributes extends \Cantie\AppStoreConnect\Model
+class CiBuildRun_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $number;
 	public $createdDate;
@@ -325,7 +325,7 @@ class CiBuildRun_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiBuildRun_Relationships_Builds_Links extends \Cantie\AppStoreConnect\Model
+class CiBuildRun_Relationships_Builds_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -351,7 +351,7 @@ class CiBuildRun_Relationships_Builds_Links extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class CiBuildRun_Relationships_Builds_Data extends \Cantie\AppStoreConnect\Model
+class CiBuildRun_Relationships_Builds_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'builds';
 	public $id;
@@ -377,7 +377,7 @@ class CiBuildRun_Relationships_Builds_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiBuildRun_Relationships_Builds extends \Cantie\AppStoreConnect\Model
+class CiBuildRun_Relationships_Builds extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = CiBuildRun_Relationships_Builds_Links::class;
 	protected $linksDataType = 'object';
@@ -434,7 +434,7 @@ class CiBuildRun_Relationships_Builds extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiBuildRun_Relationships_Workflow_Links extends \Cantie\AppStoreConnect\Model
+class CiBuildRun_Relationships_Workflow_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -460,7 +460,7 @@ class CiBuildRun_Relationships_Workflow_Links extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class CiBuildRun_Relationships_Workflow_Data extends \Cantie\AppStoreConnect\Model
+class CiBuildRun_Relationships_Workflow_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'ciWorkflows';
 	public $id;
@@ -486,7 +486,7 @@ class CiBuildRun_Relationships_Workflow_Data extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class CiBuildRun_Relationships_Workflow extends \Cantie\AppStoreConnect\Model
+class CiBuildRun_Relationships_Workflow extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = CiBuildRun_Relationships_Workflow_Links::class;
 	protected $linksDataType = 'object';
@@ -526,7 +526,7 @@ class CiBuildRun_Relationships_Workflow extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiBuildRun_Relationships_Product_Links extends \Cantie\AppStoreConnect\Model
+class CiBuildRun_Relationships_Product_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -552,7 +552,7 @@ class CiBuildRun_Relationships_Product_Links extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class CiBuildRun_Relationships_Product_Data extends \Cantie\AppStoreConnect\Model
+class CiBuildRun_Relationships_Product_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'ciProducts';
 	public $id;
@@ -578,7 +578,7 @@ class CiBuildRun_Relationships_Product_Data extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class CiBuildRun_Relationships_Product extends \Cantie\AppStoreConnect\Model
+class CiBuildRun_Relationships_Product extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = CiBuildRun_Relationships_Product_Links::class;
 	protected $linksDataType = 'object';
@@ -618,7 +618,7 @@ class CiBuildRun_Relationships_Product extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiBuildRun_Relationships_SourceBranchOrTag_Links extends \Cantie\AppStoreConnect\Model
+class CiBuildRun_Relationships_SourceBranchOrTag_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -644,7 +644,7 @@ class CiBuildRun_Relationships_SourceBranchOrTag_Links extends \Cantie\AppStoreC
 
 }
 
-class CiBuildRun_Relationships_SourceBranchOrTag_Data extends \Cantie\AppStoreConnect\Model
+class CiBuildRun_Relationships_SourceBranchOrTag_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'scmGitReferences';
 	public $id;
@@ -670,7 +670,7 @@ class CiBuildRun_Relationships_SourceBranchOrTag_Data extends \Cantie\AppStoreCo
 
 }
 
-class CiBuildRun_Relationships_SourceBranchOrTag extends \Cantie\AppStoreConnect\Model
+class CiBuildRun_Relationships_SourceBranchOrTag extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = CiBuildRun_Relationships_SourceBranchOrTag_Links::class;
 	protected $linksDataType = 'object';
@@ -710,7 +710,7 @@ class CiBuildRun_Relationships_SourceBranchOrTag extends \Cantie\AppStoreConnect
 
 }
 
-class CiBuildRun_Relationships_DestinationBranch_Links extends \Cantie\AppStoreConnect\Model
+class CiBuildRun_Relationships_DestinationBranch_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -736,7 +736,7 @@ class CiBuildRun_Relationships_DestinationBranch_Links extends \Cantie\AppStoreC
 
 }
 
-class CiBuildRun_Relationships_DestinationBranch_Data extends \Cantie\AppStoreConnect\Model
+class CiBuildRun_Relationships_DestinationBranch_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'scmGitReferences';
 	public $id;
@@ -762,7 +762,7 @@ class CiBuildRun_Relationships_DestinationBranch_Data extends \Cantie\AppStoreCo
 
 }
 
-class CiBuildRun_Relationships_DestinationBranch extends \Cantie\AppStoreConnect\Model
+class CiBuildRun_Relationships_DestinationBranch extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = CiBuildRun_Relationships_DestinationBranch_Links::class;
 	protected $linksDataType = 'object';
@@ -802,7 +802,7 @@ class CiBuildRun_Relationships_DestinationBranch extends \Cantie\AppStoreConnect
 
 }
 
-class CiBuildRun_Relationships_PullRequest_Links extends \Cantie\AppStoreConnect\Model
+class CiBuildRun_Relationships_PullRequest_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -828,7 +828,7 @@ class CiBuildRun_Relationships_PullRequest_Links extends \Cantie\AppStoreConnect
 
 }
 
-class CiBuildRun_Relationships_PullRequest_Data extends \Cantie\AppStoreConnect\Model
+class CiBuildRun_Relationships_PullRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'scmPullRequests';
 	public $id;
@@ -854,7 +854,7 @@ class CiBuildRun_Relationships_PullRequest_Data extends \Cantie\AppStoreConnect\
 
 }
 
-class CiBuildRun_Relationships_PullRequest extends \Cantie\AppStoreConnect\Model
+class CiBuildRun_Relationships_PullRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = CiBuildRun_Relationships_PullRequest_Links::class;
 	protected $linksDataType = 'object';
@@ -894,7 +894,7 @@ class CiBuildRun_Relationships_PullRequest extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiBuildRun_Relationships extends \Cantie\AppStoreConnect\Model
+class CiBuildRun_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $buildsType = CiBuildRun_Relationships_Builds::class;
 	protected $buildsDataType = 'object';
@@ -1002,7 +1002,7 @@ class CiBuildRun_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiBuildRun extends \Cantie\AppStoreConnect\Model
+class CiBuildRun extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'ciBuildRuns';
 	public $id;

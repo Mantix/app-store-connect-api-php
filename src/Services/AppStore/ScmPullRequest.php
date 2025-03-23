@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class ScmPullRequest_Attributes extends \Cantie\AppStoreConnect\Model
+class ScmPullRequest_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $title;
 	public $number;
@@ -142,7 +142,7 @@ class ScmPullRequest_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class ScmPullRequest_Relationships_Repository_Links extends \Cantie\AppStoreConnect\Model
+class ScmPullRequest_Relationships_Repository_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -168,7 +168,7 @@ class ScmPullRequest_Relationships_Repository_Links extends \Cantie\AppStoreConn
 
 }
 
-class ScmPullRequest_Relationships_Repository_Data extends \Cantie\AppStoreConnect\Model
+class ScmPullRequest_Relationships_Repository_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'scmRepositories';
 	public $id;
@@ -194,7 +194,7 @@ class ScmPullRequest_Relationships_Repository_Data extends \Cantie\AppStoreConne
 
 }
 
-class ScmPullRequest_Relationships_Repository extends \Cantie\AppStoreConnect\Model
+class ScmPullRequest_Relationships_Repository extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = ScmPullRequest_Relationships_Repository_Links::class;
 	protected $linksDataType = 'object';
@@ -234,7 +234,7 @@ class ScmPullRequest_Relationships_Repository extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class ScmPullRequest_Relationships extends \Cantie\AppStoreConnect\Model
+class ScmPullRequest_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $repositoryType = ScmPullRequest_Relationships_Repository::class;
 	protected $repositoryDataType = 'object';
@@ -257,7 +257,7 @@ class ScmPullRequest_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class ScmPullRequest extends \Cantie\AppStoreConnect\Model
+class ScmPullRequest extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'scmPullRequests';
 	public $id;

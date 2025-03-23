@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\MarketplaceDomainsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\MarketplaceDomainResponse;
-use Cantie\AppStoreConnect\Services\AppStore\MarketplaceDomainCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\MarketplaceDomainsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\MarketplaceDomainResponse;
+use Mantix\AppStoreConnect\Services\AppStore\MarketplaceDomainCreateRequest;
 
 /**
  * The "marketplaceDomains" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $marketplaceDomains = $appStoreService->marketplaceDomains;
  *  </code>
  */
-class MarketplaceDomains extends \Cantie\AppStoreConnect\Services\Resource
+class MarketplaceDomains extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

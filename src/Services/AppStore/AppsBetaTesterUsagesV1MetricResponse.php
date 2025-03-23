@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppsBetaTesterUsagesV1MetricResponse_Data_DataPoints_Values extends \Cantie\AppStoreConnect\Model
+class AppsBetaTesterUsagesV1MetricResponse_Data_DataPoints_Values extends \Mantix\AppStoreConnect\Model
 {
 	public $crashCount;
 	public $sessionCount;
@@ -62,7 +62,7 @@ class AppsBetaTesterUsagesV1MetricResponse_Data_DataPoints_Values extends \Canti
 
 }
 
-class AppsBetaTesterUsagesV1MetricResponse_Data_DataPoints extends \Cantie\AppStoreConnect\Model
+class AppsBetaTesterUsagesV1MetricResponse_Data_DataPoints extends \Mantix\AppStoreConnect\Model
 {
 	public $start;
 	public $end;
@@ -105,7 +105,7 @@ class AppsBetaTesterUsagesV1MetricResponse_Data_DataPoints extends \Cantie\AppSt
 
 }
 
-class AppsBetaTesterUsagesV1MetricResponse_Data_Dimensions_BetaTesters_Links extends \Cantie\AppStoreConnect\Model
+class AppsBetaTesterUsagesV1MetricResponse_Data_Dimensions_BetaTesters_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $groupBy;
 	public $related;
@@ -131,7 +131,7 @@ class AppsBetaTesterUsagesV1MetricResponse_Data_Dimensions_BetaTesters_Links ext
 
 }
 
-class AppsBetaTesterUsagesV1MetricResponse_Data_Dimensions_BetaTesters extends \Cantie\AppStoreConnect\Model
+class AppsBetaTesterUsagesV1MetricResponse_Data_Dimensions_BetaTesters extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppsBetaTesterUsagesV1MetricResponse_Data_Dimensions_BetaTesters_Links::class;
 	protected $linksDataType = 'object';
@@ -154,7 +154,7 @@ class AppsBetaTesterUsagesV1MetricResponse_Data_Dimensions_BetaTesters extends \
 
 }
 
-class AppsBetaTesterUsagesV1MetricResponse_Data_Dimensions extends \Cantie\AppStoreConnect\Model
+class AppsBetaTesterUsagesV1MetricResponse_Data_Dimensions extends \Mantix\AppStoreConnect\Model
 {
 	protected $betaTestersType = AppsBetaTesterUsagesV1MetricResponse_Data_Dimensions_BetaTesters::class;
 	protected $betaTestersDataType = 'object';
@@ -177,7 +177,7 @@ class AppsBetaTesterUsagesV1MetricResponse_Data_Dimensions extends \Cantie\AppSt
 
 }
 
-class AppsBetaTesterUsagesV1MetricResponse_Data extends \Cantie\AppStoreConnect\Model
+class AppsBetaTesterUsagesV1MetricResponse_Data extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataPointsType = AppsBetaTesterUsagesV1MetricResponse_Data_DataPoints::class;
 	protected $dataPointsDataType = 'object';
@@ -217,7 +217,7 @@ class AppsBetaTesterUsagesV1MetricResponse_Data extends \Cantie\AppStoreConnect\
 
 }
 
-class AppsBetaTesterUsagesV1MetricResponse extends \Cantie\AppStoreConnect\Model
+class AppsBetaTesterUsagesV1MetricResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppsBetaTesterUsagesV1MetricResponse_Data::class;
 	protected $dataDataType = 'array';

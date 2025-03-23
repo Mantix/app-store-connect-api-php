@@ -24,24 +24,24 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\UsersResponse;
-use Cantie\AppStoreConnect\Services\AppStore\UserResponse;
-use Cantie\AppStoreConnect\Services\AppStore\UserUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\UserVisibleAppsLinkagesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\UserVisibleAppsLinkagesRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppsWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\UsersResponse;
+use Mantix\AppStoreConnect\Services\AppStore\UserResponse;
+use Mantix\AppStoreConnect\Services\AppStore\UserUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\UserVisibleAppsLinkagesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\UserVisibleAppsLinkagesRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppsWithoutIncludesResponse;
 
 /**
  * The "users" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $users = $appStoreService->users;
  *  </code>
  */
-class Users extends \Cantie\AppStoreConnect\Services\Resource
+class Users extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

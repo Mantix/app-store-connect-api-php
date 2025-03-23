@@ -24,20 +24,20 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionReleaseRequestResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionReleaseRequestCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionReleaseRequestResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionReleaseRequestCreateRequest;
 
 /**
  * The "appStoreVersionReleaseRequests" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appStoreVersionReleaseRequests = $appStoreService->appStoreVersionReleaseRequests;
  *  </code>
  */
-class AppStoreVersionReleaseRequests extends \Cantie\AppStoreConnect\Services\Resource
+class AppStoreVersionReleaseRequests extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class MarketplaceDomain_Attributes extends \Cantie\AppStoreConnect\Model
+class MarketplaceDomain_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $domain;
 	public $referenceName;
@@ -62,7 +62,7 @@ class MarketplaceDomain_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class MarketplaceDomain extends \Cantie\AppStoreConnect\Model
+class MarketplaceDomain extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'marketplaceDomains';
 	public $id;

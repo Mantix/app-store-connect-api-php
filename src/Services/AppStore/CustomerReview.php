@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CustomerReview_Attributes extends \Cantie\AppStoreConnect\Model
+class CustomerReview_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $rating;
 	public $title;
@@ -98,7 +98,7 @@ class CustomerReview_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CustomerReview_Relationships_Response_Links extends \Cantie\AppStoreConnect\Model
+class CustomerReview_Relationships_Response_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -124,7 +124,7 @@ class CustomerReview_Relationships_Response_Links extends \Cantie\AppStoreConnec
 
 }
 
-class CustomerReview_Relationships_Response_Data extends \Cantie\AppStoreConnect\Model
+class CustomerReview_Relationships_Response_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'customerReviewResponses';
 	public $id;
@@ -150,7 +150,7 @@ class CustomerReview_Relationships_Response_Data extends \Cantie\AppStoreConnect
 
 }
 
-class CustomerReview_Relationships_Response extends \Cantie\AppStoreConnect\Model
+class CustomerReview_Relationships_Response extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = CustomerReview_Relationships_Response_Links::class;
 	protected $linksDataType = 'object';
@@ -190,7 +190,7 @@ class CustomerReview_Relationships_Response extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class CustomerReview_Relationships extends \Cantie\AppStoreConnect\Model
+class CustomerReview_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $responseType = CustomerReview_Relationships_Response::class;
 	protected $responseDataType = 'object';
@@ -213,7 +213,7 @@ class CustomerReview_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CustomerReview extends \Cantie\AppStoreConnect\Model
+class CustomerReview extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'customerReviews';
 	public $id;

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class ScmProvider_Attributes extends \Cantie\AppStoreConnect\Model
+class ScmProvider_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	protected $scmProviderTypeType = ScmProviderType::class;
 	protected $scmProviderTypeDataType = '';
@@ -59,7 +59,7 @@ class ScmProvider_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class ScmProvider extends \Cantie\AppStoreConnect\Model
+class ScmProvider extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'scmProviders';
 	public $id;

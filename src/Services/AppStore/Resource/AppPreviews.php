@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppPreviewResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppPreviewCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppPreviewUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppPreviewResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppPreviewCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppPreviewUpdateRequest;
 
 /**
  * The "appPreviews" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appPreviews = $appStoreService->appPreviews;
  *  </code>
  */
-class AppPreviews extends \Cantie\AppStoreConnect\Services\Resource
+class AppPreviews extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

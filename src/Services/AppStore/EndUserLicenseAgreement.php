@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class EndUserLicenseAgreement_Attributes extends \Cantie\AppStoreConnect\Model
+class EndUserLicenseAgreement_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $agreementText;
 
@@ -42,7 +42,7 @@ class EndUserLicenseAgreement_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class EndUserLicenseAgreement_Relationships_App_Links extends \Cantie\AppStoreConnect\Model
+class EndUserLicenseAgreement_Relationships_App_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -68,7 +68,7 @@ class EndUserLicenseAgreement_Relationships_App_Links extends \Cantie\AppStoreCo
 
 }
 
-class EndUserLicenseAgreement_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class EndUserLicenseAgreement_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -94,7 +94,7 @@ class EndUserLicenseAgreement_Relationships_App_Data extends \Cantie\AppStoreCon
 
 }
 
-class EndUserLicenseAgreement_Relationships_App extends \Cantie\AppStoreConnect\Model
+class EndUserLicenseAgreement_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = EndUserLicenseAgreement_Relationships_App_Links::class;
 	protected $linksDataType = 'object';
@@ -134,7 +134,7 @@ class EndUserLicenseAgreement_Relationships_App extends \Cantie\AppStoreConnect\
 
 }
 
-class EndUserLicenseAgreement_Relationships_Territories_Links extends \Cantie\AppStoreConnect\Model
+class EndUserLicenseAgreement_Relationships_Territories_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -160,7 +160,7 @@ class EndUserLicenseAgreement_Relationships_Territories_Links extends \Cantie\Ap
 
 }
 
-class EndUserLicenseAgreement_Relationships_Territories_Data extends \Cantie\AppStoreConnect\Model
+class EndUserLicenseAgreement_Relationships_Territories_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'territories';
 	public $id;
@@ -186,7 +186,7 @@ class EndUserLicenseAgreement_Relationships_Territories_Data extends \Cantie\App
 
 }
 
-class EndUserLicenseAgreement_Relationships_Territories extends \Cantie\AppStoreConnect\Model
+class EndUserLicenseAgreement_Relationships_Territories extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = EndUserLicenseAgreement_Relationships_Territories_Links::class;
 	protected $linksDataType = 'object';
@@ -243,7 +243,7 @@ class EndUserLicenseAgreement_Relationships_Territories extends \Cantie\AppStore
 
 }
 
-class EndUserLicenseAgreement_Relationships extends \Cantie\AppStoreConnect\Model
+class EndUserLicenseAgreement_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = EndUserLicenseAgreement_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -283,7 +283,7 @@ class EndUserLicenseAgreement_Relationships extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class EndUserLicenseAgreement extends \Cantie\AppStoreConnect\Model
+class EndUserLicenseAgreement extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'endUserLicenseAgreements';
 	public $id;

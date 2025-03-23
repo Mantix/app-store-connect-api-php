@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class MarketplaceWebhookUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class MarketplaceWebhookUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $endpointUrl;
 	public $secret;
@@ -52,7 +52,7 @@ class MarketplaceWebhookUpdateRequest_Data_Attributes extends \Cantie\AppStoreCo
 
 }
 
-class MarketplaceWebhookUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class MarketplaceWebhookUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'marketplaceWebhooks';
 	public $id;
@@ -95,7 +95,7 @@ class MarketplaceWebhookUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class MarketplaceWebhookUpdateRequest extends \Cantie\AppStoreConnect\Model
+class MarketplaceWebhookUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = MarketplaceWebhookUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SandboxTesterV2_Attributes extends \Cantie\AppStoreConnect\Model
+class SandboxTesterV2_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $firstName;
 	public $lastName;
@@ -108,7 +108,7 @@ class SandboxTesterV2_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class SandboxTesterV2 extends \Cantie\AppStoreConnect\Model
+class SandboxTesterV2 extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'sandboxTesters';
 	public $id;

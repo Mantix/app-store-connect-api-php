@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AnalyticsReportSegment_Attributes extends \Cantie\AppStoreConnect\Model
+class AnalyticsReportSegment_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $checksum;
 	public $sizeInBytes;
@@ -62,7 +62,7 @@ class AnalyticsReportSegment_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AnalyticsReportSegment extends \Cantie\AppStoreConnect\Model
+class AnalyticsReportSegment extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'analyticsReportSegments';
 	public $id;

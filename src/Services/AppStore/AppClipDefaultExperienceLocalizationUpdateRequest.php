@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppClipDefaultExperienceLocalizationUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceLocalizationUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $subtitle;
 
@@ -42,7 +42,7 @@ class AppClipDefaultExperienceLocalizationUpdateRequest_Data_Attributes extends 
 
 }
 
-class AppClipDefaultExperienceLocalizationUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceLocalizationUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipDefaultExperienceLocalizations';
 	public $id;
@@ -85,7 +85,7 @@ class AppClipDefaultExperienceLocalizationUpdateRequest_Data extends \Cantie\App
 
 }
 
-class AppClipDefaultExperienceLocalizationUpdateRequest extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceLocalizationUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppClipDefaultExperienceLocalizationUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

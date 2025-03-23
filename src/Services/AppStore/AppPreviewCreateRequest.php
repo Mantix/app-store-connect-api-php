@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppPreviewCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppPreviewCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $fileSize;
 	public $fileName;
@@ -72,7 +72,7 @@ class AppPreviewCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class AppPreviewCreateRequest_Data_Relationships_AppPreviewSet_Data extends \Cantie\AppStoreConnect\Model
+class AppPreviewCreateRequest_Data_Relationships_AppPreviewSet_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appPreviewSets';
 	public $id;
@@ -98,7 +98,7 @@ class AppPreviewCreateRequest_Data_Relationships_AppPreviewSet_Data extends \Can
 
 }
 
-class AppPreviewCreateRequest_Data_Relationships_AppPreviewSet extends \Cantie\AppStoreConnect\Model
+class AppPreviewCreateRequest_Data_Relationships_AppPreviewSet extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppPreviewCreateRequest_Data_Relationships_AppPreviewSet_Data::class;
 	protected $dataDataType = 'object';
@@ -121,7 +121,7 @@ class AppPreviewCreateRequest_Data_Relationships_AppPreviewSet extends \Cantie\A
 
 }
 
-class AppPreviewCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppPreviewCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appPreviewSetType = AppPreviewCreateRequest_Data_Relationships_AppPreviewSet::class;
 	protected $appPreviewSetDataType = 'object';
@@ -144,7 +144,7 @@ class AppPreviewCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect
 
 }
 
-class AppPreviewCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppPreviewCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appPreviews';
 	protected $attributesType = AppPreviewCreateRequest_Data_Attributes::class;
@@ -194,7 +194,7 @@ class AppPreviewCreateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPreviewCreateRequest extends \Cantie\AppStoreConnect\Model
+class AppPreviewCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppPreviewCreateRequest_Data::class;
 	protected $dataDataType = 'object';

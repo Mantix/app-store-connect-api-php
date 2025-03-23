@@ -24,19 +24,19 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\TerritoriesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\TerritoriesResponse;
 
 /**
  * The "territories" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $territories = $appStoreService->territories;
  *  </code>
  */
-class Territories extends \Cantie\AppStoreConnect\Services\Resource
+class Territories extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppEncryptionDeclarationDocumentResponse extends \Cantie\AppStoreConnect\Model
+class AppEncryptionDeclarationDocumentResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppEncryptionDeclarationDocument::class;
 	protected $dataDataType = '';

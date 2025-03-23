@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class InAppPurchaseLocalizationUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseLocalizationUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $description;
@@ -52,7 +52,7 @@ class InAppPurchaseLocalizationUpdateRequest_Data_Attributes extends \Cantie\App
 
 }
 
-class InAppPurchaseLocalizationUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseLocalizationUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchaseLocalizations';
 	public $id;
@@ -95,7 +95,7 @@ class InAppPurchaseLocalizationUpdateRequest_Data extends \Cantie\AppStoreConnec
 
 }
 
-class InAppPurchaseLocalizationUpdateRequest extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseLocalizationUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = InAppPurchaseLocalizationUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

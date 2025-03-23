@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterAchievementLocalizationUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementLocalizationUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $beforeEarnedDescription;
@@ -62,7 +62,7 @@ class GameCenterAchievementLocalizationUpdateRequest_Data_Attributes extends \Ca
 
 }
 
-class GameCenterAchievementLocalizationUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementLocalizationUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterAchievementLocalizations';
 	public $id;
@@ -105,7 +105,7 @@ class GameCenterAchievementLocalizationUpdateRequest_Data extends \Cantie\AppSto
 
 }
 
-class GameCenterAchievementLocalizationUpdateRequest extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementLocalizationUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterAchievementLocalizationUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppEventScreenshotUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppEventScreenshotUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $uploaded;
 
@@ -42,7 +42,7 @@ class AppEventScreenshotUpdateRequest_Data_Attributes extends \Cantie\AppStoreCo
 
 }
 
-class AppEventScreenshotUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppEventScreenshotUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEventScreenshots';
 	public $id;
@@ -85,7 +85,7 @@ class AppEventScreenshotUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppEventScreenshotUpdateRequest extends \Cantie\AppStoreConnect\Model
+class AppEventScreenshotUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppEventScreenshotUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppEncryptionDeclarationDocument_Attributes extends \Cantie\AppStoreConnect\Model
+class AppEncryptionDeclarationDocument_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $fileSize;
 	public $fileName;
@@ -116,7 +116,7 @@ class AppEncryptionDeclarationDocument_Attributes extends \Cantie\AppStoreConnec
 
 }
 
-class AppEncryptionDeclarationDocument extends \Cantie\AppStoreConnect\Model
+class AppEncryptionDeclarationDocument extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEncryptionDeclarationDocuments';
 	public $id;

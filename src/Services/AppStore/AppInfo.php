@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppInfo_Attributes extends \Cantie\AppStoreConnect\Model
+class AppInfo_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $appStoreState; // 
 	public $state; // ACCEPTED, DEVELOPER_REJECTED, IN_REVIEW, PENDING_RELEASE, PREPARE_FOR_SUBMISSION, READY_FOR_DISTRIBUTION, READY_FOR_REVIEW, REJECTED, REPLACED_WITH_NEW_INFO, WAITING_FOR_REVIEW
@@ -116,7 +116,7 @@ class AppInfo_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppInfo_Relationships_App_Links extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_App_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -142,7 +142,7 @@ class AppInfo_Relationships_App_Links extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppInfo_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -168,7 +168,7 @@ class AppInfo_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppInfo_Relationships_App extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppInfo_Relationships_App_Links::class;
 	protected $linksDataType = 'object';
@@ -208,7 +208,7 @@ class AppInfo_Relationships_App extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppInfo_Relationships_AgeRatingDeclaration_Links extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_AgeRatingDeclaration_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -234,7 +234,7 @@ class AppInfo_Relationships_AgeRatingDeclaration_Links extends \Cantie\AppStoreC
 
 }
 
-class AppInfo_Relationships_AgeRatingDeclaration_Data extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_AgeRatingDeclaration_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'ageRatingDeclarations';
 	public $id;
@@ -260,7 +260,7 @@ class AppInfo_Relationships_AgeRatingDeclaration_Data extends \Cantie\AppStoreCo
 
 }
 
-class AppInfo_Relationships_AgeRatingDeclaration extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_AgeRatingDeclaration extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppInfo_Relationships_AgeRatingDeclaration_Links::class;
 	protected $linksDataType = 'object';
@@ -300,7 +300,7 @@ class AppInfo_Relationships_AgeRatingDeclaration extends \Cantie\AppStoreConnect
 
 }
 
-class AppInfo_Relationships_AppInfoLocalizations_Links extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_AppInfoLocalizations_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -326,7 +326,7 @@ class AppInfo_Relationships_AppInfoLocalizations_Links extends \Cantie\AppStoreC
 
 }
 
-class AppInfo_Relationships_AppInfoLocalizations_Data extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_AppInfoLocalizations_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appInfoLocalizations';
 	public $id;
@@ -352,7 +352,7 @@ class AppInfo_Relationships_AppInfoLocalizations_Data extends \Cantie\AppStoreCo
 
 }
 
-class AppInfo_Relationships_AppInfoLocalizations extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_AppInfoLocalizations extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppInfo_Relationships_AppInfoLocalizations_Links::class;
 	protected $linksDataType = 'object';
@@ -409,7 +409,7 @@ class AppInfo_Relationships_AppInfoLocalizations extends \Cantie\AppStoreConnect
 
 }
 
-class AppInfo_Relationships_PrimaryCategory_Links extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_PrimaryCategory_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -435,7 +435,7 @@ class AppInfo_Relationships_PrimaryCategory_Links extends \Cantie\AppStoreConnec
 
 }
 
-class AppInfo_Relationships_PrimaryCategory_Data extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_PrimaryCategory_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appCategories';
 	public $id;
@@ -461,7 +461,7 @@ class AppInfo_Relationships_PrimaryCategory_Data extends \Cantie\AppStoreConnect
 
 }
 
-class AppInfo_Relationships_PrimaryCategory extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_PrimaryCategory extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppInfo_Relationships_PrimaryCategory_Links::class;
 	protected $linksDataType = 'object';
@@ -501,7 +501,7 @@ class AppInfo_Relationships_PrimaryCategory extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class AppInfo_Relationships_PrimarySubcategoryOne_Links extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_PrimarySubcategoryOne_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -527,7 +527,7 @@ class AppInfo_Relationships_PrimarySubcategoryOne_Links extends \Cantie\AppStore
 
 }
 
-class AppInfo_Relationships_PrimarySubcategoryOne_Data extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_PrimarySubcategoryOne_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appCategories';
 	public $id;
@@ -553,7 +553,7 @@ class AppInfo_Relationships_PrimarySubcategoryOne_Data extends \Cantie\AppStoreC
 
 }
 
-class AppInfo_Relationships_PrimarySubcategoryOne extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_PrimarySubcategoryOne extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppInfo_Relationships_PrimarySubcategoryOne_Links::class;
 	protected $linksDataType = 'object';
@@ -593,7 +593,7 @@ class AppInfo_Relationships_PrimarySubcategoryOne extends \Cantie\AppStoreConnec
 
 }
 
-class AppInfo_Relationships_PrimarySubcategoryTwo_Links extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_PrimarySubcategoryTwo_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -619,7 +619,7 @@ class AppInfo_Relationships_PrimarySubcategoryTwo_Links extends \Cantie\AppStore
 
 }
 
-class AppInfo_Relationships_PrimarySubcategoryTwo_Data extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_PrimarySubcategoryTwo_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appCategories';
 	public $id;
@@ -645,7 +645,7 @@ class AppInfo_Relationships_PrimarySubcategoryTwo_Data extends \Cantie\AppStoreC
 
 }
 
-class AppInfo_Relationships_PrimarySubcategoryTwo extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_PrimarySubcategoryTwo extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppInfo_Relationships_PrimarySubcategoryTwo_Links::class;
 	protected $linksDataType = 'object';
@@ -685,7 +685,7 @@ class AppInfo_Relationships_PrimarySubcategoryTwo extends \Cantie\AppStoreConnec
 
 }
 
-class AppInfo_Relationships_SecondaryCategory_Links extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_SecondaryCategory_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -711,7 +711,7 @@ class AppInfo_Relationships_SecondaryCategory_Links extends \Cantie\AppStoreConn
 
 }
 
-class AppInfo_Relationships_SecondaryCategory_Data extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_SecondaryCategory_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appCategories';
 	public $id;
@@ -737,7 +737,7 @@ class AppInfo_Relationships_SecondaryCategory_Data extends \Cantie\AppStoreConne
 
 }
 
-class AppInfo_Relationships_SecondaryCategory extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_SecondaryCategory extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppInfo_Relationships_SecondaryCategory_Links::class;
 	protected $linksDataType = 'object';
@@ -777,7 +777,7 @@ class AppInfo_Relationships_SecondaryCategory extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class AppInfo_Relationships_SecondarySubcategoryOne_Links extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_SecondarySubcategoryOne_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -803,7 +803,7 @@ class AppInfo_Relationships_SecondarySubcategoryOne_Links extends \Cantie\AppSto
 
 }
 
-class AppInfo_Relationships_SecondarySubcategoryOne_Data extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_SecondarySubcategoryOne_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appCategories';
 	public $id;
@@ -829,7 +829,7 @@ class AppInfo_Relationships_SecondarySubcategoryOne_Data extends \Cantie\AppStor
 
 }
 
-class AppInfo_Relationships_SecondarySubcategoryOne extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_SecondarySubcategoryOne extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppInfo_Relationships_SecondarySubcategoryOne_Links::class;
 	protected $linksDataType = 'object';
@@ -869,7 +869,7 @@ class AppInfo_Relationships_SecondarySubcategoryOne extends \Cantie\AppStoreConn
 
 }
 
-class AppInfo_Relationships_SecondarySubcategoryTwo_Links extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_SecondarySubcategoryTwo_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -895,7 +895,7 @@ class AppInfo_Relationships_SecondarySubcategoryTwo_Links extends \Cantie\AppSto
 
 }
 
-class AppInfo_Relationships_SecondarySubcategoryTwo_Data extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_SecondarySubcategoryTwo_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appCategories';
 	public $id;
@@ -921,7 +921,7 @@ class AppInfo_Relationships_SecondarySubcategoryTwo_Data extends \Cantie\AppStor
 
 }
 
-class AppInfo_Relationships_SecondarySubcategoryTwo extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships_SecondarySubcategoryTwo extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppInfo_Relationships_SecondarySubcategoryTwo_Links::class;
 	protected $linksDataType = 'object';
@@ -961,7 +961,7 @@ class AppInfo_Relationships_SecondarySubcategoryTwo extends \Cantie\AppStoreConn
 
 }
 
-class AppInfo_Relationships extends \Cantie\AppStoreConnect\Model
+class AppInfo_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = AppInfo_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -1120,7 +1120,7 @@ class AppInfo_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppInfo extends \Cantie\AppStoreConnect\Model
+class AppInfo extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appInfos';
 	public $id;

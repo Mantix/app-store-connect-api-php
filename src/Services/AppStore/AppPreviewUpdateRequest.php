@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppPreviewUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppPreviewUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $sourceFileChecksum;
 	public $previewFrameTimeCode;
@@ -62,7 +62,7 @@ class AppPreviewUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class AppPreviewUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppPreviewUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appPreviews';
 	public $id;
@@ -105,7 +105,7 @@ class AppPreviewUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPreviewUpdateRequest extends \Cantie\AppStoreConnect\Model
+class AppPreviewUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppPreviewUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

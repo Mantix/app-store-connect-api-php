@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class InAppPurchaseAppStoreReviewScreenshotUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAppStoreReviewScreenshotUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $sourceFileChecksum;
 	public $uploaded;
@@ -52,7 +52,7 @@ class InAppPurchaseAppStoreReviewScreenshotUpdateRequest_Data_Attributes extends
 
 }
 
-class InAppPurchaseAppStoreReviewScreenshotUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAppStoreReviewScreenshotUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchaseAppStoreReviewScreenshots';
 	public $id;
@@ -95,7 +95,7 @@ class InAppPurchaseAppStoreReviewScreenshotUpdateRequest_Data extends \Cantie\Ap
 
 }
 
-class InAppPurchaseAppStoreReviewScreenshotUpdateRequest extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAppStoreReviewScreenshotUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = InAppPurchaseAppStoreReviewScreenshotUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

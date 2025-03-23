@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class InAppPurchaseV2CreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2CreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $productId;
@@ -88,7 +88,7 @@ class InAppPurchaseV2CreateRequest_Data_Attributes extends \Cantie\AppStoreConne
 
 }
 
-class InAppPurchaseV2CreateRequest_Data_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2CreateRequest_Data_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -114,7 +114,7 @@ class InAppPurchaseV2CreateRequest_Data_Relationships_App_Data extends \Cantie\A
 
 }
 
-class InAppPurchaseV2CreateRequest_Data_Relationships_App extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2CreateRequest_Data_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = InAppPurchaseV2CreateRequest_Data_Relationships_App_Data::class;
 	protected $dataDataType = 'object';
@@ -137,7 +137,7 @@ class InAppPurchaseV2CreateRequest_Data_Relationships_App extends \Cantie\AppSto
 
 }
 
-class InAppPurchaseV2CreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2CreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = InAppPurchaseV2CreateRequest_Data_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -160,7 +160,7 @@ class InAppPurchaseV2CreateRequest_Data_Relationships extends \Cantie\AppStoreCo
 
 }
 
-class InAppPurchaseV2CreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2CreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchases';
 	protected $attributesType = InAppPurchaseV2CreateRequest_Data_Attributes::class;
@@ -210,7 +210,7 @@ class InAppPurchaseV2CreateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class InAppPurchaseV2CreateRequest extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2CreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = InAppPurchaseV2CreateRequest_Data::class;
 	protected $dataDataType = 'object';

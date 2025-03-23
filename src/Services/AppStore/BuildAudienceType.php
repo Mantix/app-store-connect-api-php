@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BuildAudienceType extends \Cantie\AppStoreConnect\Model
+class BuildAudienceType extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $INTERNAL_ONLY = "INTERNAL_ONLY";

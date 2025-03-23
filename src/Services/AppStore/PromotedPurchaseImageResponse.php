@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class PromotedPurchaseImageResponse extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseImageResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = PromotedPurchaseImage::class;
 	protected $dataDataType = '';

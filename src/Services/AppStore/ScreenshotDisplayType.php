@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class ScreenshotDisplayType extends \Cantie\AppStoreConnect\Model
+class ScreenshotDisplayType extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $APP_IPHONE_67 = "APP_IPHONE_67";

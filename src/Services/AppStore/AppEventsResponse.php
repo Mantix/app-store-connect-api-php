@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppEventsResponse extends \Cantie\AppStoreConnect\Model
+class AppEventsResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppEvent::class;
 	protected $dataDataType = 'array';

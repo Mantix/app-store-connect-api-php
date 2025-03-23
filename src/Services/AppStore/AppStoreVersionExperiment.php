@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppStoreVersionExperiment_Attributes extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperiment_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $trafficProportion;
@@ -92,7 +92,7 @@ class AppStoreVersionExperiment_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppStoreVersionExperiment_Relationships_AppStoreVersion_Links extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperiment_Relationships_AppStoreVersion_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -118,7 +118,7 @@ class AppStoreVersionExperiment_Relationships_AppStoreVersion_Links extends \Can
 
 }
 
-class AppStoreVersionExperiment_Relationships_AppStoreVersion_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperiment_Relationships_AppStoreVersion_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersions';
 	public $id;
@@ -144,7 +144,7 @@ class AppStoreVersionExperiment_Relationships_AppStoreVersion_Data extends \Cant
 
 }
 
-class AppStoreVersionExperiment_Relationships_AppStoreVersion extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperiment_Relationships_AppStoreVersion extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppStoreVersionExperiment_Relationships_AppStoreVersion_Links::class;
 	protected $linksDataType = 'object';
@@ -184,7 +184,7 @@ class AppStoreVersionExperiment_Relationships_AppStoreVersion extends \Cantie\Ap
 
 }
 
-class AppStoreVersionExperiment_Relationships_AppStoreVersionExperimentTreatments_Links extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperiment_Relationships_AppStoreVersionExperimentTreatments_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -210,7 +210,7 @@ class AppStoreVersionExperiment_Relationships_AppStoreVersionExperimentTreatment
 
 }
 
-class AppStoreVersionExperiment_Relationships_AppStoreVersionExperimentTreatments_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperiment_Relationships_AppStoreVersionExperimentTreatments_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionExperimentTreatments';
 	public $id;
@@ -236,7 +236,7 @@ class AppStoreVersionExperiment_Relationships_AppStoreVersionExperimentTreatment
 
 }
 
-class AppStoreVersionExperiment_Relationships_AppStoreVersionExperimentTreatments extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperiment_Relationships_AppStoreVersionExperimentTreatments extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppStoreVersionExperiment_Relationships_AppStoreVersionExperimentTreatments_Links::class;
 	protected $linksDataType = 'object';
@@ -293,7 +293,7 @@ class AppStoreVersionExperiment_Relationships_AppStoreVersionExperimentTreatment
 
 }
 
-class AppStoreVersionExperiment_Relationships extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperiment_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appStoreVersionType = AppStoreVersionExperiment_Relationships_AppStoreVersion::class;
 	protected $appStoreVersionDataType = 'object';
@@ -333,7 +333,7 @@ class AppStoreVersionExperiment_Relationships extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class AppStoreVersionExperiment extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperiment extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionExperiments';
 	public $id;

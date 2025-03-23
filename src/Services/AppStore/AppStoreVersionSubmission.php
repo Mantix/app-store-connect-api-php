@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppStoreVersionSubmission_Relationships_AppStoreVersion_Links extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionSubmission_Relationships_AppStoreVersion_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -52,7 +52,7 @@ class AppStoreVersionSubmission_Relationships_AppStoreVersion_Links extends \Can
 
 }
 
-class AppStoreVersionSubmission_Relationships_AppStoreVersion_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionSubmission_Relationships_AppStoreVersion_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersions';
 	public $id;
@@ -78,7 +78,7 @@ class AppStoreVersionSubmission_Relationships_AppStoreVersion_Data extends \Cant
 
 }
 
-class AppStoreVersionSubmission_Relationships_AppStoreVersion extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionSubmission_Relationships_AppStoreVersion extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppStoreVersionSubmission_Relationships_AppStoreVersion_Links::class;
 	protected $linksDataType = 'object';
@@ -118,7 +118,7 @@ class AppStoreVersionSubmission_Relationships_AppStoreVersion extends \Cantie\Ap
 
 }
 
-class AppStoreVersionSubmission_Relationships extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionSubmission_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appStoreVersionType = AppStoreVersionSubmission_Relationships_AppStoreVersion::class;
 	protected $appStoreVersionDataType = 'object';
@@ -141,7 +141,7 @@ class AppStoreVersionSubmission_Relationships extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class AppStoreVersionSubmission extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionSubmission extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionSubmissions';
 	public $id;

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class UserUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class UserUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $roles; // 
 	public $allAppsVisible;
@@ -68,7 +68,7 @@ class UserUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class UserUpdateRequest_Data_Relationships_VisibleApps_Data extends \Cantie\AppStoreConnect\Model
+class UserUpdateRequest_Data_Relationships_VisibleApps_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -94,7 +94,7 @@ class UserUpdateRequest_Data_Relationships_VisibleApps_Data extends \Cantie\AppS
 
 }
 
-class UserUpdateRequest_Data_Relationships_VisibleApps extends \Cantie\AppStoreConnect\Model
+class UserUpdateRequest_Data_Relationships_VisibleApps extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = UserUpdateRequest_Data_Relationships_VisibleApps_Data::class;
 	protected $dataDataType = 'array';
@@ -117,7 +117,7 @@ class UserUpdateRequest_Data_Relationships_VisibleApps extends \Cantie\AppStoreC
 
 }
 
-class UserUpdateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class UserUpdateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $visibleAppsType = UserUpdateRequest_Data_Relationships_VisibleApps::class;
 	protected $visibleAppsDataType = 'object';
@@ -140,7 +140,7 @@ class UserUpdateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class UserUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class UserUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'users';
 	public $id;
@@ -200,7 +200,7 @@ class UserUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class UserUpdateRequest extends \Cantie\AppStoreConnect\Model
+class UserUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = UserUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

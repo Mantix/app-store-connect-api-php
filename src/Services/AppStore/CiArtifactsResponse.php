@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiArtifactsResponse extends \Cantie\AppStoreConnect\Model
+class CiArtifactsResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = CiArtifact::class;
 	protected $dataDataType = 'array';

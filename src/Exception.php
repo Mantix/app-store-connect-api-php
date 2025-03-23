@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-namespace Cantie\AppStoreConnect;
+namespace Mantix\AppStoreConnect;
 
 use Exception as BaseException;
 

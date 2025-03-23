@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class DiagnosticLogCallStackNode extends \Cantie\AppStoreConnect\Model
+class DiagnosticLogCallStackNode extends \Mantix\AppStoreConnect\Model
 {
 	public $sampleCount;
 	public $isBlameFrame;

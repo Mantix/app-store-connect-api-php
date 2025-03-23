@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AlternativeDistributionKeyCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionKeyCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $publicKey;
 
@@ -42,7 +42,7 @@ class AlternativeDistributionKeyCreateRequest_Data_Attributes extends \Cantie\Ap
 
 }
 
-class AlternativeDistributionKeyCreateRequest_Data_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionKeyCreateRequest_Data_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -68,7 +68,7 @@ class AlternativeDistributionKeyCreateRequest_Data_Relationships_App_Data extend
 
 }
 
-class AlternativeDistributionKeyCreateRequest_Data_Relationships_App extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionKeyCreateRequest_Data_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AlternativeDistributionKeyCreateRequest_Data_Relationships_App_Data::class;
 	protected $dataDataType = 'object';
@@ -91,7 +91,7 @@ class AlternativeDistributionKeyCreateRequest_Data_Relationships_App extends \Ca
 
 }
 
-class AlternativeDistributionKeyCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionKeyCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = AlternativeDistributionKeyCreateRequest_Data_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -114,7 +114,7 @@ class AlternativeDistributionKeyCreateRequest_Data_Relationships extends \Cantie
 
 }
 
-class AlternativeDistributionKeyCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionKeyCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'alternativeDistributionKeys';
 	protected $attributesType = AlternativeDistributionKeyCreateRequest_Data_Attributes::class;
@@ -164,7 +164,7 @@ class AlternativeDistributionKeyCreateRequest_Data extends \Cantie\AppStoreConne
 
 }
 
-class AlternativeDistributionKeyCreateRequest extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionKeyCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AlternativeDistributionKeyCreateRequest_Data::class;
 	protected $dataDataType = 'object';

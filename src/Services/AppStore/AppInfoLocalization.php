@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppInfoLocalization_Attributes extends \Cantie\AppStoreConnect\Model
+class AppInfoLocalization_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $locale;
 	public $name;
@@ -92,7 +92,7 @@ class AppInfoLocalization_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppInfoLocalization_Relationships_AppInfo_Links extends \Cantie\AppStoreConnect\Model
+class AppInfoLocalization_Relationships_AppInfo_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -118,7 +118,7 @@ class AppInfoLocalization_Relationships_AppInfo_Links extends \Cantie\AppStoreCo
 
 }
 
-class AppInfoLocalization_Relationships_AppInfo_Data extends \Cantie\AppStoreConnect\Model
+class AppInfoLocalization_Relationships_AppInfo_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appInfos';
 	public $id;
@@ -144,7 +144,7 @@ class AppInfoLocalization_Relationships_AppInfo_Data extends \Cantie\AppStoreCon
 
 }
 
-class AppInfoLocalization_Relationships_AppInfo extends \Cantie\AppStoreConnect\Model
+class AppInfoLocalization_Relationships_AppInfo extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppInfoLocalization_Relationships_AppInfo_Links::class;
 	protected $linksDataType = 'object';
@@ -184,7 +184,7 @@ class AppInfoLocalization_Relationships_AppInfo extends \Cantie\AppStoreConnect\
 
 }
 
-class AppInfoLocalization_Relationships extends \Cantie\AppStoreConnect\Model
+class AppInfoLocalization_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appInfoType = AppInfoLocalization_Relationships_AppInfo::class;
 	protected $appInfoDataType = 'object';
@@ -207,7 +207,7 @@ class AppInfoLocalization_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppInfoLocalization extends \Cantie\AppStoreConnect\Model
+class AppInfoLocalization extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appInfoLocalizations';
 	public $id;

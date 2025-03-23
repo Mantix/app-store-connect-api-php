@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BuildBundleFileSizesResponse extends \Cantie\AppStoreConnect\Model
+class BuildBundleFileSizesResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BuildBundleFileSize::class;
 	protected $dataDataType = 'array';

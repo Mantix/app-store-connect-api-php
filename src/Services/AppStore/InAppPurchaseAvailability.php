@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class InAppPurchaseAvailability_Attributes extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAvailability_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $availableInNewTerritories;
 
@@ -42,7 +42,7 @@ class InAppPurchaseAvailability_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class InAppPurchaseAvailability_Relationships_AvailableTerritories_Links extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAvailability_Relationships_AvailableTerritories_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -68,7 +68,7 @@ class InAppPurchaseAvailability_Relationships_AvailableTerritories_Links extends
 
 }
 
-class InAppPurchaseAvailability_Relationships_AvailableTerritories_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAvailability_Relationships_AvailableTerritories_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'territories';
 	public $id;
@@ -94,7 +94,7 @@ class InAppPurchaseAvailability_Relationships_AvailableTerritories_Data extends 
 
 }
 
-class InAppPurchaseAvailability_Relationships_AvailableTerritories extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAvailability_Relationships_AvailableTerritories extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = InAppPurchaseAvailability_Relationships_AvailableTerritories_Links::class;
 	protected $linksDataType = 'object';
@@ -151,7 +151,7 @@ class InAppPurchaseAvailability_Relationships_AvailableTerritories extends \Cant
 
 }
 
-class InAppPurchaseAvailability_Relationships extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAvailability_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $availableTerritoriesType = InAppPurchaseAvailability_Relationships_AvailableTerritories::class;
 	protected $availableTerritoriesDataType = 'object';
@@ -174,7 +174,7 @@ class InAppPurchaseAvailability_Relationships extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class InAppPurchaseAvailability extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAvailability extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchaseAvailabilities';
 	public $id;

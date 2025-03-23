@@ -24,22 +24,22 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardLocalizationResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardLocalizationCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardLocalizationUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardImageResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardLocalizationResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardLocalizationCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardLocalizationUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardImageResponse;
 
 /**
  * The "gameCenterLeaderboardLocalizations" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $gameCenterLeaderboardLocalizations = $appStoreService->gameCenterLeaderboardLocalizations;
  *  </code>
  */
-class GameCenterLeaderboardLocalizations extends \Cantie\AppStoreConnect\Services\Resource
+class GameCenterLeaderboardLocalizations extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

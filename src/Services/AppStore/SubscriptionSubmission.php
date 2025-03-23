@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionSubmission_Relationships_Subscription_Links extends \Cantie\AppStoreConnect\Model
+class SubscriptionSubmission_Relationships_Subscription_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -52,7 +52,7 @@ class SubscriptionSubmission_Relationships_Subscription_Links extends \Cantie\Ap
 
 }
 
-class SubscriptionSubmission_Relationships_Subscription_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionSubmission_Relationships_Subscription_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptions';
 	public $id;
@@ -78,7 +78,7 @@ class SubscriptionSubmission_Relationships_Subscription_Data extends \Cantie\App
 
 }
 
-class SubscriptionSubmission_Relationships_Subscription extends \Cantie\AppStoreConnect\Model
+class SubscriptionSubmission_Relationships_Subscription extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = SubscriptionSubmission_Relationships_Subscription_Links::class;
 	protected $linksDataType = 'object';
@@ -118,7 +118,7 @@ class SubscriptionSubmission_Relationships_Subscription extends \Cantie\AppStore
 
 }
 
-class SubscriptionSubmission_Relationships extends \Cantie\AppStoreConnect\Model
+class SubscriptionSubmission_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $subscriptionType = SubscriptionSubmission_Relationships_Subscription::class;
 	protected $subscriptionDataType = 'object';
@@ -141,7 +141,7 @@ class SubscriptionSubmission_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class SubscriptionSubmission extends \Cantie\AppStoreConnect\Model
+class SubscriptionSubmission extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionSubmissions';
 	public $id;

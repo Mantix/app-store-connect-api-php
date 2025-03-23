@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BundleId_Attributes extends \Cantie\AppStoreConnect\Model
+class BundleId_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $platform; // 
@@ -78,7 +78,7 @@ class BundleId_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BundleId_Relationships_Profiles_Links extends \Cantie\AppStoreConnect\Model
+class BundleId_Relationships_Profiles_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -104,7 +104,7 @@ class BundleId_Relationships_Profiles_Links extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class BundleId_Relationships_Profiles_Data extends \Cantie\AppStoreConnect\Model
+class BundleId_Relationships_Profiles_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'profiles';
 	public $id;
@@ -130,7 +130,7 @@ class BundleId_Relationships_Profiles_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BundleId_Relationships_Profiles extends \Cantie\AppStoreConnect\Model
+class BundleId_Relationships_Profiles extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = BundleId_Relationships_Profiles_Links::class;
 	protected $linksDataType = 'object';
@@ -187,7 +187,7 @@ class BundleId_Relationships_Profiles extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BundleId_Relationships_BundleIdCapabilities_Links extends \Cantie\AppStoreConnect\Model
+class BundleId_Relationships_BundleIdCapabilities_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -213,7 +213,7 @@ class BundleId_Relationships_BundleIdCapabilities_Links extends \Cantie\AppStore
 
 }
 
-class BundleId_Relationships_BundleIdCapabilities_Data extends \Cantie\AppStoreConnect\Model
+class BundleId_Relationships_BundleIdCapabilities_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'bundleIdCapabilities';
 	public $id;
@@ -239,7 +239,7 @@ class BundleId_Relationships_BundleIdCapabilities_Data extends \Cantie\AppStoreC
 
 }
 
-class BundleId_Relationships_BundleIdCapabilities extends \Cantie\AppStoreConnect\Model
+class BundleId_Relationships_BundleIdCapabilities extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = BundleId_Relationships_BundleIdCapabilities_Links::class;
 	protected $linksDataType = 'object';
@@ -296,7 +296,7 @@ class BundleId_Relationships_BundleIdCapabilities extends \Cantie\AppStoreConnec
 
 }
 
-class BundleId_Relationships_App_Links extends \Cantie\AppStoreConnect\Model
+class BundleId_Relationships_App_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -322,7 +322,7 @@ class BundleId_Relationships_App_Links extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BundleId_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class BundleId_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -348,7 +348,7 @@ class BundleId_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BundleId_Relationships_App extends \Cantie\AppStoreConnect\Model
+class BundleId_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = BundleId_Relationships_App_Links::class;
 	protected $linksDataType = 'object';
@@ -388,7 +388,7 @@ class BundleId_Relationships_App extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BundleId_Relationships extends \Cantie\AppStoreConnect\Model
+class BundleId_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $profilesType = BundleId_Relationships_Profiles::class;
 	protected $profilesDataType = 'object';
@@ -445,7 +445,7 @@ class BundleId_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BundleId extends \Cantie\AppStoreConnect\Model
+class BundleId extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'bundleIds';
 	public $id;

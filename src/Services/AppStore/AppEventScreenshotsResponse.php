@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppEventScreenshotsResponse extends \Cantie\AppStoreConnect\Model
+class AppEventScreenshotsResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppEventScreenshot::class;
 	protected $dataDataType = 'array';

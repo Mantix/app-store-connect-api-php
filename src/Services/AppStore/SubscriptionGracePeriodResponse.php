@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionGracePeriodResponse extends \Cantie\AppStoreConnect\Model
+class SubscriptionGracePeriodResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionGracePeriod::class;
 	protected $dataDataType = '';

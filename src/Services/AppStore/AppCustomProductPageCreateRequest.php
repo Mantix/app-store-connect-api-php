@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppCustomProductPageCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 
@@ -42,7 +42,7 @@ class AppCustomProductPageCreateRequest_Data_Attributes extends \Cantie\AppStore
 
 }
 
-class AppCustomProductPageCreateRequest_Data_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageCreateRequest_Data_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -68,7 +68,7 @@ class AppCustomProductPageCreateRequest_Data_Relationships_App_Data extends \Can
 
 }
 
-class AppCustomProductPageCreateRequest_Data_Relationships_App extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageCreateRequest_Data_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppCustomProductPageCreateRequest_Data_Relationships_App_Data::class;
 	protected $dataDataType = 'object';
@@ -91,7 +91,7 @@ class AppCustomProductPageCreateRequest_Data_Relationships_App extends \Cantie\A
 
 }
 
-class AppCustomProductPageCreateRequest_Data_Relationships_AppCustomProductPageVersions_Data extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageCreateRequest_Data_Relationships_AppCustomProductPageVersions_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appCustomProductPageVersions';
 	public $id;
@@ -117,7 +117,7 @@ class AppCustomProductPageCreateRequest_Data_Relationships_AppCustomProductPageV
 
 }
 
-class AppCustomProductPageCreateRequest_Data_Relationships_AppCustomProductPageVersions extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageCreateRequest_Data_Relationships_AppCustomProductPageVersions extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppCustomProductPageCreateRequest_Data_Relationships_AppCustomProductPageVersions_Data::class;
 	protected $dataDataType = 'array';
@@ -140,7 +140,7 @@ class AppCustomProductPageCreateRequest_Data_Relationships_AppCustomProductPageV
 
 }
 
-class AppCustomProductPageCreateRequest_Data_Relationships_AppStoreVersionTemplate_Data extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageCreateRequest_Data_Relationships_AppStoreVersionTemplate_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersions';
 	public $id;
@@ -166,7 +166,7 @@ class AppCustomProductPageCreateRequest_Data_Relationships_AppStoreVersionTempla
 
 }
 
-class AppCustomProductPageCreateRequest_Data_Relationships_AppStoreVersionTemplate extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageCreateRequest_Data_Relationships_AppStoreVersionTemplate extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppCustomProductPageCreateRequest_Data_Relationships_AppStoreVersionTemplate_Data::class;
 	protected $dataDataType = 'object';
@@ -189,7 +189,7 @@ class AppCustomProductPageCreateRequest_Data_Relationships_AppStoreVersionTempla
 
 }
 
-class AppCustomProductPageCreateRequest_Data_Relationships_CustomProductPageTemplate_Data extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageCreateRequest_Data_Relationships_CustomProductPageTemplate_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appCustomProductPages';
 	public $id;
@@ -215,7 +215,7 @@ class AppCustomProductPageCreateRequest_Data_Relationships_CustomProductPageTemp
 
 }
 
-class AppCustomProductPageCreateRequest_Data_Relationships_CustomProductPageTemplate extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageCreateRequest_Data_Relationships_CustomProductPageTemplate extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppCustomProductPageCreateRequest_Data_Relationships_CustomProductPageTemplate_Data::class;
 	protected $dataDataType = 'object';
@@ -238,7 +238,7 @@ class AppCustomProductPageCreateRequest_Data_Relationships_CustomProductPageTemp
 
 }
 
-class AppCustomProductPageCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = AppCustomProductPageCreateRequest_Data_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -312,7 +312,7 @@ class AppCustomProductPageCreateRequest_Data_Relationships extends \Cantie\AppSt
 
 }
 
-class AppCustomProductPageCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appCustomProductPages';
 	protected $attributesType = AppCustomProductPageCreateRequest_Data_Attributes::class;
@@ -362,7 +362,7 @@ class AppCustomProductPageCreateRequest_Data extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class AppCustomProductPageCreateRequest extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppCustomProductPageCreateRequest_Data::class;
 	protected $dataDataType = 'object';

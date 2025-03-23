@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppStoreVersionCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $platform; // 
 	public $versionString;
@@ -98,7 +98,7 @@ class AppStoreVersionCreateRequest_Data_Attributes extends \Cantie\AppStoreConne
 
 }
 
-class AppStoreVersionCreateRequest_Data_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionCreateRequest_Data_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -124,7 +124,7 @@ class AppStoreVersionCreateRequest_Data_Relationships_App_Data extends \Cantie\A
 
 }
 
-class AppStoreVersionCreateRequest_Data_Relationships_App extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionCreateRequest_Data_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersionCreateRequest_Data_Relationships_App_Data::class;
 	protected $dataDataType = 'object';
@@ -147,7 +147,7 @@ class AppStoreVersionCreateRequest_Data_Relationships_App extends \Cantie\AppSto
 
 }
 
-class AppStoreVersionCreateRequest_Data_Relationships_AppStoreVersionLocalizations_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionCreateRequest_Data_Relationships_AppStoreVersionLocalizations_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionLocalizations';
 	public $id;
@@ -173,7 +173,7 @@ class AppStoreVersionCreateRequest_Data_Relationships_AppStoreVersionLocalizatio
 
 }
 
-class AppStoreVersionCreateRequest_Data_Relationships_AppStoreVersionLocalizations extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionCreateRequest_Data_Relationships_AppStoreVersionLocalizations extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersionCreateRequest_Data_Relationships_AppStoreVersionLocalizations_Data::class;
 	protected $dataDataType = 'array';
@@ -196,7 +196,7 @@ class AppStoreVersionCreateRequest_Data_Relationships_AppStoreVersionLocalizatio
 
 }
 
-class AppStoreVersionCreateRequest_Data_Relationships_Build_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionCreateRequest_Data_Relationships_Build_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'builds';
 	public $id;
@@ -222,7 +222,7 @@ class AppStoreVersionCreateRequest_Data_Relationships_Build_Data extends \Cantie
 
 }
 
-class AppStoreVersionCreateRequest_Data_Relationships_Build extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionCreateRequest_Data_Relationships_Build extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersionCreateRequest_Data_Relationships_Build_Data::class;
 	protected $dataDataType = 'object';
@@ -245,7 +245,7 @@ class AppStoreVersionCreateRequest_Data_Relationships_Build extends \Cantie\AppS
 
 }
 
-class AppStoreVersionCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = AppStoreVersionCreateRequest_Data_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -302,7 +302,7 @@ class AppStoreVersionCreateRequest_Data_Relationships extends \Cantie\AppStoreCo
 
 }
 
-class AppStoreVersionCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersions';
 	protected $attributesType = AppStoreVersionCreateRequest_Data_Attributes::class;
@@ -352,7 +352,7 @@ class AppStoreVersionCreateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppStoreVersionCreateRequest extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersionCreateRequest_Data::class;
 	protected $dataDataType = 'object';

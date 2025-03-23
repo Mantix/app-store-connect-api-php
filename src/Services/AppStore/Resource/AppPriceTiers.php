@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppPriceTiersResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppPriceTierResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppPricePointsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppPriceTiersResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppPriceTierResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppPricePointsResponse;
 
 /**
  * The "appPriceTiers" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appPriceTiers = $appStoreService->appPriceTiers;
  *  </code>
  */
-class AppPriceTiers extends \Cantie\AppStoreConnect\Services\Resource
+class AppPriceTiers extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

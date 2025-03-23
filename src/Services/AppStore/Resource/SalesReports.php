@@ -24,19 +24,19 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\gzip;
+use Mantix\AppStoreConnect\Services\AppStore\gzip;
 
 /**
  * The "salesReports" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $salesReports = $appStoreService->salesReports;
  *  </code>
  */
-class SalesReports extends \Cantie\AppStoreConnect\Services\Resource
+class SalesReports extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

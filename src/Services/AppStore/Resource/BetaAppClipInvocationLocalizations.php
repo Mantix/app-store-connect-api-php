@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\BetaAppClipInvocationLocalizationResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaAppClipInvocationLocalizationCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\BetaAppClipInvocationLocalizationUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\BetaAppClipInvocationLocalizationResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaAppClipInvocationLocalizationCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\BetaAppClipInvocationLocalizationUpdateRequest;
 
 /**
  * The "betaAppClipInvocationLocalizations" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $betaAppClipInvocationLocalizations = $appStoreService->betaAppClipInvocationLocalizations;
  *  </code>
  */
-class BetaAppClipInvocationLocalizations extends \Cantie\AppStoreConnect\Services\Resource
+class BetaAppClipInvocationLocalizations extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

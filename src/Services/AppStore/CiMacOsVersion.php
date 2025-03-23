@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiMacOsVersion_Attributes extends \Cantie\AppStoreConnect\Model
+class CiMacOsVersion_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $version;
 	public $name;
@@ -52,7 +52,7 @@ class CiMacOsVersion_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiMacOsVersion_Relationships_XcodeVersions_Links extends \Cantie\AppStoreConnect\Model
+class CiMacOsVersion_Relationships_XcodeVersions_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -78,7 +78,7 @@ class CiMacOsVersion_Relationships_XcodeVersions_Links extends \Cantie\AppStoreC
 
 }
 
-class CiMacOsVersion_Relationships_XcodeVersions_Data extends \Cantie\AppStoreConnect\Model
+class CiMacOsVersion_Relationships_XcodeVersions_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'ciXcodeVersions';
 	public $id;
@@ -104,7 +104,7 @@ class CiMacOsVersion_Relationships_XcodeVersions_Data extends \Cantie\AppStoreCo
 
 }
 
-class CiMacOsVersion_Relationships_XcodeVersions extends \Cantie\AppStoreConnect\Model
+class CiMacOsVersion_Relationships_XcodeVersions extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = CiMacOsVersion_Relationships_XcodeVersions_Links::class;
 	protected $linksDataType = 'object';
@@ -161,7 +161,7 @@ class CiMacOsVersion_Relationships_XcodeVersions extends \Cantie\AppStoreConnect
 
 }
 
-class CiMacOsVersion_Relationships extends \Cantie\AppStoreConnect\Model
+class CiMacOsVersion_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $xcodeVersionsType = CiMacOsVersion_Relationships_XcodeVersions::class;
 	protected $xcodeVersionsDataType = 'object';
@@ -184,7 +184,7 @@ class CiMacOsVersion_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiMacOsVersion extends \Cantie\AppStoreConnect\Model
+class CiMacOsVersion extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'ciMacOsVersions';
 	public $id;

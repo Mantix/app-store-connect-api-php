@@ -24,23 +24,23 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppEventLocalizationResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppEventLocalizationCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppEventLocalizationUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppEventScreenshotsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppEventVideoClipsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppEventLocalizationResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppEventLocalizationCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppEventLocalizationUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppEventScreenshotsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppEventVideoClipsResponse;
 
 /**
  * The "appEventLocalizations" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appEventLocalizations = $appStoreService->appEventLocalizations;
  *  </code>
  */
-class AppEventLocalizations extends \Cantie\AppStoreConnect\Services\Resource
+class AppEventLocalizations extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

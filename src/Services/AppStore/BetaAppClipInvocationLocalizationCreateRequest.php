@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaAppClipInvocationLocalizationCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocationLocalizationCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $title;
 	public $locale;
@@ -52,7 +52,7 @@ class BetaAppClipInvocationLocalizationCreateRequest_Data_Attributes extends \Ca
 
 }
 
-class BetaAppClipInvocationLocalizationCreateRequest_Data_Relationships_BetaAppClipInvocation_Data extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocationLocalizationCreateRequest_Data_Relationships_BetaAppClipInvocation_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaAppClipInvocations';
 	public $id;
@@ -78,7 +78,7 @@ class BetaAppClipInvocationLocalizationCreateRequest_Data_Relationships_BetaAppC
 
 }
 
-class BetaAppClipInvocationLocalizationCreateRequest_Data_Relationships_BetaAppClipInvocation extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocationLocalizationCreateRequest_Data_Relationships_BetaAppClipInvocation extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BetaAppClipInvocationLocalizationCreateRequest_Data_Relationships_BetaAppClipInvocation_Data::class;
 	protected $dataDataType = 'object';
@@ -101,7 +101,7 @@ class BetaAppClipInvocationLocalizationCreateRequest_Data_Relationships_BetaAppC
 
 }
 
-class BetaAppClipInvocationLocalizationCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocationLocalizationCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $betaAppClipInvocationType = BetaAppClipInvocationLocalizationCreateRequest_Data_Relationships_BetaAppClipInvocation::class;
 	protected $betaAppClipInvocationDataType = 'object';
@@ -124,7 +124,7 @@ class BetaAppClipInvocationLocalizationCreateRequest_Data_Relationships extends 
 
 }
 
-class BetaAppClipInvocationLocalizationCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocationLocalizationCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaAppClipInvocationLocalizations';
 	protected $attributesType = BetaAppClipInvocationLocalizationCreateRequest_Data_Attributes::class;
@@ -174,7 +174,7 @@ class BetaAppClipInvocationLocalizationCreateRequest_Data extends \Cantie\AppSto
 
 }
 
-class BetaAppClipInvocationLocalizationCreateRequest extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocationLocalizationCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BetaAppClipInvocationLocalizationCreateRequest_Data::class;
 	protected $dataDataType = 'object';

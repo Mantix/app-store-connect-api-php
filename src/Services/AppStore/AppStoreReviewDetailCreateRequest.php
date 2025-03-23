@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppStoreReviewDetailCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppStoreReviewDetailCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $contactFirstName;
 	public $contactLastName;
@@ -112,7 +112,7 @@ class AppStoreReviewDetailCreateRequest_Data_Attributes extends \Cantie\AppStore
 
 }
 
-class AppStoreReviewDetailCreateRequest_Data_Relationships_AppStoreVersion_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreReviewDetailCreateRequest_Data_Relationships_AppStoreVersion_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersions';
 	public $id;
@@ -138,7 +138,7 @@ class AppStoreReviewDetailCreateRequest_Data_Relationships_AppStoreVersion_Data 
 
 }
 
-class AppStoreReviewDetailCreateRequest_Data_Relationships_AppStoreVersion extends \Cantie\AppStoreConnect\Model
+class AppStoreReviewDetailCreateRequest_Data_Relationships_AppStoreVersion extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreReviewDetailCreateRequest_Data_Relationships_AppStoreVersion_Data::class;
 	protected $dataDataType = 'object';
@@ -161,7 +161,7 @@ class AppStoreReviewDetailCreateRequest_Data_Relationships_AppStoreVersion exten
 
 }
 
-class AppStoreReviewDetailCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppStoreReviewDetailCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appStoreVersionType = AppStoreReviewDetailCreateRequest_Data_Relationships_AppStoreVersion::class;
 	protected $appStoreVersionDataType = 'object';
@@ -184,7 +184,7 @@ class AppStoreReviewDetailCreateRequest_Data_Relationships extends \Cantie\AppSt
 
 }
 
-class AppStoreReviewDetailCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreReviewDetailCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreReviewDetails';
 	protected $attributesType = AppStoreReviewDetailCreateRequest_Data_Attributes::class;
@@ -234,7 +234,7 @@ class AppStoreReviewDetailCreateRequest_Data extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class AppStoreReviewDetailCreateRequest extends \Cantie\AppStoreConnect\Model
+class AppStoreReviewDetailCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreReviewDetailCreateRequest_Data::class;
 	protected $dataDataType = 'object';

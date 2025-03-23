@@ -24,24 +24,24 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppAvailabilityV2Response;
-use Cantie\AppStoreConnect\Services\AppStore\AppAvailabilityV2CreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppAvailabilityResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppAvailabilityCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\TerritoryAvailabilitiesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\TerritoriesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppAvailabilityV2Response;
+use Mantix\AppStoreConnect\Services\AppStore\AppAvailabilityV2CreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppAvailabilityResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppAvailabilityCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\TerritoryAvailabilitiesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\TerritoriesResponse;
 
 /**
  * The "appAvailabilities" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appAvailabilities = $appStoreService->appAvailabilities;
  *  </code>
  */
-class AppAvailabilities extends \Cantie\AppStoreConnect\Services\Resource
+class AppAvailabilities extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

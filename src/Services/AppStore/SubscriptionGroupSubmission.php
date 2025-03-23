@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionGroupSubmission extends \Cantie\AppStoreConnect\Model
+class SubscriptionGroupSubmission extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionGroupSubmissions';
 	public $id;

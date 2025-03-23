@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class ScmProviderType extends \Cantie\AppStoreConnect\Model
+class ScmProviderType extends \Mantix\AppStoreConnect\Model
 {
 	public $kind; // BITBUCKET_CLOUD, BITBUCKET_SERVER, GITHUB_CLOUD, GITHUB_ENTERPRISE, GITLAB_CLOUD, GITLAB_SELF_MANAGED
 	public $displayName;

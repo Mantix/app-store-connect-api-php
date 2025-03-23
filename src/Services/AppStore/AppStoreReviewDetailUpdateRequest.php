@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppStoreReviewDetailUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppStoreReviewDetailUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $contactFirstName;
 	public $contactLastName;
@@ -112,7 +112,7 @@ class AppStoreReviewDetailUpdateRequest_Data_Attributes extends \Cantie\AppStore
 
 }
 
-class AppStoreReviewDetailUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreReviewDetailUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreReviewDetails';
 	public $id;
@@ -155,7 +155,7 @@ class AppStoreReviewDetailUpdateRequest_Data extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class AppStoreReviewDetailUpdateRequest extends \Cantie\AppStoreConnect\Model
+class AppStoreReviewDetailUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreReviewDetailUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

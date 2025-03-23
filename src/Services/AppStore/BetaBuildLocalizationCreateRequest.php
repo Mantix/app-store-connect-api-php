@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaBuildLocalizationCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class BetaBuildLocalizationCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $whatsNew;
 	public $locale;
@@ -52,7 +52,7 @@ class BetaBuildLocalizationCreateRequest_Data_Attributes extends \Cantie\AppStor
 
 }
 
-class BetaBuildLocalizationCreateRequest_Data_Relationships_Build_Data extends \Cantie\AppStoreConnect\Model
+class BetaBuildLocalizationCreateRequest_Data_Relationships_Build_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'builds';
 	public $id;
@@ -78,7 +78,7 @@ class BetaBuildLocalizationCreateRequest_Data_Relationships_Build_Data extends \
 
 }
 
-class BetaBuildLocalizationCreateRequest_Data_Relationships_Build extends \Cantie\AppStoreConnect\Model
+class BetaBuildLocalizationCreateRequest_Data_Relationships_Build extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BetaBuildLocalizationCreateRequest_Data_Relationships_Build_Data::class;
 	protected $dataDataType = 'object';
@@ -101,7 +101,7 @@ class BetaBuildLocalizationCreateRequest_Data_Relationships_Build extends \Canti
 
 }
 
-class BetaBuildLocalizationCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class BetaBuildLocalizationCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $buildType = BetaBuildLocalizationCreateRequest_Data_Relationships_Build::class;
 	protected $buildDataType = 'object';
@@ -124,7 +124,7 @@ class BetaBuildLocalizationCreateRequest_Data_Relationships extends \Cantie\AppS
 
 }
 
-class BetaBuildLocalizationCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class BetaBuildLocalizationCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaBuildLocalizations';
 	protected $attributesType = BetaBuildLocalizationCreateRequest_Data_Attributes::class;
@@ -174,7 +174,7 @@ class BetaBuildLocalizationCreateRequest_Data extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class BetaBuildLocalizationCreateRequest extends \Cantie\AppStoreConnect\Model
+class BetaBuildLocalizationCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BetaBuildLocalizationCreateRequest_Data::class;
 	protected $dataDataType = 'object';

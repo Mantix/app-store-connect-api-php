@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppClipDomainStatus_Attributes_Domains extends \Cantie\AppStoreConnect\Model
+class AppClipDomainStatus_Attributes_Domains extends \Mantix\AppStoreConnect\Model
 {
 	public $domain;
 	public $isValid;
@@ -72,7 +72,7 @@ class AppClipDomainStatus_Attributes_Domains extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class AppClipDomainStatus_Attributes extends \Cantie\AppStoreConnect\Model
+class AppClipDomainStatus_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	protected $domainsType = AppClipDomainStatus_Attributes_Domains::class;
 	protected $domainsDataType = 'array';
@@ -105,7 +105,7 @@ class AppClipDomainStatus_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppClipDomainStatus extends \Cantie\AppStoreConnect\Model
+class AppClipDomainStatus extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipDomainStatuses';
 	public $id;

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class InAppPurchaseSubmissionCreateRequest_Data_Relationships_InAppPurchaseV2_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseSubmissionCreateRequest_Data_Relationships_InAppPurchaseV2_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchases';
 	public $id;
@@ -52,7 +52,7 @@ class InAppPurchaseSubmissionCreateRequest_Data_Relationships_InAppPurchaseV2_Da
 
 }
 
-class InAppPurchaseSubmissionCreateRequest_Data_Relationships_InAppPurchaseV2 extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseSubmissionCreateRequest_Data_Relationships_InAppPurchaseV2 extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = InAppPurchaseSubmissionCreateRequest_Data_Relationships_InAppPurchaseV2_Data::class;
 	protected $dataDataType = 'object';
@@ -75,7 +75,7 @@ class InAppPurchaseSubmissionCreateRequest_Data_Relationships_InAppPurchaseV2 ex
 
 }
 
-class InAppPurchaseSubmissionCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseSubmissionCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $inAppPurchaseV2Type = InAppPurchaseSubmissionCreateRequest_Data_Relationships_InAppPurchaseV2::class;
 	protected $inAppPurchaseV2DataType = 'object';
@@ -98,7 +98,7 @@ class InAppPurchaseSubmissionCreateRequest_Data_Relationships extends \Cantie\Ap
 
 }
 
-class InAppPurchaseSubmissionCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseSubmissionCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchaseSubmissions';
 	protected $relationshipsType = InAppPurchaseSubmissionCreateRequest_Data_Relationships::class;
@@ -131,7 +131,7 @@ class InAppPurchaseSubmissionCreateRequest_Data extends \Cantie\AppStoreConnect\
 
 }
 
-class InAppPurchaseSubmissionCreateRequest extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseSubmissionCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = InAppPurchaseSubmissionCreateRequest_Data::class;
 	protected $dataDataType = 'object';

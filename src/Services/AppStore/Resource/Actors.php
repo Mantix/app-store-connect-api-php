@@ -24,20 +24,20 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\ActorsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\ActorResponse;
+use Mantix\AppStoreConnect\Services\AppStore\ActorsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\ActorResponse;
 
 /**
  * The "actors" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $actors = $appStoreService->actors;
  *  </code>
  */
-class Actors extends \Cantie\AppStoreConnect\Services\Resource
+class Actors extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

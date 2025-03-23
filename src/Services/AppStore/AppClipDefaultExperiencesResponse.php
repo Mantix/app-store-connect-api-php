@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppClipDefaultExperiencesResponse extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperiencesResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppClipDefaultExperience::class;
 	protected $dataDataType = 'array';

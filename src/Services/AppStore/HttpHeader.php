@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class HttpHeader extends \Cantie\AppStoreConnect\Model
+class HttpHeader extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $value;

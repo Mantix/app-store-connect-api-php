@@ -24,23 +24,23 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\BetaBuildLocalizationsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaBuildLocalizationResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaBuildLocalizationCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\BetaBuildLocalizationUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\BuildWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaBuildLocalizationsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaBuildLocalizationResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaBuildLocalizationCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\BetaBuildLocalizationUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\BuildWithoutIncludesResponse;
 
 /**
  * The "betaBuildLocalizations" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $betaBuildLocalizations = $appStoreService->betaBuildLocalizations;
  *  </code>
  */
-class BetaBuildLocalizations extends \Cantie\AppStoreConnect\Services\Resource
+class BetaBuildLocalizations extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

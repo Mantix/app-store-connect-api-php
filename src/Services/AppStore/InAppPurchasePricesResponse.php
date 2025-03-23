@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class InAppPurchasePricesResponse extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePricesResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = InAppPurchasePrice::class;
 	protected $dataDataType = 'array';

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BuildBundleFileSize_Attributes extends \Cantie\AppStoreConnect\Model
+class BuildBundleFileSize_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $deviceModel;
 	public $osVersion;
@@ -72,7 +72,7 @@ class BuildBundleFileSize_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BuildBundleFileSize extends \Cantie\AppStoreConnect\Model
+class BuildBundleFileSize extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'buildBundleFileSizes';
 	public $id;

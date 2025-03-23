@@ -24,19 +24,19 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\diagnosticLogs;
+use Mantix\AppStoreConnect\Services\AppStore\diagnosticLogs;
 
 /**
  * The "diagnosticSignatures" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $diagnosticSignatures = $appStoreService->diagnosticSignatures;
  *  </code>
  */
-class DiagnosticSignatures extends \Cantie\AppStoreConnect\Services\Resource
+class DiagnosticSignatures extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

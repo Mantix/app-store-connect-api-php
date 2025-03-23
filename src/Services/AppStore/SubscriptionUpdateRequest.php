@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class SubscriptionUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $familySharable;
@@ -82,7 +82,7 @@ class SubscriptionUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\
 
 }
 
-class SubscriptionUpdateRequest_Data_Relationships_IntroductoryOffers_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionUpdateRequest_Data_Relationships_IntroductoryOffers_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionIntroductoryOffers';
 	public $id;
@@ -108,7 +108,7 @@ class SubscriptionUpdateRequest_Data_Relationships_IntroductoryOffers_Data exten
 
 }
 
-class SubscriptionUpdateRequest_Data_Relationships_IntroductoryOffers extends \Cantie\AppStoreConnect\Model
+class SubscriptionUpdateRequest_Data_Relationships_IntroductoryOffers extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionUpdateRequest_Data_Relationships_IntroductoryOffers_Data::class;
 	protected $dataDataType = 'array';
@@ -131,7 +131,7 @@ class SubscriptionUpdateRequest_Data_Relationships_IntroductoryOffers extends \C
 
 }
 
-class SubscriptionUpdateRequest_Data_Relationships_PromotionalOffers_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionUpdateRequest_Data_Relationships_PromotionalOffers_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionPromotionalOffers';
 	public $id;
@@ -157,7 +157,7 @@ class SubscriptionUpdateRequest_Data_Relationships_PromotionalOffers_Data extend
 
 }
 
-class SubscriptionUpdateRequest_Data_Relationships_PromotionalOffers extends \Cantie\AppStoreConnect\Model
+class SubscriptionUpdateRequest_Data_Relationships_PromotionalOffers extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionUpdateRequest_Data_Relationships_PromotionalOffers_Data::class;
 	protected $dataDataType = 'array';
@@ -180,7 +180,7 @@ class SubscriptionUpdateRequest_Data_Relationships_PromotionalOffers extends \Ca
 
 }
 
-class SubscriptionUpdateRequest_Data_Relationships_Prices_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionUpdateRequest_Data_Relationships_Prices_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionPrices';
 	public $id;
@@ -206,7 +206,7 @@ class SubscriptionUpdateRequest_Data_Relationships_Prices_Data extends \Cantie\A
 
 }
 
-class SubscriptionUpdateRequest_Data_Relationships_Prices extends \Cantie\AppStoreConnect\Model
+class SubscriptionUpdateRequest_Data_Relationships_Prices extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionUpdateRequest_Data_Relationships_Prices_Data::class;
 	protected $dataDataType = 'array';
@@ -229,7 +229,7 @@ class SubscriptionUpdateRequest_Data_Relationships_Prices extends \Cantie\AppSto
 
 }
 
-class SubscriptionUpdateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class SubscriptionUpdateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $introductoryOffersType = SubscriptionUpdateRequest_Data_Relationships_IntroductoryOffers::class;
 	protected $introductoryOffersDataType = 'object';
@@ -286,7 +286,7 @@ class SubscriptionUpdateRequest_Data_Relationships extends \Cantie\AppStoreConne
 
 }
 
-class SubscriptionUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptions';
 	public $id;
@@ -346,7 +346,7 @@ class SubscriptionUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class SubscriptionUpdateRequest extends \Cantie\AppStoreConnect\Model
+class SubscriptionUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class TerritoryAvailabilityInlineCreate extends \Cantie\AppStoreConnect\Model
+class TerritoryAvailabilityInlineCreate extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'territoryAvailabilities';
 	public $id;

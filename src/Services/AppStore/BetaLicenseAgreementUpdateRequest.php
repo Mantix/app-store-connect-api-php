@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaLicenseAgreementUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class BetaLicenseAgreementUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $agreementText;
 
@@ -42,7 +42,7 @@ class BetaLicenseAgreementUpdateRequest_Data_Attributes extends \Cantie\AppStore
 
 }
 
-class BetaLicenseAgreementUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class BetaLicenseAgreementUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaLicenseAgreements';
 	public $id;
@@ -85,7 +85,7 @@ class BetaLicenseAgreementUpdateRequest_Data extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class BetaLicenseAgreementUpdateRequest extends \Cantie\AppStoreConnect\Model
+class BetaLicenseAgreementUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BetaLicenseAgreementUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

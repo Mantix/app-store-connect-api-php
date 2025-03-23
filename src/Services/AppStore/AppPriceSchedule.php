@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppPriceSchedule_Relationships_App_Links extends \Cantie\AppStoreConnect\Model
+class AppPriceSchedule_Relationships_App_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -52,7 +52,7 @@ class AppPriceSchedule_Relationships_App_Links extends \Cantie\AppStoreConnect\M
 
 }
 
-class AppPriceSchedule_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class AppPriceSchedule_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -78,7 +78,7 @@ class AppPriceSchedule_Relationships_App_Data extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class AppPriceSchedule_Relationships_App extends \Cantie\AppStoreConnect\Model
+class AppPriceSchedule_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppPriceSchedule_Relationships_App_Links::class;
 	protected $linksDataType = 'object';
@@ -118,7 +118,7 @@ class AppPriceSchedule_Relationships_App extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPriceSchedule_Relationships_BaseTerritory_Links extends \Cantie\AppStoreConnect\Model
+class AppPriceSchedule_Relationships_BaseTerritory_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -144,7 +144,7 @@ class AppPriceSchedule_Relationships_BaseTerritory_Links extends \Cantie\AppStor
 
 }
 
-class AppPriceSchedule_Relationships_BaseTerritory_Data extends \Cantie\AppStoreConnect\Model
+class AppPriceSchedule_Relationships_BaseTerritory_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'territories';
 	public $id;
@@ -170,7 +170,7 @@ class AppPriceSchedule_Relationships_BaseTerritory_Data extends \Cantie\AppStore
 
 }
 
-class AppPriceSchedule_Relationships_BaseTerritory extends \Cantie\AppStoreConnect\Model
+class AppPriceSchedule_Relationships_BaseTerritory extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppPriceSchedule_Relationships_BaseTerritory_Links::class;
 	protected $linksDataType = 'object';
@@ -210,7 +210,7 @@ class AppPriceSchedule_Relationships_BaseTerritory extends \Cantie\AppStoreConne
 
 }
 
-class AppPriceSchedule_Relationships_ManualPrices_Links extends \Cantie\AppStoreConnect\Model
+class AppPriceSchedule_Relationships_ManualPrices_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -236,7 +236,7 @@ class AppPriceSchedule_Relationships_ManualPrices_Links extends \Cantie\AppStore
 
 }
 
-class AppPriceSchedule_Relationships_ManualPrices_Data extends \Cantie\AppStoreConnect\Model
+class AppPriceSchedule_Relationships_ManualPrices_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appPrices';
 	public $id;
@@ -262,7 +262,7 @@ class AppPriceSchedule_Relationships_ManualPrices_Data extends \Cantie\AppStoreC
 
 }
 
-class AppPriceSchedule_Relationships_ManualPrices extends \Cantie\AppStoreConnect\Model
+class AppPriceSchedule_Relationships_ManualPrices extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppPriceSchedule_Relationships_ManualPrices_Links::class;
 	protected $linksDataType = 'object';
@@ -319,7 +319,7 @@ class AppPriceSchedule_Relationships_ManualPrices extends \Cantie\AppStoreConnec
 
 }
 
-class AppPriceSchedule_Relationships_AutomaticPrices_Links extends \Cantie\AppStoreConnect\Model
+class AppPriceSchedule_Relationships_AutomaticPrices_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -345,7 +345,7 @@ class AppPriceSchedule_Relationships_AutomaticPrices_Links extends \Cantie\AppSt
 
 }
 
-class AppPriceSchedule_Relationships_AutomaticPrices_Data extends \Cantie\AppStoreConnect\Model
+class AppPriceSchedule_Relationships_AutomaticPrices_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appPrices';
 	public $id;
@@ -371,7 +371,7 @@ class AppPriceSchedule_Relationships_AutomaticPrices_Data extends \Cantie\AppSto
 
 }
 
-class AppPriceSchedule_Relationships_AutomaticPrices extends \Cantie\AppStoreConnect\Model
+class AppPriceSchedule_Relationships_AutomaticPrices extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppPriceSchedule_Relationships_AutomaticPrices_Links::class;
 	protected $linksDataType = 'object';
@@ -428,7 +428,7 @@ class AppPriceSchedule_Relationships_AutomaticPrices extends \Cantie\AppStoreCon
 
 }
 
-class AppPriceSchedule_Relationships extends \Cantie\AppStoreConnect\Model
+class AppPriceSchedule_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = AppPriceSchedule_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -502,7 +502,7 @@ class AppPriceSchedule_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPriceSchedule extends \Cantie\AppStoreConnect\Model
+class AppPriceSchedule extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appPriceSchedules';
 	public $id;

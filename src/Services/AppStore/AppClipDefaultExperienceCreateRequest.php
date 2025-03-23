@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppClipDefaultExperienceCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $action; // 
 
@@ -48,7 +48,7 @@ class AppClipDefaultExperienceCreateRequest_Data_Attributes extends \Cantie\AppS
 
 }
 
-class AppClipDefaultExperienceCreateRequest_Data_Relationships_AppClip_Data extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceCreateRequest_Data_Relationships_AppClip_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClips';
 	public $id;
@@ -74,7 +74,7 @@ class AppClipDefaultExperienceCreateRequest_Data_Relationships_AppClip_Data exte
 
 }
 
-class AppClipDefaultExperienceCreateRequest_Data_Relationships_AppClip extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceCreateRequest_Data_Relationships_AppClip extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppClipDefaultExperienceCreateRequest_Data_Relationships_AppClip_Data::class;
 	protected $dataDataType = 'object';
@@ -97,7 +97,7 @@ class AppClipDefaultExperienceCreateRequest_Data_Relationships_AppClip extends \
 
 }
 
-class AppClipDefaultExperienceCreateRequest_Data_Relationships_ReleaseWithAppStoreVersion_Data extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceCreateRequest_Data_Relationships_ReleaseWithAppStoreVersion_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersions';
 	public $id;
@@ -123,7 +123,7 @@ class AppClipDefaultExperienceCreateRequest_Data_Relationships_ReleaseWithAppSto
 
 }
 
-class AppClipDefaultExperienceCreateRequest_Data_Relationships_ReleaseWithAppStoreVersion extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceCreateRequest_Data_Relationships_ReleaseWithAppStoreVersion extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppClipDefaultExperienceCreateRequest_Data_Relationships_ReleaseWithAppStoreVersion_Data::class;
 	protected $dataDataType = 'object';
@@ -146,7 +146,7 @@ class AppClipDefaultExperienceCreateRequest_Data_Relationships_ReleaseWithAppSto
 
 }
 
-class AppClipDefaultExperienceCreateRequest_Data_Relationships_AppClipDefaultExperienceTemplate_Data extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceCreateRequest_Data_Relationships_AppClipDefaultExperienceTemplate_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipDefaultExperiences';
 	public $id;
@@ -172,7 +172,7 @@ class AppClipDefaultExperienceCreateRequest_Data_Relationships_AppClipDefaultExp
 
 }
 
-class AppClipDefaultExperienceCreateRequest_Data_Relationships_AppClipDefaultExperienceTemplate extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceCreateRequest_Data_Relationships_AppClipDefaultExperienceTemplate extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppClipDefaultExperienceCreateRequest_Data_Relationships_AppClipDefaultExperienceTemplate_Data::class;
 	protected $dataDataType = 'object';
@@ -195,7 +195,7 @@ class AppClipDefaultExperienceCreateRequest_Data_Relationships_AppClipDefaultExp
 
 }
 
-class AppClipDefaultExperienceCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appClipType = AppClipDefaultExperienceCreateRequest_Data_Relationships_AppClip::class;
 	protected $appClipDataType = 'object';
@@ -252,7 +252,7 @@ class AppClipDefaultExperienceCreateRequest_Data_Relationships extends \Cantie\A
 
 }
 
-class AppClipDefaultExperienceCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipDefaultExperiences';
 	protected $attributesType = AppClipDefaultExperienceCreateRequest_Data_Attributes::class;
@@ -302,7 +302,7 @@ class AppClipDefaultExperienceCreateRequest_Data extends \Cantie\AppStoreConnect
 
 }
 
-class AppClipDefaultExperienceCreateRequest extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppClipDefaultExperienceCreateRequest_Data::class;
 	protected $dataDataType = 'object';

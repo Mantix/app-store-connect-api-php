@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterMatchmakingRuleSetUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingRuleSetUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $minPlayers;
 	public $maxPlayers;
@@ -52,7 +52,7 @@ class GameCenterMatchmakingRuleSetUpdateRequest_Data_Attributes extends \Cantie\
 
 }
 
-class GameCenterMatchmakingRuleSetUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingRuleSetUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterMatchmakingRuleSets';
 	public $id;
@@ -95,7 +95,7 @@ class GameCenterMatchmakingRuleSetUpdateRequest_Data extends \Cantie\AppStoreCon
 
 }
 
-class GameCenterMatchmakingRuleSetUpdateRequest extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingRuleSetUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterMatchmakingRuleSetUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

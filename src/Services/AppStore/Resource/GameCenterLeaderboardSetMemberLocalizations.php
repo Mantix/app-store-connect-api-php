@@ -24,24 +24,24 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetMemberLocalizationsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetMemberLocalizationResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetMemberLocalizationCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetMemberLocalizationUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetMemberLocalizationsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetMemberLocalizationResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetMemberLocalizationCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetMemberLocalizationUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetResponse;
 
 /**
  * The "gameCenterLeaderboardSetMemberLocalizations" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $gameCenterLeaderboardSetMemberLocalizations = $appStoreService->gameCenterLeaderboardSetMemberLocalizations;
  *  </code>
  */
-class GameCenterLeaderboardSetMemberLocalizations extends \Cantie\AppStoreConnect\Services\Resource
+class GameCenterLeaderboardSetMemberLocalizations extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

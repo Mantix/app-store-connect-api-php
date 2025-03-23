@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class ErrorSourcePointer extends \Cantie\AppStoreConnect\Model
+class ErrorSourcePointer extends \Mantix\AppStoreConnect\Model
 {
 	public $pointer;
 

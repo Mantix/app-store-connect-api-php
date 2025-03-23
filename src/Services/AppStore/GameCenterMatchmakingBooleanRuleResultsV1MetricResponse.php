@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data_DataPoints_Values extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data_DataPoints_Values extends \Mantix\AppStoreConnect\Model
 {
 	public $count;
 
@@ -42,7 +42,7 @@ class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data_DataPoints_Va
 
 }
 
-class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data_DataPoints extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data_DataPoints extends \Mantix\AppStoreConnect\Model
 {
 	public $start;
 	public $end;
@@ -85,7 +85,7 @@ class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data_DataPoints ex
 
 }
 
-class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data_Dimensions_Result_Links extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data_Dimensions_Result_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $groupBy;
 
@@ -101,7 +101,7 @@ class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data_Dimensions_Re
 
 }
 
-class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data_Dimensions_Result extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data_Dimensions_Result extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data_Dimensions_Result_Links::class;
 	protected $linksDataType = 'object';
@@ -124,7 +124,7 @@ class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data_Dimensions_Re
 
 }
 
-class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data_Dimensions_GameCenterMatchmakingQueue_Links extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data_Dimensions_GameCenterMatchmakingQueue_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $groupBy;
 	public $related;
@@ -150,7 +150,7 @@ class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data_Dimensions_Ga
 
 }
 
-class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data_Dimensions_GameCenterMatchmakingQueue extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data_Dimensions_GameCenterMatchmakingQueue extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data_Dimensions_GameCenterMatchmakingQueue_Links::class;
 	protected $linksDataType = 'object';
@@ -173,7 +173,7 @@ class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data_Dimensions_Ga
 
 }
 
-class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data_Dimensions extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data_Dimensions extends \Mantix\AppStoreConnect\Model
 {
 	protected $resultType = GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data_Dimensions_Result::class;
 	protected $resultDataType = 'object';
@@ -213,7 +213,7 @@ class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data_Dimensions ex
 
 }
 
-class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataPointsType = GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data_DataPoints::class;
 	protected $dataPointsDataType = 'object';
@@ -263,7 +263,7 @@ class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data extends \Cant
 
 }
 
-class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingBooleanRuleResultsV1MetricResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterMatchmakingBooleanRuleResultsV1MetricResponse_Data::class;
 	protected $dataDataType = 'array';

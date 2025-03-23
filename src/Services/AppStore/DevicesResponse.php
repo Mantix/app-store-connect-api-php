@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class DevicesResponse extends \Cantie\AppStoreConnect\Model
+class DevicesResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = Device::class;
 	protected $dataDataType = 'array';

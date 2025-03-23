@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterLeaderboardSetLocalizationUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardSetLocalizationUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 
@@ -42,7 +42,7 @@ class GameCenterLeaderboardSetLocalizationUpdateRequest_Data_Attributes extends 
 
 }
 
-class GameCenterLeaderboardSetLocalizationUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardSetLocalizationUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterLeaderboardSetLocalizations';
 	public $id;
@@ -85,7 +85,7 @@ class GameCenterLeaderboardSetLocalizationUpdateRequest_Data extends \Cantie\App
 
 }
 
-class GameCenterLeaderboardSetLocalizationUpdateRequest extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardSetLocalizationUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterLeaderboardSetLocalizationUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

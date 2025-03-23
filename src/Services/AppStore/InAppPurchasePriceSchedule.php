@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class InAppPurchasePriceSchedule_Relationships_InAppPurchase_Links extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceSchedule_Relationships_InAppPurchase_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -52,7 +52,7 @@ class InAppPurchasePriceSchedule_Relationships_InAppPurchase_Links extends \Cant
 
 }
 
-class InAppPurchasePriceSchedule_Relationships_InAppPurchase_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceSchedule_Relationships_InAppPurchase_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchases';
 	public $id;
@@ -78,7 +78,7 @@ class InAppPurchasePriceSchedule_Relationships_InAppPurchase_Data extends \Canti
 
 }
 
-class InAppPurchasePriceSchedule_Relationships_InAppPurchase extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceSchedule_Relationships_InAppPurchase extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = InAppPurchasePriceSchedule_Relationships_InAppPurchase_Links::class;
 	protected $linksDataType = 'object';
@@ -118,7 +118,7 @@ class InAppPurchasePriceSchedule_Relationships_InAppPurchase extends \Cantie\App
 
 }
 
-class InAppPurchasePriceSchedule_Relationships_BaseTerritory_Links extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceSchedule_Relationships_BaseTerritory_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -144,7 +144,7 @@ class InAppPurchasePriceSchedule_Relationships_BaseTerritory_Links extends \Cant
 
 }
 
-class InAppPurchasePriceSchedule_Relationships_BaseTerritory_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceSchedule_Relationships_BaseTerritory_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'territories';
 	public $id;
@@ -170,7 +170,7 @@ class InAppPurchasePriceSchedule_Relationships_BaseTerritory_Data extends \Canti
 
 }
 
-class InAppPurchasePriceSchedule_Relationships_BaseTerritory extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceSchedule_Relationships_BaseTerritory extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = InAppPurchasePriceSchedule_Relationships_BaseTerritory_Links::class;
 	protected $linksDataType = 'object';
@@ -210,7 +210,7 @@ class InAppPurchasePriceSchedule_Relationships_BaseTerritory extends \Cantie\App
 
 }
 
-class InAppPurchasePriceSchedule_Relationships_ManualPrices_Links extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceSchedule_Relationships_ManualPrices_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -236,7 +236,7 @@ class InAppPurchasePriceSchedule_Relationships_ManualPrices_Links extends \Canti
 
 }
 
-class InAppPurchasePriceSchedule_Relationships_ManualPrices_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceSchedule_Relationships_ManualPrices_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchasePrices';
 	public $id;
@@ -262,7 +262,7 @@ class InAppPurchasePriceSchedule_Relationships_ManualPrices_Data extends \Cantie
 
 }
 
-class InAppPurchasePriceSchedule_Relationships_ManualPrices extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceSchedule_Relationships_ManualPrices extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = InAppPurchasePriceSchedule_Relationships_ManualPrices_Links::class;
 	protected $linksDataType = 'object';
@@ -319,7 +319,7 @@ class InAppPurchasePriceSchedule_Relationships_ManualPrices extends \Cantie\AppS
 
 }
 
-class InAppPurchasePriceSchedule_Relationships_AutomaticPrices_Links extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceSchedule_Relationships_AutomaticPrices_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -345,7 +345,7 @@ class InAppPurchasePriceSchedule_Relationships_AutomaticPrices_Links extends \Ca
 
 }
 
-class InAppPurchasePriceSchedule_Relationships_AutomaticPrices_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceSchedule_Relationships_AutomaticPrices_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchasePrices';
 	public $id;
@@ -371,7 +371,7 @@ class InAppPurchasePriceSchedule_Relationships_AutomaticPrices_Data extends \Can
 
 }
 
-class InAppPurchasePriceSchedule_Relationships_AutomaticPrices extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceSchedule_Relationships_AutomaticPrices extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = InAppPurchasePriceSchedule_Relationships_AutomaticPrices_Links::class;
 	protected $linksDataType = 'object';
@@ -428,7 +428,7 @@ class InAppPurchasePriceSchedule_Relationships_AutomaticPrices extends \Cantie\A
 
 }
 
-class InAppPurchasePriceSchedule_Relationships extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceSchedule_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $inAppPurchaseType = InAppPurchasePriceSchedule_Relationships_InAppPurchase::class;
 	protected $inAppPurchaseDataType = 'object';
@@ -502,7 +502,7 @@ class InAppPurchasePriceSchedule_Relationships extends \Cantie\AppStoreConnect\M
 
 }
 
-class InAppPurchasePriceSchedule extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceSchedule extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchasePriceSchedules';
 	public $id;

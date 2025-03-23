@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppScreenshotCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppScreenshotCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $fileSize;
 	public $fileName;
@@ -52,7 +52,7 @@ class AppScreenshotCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect
 
 }
 
-class AppScreenshotCreateRequest_Data_Relationships_AppScreenshotSet_Data extends \Cantie\AppStoreConnect\Model
+class AppScreenshotCreateRequest_Data_Relationships_AppScreenshotSet_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appScreenshotSets';
 	public $id;
@@ -78,7 +78,7 @@ class AppScreenshotCreateRequest_Data_Relationships_AppScreenshotSet_Data extend
 
 }
 
-class AppScreenshotCreateRequest_Data_Relationships_AppScreenshotSet extends \Cantie\AppStoreConnect\Model
+class AppScreenshotCreateRequest_Data_Relationships_AppScreenshotSet extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppScreenshotCreateRequest_Data_Relationships_AppScreenshotSet_Data::class;
 	protected $dataDataType = 'object';
@@ -101,7 +101,7 @@ class AppScreenshotCreateRequest_Data_Relationships_AppScreenshotSet extends \Ca
 
 }
 
-class AppScreenshotCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppScreenshotCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appScreenshotSetType = AppScreenshotCreateRequest_Data_Relationships_AppScreenshotSet::class;
 	protected $appScreenshotSetDataType = 'object';
@@ -124,7 +124,7 @@ class AppScreenshotCreateRequest_Data_Relationships extends \Cantie\AppStoreConn
 
 }
 
-class AppScreenshotCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppScreenshotCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appScreenshots';
 	protected $attributesType = AppScreenshotCreateRequest_Data_Attributes::class;
@@ -174,7 +174,7 @@ class AppScreenshotCreateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppScreenshotCreateRequest extends \Cantie\AppStoreConnect\Model
+class AppScreenshotCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppScreenshotCreateRequest_Data::class;
 	protected $dataDataType = 'object';

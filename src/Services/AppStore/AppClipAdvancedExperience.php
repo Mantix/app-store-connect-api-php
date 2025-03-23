@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppClipAdvancedExperience_Attributes_Place_MainAddress_StructuredAddress extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperience_Attributes_Place_MainAddress_StructuredAddress extends \Mantix\AppStoreConnect\Model
 {
 	protected $streetAddressType = '';
 	protected $streetAddressDataType = 'array';
@@ -109,7 +109,7 @@ class AppClipAdvancedExperience_Attributes_Place_MainAddress_StructuredAddress e
 
 }
 
-class AppClipAdvancedExperience_Attributes_Place_MainAddress extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperience_Attributes_Place_MainAddress extends \Mantix\AppStoreConnect\Model
 {
 	public $fullAddress;
 	protected $structuredAddressType = AppClipAdvancedExperience_Attributes_Place_MainAddress_StructuredAddress::class;
@@ -142,7 +142,7 @@ class AppClipAdvancedExperience_Attributes_Place_MainAddress extends \Cantie\App
 
 }
 
-class AppClipAdvancedExperience_Attributes_Place_DisplayPoint_Coordinates extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperience_Attributes_Place_DisplayPoint_Coordinates extends \Mantix\AppStoreConnect\Model
 {
 	public $latitude;
 	public $longitude;
@@ -168,7 +168,7 @@ class AppClipAdvancedExperience_Attributes_Place_DisplayPoint_Coordinates extend
 
 }
 
-class AppClipAdvancedExperience_Attributes_Place_DisplayPoint extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperience_Attributes_Place_DisplayPoint extends \Mantix\AppStoreConnect\Model
 {
 	protected $coordinatesType = AppClipAdvancedExperience_Attributes_Place_DisplayPoint_Coordinates::class;
 	protected $coordinatesDataType = 'object';
@@ -201,7 +201,7 @@ class AppClipAdvancedExperience_Attributes_Place_DisplayPoint extends \Cantie\Ap
 
 }
 
-class AppClipAdvancedExperience_Attributes_Place_PhoneNumber extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperience_Attributes_Place_PhoneNumber extends \Mantix\AppStoreConnect\Model
 {
 	public $number;
 	public $type; // FAX, LANDLINE, MOBILE, TOLLFREE
@@ -237,7 +237,7 @@ class AppClipAdvancedExperience_Attributes_Place_PhoneNumber extends \Cantie\App
 
 }
 
-class AppClipAdvancedExperience_Attributes_Place extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperience_Attributes_Place extends \Mantix\AppStoreConnect\Model
 {
 	public $placeId;
 	protected $namesType = '';
@@ -368,7 +368,7 @@ class AppClipAdvancedExperience_Attributes_Place extends \Cantie\AppStoreConnect
 
 }
 
-class AppClipAdvancedExperience_Attributes extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperience_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $link;
 	public $version;
@@ -483,7 +483,7 @@ class AppClipAdvancedExperience_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppClipAdvancedExperience_Relationships_AppClip_Links extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperience_Relationships_AppClip_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -509,7 +509,7 @@ class AppClipAdvancedExperience_Relationships_AppClip_Links extends \Cantie\AppS
 
 }
 
-class AppClipAdvancedExperience_Relationships_AppClip_Data extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperience_Relationships_AppClip_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClips';
 	public $id;
@@ -535,7 +535,7 @@ class AppClipAdvancedExperience_Relationships_AppClip_Data extends \Cantie\AppSt
 
 }
 
-class AppClipAdvancedExperience_Relationships_AppClip extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperience_Relationships_AppClip extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppClipAdvancedExperience_Relationships_AppClip_Links::class;
 	protected $linksDataType = 'object';
@@ -575,7 +575,7 @@ class AppClipAdvancedExperience_Relationships_AppClip extends \Cantie\AppStoreCo
 
 }
 
-class AppClipAdvancedExperience_Relationships_HeaderImage_Links extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperience_Relationships_HeaderImage_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -601,7 +601,7 @@ class AppClipAdvancedExperience_Relationships_HeaderImage_Links extends \Cantie\
 
 }
 
-class AppClipAdvancedExperience_Relationships_HeaderImage_Data extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperience_Relationships_HeaderImage_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipAdvancedExperienceImages';
 	public $id;
@@ -627,7 +627,7 @@ class AppClipAdvancedExperience_Relationships_HeaderImage_Data extends \Cantie\A
 
 }
 
-class AppClipAdvancedExperience_Relationships_HeaderImage extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperience_Relationships_HeaderImage extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppClipAdvancedExperience_Relationships_HeaderImage_Links::class;
 	protected $linksDataType = 'object';
@@ -667,7 +667,7 @@ class AppClipAdvancedExperience_Relationships_HeaderImage extends \Cantie\AppSto
 
 }
 
-class AppClipAdvancedExperience_Relationships_Localizations_Links extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperience_Relationships_Localizations_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -693,7 +693,7 @@ class AppClipAdvancedExperience_Relationships_Localizations_Links extends \Canti
 
 }
 
-class AppClipAdvancedExperience_Relationships_Localizations_Data extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperience_Relationships_Localizations_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipAdvancedExperienceLocalizations';
 	public $id;
@@ -719,7 +719,7 @@ class AppClipAdvancedExperience_Relationships_Localizations_Data extends \Cantie
 
 }
 
-class AppClipAdvancedExperience_Relationships_Localizations extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperience_Relationships_Localizations extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppClipAdvancedExperience_Relationships_Localizations_Links::class;
 	protected $linksDataType = 'object';
@@ -776,7 +776,7 @@ class AppClipAdvancedExperience_Relationships_Localizations extends \Cantie\AppS
 
 }
 
-class AppClipAdvancedExperience_Relationships extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperience_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appClipType = AppClipAdvancedExperience_Relationships_AppClip::class;
 	protected $appClipDataType = 'object';
@@ -833,7 +833,7 @@ class AppClipAdvancedExperience_Relationships extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class AppClipAdvancedExperience extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperience extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipAdvancedExperiences';
 	public $id;

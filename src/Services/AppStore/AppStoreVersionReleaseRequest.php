@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppStoreVersionReleaseRequest extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionReleaseRequest extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionReleaseRequests';
 	public $id;

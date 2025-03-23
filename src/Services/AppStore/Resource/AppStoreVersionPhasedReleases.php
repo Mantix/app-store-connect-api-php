@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionPhasedReleaseResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionPhasedReleaseCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionPhasedReleaseUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionPhasedReleaseResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionPhasedReleaseCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionPhasedReleaseUpdateRequest;
 
 /**
  * The "appStoreVersionPhasedReleases" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appStoreVersionPhasedReleases = $appStoreService->appStoreVersionPhasedReleases;
  *  </code>
  */
-class AppStoreVersionPhasedReleases extends \Cantie\AppStoreConnect\Services\Resource
+class AppStoreVersionPhasedReleases extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class InAppPurchaseLocalization_Attributes extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseLocalization_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $locale;
@@ -72,7 +72,7 @@ class InAppPurchaseLocalization_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class InAppPurchaseLocalization_Relationships_InAppPurchaseV2_Links extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseLocalization_Relationships_InAppPurchaseV2_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -98,7 +98,7 @@ class InAppPurchaseLocalization_Relationships_InAppPurchaseV2_Links extends \Can
 
 }
 
-class InAppPurchaseLocalization_Relationships_InAppPurchaseV2_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseLocalization_Relationships_InAppPurchaseV2_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchases';
 	public $id;
@@ -124,7 +124,7 @@ class InAppPurchaseLocalization_Relationships_InAppPurchaseV2_Data extends \Cant
 
 }
 
-class InAppPurchaseLocalization_Relationships_InAppPurchaseV2 extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseLocalization_Relationships_InAppPurchaseV2 extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = InAppPurchaseLocalization_Relationships_InAppPurchaseV2_Links::class;
 	protected $linksDataType = 'object';
@@ -164,7 +164,7 @@ class InAppPurchaseLocalization_Relationships_InAppPurchaseV2 extends \Cantie\Ap
 
 }
 
-class InAppPurchaseLocalization_Relationships extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseLocalization_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $inAppPurchaseV2Type = InAppPurchaseLocalization_Relationships_InAppPurchaseV2::class;
 	protected $inAppPurchaseV2DataType = 'object';
@@ -187,7 +187,7 @@ class InAppPurchaseLocalization_Relationships extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class InAppPurchaseLocalization extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseLocalization extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchaseLocalizations';
 	public $id;

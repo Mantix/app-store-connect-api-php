@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $bundleId;
 	public $primaryLocale;
@@ -124,7 +124,7 @@ class AppUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppUpdateRequest_Data_Relationships_Prices_Data extends \Cantie\AppStoreConnect\Model
+class AppUpdateRequest_Data_Relationships_Prices_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appPrices';
 	public $id;
@@ -150,7 +150,7 @@ class AppUpdateRequest_Data_Relationships_Prices_Data extends \Cantie\AppStoreCo
 
 }
 
-class AppUpdateRequest_Data_Relationships_Prices extends \Cantie\AppStoreConnect\Model
+class AppUpdateRequest_Data_Relationships_Prices extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppUpdateRequest_Data_Relationships_Prices_Data::class;
 	protected $dataDataType = 'array';
@@ -173,7 +173,7 @@ class AppUpdateRequest_Data_Relationships_Prices extends \Cantie\AppStoreConnect
 
 }
 
-class AppUpdateRequest_Data_Relationships_AvailableTerritories_Data extends \Cantie\AppStoreConnect\Model
+class AppUpdateRequest_Data_Relationships_AvailableTerritories_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'territories';
 	public $id;
@@ -199,7 +199,7 @@ class AppUpdateRequest_Data_Relationships_AvailableTerritories_Data extends \Can
 
 }
 
-class AppUpdateRequest_Data_Relationships_AvailableTerritories extends \Cantie\AppStoreConnect\Model
+class AppUpdateRequest_Data_Relationships_AvailableTerritories extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppUpdateRequest_Data_Relationships_AvailableTerritories_Data::class;
 	protected $dataDataType = 'array';
@@ -222,7 +222,7 @@ class AppUpdateRequest_Data_Relationships_AvailableTerritories extends \Cantie\A
 
 }
 
-class AppUpdateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppUpdateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $pricesType = AppUpdateRequest_Data_Relationships_Prices::class;
 	protected $pricesDataType = 'object';
@@ -262,7 +262,7 @@ class AppUpdateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -322,7 +322,7 @@ class AppUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppUpdateRequest extends \Cantie\AppStoreConnect\Model
+class AppUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

@@ -24,30 +24,30 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\BetaGroupsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaGroupResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaGroupCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\BetaGroupUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaGroupBetaTestersLinkagesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaGroupBetaTestersLinkagesRequest;
-use Cantie\AppStoreConnect\Services\AppStore\BetaTestersWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaGroupBuildsLinkagesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaGroupBuildsLinkagesRequest;
-use Cantie\AppStoreConnect\Services\AppStore\BuildsWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppsBetaTesterUsagesV1MetricResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaGroupsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaGroupResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaGroupCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\BetaGroupUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaGroupBetaTestersLinkagesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaGroupBetaTestersLinkagesRequest;
+use Mantix\AppStoreConnect\Services\AppStore\BetaTestersWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaGroupBuildsLinkagesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaGroupBuildsLinkagesRequest;
+use Mantix\AppStoreConnect\Services\AppStore\BuildsWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppsBetaTesterUsagesV1MetricResponse;
 
 /**
  * The "betaGroups" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $betaGroups = $appStoreService->betaGroups;
  *  </code>
  */
-class BetaGroups extends \Cantie\AppStoreConnect\Services\Resource
+class BetaGroups extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

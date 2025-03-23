@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiManualPullRequestStartCondition extends \Cantie\AppStoreConnect\Model
+class CiManualPullRequestStartCondition extends \Mantix\AppStoreConnect\Model
 {
 	protected $sourceType = CiBranchPatterns::class;
 	protected $sourceDataType = '';

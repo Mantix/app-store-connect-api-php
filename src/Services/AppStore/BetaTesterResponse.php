@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaTesterResponse extends \Cantie\AppStoreConnect\Model
+class BetaTesterResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BetaTester::class;
 	protected $dataDataType = '';

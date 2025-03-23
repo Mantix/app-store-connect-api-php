@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BuildAppEncryptionDeclarationLinkageRequest_Data extends \Cantie\AppStoreConnect\Model
+class BuildAppEncryptionDeclarationLinkageRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEncryptionDeclarations';
 	public $id;
@@ -52,7 +52,7 @@ class BuildAppEncryptionDeclarationLinkageRequest_Data extends \Cantie\AppStoreC
 
 }
 
-class BuildAppEncryptionDeclarationLinkageRequest extends \Cantie\AppStoreConnect\Model
+class BuildAppEncryptionDeclarationLinkageRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BuildAppEncryptionDeclarationLinkageRequest_Data::class;
 	protected $dataDataType = 'object';

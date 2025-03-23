@@ -24,20 +24,20 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionGroupSubmissionResponse;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionGroupSubmissionCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionGroupSubmissionResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionGroupSubmissionCreateRequest;
 
 /**
  * The "subscriptionGroupSubmissions" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $subscriptionGroupSubmissions = $appStoreService->subscriptionGroupSubmissions;
  *  </code>
  */
-class SubscriptionGroupSubmissions extends \Cantie\AppStoreConnect\Services\Resource
+class SubscriptionGroupSubmissions extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

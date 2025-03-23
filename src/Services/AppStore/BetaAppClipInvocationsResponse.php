@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaAppClipInvocationsResponse extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocationsResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BetaAppClipInvocation::class;
 	protected $dataDataType = 'array';

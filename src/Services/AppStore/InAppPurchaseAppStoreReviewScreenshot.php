@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class InAppPurchaseAppStoreReviewScreenshot_Attributes extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAppStoreReviewScreenshot_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $fileSize;
 	public $fileName;
@@ -133,7 +133,7 @@ class InAppPurchaseAppStoreReviewScreenshot_Attributes extends \Cantie\AppStoreC
 
 }
 
-class InAppPurchaseAppStoreReviewScreenshot_Relationships_InAppPurchaseV2_Links extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAppStoreReviewScreenshot_Relationships_InAppPurchaseV2_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -159,7 +159,7 @@ class InAppPurchaseAppStoreReviewScreenshot_Relationships_InAppPurchaseV2_Links 
 
 }
 
-class InAppPurchaseAppStoreReviewScreenshot_Relationships_InAppPurchaseV2_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAppStoreReviewScreenshot_Relationships_InAppPurchaseV2_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchases';
 	public $id;
@@ -185,7 +185,7 @@ class InAppPurchaseAppStoreReviewScreenshot_Relationships_InAppPurchaseV2_Data e
 
 }
 
-class InAppPurchaseAppStoreReviewScreenshot_Relationships_InAppPurchaseV2 extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAppStoreReviewScreenshot_Relationships_InAppPurchaseV2 extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = InAppPurchaseAppStoreReviewScreenshot_Relationships_InAppPurchaseV2_Links::class;
 	protected $linksDataType = 'object';
@@ -225,7 +225,7 @@ class InAppPurchaseAppStoreReviewScreenshot_Relationships_InAppPurchaseV2 extend
 
 }
 
-class InAppPurchaseAppStoreReviewScreenshot_Relationships extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAppStoreReviewScreenshot_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $inAppPurchaseV2Type = InAppPurchaseAppStoreReviewScreenshot_Relationships_InAppPurchaseV2::class;
 	protected $inAppPurchaseV2DataType = 'object';
@@ -248,7 +248,7 @@ class InAppPurchaseAppStoreReviewScreenshot_Relationships extends \Cantie\AppSto
 
 }
 
-class InAppPurchaseAppStoreReviewScreenshot extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAppStoreReviewScreenshot extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchaseAppStoreReviewScreenshots';
 	public $id;

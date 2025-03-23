@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiGitUser extends \Cantie\AppStoreConnect\Model
+class CiGitUser extends \Mantix\AppStoreConnect\Model
 {
 	public $displayName;
 	public $avatarUrl;

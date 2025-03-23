@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterLeaderboardImageCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardImageCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $fileSize;
 	public $fileName;
@@ -52,7 +52,7 @@ class GameCenterLeaderboardImageCreateRequest_Data_Attributes extends \Cantie\Ap
 
 }
 
-class GameCenterLeaderboardImageCreateRequest_Data_Relationships_GameCenterLeaderboardLocalization_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardImageCreateRequest_Data_Relationships_GameCenterLeaderboardLocalization_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterLeaderboardLocalizations';
 	public $id;
@@ -78,7 +78,7 @@ class GameCenterLeaderboardImageCreateRequest_Data_Relationships_GameCenterLeade
 
 }
 
-class GameCenterLeaderboardImageCreateRequest_Data_Relationships_GameCenterLeaderboardLocalization extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardImageCreateRequest_Data_Relationships_GameCenterLeaderboardLocalization extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterLeaderboardImageCreateRequest_Data_Relationships_GameCenterLeaderboardLocalization_Data::class;
 	protected $dataDataType = 'object';
@@ -101,7 +101,7 @@ class GameCenterLeaderboardImageCreateRequest_Data_Relationships_GameCenterLeade
 
 }
 
-class GameCenterLeaderboardImageCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardImageCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $gameCenterLeaderboardLocalizationType = GameCenterLeaderboardImageCreateRequest_Data_Relationships_GameCenterLeaderboardLocalization::class;
 	protected $gameCenterLeaderboardLocalizationDataType = 'object';
@@ -124,7 +124,7 @@ class GameCenterLeaderboardImageCreateRequest_Data_Relationships extends \Cantie
 
 }
 
-class GameCenterLeaderboardImageCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardImageCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterLeaderboardImages';
 	protected $attributesType = GameCenterLeaderboardImageCreateRequest_Data_Attributes::class;
@@ -174,7 +174,7 @@ class GameCenterLeaderboardImageCreateRequest_Data extends \Cantie\AppStoreConne
 
 }
 
-class GameCenterLeaderboardImageCreateRequest extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardImageCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterLeaderboardImageCreateRequest_Data::class;
 	protected $dataDataType = 'object';

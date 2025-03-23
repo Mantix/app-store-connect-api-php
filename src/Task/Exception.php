@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-namespace Cantie\AppStoreConnect\Task;
+namespace Mantix\AppStoreConnect\Task;
 
-use Cantie\AppStoreConnect\Exception as AppleException;
+use Mantix\AppStoreConnect\Exception as AppleException;
 
 class Exception extends AppleException
 {

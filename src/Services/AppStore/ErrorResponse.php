@@ -24,16 +24,16 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class ErrorResponse_Errors_Meta extends \Cantie\AppStoreConnect\Model
+class ErrorResponse_Errors_Meta extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 
 
 }
 
-class ErrorResponse_Errors extends \Cantie\AppStoreConnect\Model
+class ErrorResponse_Errors extends \Mantix\AppStoreConnect\Model
 {
 	public $id;
 	public $status;
@@ -117,7 +117,7 @@ class ErrorResponse_Errors extends \Cantie\AppStoreConnect\Model
 
 }
 
-class ErrorResponse extends \Cantie\AppStoreConnect\Model
+class ErrorResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $errorsType = ErrorResponse_Errors::class;
 	protected $errorsDataType = 'array';

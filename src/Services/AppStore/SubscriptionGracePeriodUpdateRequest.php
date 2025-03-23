@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionGracePeriodUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class SubscriptionGracePeriodUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $optIn;
 	public $sandboxOptIn;
@@ -78,7 +78,7 @@ class SubscriptionGracePeriodUpdateRequest_Data_Attributes extends \Cantie\AppSt
 
 }
 
-class SubscriptionGracePeriodUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionGracePeriodUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionGracePeriods';
 	public $id;
@@ -121,7 +121,7 @@ class SubscriptionGracePeriodUpdateRequest_Data extends \Cantie\AppStoreConnect\
 
 }
 
-class SubscriptionGracePeriodUpdateRequest extends \Cantie\AppStoreConnect\Model
+class SubscriptionGracePeriodUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionGracePeriodUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

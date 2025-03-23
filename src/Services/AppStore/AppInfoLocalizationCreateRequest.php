@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppInfoLocalizationCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppInfoLocalizationCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $locale;
 	public $name;
@@ -92,7 +92,7 @@ class AppInfoLocalizationCreateRequest_Data_Attributes extends \Cantie\AppStoreC
 
 }
 
-class AppInfoLocalizationCreateRequest_Data_Relationships_AppInfo_Data extends \Cantie\AppStoreConnect\Model
+class AppInfoLocalizationCreateRequest_Data_Relationships_AppInfo_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appInfos';
 	public $id;
@@ -118,7 +118,7 @@ class AppInfoLocalizationCreateRequest_Data_Relationships_AppInfo_Data extends \
 
 }
 
-class AppInfoLocalizationCreateRequest_Data_Relationships_AppInfo extends \Cantie\AppStoreConnect\Model
+class AppInfoLocalizationCreateRequest_Data_Relationships_AppInfo extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppInfoLocalizationCreateRequest_Data_Relationships_AppInfo_Data::class;
 	protected $dataDataType = 'object';
@@ -141,7 +141,7 @@ class AppInfoLocalizationCreateRequest_Data_Relationships_AppInfo extends \Canti
 
 }
 
-class AppInfoLocalizationCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppInfoLocalizationCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appInfoType = AppInfoLocalizationCreateRequest_Data_Relationships_AppInfo::class;
 	protected $appInfoDataType = 'object';
@@ -164,7 +164,7 @@ class AppInfoLocalizationCreateRequest_Data_Relationships extends \Cantie\AppSto
 
 }
 
-class AppInfoLocalizationCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppInfoLocalizationCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appInfoLocalizations';
 	protected $attributesType = AppInfoLocalizationCreateRequest_Data_Attributes::class;
@@ -214,7 +214,7 @@ class AppInfoLocalizationCreateRequest_Data extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class AppInfoLocalizationCreateRequest extends \Cantie\AppStoreConnect\Model
+class AppInfoLocalizationCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppInfoLocalizationCreateRequest_Data::class;
 	protected $dataDataType = 'object';

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterAchievementLocalizationCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementLocalizationCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $locale;
 	public $name;
@@ -72,7 +72,7 @@ class GameCenterAchievementLocalizationCreateRequest_Data_Attributes extends \Ca
 
 }
 
-class GameCenterAchievementLocalizationCreateRequest_Data_Relationships_GameCenterAchievement_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementLocalizationCreateRequest_Data_Relationships_GameCenterAchievement_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterAchievements';
 	public $id;
@@ -98,7 +98,7 @@ class GameCenterAchievementLocalizationCreateRequest_Data_Relationships_GameCent
 
 }
 
-class GameCenterAchievementLocalizationCreateRequest_Data_Relationships_GameCenterAchievement extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementLocalizationCreateRequest_Data_Relationships_GameCenterAchievement extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterAchievementLocalizationCreateRequest_Data_Relationships_GameCenterAchievement_Data::class;
 	protected $dataDataType = 'object';
@@ -121,7 +121,7 @@ class GameCenterAchievementLocalizationCreateRequest_Data_Relationships_GameCent
 
 }
 
-class GameCenterAchievementLocalizationCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementLocalizationCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $gameCenterAchievementType = GameCenterAchievementLocalizationCreateRequest_Data_Relationships_GameCenterAchievement::class;
 	protected $gameCenterAchievementDataType = 'object';
@@ -144,7 +144,7 @@ class GameCenterAchievementLocalizationCreateRequest_Data_Relationships extends 
 
 }
 
-class GameCenterAchievementLocalizationCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementLocalizationCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterAchievementLocalizations';
 	protected $attributesType = GameCenterAchievementLocalizationCreateRequest_Data_Attributes::class;
@@ -194,7 +194,7 @@ class GameCenterAchievementLocalizationCreateRequest_Data extends \Cantie\AppSto
 
 }
 
-class GameCenterAchievementLocalizationCreateRequest extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementLocalizationCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterAchievementLocalizationCreateRequest_Data::class;
 	protected $dataDataType = 'object';

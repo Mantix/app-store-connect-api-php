@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppEventVideoClipCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppEventVideoClipCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $fileSize;
 	public $fileName;
@@ -78,7 +78,7 @@ class AppEventVideoClipCreateRequest_Data_Attributes extends \Cantie\AppStoreCon
 
 }
 
-class AppEventVideoClipCreateRequest_Data_Relationships_AppEventLocalization_Data extends \Cantie\AppStoreConnect\Model
+class AppEventVideoClipCreateRequest_Data_Relationships_AppEventLocalization_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEventLocalizations';
 	public $id;
@@ -104,7 +104,7 @@ class AppEventVideoClipCreateRequest_Data_Relationships_AppEventLocalization_Dat
 
 }
 
-class AppEventVideoClipCreateRequest_Data_Relationships_AppEventLocalization extends \Cantie\AppStoreConnect\Model
+class AppEventVideoClipCreateRequest_Data_Relationships_AppEventLocalization extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppEventVideoClipCreateRequest_Data_Relationships_AppEventLocalization_Data::class;
 	protected $dataDataType = 'object';
@@ -127,7 +127,7 @@ class AppEventVideoClipCreateRequest_Data_Relationships_AppEventLocalization ext
 
 }
 
-class AppEventVideoClipCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppEventVideoClipCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appEventLocalizationType = AppEventVideoClipCreateRequest_Data_Relationships_AppEventLocalization::class;
 	protected $appEventLocalizationDataType = 'object';
@@ -150,7 +150,7 @@ class AppEventVideoClipCreateRequest_Data_Relationships extends \Cantie\AppStore
 
 }
 
-class AppEventVideoClipCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppEventVideoClipCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEventVideoClips';
 	protected $attributesType = AppEventVideoClipCreateRequest_Data_Attributes::class;
@@ -200,7 +200,7 @@ class AppEventVideoClipCreateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppEventVideoClipCreateRequest extends \Cantie\AppStoreConnect\Model
+class AppEventVideoClipCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppEventVideoClipCreateRequest_Data::class;
 	protected $dataDataType = 'object';

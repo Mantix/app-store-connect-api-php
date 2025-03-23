@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiIssueResponse extends \Cantie\AppStoreConnect\Model
+class CiIssueResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = CiIssue::class;
 	protected $dataDataType = '';

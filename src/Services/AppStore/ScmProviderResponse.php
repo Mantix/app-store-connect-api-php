@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class ScmProviderResponse extends \Cantie\AppStoreConnect\Model
+class ScmProviderResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = ScmProvider::class;
 	protected $dataDataType = '';

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiBuildRunResponse extends \Cantie\AppStoreConnect\Model
+class CiBuildRunResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = CiBuildRun::class;
 	protected $dataDataType = '';

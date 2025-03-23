@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class DiagnosticSignature_Attributes extends \Cantie\AppStoreConnect\Model
+class DiagnosticSignature_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $diagnosticType; // DISK_WRITES, HANGS
 	public $signature;
@@ -62,7 +62,7 @@ class DiagnosticSignature_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class DiagnosticSignature extends \Cantie\AppStoreConnect\Model
+class DiagnosticSignature extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'diagnosticSignatures';
 	public $id;

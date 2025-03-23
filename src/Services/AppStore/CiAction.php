@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiAction_TestConfiguration extends \Cantie\AppStoreConnect\Model
+class CiAction_TestConfiguration extends \Mantix\AppStoreConnect\Model
 {
 	public $kind; // USE_SCHEME_SETTINGS, SPECIFIC_TEST_PLANS
 	public $testPlanName;
@@ -69,7 +69,7 @@ class CiAction_TestConfiguration extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiAction extends \Cantie\AppStoreConnect\Model
+class CiAction extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $actionType; // 

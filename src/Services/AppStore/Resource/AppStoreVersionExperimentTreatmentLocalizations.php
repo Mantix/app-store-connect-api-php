@@ -24,22 +24,22 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentTreatmentLocalizationResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentTreatmentLocalizationCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppPreviewSetsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppScreenshotSetsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentTreatmentLocalizationResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentTreatmentLocalizationCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppPreviewSetsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppScreenshotSetsResponse;
 
 /**
  * The "appStoreVersionExperimentTreatmentLocalizations" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appStoreVersionExperimentTreatmentLocalizations = $appStoreService->appStoreVersionExperimentTreatmentLocalizations;
  *  </code>
  */
-class AppStoreVersionExperimentTreatmentLocalizations extends \Cantie\AppStoreConnect\Services\Resource
+class AppStoreVersionExperimentTreatmentLocalizations extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

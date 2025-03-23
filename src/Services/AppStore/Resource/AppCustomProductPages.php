@@ -24,22 +24,22 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppCustomProductPageResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppCustomProductPageCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppCustomProductPageUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppCustomProductPageVersionsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppCustomProductPageResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppCustomProductPageCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppCustomProductPageUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppCustomProductPageVersionsResponse;
 
 /**
  * The "appCustomProductPages" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appCustomProductPages = $appStoreService->appCustomProductPages;
  *  </code>
  */
-class AppCustomProductPages extends \Cantie\AppStoreConnect\Services\Resource
+class AppCustomProductPages extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

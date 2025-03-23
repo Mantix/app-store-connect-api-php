@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class ImageAsset extends \Cantie\AppStoreConnect\Model
+class ImageAsset extends \Mantix\AppStoreConnect\Model
 {
 	public $templateUrl;
 	public $width;

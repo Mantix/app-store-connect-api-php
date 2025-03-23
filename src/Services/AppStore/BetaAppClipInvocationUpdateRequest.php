@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaAppClipInvocationUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocationUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $url;
 
@@ -42,7 +42,7 @@ class BetaAppClipInvocationUpdateRequest_Data_Attributes extends \Cantie\AppStor
 
 }
 
-class BetaAppClipInvocationUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocationUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaAppClipInvocations';
 	public $id;
@@ -85,7 +85,7 @@ class BetaAppClipInvocationUpdateRequest_Data extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class BetaAppClipInvocationUpdateRequest extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocationUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BetaAppClipInvocationUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

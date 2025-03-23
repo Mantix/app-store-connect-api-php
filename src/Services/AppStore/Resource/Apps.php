@@ -24,60 +24,60 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AlternativeDistributionKeyResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AnalyticsReportRequestsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppAvailabilityResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppClipsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppCustomProductPagesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppEncryptionDeclarationsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppEventsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppInfosResponse;
-use Cantie\AppStoreConnect\Services\AppStore\csv;
-use Cantie\AppStoreConnect\Services\AppStore\AppPriceScheduleResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentsV2Response;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\TerritoriesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaAppLocalizationsWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaAppReviewDetailWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaGroupsWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaLicenseAgreementWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppBetaTestersLinkagesRequest;
-use Cantie\AppStoreConnect\Services\AppStore\BuildsWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\CiProductResponse;
-use Cantie\AppStoreConnect\Services\AppStore\CustomerReviewsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\EndUserLicenseAgreementWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterDetailResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterEnabledVersionsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\InAppPurchasesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\InAppPurchasesV2Response;
-use Cantie\AppStoreConnect\Services\AppStore\MarketplaceSearchDetailResponse;
-use Cantie\AppStoreConnect\Services\AppStore\xcodeMetrics;
-use Cantie\AppStoreConnect\Services\AppStore\AppPreOrderWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\PreReleaseVersionsWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppPricePointsV2Response;
-use Cantie\AppStoreConnect\Services\AppStore\AppPricesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppPromotedPurchasesLinkagesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppPromotedPurchasesLinkagesRequest;
-use Cantie\AppStoreConnect\Services\AppStore\PromotedPurchasesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\ReviewSubmissionsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionGracePeriodResponse;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionGroupsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppsBetaTesterUsagesV1MetricResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AlternativeDistributionKeyResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AnalyticsReportRequestsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppAvailabilityResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppClipsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppCustomProductPagesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppEncryptionDeclarationsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppEventsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppInfosResponse;
+use Mantix\AppStoreConnect\Services\AppStore\csv;
+use Mantix\AppStoreConnect\Services\AppStore\AppPriceScheduleResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentsV2Response;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\TerritoriesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaAppLocalizationsWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaAppReviewDetailWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaGroupsWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaLicenseAgreementWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppBetaTestersLinkagesRequest;
+use Mantix\AppStoreConnect\Services\AppStore\BuildsWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\CiProductResponse;
+use Mantix\AppStoreConnect\Services\AppStore\CustomerReviewsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\EndUserLicenseAgreementWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterDetailResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterEnabledVersionsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\InAppPurchasesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\InAppPurchasesV2Response;
+use Mantix\AppStoreConnect\Services\AppStore\MarketplaceSearchDetailResponse;
+use Mantix\AppStoreConnect\Services\AppStore\xcodeMetrics;
+use Mantix\AppStoreConnect\Services\AppStore\AppPreOrderWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\PreReleaseVersionsWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppPricePointsV2Response;
+use Mantix\AppStoreConnect\Services\AppStore\AppPricesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppPromotedPurchasesLinkagesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppPromotedPurchasesLinkagesRequest;
+use Mantix\AppStoreConnect\Services\AppStore\PromotedPurchasesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\ReviewSubmissionsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionGracePeriodResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionGroupsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppsBetaTesterUsagesV1MetricResponse;
 
 /**
  * The "apps" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $apps = $appStoreService->apps;
  *  </code>
  */
-class Apps extends \Cantie\AppStoreConnect\Services\Resource
+class Apps extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

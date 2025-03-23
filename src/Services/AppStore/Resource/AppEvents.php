@@ -24,22 +24,22 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppEventResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppEventCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppEventUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppEventLocalizationsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppEventResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppEventCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppEventUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppEventLocalizationsResponse;
 
 /**
  * The "appEvents" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appEvents = $appStoreService->appEvents;
  *  </code>
  */
-class AppEvents extends \Cantie\AppStoreConnect\Services\Resource
+class AppEvents extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

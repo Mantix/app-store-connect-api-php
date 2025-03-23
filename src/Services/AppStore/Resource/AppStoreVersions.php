@@ -24,37 +24,37 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AgeRatingDeclarationWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AlternativeDistributionPackageResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionAppClipDefaultExperienceLinkageResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionAppClipDefaultExperienceLinkageRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppClipDefaultExperienceResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreReviewDetailResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentsV2Response;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionLocalizationsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionPhasedReleaseWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionSubmissionResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionBuildLinkageResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionBuildLinkageRequest;
-use Cantie\AppStoreConnect\Services\AppStore\BuildWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\CustomerReviewsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\RoutingAppCoverageWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AgeRatingDeclarationWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AlternativeDistributionPackageResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionAppClipDefaultExperienceLinkageResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionAppClipDefaultExperienceLinkageRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppClipDefaultExperienceResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreReviewDetailResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentsV2Response;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionLocalizationsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionPhasedReleaseWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionSubmissionResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionBuildLinkageResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionBuildLinkageRequest;
+use Mantix\AppStoreConnect\Services\AppStore\BuildWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\CustomerReviewsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\RoutingAppCoverageWithoutIncludesResponse;
 
 /**
  * The "appStoreVersions" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appStoreVersions = $appStoreService->appStoreVersions;
  *  </code>
  */
-class AppStoreVersions extends \Cantie\AppStoreConnect\Services\Resource
+class AppStoreVersions extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

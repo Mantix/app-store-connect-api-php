@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class UserVisibleAppsLinkagesRequest_Data extends \Cantie\AppStoreConnect\Model
+class UserVisibleAppsLinkagesRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -52,7 +52,7 @@ class UserVisibleAppsLinkagesRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class UserVisibleAppsLinkagesRequest extends \Cantie\AppStoreConnect\Model
+class UserVisibleAppsLinkagesRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = UserVisibleAppsLinkagesRequest_Data::class;
 	protected $dataDataType = 'array';

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CustomerReviewResponseV1CreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class CustomerReviewResponseV1CreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $responseBody;
 
@@ -42,7 +42,7 @@ class CustomerReviewResponseV1CreateRequest_Data_Attributes extends \Cantie\AppS
 
 }
 
-class CustomerReviewResponseV1CreateRequest_Data_Relationships_Review_Data extends \Cantie\AppStoreConnect\Model
+class CustomerReviewResponseV1CreateRequest_Data_Relationships_Review_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'customerReviews';
 	public $id;
@@ -68,7 +68,7 @@ class CustomerReviewResponseV1CreateRequest_Data_Relationships_Review_Data exten
 
 }
 
-class CustomerReviewResponseV1CreateRequest_Data_Relationships_Review extends \Cantie\AppStoreConnect\Model
+class CustomerReviewResponseV1CreateRequest_Data_Relationships_Review extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = CustomerReviewResponseV1CreateRequest_Data_Relationships_Review_Data::class;
 	protected $dataDataType = 'object';
@@ -91,7 +91,7 @@ class CustomerReviewResponseV1CreateRequest_Data_Relationships_Review extends \C
 
 }
 
-class CustomerReviewResponseV1CreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class CustomerReviewResponseV1CreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $reviewType = CustomerReviewResponseV1CreateRequest_Data_Relationships_Review::class;
 	protected $reviewDataType = 'object';
@@ -114,7 +114,7 @@ class CustomerReviewResponseV1CreateRequest_Data_Relationships extends \Cantie\A
 
 }
 
-class CustomerReviewResponseV1CreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class CustomerReviewResponseV1CreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'customerReviewResponses';
 	protected $attributesType = CustomerReviewResponseV1CreateRequest_Data_Attributes::class;
@@ -164,7 +164,7 @@ class CustomerReviewResponseV1CreateRequest_Data extends \Cantie\AppStoreConnect
 
 }
 
-class CustomerReviewResponseV1CreateRequest extends \Cantie\AppStoreConnect\Model
+class CustomerReviewResponseV1CreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = CustomerReviewResponseV1CreateRequest_Data::class;
 	protected $dataDataType = 'object';

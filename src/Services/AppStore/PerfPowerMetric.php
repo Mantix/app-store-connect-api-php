@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class PerfPowerMetric_Attributes extends \Cantie\AppStoreConnect\Model
+class PerfPowerMetric_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $platform = 'IOS';
 	public $metricType; // DISK, HANG, BATTERY, LAUNCH, MEMORY, ANIMATION, TERMINATION
@@ -62,7 +62,7 @@ class PerfPowerMetric_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class PerfPowerMetric extends \Cantie\AppStoreConnect\Model
+class PerfPowerMetric extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'perfPowerMetrics';
 	public $id;

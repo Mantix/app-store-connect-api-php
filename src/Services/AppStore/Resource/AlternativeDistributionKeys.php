@@ -24,20 +24,20 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AlternativeDistributionKeyResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AlternativeDistributionKeyCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AlternativeDistributionKeyResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AlternativeDistributionKeyCreateRequest;
 
 /**
  * The "alternativeDistributionKeys" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $alternativeDistributionKeys = $appStoreService->alternativeDistributionKeys;
  *  </code>
  */
-class AlternativeDistributionKeys extends \Cantie\AppStoreConnect\Services\Resource
+class AlternativeDistributionKeys extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

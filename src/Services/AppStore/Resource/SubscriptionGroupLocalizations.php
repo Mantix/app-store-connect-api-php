@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionGroupLocalizationResponse;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionGroupLocalizationCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionGroupLocalizationUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionGroupLocalizationResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionGroupLocalizationCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionGroupLocalizationUpdateRequest;
 
 /**
  * The "subscriptionGroupLocalizations" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $subscriptionGroupLocalizations = $appStoreService->subscriptionGroupLocalizations;
  *  </code>
  */
-class SubscriptionGroupLocalizations extends \Cantie\AppStoreConnect\Services\Resource
+class SubscriptionGroupLocalizations extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

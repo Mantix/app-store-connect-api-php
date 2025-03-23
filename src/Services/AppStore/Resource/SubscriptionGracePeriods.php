@@ -24,20 +24,20 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionGracePeriodResponse;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionGracePeriodUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionGracePeriodResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionGracePeriodUpdateRequest;
 
 /**
  * The "subscriptionGracePeriods" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $subscriptionGracePeriods = $appStoreService->subscriptionGracePeriods;
  *  </code>
  */
-class SubscriptionGracePeriods extends \Cantie\AppStoreConnect\Services\Resource
+class SubscriptionGracePeriods extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

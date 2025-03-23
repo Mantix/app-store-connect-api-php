@@ -24,23 +24,23 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppCustomProductPageLocalizationResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppCustomProductPageLocalizationCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppCustomProductPageLocalizationUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppPreviewSetsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppScreenshotSetsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppCustomProductPageLocalizationResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppCustomProductPageLocalizationCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppCustomProductPageLocalizationUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppPreviewSetsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppScreenshotSetsResponse;
 
 /**
  * The "appCustomProductPageLocalizations" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appCustomProductPageLocalizations = $appStoreService->appCustomProductPageLocalizations;
  *  </code>
  */
-class AppCustomProductPageLocalizations extends \Cantie\AppStoreConnect\Services\Resource
+class AppCustomProductPageLocalizations extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppStoreVersionExperimentCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $trafficProportion;
@@ -52,7 +52,7 @@ class AppStoreVersionExperimentCreateRequest_Data_Attributes extends \Cantie\App
 
 }
 
-class AppStoreVersionExperimentCreateRequest_Data_Relationships_AppStoreVersion_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentCreateRequest_Data_Relationships_AppStoreVersion_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersions';
 	public $id;
@@ -78,7 +78,7 @@ class AppStoreVersionExperimentCreateRequest_Data_Relationships_AppStoreVersion_
 
 }
 
-class AppStoreVersionExperimentCreateRequest_Data_Relationships_AppStoreVersion extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentCreateRequest_Data_Relationships_AppStoreVersion extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersionExperimentCreateRequest_Data_Relationships_AppStoreVersion_Data::class;
 	protected $dataDataType = 'object';
@@ -101,7 +101,7 @@ class AppStoreVersionExperimentCreateRequest_Data_Relationships_AppStoreVersion 
 
 }
 
-class AppStoreVersionExperimentCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appStoreVersionType = AppStoreVersionExperimentCreateRequest_Data_Relationships_AppStoreVersion::class;
 	protected $appStoreVersionDataType = 'object';
@@ -124,7 +124,7 @@ class AppStoreVersionExperimentCreateRequest_Data_Relationships extends \Cantie\
 
 }
 
-class AppStoreVersionExperimentCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionExperiments';
 	protected $attributesType = AppStoreVersionExperimentCreateRequest_Data_Attributes::class;
@@ -174,7 +174,7 @@ class AppStoreVersionExperimentCreateRequest_Data extends \Cantie\AppStoreConnec
 
 }
 
-class AppStoreVersionExperimentCreateRequest extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersionExperimentCreateRequest_Data::class;
 	protected $dataDataType = 'object';

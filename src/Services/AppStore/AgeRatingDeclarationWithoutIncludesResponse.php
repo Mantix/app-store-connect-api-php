@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AgeRatingDeclarationWithoutIncludesResponse extends \Cantie\AppStoreConnect\Model
+class AgeRatingDeclarationWithoutIncludesResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersion::class;
 	protected $dataDataType = '';

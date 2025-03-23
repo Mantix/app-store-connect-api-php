@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterMatchmakingRuleSetsResponse extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingRuleSetsResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterMatchmakingRuleSet::class;
 	protected $dataDataType = 'array';

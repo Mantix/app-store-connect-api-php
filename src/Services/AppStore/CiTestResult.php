@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiTestResult_Attributes_DestinationTestResults extends \Cantie\AppStoreConnect\Model
+class CiTestResult_Attributes_DestinationTestResults extends \Mantix\AppStoreConnect\Model
 {
 	public $uuid;
 	public $deviceName;
@@ -88,7 +88,7 @@ class CiTestResult_Attributes_DestinationTestResults extends \Cantie\AppStoreCon
 
 }
 
-class CiTestResult_Attributes extends \Cantie\AppStoreConnect\Model
+class CiTestResult_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $className;
 	public $name;
@@ -174,7 +174,7 @@ class CiTestResult_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiTestResult extends \Cantie\AppStoreConnect\Model
+class CiTestResult extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'ciTestResults';
 	public $id;

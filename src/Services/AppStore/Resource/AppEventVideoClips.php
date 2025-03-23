@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppEventVideoClipResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppEventVideoClipCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppEventVideoClipUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppEventVideoClipResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppEventVideoClipCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppEventVideoClipUpdateRequest;
 
 /**
  * The "appEventVideoClips" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appEventVideoClips = $appStoreService->appEventVideoClips;
  *  </code>
  */
-class AppEventVideoClips extends \Cantie\AppStoreConnect\Services\Resource
+class AppEventVideoClips extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

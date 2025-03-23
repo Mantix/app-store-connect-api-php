@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiBuildRunCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class CiBuildRunCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $clean;
 
@@ -42,7 +42,7 @@ class CiBuildRunCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class CiBuildRunCreateRequest_Data_Relationships_BuildRun_Data extends \Cantie\AppStoreConnect\Model
+class CiBuildRunCreateRequest_Data_Relationships_BuildRun_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'ciBuildRuns';
 	public $id;
@@ -68,7 +68,7 @@ class CiBuildRunCreateRequest_Data_Relationships_BuildRun_Data extends \Cantie\A
 
 }
 
-class CiBuildRunCreateRequest_Data_Relationships_BuildRun extends \Cantie\AppStoreConnect\Model
+class CiBuildRunCreateRequest_Data_Relationships_BuildRun extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = CiBuildRunCreateRequest_Data_Relationships_BuildRun_Data::class;
 	protected $dataDataType = 'object';
@@ -91,7 +91,7 @@ class CiBuildRunCreateRequest_Data_Relationships_BuildRun extends \Cantie\AppSto
 
 }
 
-class CiBuildRunCreateRequest_Data_Relationships_Workflow_Data extends \Cantie\AppStoreConnect\Model
+class CiBuildRunCreateRequest_Data_Relationships_Workflow_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'ciWorkflows';
 	public $id;
@@ -117,7 +117,7 @@ class CiBuildRunCreateRequest_Data_Relationships_Workflow_Data extends \Cantie\A
 
 }
 
-class CiBuildRunCreateRequest_Data_Relationships_Workflow extends \Cantie\AppStoreConnect\Model
+class CiBuildRunCreateRequest_Data_Relationships_Workflow extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = CiBuildRunCreateRequest_Data_Relationships_Workflow_Data::class;
 	protected $dataDataType = 'object';
@@ -140,7 +140,7 @@ class CiBuildRunCreateRequest_Data_Relationships_Workflow extends \Cantie\AppSto
 
 }
 
-class CiBuildRunCreateRequest_Data_Relationships_SourceBranchOrTag_Data extends \Cantie\AppStoreConnect\Model
+class CiBuildRunCreateRequest_Data_Relationships_SourceBranchOrTag_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'scmGitReferences';
 	public $id;
@@ -166,7 +166,7 @@ class CiBuildRunCreateRequest_Data_Relationships_SourceBranchOrTag_Data extends 
 
 }
 
-class CiBuildRunCreateRequest_Data_Relationships_SourceBranchOrTag extends \Cantie\AppStoreConnect\Model
+class CiBuildRunCreateRequest_Data_Relationships_SourceBranchOrTag extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = CiBuildRunCreateRequest_Data_Relationships_SourceBranchOrTag_Data::class;
 	protected $dataDataType = 'object';
@@ -189,7 +189,7 @@ class CiBuildRunCreateRequest_Data_Relationships_SourceBranchOrTag extends \Cant
 
 }
 
-class CiBuildRunCreateRequest_Data_Relationships_PullRequest_Data extends \Cantie\AppStoreConnect\Model
+class CiBuildRunCreateRequest_Data_Relationships_PullRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'scmPullRequests';
 	public $id;
@@ -215,7 +215,7 @@ class CiBuildRunCreateRequest_Data_Relationships_PullRequest_Data extends \Canti
 
 }
 
-class CiBuildRunCreateRequest_Data_Relationships_PullRequest extends \Cantie\AppStoreConnect\Model
+class CiBuildRunCreateRequest_Data_Relationships_PullRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = CiBuildRunCreateRequest_Data_Relationships_PullRequest_Data::class;
 	protected $dataDataType = 'object';
@@ -238,7 +238,7 @@ class CiBuildRunCreateRequest_Data_Relationships_PullRequest extends \Cantie\App
 
 }
 
-class CiBuildRunCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class CiBuildRunCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $buildRunType = CiBuildRunCreateRequest_Data_Relationships_BuildRun::class;
 	protected $buildRunDataType = 'object';
@@ -312,7 +312,7 @@ class CiBuildRunCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect
 
 }
 
-class CiBuildRunCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class CiBuildRunCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'ciBuildRuns';
 	protected $attributesType = CiBuildRunCreateRequest_Data_Attributes::class;
@@ -362,7 +362,7 @@ class CiBuildRunCreateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiBuildRunCreateRequest extends \Cantie\AppStoreConnect\Model
+class CiBuildRunCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = CiBuildRunCreateRequest_Data::class;
 	protected $dataDataType = 'object';

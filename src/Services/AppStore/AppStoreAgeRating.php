@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppStoreAgeRating extends \Cantie\AppStoreConnect\Model
+class AppStoreAgeRating extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $FOUR_PLUS = "FOUR_PLUS";

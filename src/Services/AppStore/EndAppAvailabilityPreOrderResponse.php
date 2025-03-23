@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class EndAppAvailabilityPreOrderResponse extends \Cantie\AppStoreConnect\Model
+class EndAppAvailabilityPreOrderResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = EndAppAvailabilityPreOrder::class;
 	protected $dataDataType = '';

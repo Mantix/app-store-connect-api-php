@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class PromotedPurchaseUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $visibleForAllUsers;
 	public $enabled;
@@ -52,7 +52,7 @@ class PromotedPurchaseUpdateRequest_Data_Attributes extends \Cantie\AppStoreConn
 
 }
 
-class PromotedPurchaseUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'promotedPurchases';
 	public $id;
@@ -95,7 +95,7 @@ class PromotedPurchaseUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class PromotedPurchaseUpdateRequest extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = PromotedPurchaseUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

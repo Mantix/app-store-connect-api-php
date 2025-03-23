@@ -24,23 +24,23 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAchievementLocalizationResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAchievementLocalizationCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAchievementLocalizationUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAchievementResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAchievementImageResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAchievementLocalizationResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAchievementLocalizationCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAchievementLocalizationUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAchievementResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAchievementImageResponse;
 
 /**
  * The "gameCenterAchievementLocalizations" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $gameCenterAchievementLocalizations = $appStoreService->gameCenterAchievementLocalizations;
  *  </code>
  */
-class GameCenterAchievementLocalizations extends \Cantie\AppStoreConnect\Services\Resource
+class GameCenterAchievementLocalizations extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

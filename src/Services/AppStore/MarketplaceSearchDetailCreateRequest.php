@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class MarketplaceSearchDetailCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class MarketplaceSearchDetailCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $catalogUrl;
 
@@ -42,7 +42,7 @@ class MarketplaceSearchDetailCreateRequest_Data_Attributes extends \Cantie\AppSt
 
 }
 
-class MarketplaceSearchDetailCreateRequest_Data_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class MarketplaceSearchDetailCreateRequest_Data_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -68,7 +68,7 @@ class MarketplaceSearchDetailCreateRequest_Data_Relationships_App_Data extends \
 
 }
 
-class MarketplaceSearchDetailCreateRequest_Data_Relationships_App extends \Cantie\AppStoreConnect\Model
+class MarketplaceSearchDetailCreateRequest_Data_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = MarketplaceSearchDetailCreateRequest_Data_Relationships_App_Data::class;
 	protected $dataDataType = 'object';
@@ -91,7 +91,7 @@ class MarketplaceSearchDetailCreateRequest_Data_Relationships_App extends \Canti
 
 }
 
-class MarketplaceSearchDetailCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class MarketplaceSearchDetailCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = MarketplaceSearchDetailCreateRequest_Data_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -114,7 +114,7 @@ class MarketplaceSearchDetailCreateRequest_Data_Relationships extends \Cantie\Ap
 
 }
 
-class MarketplaceSearchDetailCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class MarketplaceSearchDetailCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'marketplaceSearchDetails';
 	protected $attributesType = MarketplaceSearchDetailCreateRequest_Data_Attributes::class;
@@ -164,7 +164,7 @@ class MarketplaceSearchDetailCreateRequest_Data extends \Cantie\AppStoreConnect\
 
 }
 
-class MarketplaceSearchDetailCreateRequest extends \Cantie\AppStoreConnect\Model
+class MarketplaceSearchDetailCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = MarketplaceSearchDetailCreateRequest_Data::class;
 	protected $dataDataType = 'object';

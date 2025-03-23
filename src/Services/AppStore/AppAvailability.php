@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppAvailability_Attributes extends \Cantie\AppStoreConnect\Model
+class AppAvailability_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $availableInNewTerritories;
 
@@ -42,7 +42,7 @@ class AppAvailability_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppAvailability_Relationships_App_Links extends \Cantie\AppStoreConnect\Model
+class AppAvailability_Relationships_App_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -68,7 +68,7 @@ class AppAvailability_Relationships_App_Links extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class AppAvailability_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class AppAvailability_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -94,7 +94,7 @@ class AppAvailability_Relationships_App_Data extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class AppAvailability_Relationships_App extends \Cantie\AppStoreConnect\Model
+class AppAvailability_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppAvailability_Relationships_App_Links::class;
 	protected $linksDataType = 'object';
@@ -134,7 +134,7 @@ class AppAvailability_Relationships_App extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppAvailability_Relationships_AvailableTerritories_Links extends \Cantie\AppStoreConnect\Model
+class AppAvailability_Relationships_AvailableTerritories_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -160,7 +160,7 @@ class AppAvailability_Relationships_AvailableTerritories_Links extends \Cantie\A
 
 }
 
-class AppAvailability_Relationships_AvailableTerritories_Data extends \Cantie\AppStoreConnect\Model
+class AppAvailability_Relationships_AvailableTerritories_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'territories';
 	public $id;
@@ -186,7 +186,7 @@ class AppAvailability_Relationships_AvailableTerritories_Data extends \Cantie\Ap
 
 }
 
-class AppAvailability_Relationships_AvailableTerritories extends \Cantie\AppStoreConnect\Model
+class AppAvailability_Relationships_AvailableTerritories extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppAvailability_Relationships_AvailableTerritories_Links::class;
 	protected $linksDataType = 'object';
@@ -243,7 +243,7 @@ class AppAvailability_Relationships_AvailableTerritories extends \Cantie\AppStor
 
 }
 
-class AppAvailability_Relationships extends \Cantie\AppStoreConnect\Model
+class AppAvailability_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = AppAvailability_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -283,7 +283,7 @@ class AppAvailability_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppAvailability extends \Cantie\AppStoreConnect\Model
+class AppAvailability extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appAvailabilities';
 	public $id;

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterEnabledVersion_Attributes extends \Cantie\AppStoreConnect\Model
+class GameCenterEnabledVersion_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $platform; // 
 	public $versionString;
@@ -75,7 +75,7 @@ class GameCenterEnabledVersion_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class GameCenterEnabledVersion_Relationships_CompatibleVersions_Links extends \Cantie\AppStoreConnect\Model
+class GameCenterEnabledVersion_Relationships_CompatibleVersions_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -101,7 +101,7 @@ class GameCenterEnabledVersion_Relationships_CompatibleVersions_Links extends \C
 
 }
 
-class GameCenterEnabledVersion_Relationships_CompatibleVersions_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterEnabledVersion_Relationships_CompatibleVersions_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterEnabledVersions';
 	public $id;
@@ -127,7 +127,7 @@ class GameCenterEnabledVersion_Relationships_CompatibleVersions_Data extends \Ca
 
 }
 
-class GameCenterEnabledVersion_Relationships_CompatibleVersions extends \Cantie\AppStoreConnect\Model
+class GameCenterEnabledVersion_Relationships_CompatibleVersions extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = GameCenterEnabledVersion_Relationships_CompatibleVersions_Links::class;
 	protected $linksDataType = 'object';
@@ -184,7 +184,7 @@ class GameCenterEnabledVersion_Relationships_CompatibleVersions extends \Cantie\
 
 }
 
-class GameCenterEnabledVersion_Relationships_App_Links extends \Cantie\AppStoreConnect\Model
+class GameCenterEnabledVersion_Relationships_App_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -210,7 +210,7 @@ class GameCenterEnabledVersion_Relationships_App_Links extends \Cantie\AppStoreC
 
 }
 
-class GameCenterEnabledVersion_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterEnabledVersion_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -236,7 +236,7 @@ class GameCenterEnabledVersion_Relationships_App_Data extends \Cantie\AppStoreCo
 
 }
 
-class GameCenterEnabledVersion_Relationships_App extends \Cantie\AppStoreConnect\Model
+class GameCenterEnabledVersion_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = GameCenterEnabledVersion_Relationships_App_Links::class;
 	protected $linksDataType = 'object';
@@ -276,7 +276,7 @@ class GameCenterEnabledVersion_Relationships_App extends \Cantie\AppStoreConnect
 
 }
 
-class GameCenterEnabledVersion_Relationships extends \Cantie\AppStoreConnect\Model
+class GameCenterEnabledVersion_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $compatibleVersionsType = GameCenterEnabledVersion_Relationships_CompatibleVersions::class;
 	protected $compatibleVersionsDataType = 'object';
@@ -316,7 +316,7 @@ class GameCenterEnabledVersion_Relationships extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class GameCenterEnabledVersion extends \Cantie\AppStoreConnect\Model
+class GameCenterEnabledVersion extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterEnabledVersions';
 	public $id;

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class ProfileCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class ProfileCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $profileType; // IOS_APP_DEVELOPMENT, IOS_APP_STORE, IOS_APP_ADHOC, IOS_APP_INHOUSE, MAC_APP_DEVELOPMENT, MAC_APP_STORE, MAC_APP_DIRECT, TVOS_APP_DEVELOPMENT, TVOS_APP_STORE, TVOS_APP_ADHOC, TVOS_APP_INHOUSE, MAC_CATALYST_APP_DEVELOPMENT, MAC_CATALYST_APP_STORE, MAC_CATALYST_APP_DIRECT
@@ -52,7 +52,7 @@ class ProfileCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class ProfileCreateRequest_Data_Relationships_BundleId_Data extends \Cantie\AppStoreConnect\Model
+class ProfileCreateRequest_Data_Relationships_BundleId_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'bundleIds';
 	public $id;
@@ -78,7 +78,7 @@ class ProfileCreateRequest_Data_Relationships_BundleId_Data extends \Cantie\AppS
 
 }
 
-class ProfileCreateRequest_Data_Relationships_BundleId extends \Cantie\AppStoreConnect\Model
+class ProfileCreateRequest_Data_Relationships_BundleId extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = ProfileCreateRequest_Data_Relationships_BundleId_Data::class;
 	protected $dataDataType = 'object';
@@ -101,7 +101,7 @@ class ProfileCreateRequest_Data_Relationships_BundleId extends \Cantie\AppStoreC
 
 }
 
-class ProfileCreateRequest_Data_Relationships_Devices_Data extends \Cantie\AppStoreConnect\Model
+class ProfileCreateRequest_Data_Relationships_Devices_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'devices';
 	public $id;
@@ -127,7 +127,7 @@ class ProfileCreateRequest_Data_Relationships_Devices_Data extends \Cantie\AppSt
 
 }
 
-class ProfileCreateRequest_Data_Relationships_Devices extends \Cantie\AppStoreConnect\Model
+class ProfileCreateRequest_Data_Relationships_Devices extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = ProfileCreateRequest_Data_Relationships_Devices_Data::class;
 	protected $dataDataType = 'array';
@@ -150,7 +150,7 @@ class ProfileCreateRequest_Data_Relationships_Devices extends \Cantie\AppStoreCo
 
 }
 
-class ProfileCreateRequest_Data_Relationships_Certificates_Data extends \Cantie\AppStoreConnect\Model
+class ProfileCreateRequest_Data_Relationships_Certificates_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'certificates';
 	public $id;
@@ -176,7 +176,7 @@ class ProfileCreateRequest_Data_Relationships_Certificates_Data extends \Cantie\
 
 }
 
-class ProfileCreateRequest_Data_Relationships_Certificates extends \Cantie\AppStoreConnect\Model
+class ProfileCreateRequest_Data_Relationships_Certificates extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = ProfileCreateRequest_Data_Relationships_Certificates_Data::class;
 	protected $dataDataType = 'array';
@@ -199,7 +199,7 @@ class ProfileCreateRequest_Data_Relationships_Certificates extends \Cantie\AppSt
 
 }
 
-class ProfileCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class ProfileCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $bundleIdType = ProfileCreateRequest_Data_Relationships_BundleId::class;
 	protected $bundleIdDataType = 'object';
@@ -256,7 +256,7 @@ class ProfileCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class ProfileCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class ProfileCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'profiles';
 	protected $attributesType = ProfileCreateRequest_Data_Attributes::class;
@@ -306,7 +306,7 @@ class ProfileCreateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class ProfileCreateRequest extends \Cantie\AppStoreConnect\Model
+class ProfileCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = ProfileCreateRequest_Data::class;
 	protected $dataDataType = 'object';

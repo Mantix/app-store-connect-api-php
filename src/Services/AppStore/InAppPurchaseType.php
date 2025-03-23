@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class InAppPurchaseType extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseType extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $CONSUMABLE = "CONSUMABLE";

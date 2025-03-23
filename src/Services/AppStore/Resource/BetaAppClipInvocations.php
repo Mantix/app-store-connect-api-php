@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\BetaAppClipInvocationResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaAppClipInvocationCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\BetaAppClipInvocationUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\BetaAppClipInvocationResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaAppClipInvocationCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\BetaAppClipInvocationUpdateRequest;
 
 /**
  * The "betaAppClipInvocations" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $betaAppClipInvocations = $appStoreService->betaAppClipInvocations;
  *  </code>
  */
-class BetaAppClipInvocations extends \Cantie\AppStoreConnect\Services\Resource
+class BetaAppClipInvocations extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

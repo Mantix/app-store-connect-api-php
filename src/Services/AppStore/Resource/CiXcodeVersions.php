@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\CiXcodeVersionsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\CiXcodeVersionResponse;
-use Cantie\AppStoreConnect\Services\AppStore\CiMacOsVersionsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\CiXcodeVersionsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\CiXcodeVersionResponse;
+use Mantix\AppStoreConnect\Services\AppStore\CiMacOsVersionsResponse;
 
 /**
  * The "ciXcodeVersions" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $ciXcodeVersions = $appStoreService->ciXcodeVersions;
  *  </code>
  */
-class CiXcodeVersions extends \Cantie\AppStoreConnect\Services\Resource
+class CiXcodeVersions extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

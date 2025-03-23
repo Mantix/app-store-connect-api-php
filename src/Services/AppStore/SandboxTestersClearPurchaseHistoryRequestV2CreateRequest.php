@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SandboxTestersClearPurchaseHistoryRequestV2CreateRequest_Data_Relationships_SandboxTesters_Data extends \Cantie\AppStoreConnect\Model
+class SandboxTestersClearPurchaseHistoryRequestV2CreateRequest_Data_Relationships_SandboxTesters_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'sandboxTesters';
 	public $id;
@@ -52,7 +52,7 @@ class SandboxTestersClearPurchaseHistoryRequestV2CreateRequest_Data_Relationship
 
 }
 
-class SandboxTestersClearPurchaseHistoryRequestV2CreateRequest_Data_Relationships_SandboxTesters extends \Cantie\AppStoreConnect\Model
+class SandboxTestersClearPurchaseHistoryRequestV2CreateRequest_Data_Relationships_SandboxTesters extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SandboxTestersClearPurchaseHistoryRequestV2CreateRequest_Data_Relationships_SandboxTesters_Data::class;
 	protected $dataDataType = 'array';
@@ -75,7 +75,7 @@ class SandboxTestersClearPurchaseHistoryRequestV2CreateRequest_Data_Relationship
 
 }
 
-class SandboxTestersClearPurchaseHistoryRequestV2CreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class SandboxTestersClearPurchaseHistoryRequestV2CreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $sandboxTestersType = SandboxTestersClearPurchaseHistoryRequestV2CreateRequest_Data_Relationships_SandboxTesters::class;
 	protected $sandboxTestersDataType = 'object';
@@ -98,7 +98,7 @@ class SandboxTestersClearPurchaseHistoryRequestV2CreateRequest_Data_Relationship
 
 }
 
-class SandboxTestersClearPurchaseHistoryRequestV2CreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class SandboxTestersClearPurchaseHistoryRequestV2CreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'sandboxTestersClearPurchaseHistoryRequest';
 	protected $relationshipsType = SandboxTestersClearPurchaseHistoryRequestV2CreateRequest_Data_Relationships::class;
@@ -131,7 +131,7 @@ class SandboxTestersClearPurchaseHistoryRequestV2CreateRequest_Data extends \Can
 
 }
 
-class SandboxTestersClearPurchaseHistoryRequestV2CreateRequest extends \Cantie\AppStoreConnect\Model
+class SandboxTestersClearPurchaseHistoryRequestV2CreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SandboxTestersClearPurchaseHistoryRequestV2CreateRequest_Data::class;
 	protected $dataDataType = 'object';

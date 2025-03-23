@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaLicenseAgreementWithoutIncludesResponse extends \Cantie\AppStoreConnect\Model
+class BetaLicenseAgreementWithoutIncludesResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = App::class;
 	protected $dataDataType = '';

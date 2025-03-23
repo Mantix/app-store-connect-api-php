@@ -24,20 +24,20 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionPromotionResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionPromotionCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionPromotionResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionPromotionCreateRequest;
 
 /**
  * The "appStoreVersionPromotions" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appStoreVersionPromotions = $appStoreService->appStoreVersionPromotions;
  *  </code>
  */
-class AppStoreVersionPromotions extends \Cantie\AppStoreConnect\Services\Resource
+class AppStoreVersionPromotions extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

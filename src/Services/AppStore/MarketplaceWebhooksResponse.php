@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class MarketplaceWebhooksResponse extends \Cantie\AppStoreConnect\Model
+class MarketplaceWebhooksResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = MarketplaceWebhook::class;
 	protected $dataDataType = 'array';

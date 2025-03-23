@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppAvailabilityV2_Attributes extends \Cantie\AppStoreConnect\Model
+class AppAvailabilityV2_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $availableInNewTerritories;
 
@@ -42,7 +42,7 @@ class AppAvailabilityV2_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppAvailabilityV2_Relationships_TerritoryAvailabilities_Links extends \Cantie\AppStoreConnect\Model
+class AppAvailabilityV2_Relationships_TerritoryAvailabilities_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -68,7 +68,7 @@ class AppAvailabilityV2_Relationships_TerritoryAvailabilities_Links extends \Can
 
 }
 
-class AppAvailabilityV2_Relationships_TerritoryAvailabilities_Data extends \Cantie\AppStoreConnect\Model
+class AppAvailabilityV2_Relationships_TerritoryAvailabilities_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'territoryAvailabilities';
 	public $id;
@@ -94,7 +94,7 @@ class AppAvailabilityV2_Relationships_TerritoryAvailabilities_Data extends \Cant
 
 }
 
-class AppAvailabilityV2_Relationships_TerritoryAvailabilities extends \Cantie\AppStoreConnect\Model
+class AppAvailabilityV2_Relationships_TerritoryAvailabilities extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppAvailabilityV2_Relationships_TerritoryAvailabilities_Links::class;
 	protected $linksDataType = 'object';
@@ -151,7 +151,7 @@ class AppAvailabilityV2_Relationships_TerritoryAvailabilities extends \Cantie\Ap
 
 }
 
-class AppAvailabilityV2_Relationships extends \Cantie\AppStoreConnect\Model
+class AppAvailabilityV2_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $territoryAvailabilitiesType = AppAvailabilityV2_Relationships_TerritoryAvailabilities::class;
 	protected $territoryAvailabilitiesDataType = 'object';
@@ -174,7 +174,7 @@ class AppAvailabilityV2_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppAvailabilityV2 extends \Cantie\AppStoreConnect\Model
+class AppAvailabilityV2 extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appAvailabilities';
 	public $id;

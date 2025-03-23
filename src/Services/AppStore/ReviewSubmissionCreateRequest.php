@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class ReviewSubmissionCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class ReviewSubmissionCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $platform; // 
 
@@ -48,7 +48,7 @@ class ReviewSubmissionCreateRequest_Data_Attributes extends \Cantie\AppStoreConn
 
 }
 
-class ReviewSubmissionCreateRequest_Data_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class ReviewSubmissionCreateRequest_Data_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -74,7 +74,7 @@ class ReviewSubmissionCreateRequest_Data_Relationships_App_Data extends \Cantie\
 
 }
 
-class ReviewSubmissionCreateRequest_Data_Relationships_App extends \Cantie\AppStoreConnect\Model
+class ReviewSubmissionCreateRequest_Data_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = ReviewSubmissionCreateRequest_Data_Relationships_App_Data::class;
 	protected $dataDataType = 'object';
@@ -97,7 +97,7 @@ class ReviewSubmissionCreateRequest_Data_Relationships_App extends \Cantie\AppSt
 
 }
 
-class ReviewSubmissionCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class ReviewSubmissionCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = ReviewSubmissionCreateRequest_Data_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -120,7 +120,7 @@ class ReviewSubmissionCreateRequest_Data_Relationships extends \Cantie\AppStoreC
 
 }
 
-class ReviewSubmissionCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class ReviewSubmissionCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'reviewSubmissions';
 	protected $attributesType = ReviewSubmissionCreateRequest_Data_Attributes::class;
@@ -170,7 +170,7 @@ class ReviewSubmissionCreateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class ReviewSubmissionCreateRequest extends \Cantie\AppStoreConnect\Model
+class ReviewSubmissionCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = ReviewSubmissionCreateRequest_Data::class;
 	protected $dataDataType = 'object';

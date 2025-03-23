@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppCustomProductPageUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $visible;
@@ -52,7 +52,7 @@ class AppCustomProductPageUpdateRequest_Data_Attributes extends \Cantie\AppStore
 
 }
 
-class AppCustomProductPageUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appCustomProductPages';
 	public $id;
@@ -95,7 +95,7 @@ class AppCustomProductPageUpdateRequest_Data extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class AppCustomProductPageUpdateRequest extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppCustomProductPageUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

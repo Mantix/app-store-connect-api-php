@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class ReviewSubmissionItemsResponse extends \Cantie\AppStoreConnect\Model
+class ReviewSubmissionItemsResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = ReviewSubmissionItem::class;
 	protected $dataDataType = 'array';

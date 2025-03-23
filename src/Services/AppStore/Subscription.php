@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class Subscription_Attributes extends \Cantie\AppStoreConnect\Model
+class Subscription_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $productId;
@@ -102,7 +102,7 @@ class Subscription_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Subscription_Relationships_SubscriptionLocalizations_Links extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_SubscriptionLocalizations_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -128,7 +128,7 @@ class Subscription_Relationships_SubscriptionLocalizations_Links extends \Cantie
 
 }
 
-class Subscription_Relationships_SubscriptionLocalizations_Data extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_SubscriptionLocalizations_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionLocalizations';
 	public $id;
@@ -154,7 +154,7 @@ class Subscription_Relationships_SubscriptionLocalizations_Data extends \Cantie\
 
 }
 
-class Subscription_Relationships_SubscriptionLocalizations extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_SubscriptionLocalizations extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = Subscription_Relationships_SubscriptionLocalizations_Links::class;
 	protected $linksDataType = 'object';
@@ -211,7 +211,7 @@ class Subscription_Relationships_SubscriptionLocalizations extends \Cantie\AppSt
 
 }
 
-class Subscription_Relationships_AppStoreReviewScreenshot_Links extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_AppStoreReviewScreenshot_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -237,7 +237,7 @@ class Subscription_Relationships_AppStoreReviewScreenshot_Links extends \Cantie\
 
 }
 
-class Subscription_Relationships_AppStoreReviewScreenshot_Data extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_AppStoreReviewScreenshot_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionAppStoreReviewScreenshots';
 	public $id;
@@ -263,7 +263,7 @@ class Subscription_Relationships_AppStoreReviewScreenshot_Data extends \Cantie\A
 
 }
 
-class Subscription_Relationships_AppStoreReviewScreenshot extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_AppStoreReviewScreenshot extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = Subscription_Relationships_AppStoreReviewScreenshot_Links::class;
 	protected $linksDataType = 'object';
@@ -303,7 +303,7 @@ class Subscription_Relationships_AppStoreReviewScreenshot extends \Cantie\AppSto
 
 }
 
-class Subscription_Relationships_Group_Links extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_Group_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -329,7 +329,7 @@ class Subscription_Relationships_Group_Links extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class Subscription_Relationships_Group_Data extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_Group_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionGroups';
 	public $id;
@@ -355,7 +355,7 @@ class Subscription_Relationships_Group_Data extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class Subscription_Relationships_Group extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_Group extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = Subscription_Relationships_Group_Links::class;
 	protected $linksDataType = 'object';
@@ -395,7 +395,7 @@ class Subscription_Relationships_Group extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Subscription_Relationships_IntroductoryOffers_Links extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_IntroductoryOffers_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -421,7 +421,7 @@ class Subscription_Relationships_IntroductoryOffers_Links extends \Cantie\AppSto
 
 }
 
-class Subscription_Relationships_IntroductoryOffers_Data extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_IntroductoryOffers_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionIntroductoryOffers';
 	public $id;
@@ -447,7 +447,7 @@ class Subscription_Relationships_IntroductoryOffers_Data extends \Cantie\AppStor
 
 }
 
-class Subscription_Relationships_IntroductoryOffers extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_IntroductoryOffers extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = Subscription_Relationships_IntroductoryOffers_Links::class;
 	protected $linksDataType = 'object';
@@ -504,7 +504,7 @@ class Subscription_Relationships_IntroductoryOffers extends \Cantie\AppStoreConn
 
 }
 
-class Subscription_Relationships_PromotionalOffers_Links extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_PromotionalOffers_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -530,7 +530,7 @@ class Subscription_Relationships_PromotionalOffers_Links extends \Cantie\AppStor
 
 }
 
-class Subscription_Relationships_PromotionalOffers_Data extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_PromotionalOffers_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionPromotionalOffers';
 	public $id;
@@ -556,7 +556,7 @@ class Subscription_Relationships_PromotionalOffers_Data extends \Cantie\AppStore
 
 }
 
-class Subscription_Relationships_PromotionalOffers extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_PromotionalOffers extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = Subscription_Relationships_PromotionalOffers_Links::class;
 	protected $linksDataType = 'object';
@@ -613,7 +613,7 @@ class Subscription_Relationships_PromotionalOffers extends \Cantie\AppStoreConne
 
 }
 
-class Subscription_Relationships_OfferCodes_Links extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_OfferCodes_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -639,7 +639,7 @@ class Subscription_Relationships_OfferCodes_Links extends \Cantie\AppStoreConnec
 
 }
 
-class Subscription_Relationships_OfferCodes_Data extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_OfferCodes_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionOfferCodes';
 	public $id;
@@ -665,7 +665,7 @@ class Subscription_Relationships_OfferCodes_Data extends \Cantie\AppStoreConnect
 
 }
 
-class Subscription_Relationships_OfferCodes extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_OfferCodes extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = Subscription_Relationships_OfferCodes_Links::class;
 	protected $linksDataType = 'object';
@@ -722,7 +722,7 @@ class Subscription_Relationships_OfferCodes extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class Subscription_Relationships_Prices_Links extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_Prices_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -748,7 +748,7 @@ class Subscription_Relationships_Prices_Links extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class Subscription_Relationships_Prices_Data extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_Prices_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionPrices';
 	public $id;
@@ -774,7 +774,7 @@ class Subscription_Relationships_Prices_Data extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class Subscription_Relationships_Prices extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_Prices extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = Subscription_Relationships_Prices_Links::class;
 	protected $linksDataType = 'object';
@@ -831,7 +831,7 @@ class Subscription_Relationships_Prices extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Subscription_Relationships_PromotedPurchase_Links extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_PromotedPurchase_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -857,7 +857,7 @@ class Subscription_Relationships_PromotedPurchase_Links extends \Cantie\AppStore
 
 }
 
-class Subscription_Relationships_PromotedPurchase_Data extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_PromotedPurchase_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'promotedPurchases';
 	public $id;
@@ -883,7 +883,7 @@ class Subscription_Relationships_PromotedPurchase_Data extends \Cantie\AppStoreC
 
 }
 
-class Subscription_Relationships_PromotedPurchase extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_PromotedPurchase extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = Subscription_Relationships_PromotedPurchase_Links::class;
 	protected $linksDataType = 'object';
@@ -923,7 +923,7 @@ class Subscription_Relationships_PromotedPurchase extends \Cantie\AppStoreConnec
 
 }
 
-class Subscription_Relationships_SubscriptionAvailability_Links extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_SubscriptionAvailability_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -949,7 +949,7 @@ class Subscription_Relationships_SubscriptionAvailability_Links extends \Cantie\
 
 }
 
-class Subscription_Relationships_SubscriptionAvailability_Data extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_SubscriptionAvailability_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionAvailabilities';
 	public $id;
@@ -975,7 +975,7 @@ class Subscription_Relationships_SubscriptionAvailability_Data extends \Cantie\A
 
 }
 
-class Subscription_Relationships_SubscriptionAvailability extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships_SubscriptionAvailability extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = Subscription_Relationships_SubscriptionAvailability_Links::class;
 	protected $linksDataType = 'object';
@@ -1015,7 +1015,7 @@ class Subscription_Relationships_SubscriptionAvailability extends \Cantie\AppSto
 
 }
 
-class Subscription_Relationships extends \Cantie\AppStoreConnect\Model
+class Subscription_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $subscriptionLocalizationsType = Subscription_Relationships_SubscriptionLocalizations::class;
 	protected $subscriptionLocalizationsDataType = 'object';
@@ -1174,7 +1174,7 @@ class Subscription_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Subscription extends \Cantie\AppStoreConnect\Model
+class Subscription extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptions';
 	public $id;

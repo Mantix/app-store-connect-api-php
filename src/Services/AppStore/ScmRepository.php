@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class ScmRepository_Attributes extends \Cantie\AppStoreConnect\Model
+class ScmRepository_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $lastAccessedDate;
 	public $httpCloneUrl;
@@ -82,7 +82,7 @@ class ScmRepository_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class ScmRepository_Relationships_ScmProvider_Links extends \Cantie\AppStoreConnect\Model
+class ScmRepository_Relationships_ScmProvider_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -108,7 +108,7 @@ class ScmRepository_Relationships_ScmProvider_Links extends \Cantie\AppStoreConn
 
 }
 
-class ScmRepository_Relationships_ScmProvider_Data extends \Cantie\AppStoreConnect\Model
+class ScmRepository_Relationships_ScmProvider_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'scmProviders';
 	public $id;
@@ -134,7 +134,7 @@ class ScmRepository_Relationships_ScmProvider_Data extends \Cantie\AppStoreConne
 
 }
 
-class ScmRepository_Relationships_ScmProvider extends \Cantie\AppStoreConnect\Model
+class ScmRepository_Relationships_ScmProvider extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = ScmRepository_Relationships_ScmProvider_Links::class;
 	protected $linksDataType = 'object';
@@ -174,7 +174,7 @@ class ScmRepository_Relationships_ScmProvider extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class ScmRepository_Relationships_DefaultBranch_Links extends \Cantie\AppStoreConnect\Model
+class ScmRepository_Relationships_DefaultBranch_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -200,7 +200,7 @@ class ScmRepository_Relationships_DefaultBranch_Links extends \Cantie\AppStoreCo
 
 }
 
-class ScmRepository_Relationships_DefaultBranch_Data extends \Cantie\AppStoreConnect\Model
+class ScmRepository_Relationships_DefaultBranch_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'scmGitReferences';
 	public $id;
@@ -226,7 +226,7 @@ class ScmRepository_Relationships_DefaultBranch_Data extends \Cantie\AppStoreCon
 
 }
 
-class ScmRepository_Relationships_DefaultBranch extends \Cantie\AppStoreConnect\Model
+class ScmRepository_Relationships_DefaultBranch extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = ScmRepository_Relationships_DefaultBranch_Links::class;
 	protected $linksDataType = 'object';
@@ -266,7 +266,7 @@ class ScmRepository_Relationships_DefaultBranch extends \Cantie\AppStoreConnect\
 
 }
 
-class ScmRepository_Relationships extends \Cantie\AppStoreConnect\Model
+class ScmRepository_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $scmProviderType = ScmRepository_Relationships_ScmProvider::class;
 	protected $scmProviderDataType = 'object';
@@ -306,7 +306,7 @@ class ScmRepository_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class ScmRepository extends \Cantie\AppStoreConnect\Model
+class ScmRepository extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'scmRepositories';
 	public $id;

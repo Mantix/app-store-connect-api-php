@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class InAppPurchaseAvailabilityCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAvailabilityCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $availableInNewTerritories;
 
@@ -42,7 +42,7 @@ class InAppPurchaseAvailabilityCreateRequest_Data_Attributes extends \Cantie\App
 
 }
 
-class InAppPurchaseAvailabilityCreateRequest_Data_Relationships_InAppPurchase_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAvailabilityCreateRequest_Data_Relationships_InAppPurchase_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchases';
 	public $id;
@@ -68,7 +68,7 @@ class InAppPurchaseAvailabilityCreateRequest_Data_Relationships_InAppPurchase_Da
 
 }
 
-class InAppPurchaseAvailabilityCreateRequest_Data_Relationships_InAppPurchase extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAvailabilityCreateRequest_Data_Relationships_InAppPurchase extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = InAppPurchaseAvailabilityCreateRequest_Data_Relationships_InAppPurchase_Data::class;
 	protected $dataDataType = 'object';
@@ -91,7 +91,7 @@ class InAppPurchaseAvailabilityCreateRequest_Data_Relationships_InAppPurchase ex
 
 }
 
-class InAppPurchaseAvailabilityCreateRequest_Data_Relationships_AvailableTerritories_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAvailabilityCreateRequest_Data_Relationships_AvailableTerritories_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'territories';
 	public $id;
@@ -117,7 +117,7 @@ class InAppPurchaseAvailabilityCreateRequest_Data_Relationships_AvailableTerrito
 
 }
 
-class InAppPurchaseAvailabilityCreateRequest_Data_Relationships_AvailableTerritories extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAvailabilityCreateRequest_Data_Relationships_AvailableTerritories extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = InAppPurchaseAvailabilityCreateRequest_Data_Relationships_AvailableTerritories_Data::class;
 	protected $dataDataType = 'array';
@@ -140,7 +140,7 @@ class InAppPurchaseAvailabilityCreateRequest_Data_Relationships_AvailableTerrito
 
 }
 
-class InAppPurchaseAvailabilityCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAvailabilityCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $inAppPurchaseType = InAppPurchaseAvailabilityCreateRequest_Data_Relationships_InAppPurchase::class;
 	protected $inAppPurchaseDataType = 'object';
@@ -180,7 +180,7 @@ class InAppPurchaseAvailabilityCreateRequest_Data_Relationships extends \Cantie\
 
 }
 
-class InAppPurchaseAvailabilityCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAvailabilityCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchaseAvailabilities';
 	protected $attributesType = InAppPurchaseAvailabilityCreateRequest_Data_Attributes::class;
@@ -230,7 +230,7 @@ class InAppPurchaseAvailabilityCreateRequest_Data extends \Cantie\AppStoreConnec
 
 }
 
-class InAppPurchaseAvailabilityCreateRequest extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAvailabilityCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = InAppPurchaseAvailabilityCreateRequest_Data::class;
 	protected $dataDataType = 'object';

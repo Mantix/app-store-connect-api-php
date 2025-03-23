@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppEventUpdateRequest_Data_Attributes_TerritorySchedules extends \Cantie\AppStoreConnect\Model
+class AppEventUpdateRequest_Data_Attributes_TerritorySchedules extends \Mantix\AppStoreConnect\Model
 {
 	protected $territoriesType = '';
 	protected $territoriesDataType = 'array';
@@ -79,7 +79,7 @@ class AppEventUpdateRequest_Data_Attributes_TerritorySchedules extends \Cantie\A
 
 }
 
-class AppEventUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppEventUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $referenceName;
 	public $badge; // LIVE_EVENT, PREMIERE, CHALLENGE, COMPETITION, NEW_SEASON, MAJOR_UPDATE, SPECIAL_EVENT
@@ -172,7 +172,7 @@ class AppEventUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class AppEventUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppEventUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEvents';
 	public $id;
@@ -215,7 +215,7 @@ class AppEventUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppEventUpdateRequest extends \Cantie\AppStoreConnect\Model
+class AppEventUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppEventUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

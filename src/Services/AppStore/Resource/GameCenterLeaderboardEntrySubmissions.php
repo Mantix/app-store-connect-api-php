@@ -24,20 +24,20 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardEntrySubmissionResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardEntrySubmissionCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardEntrySubmissionResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardEntrySubmissionCreateRequest;
 
 /**
  * The "gameCenterLeaderboardEntrySubmissions" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $gameCenterLeaderboardEntrySubmissions = $appStoreService->gameCenterLeaderboardEntrySubmissions;
  *  </code>
  */
-class GameCenterLeaderboardEntrySubmissions extends \Cantie\AppStoreConnect\Services\Resource
+class GameCenterLeaderboardEntrySubmissions extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiTestResultResponse extends \Cantie\AppStoreConnect\Model
+class CiTestResultResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = CiTestResult::class;
 	protected $dataDataType = '';

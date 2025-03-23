@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppStoreVersionExperimentTreatmentUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $appIconName;
@@ -52,7 +52,7 @@ class AppStoreVersionExperimentTreatmentUpdateRequest_Data_Attributes extends \C
 
 }
 
-class AppStoreVersionExperimentTreatmentUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionExperimentTreatments';
 	public $id;
@@ -95,7 +95,7 @@ class AppStoreVersionExperimentTreatmentUpdateRequest_Data extends \Cantie\AppSt
 
 }
 
-class AppStoreVersionExperimentTreatmentUpdateRequest extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersionExperimentTreatmentUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

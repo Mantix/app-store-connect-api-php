@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionOfferCodeOneTimeUseCodeUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeOneTimeUseCodeUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $active;
 
@@ -42,7 +42,7 @@ class SubscriptionOfferCodeOneTimeUseCodeUpdateRequest_Data_Attributes extends \
 
 }
 
-class SubscriptionOfferCodeOneTimeUseCodeUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeOneTimeUseCodeUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionOfferCodeOneTimeUseCodes';
 	public $id;
@@ -85,7 +85,7 @@ class SubscriptionOfferCodeOneTimeUseCodeUpdateRequest_Data extends \Cantie\AppS
 
 }
 
-class SubscriptionOfferCodeOneTimeUseCodeUpdateRequest extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeOneTimeUseCodeUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionOfferCodeOneTimeUseCodeUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

@@ -24,22 +24,22 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentTreatmentResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentTreatmentCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentTreatmentUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentTreatmentLocalizationsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentTreatmentResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentTreatmentCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentTreatmentUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentTreatmentLocalizationsResponse;
 
 /**
  * The "appStoreVersionExperimentTreatments" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appStoreVersionExperimentTreatments = $appStoreService->appStoreVersionExperimentTreatments;
  *  </code>
  */
-class AppStoreVersionExperimentTreatments extends \Cantie\AppStoreConnect\Services\Resource
+class AppStoreVersionExperimentTreatments extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

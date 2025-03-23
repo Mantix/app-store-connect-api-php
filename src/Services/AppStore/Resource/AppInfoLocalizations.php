@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppInfoLocalizationResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppInfoLocalizationCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppInfoLocalizationUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppInfoLocalizationResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppInfoLocalizationCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppInfoLocalizationUpdateRequest;
 
 /**
  * The "appInfoLocalizations" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appInfoLocalizations = $appStoreService->appInfoLocalizations;
  *  </code>
  */
-class AppInfoLocalizations extends \Cantie\AppStoreConnect\Services\Resource
+class AppInfoLocalizations extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

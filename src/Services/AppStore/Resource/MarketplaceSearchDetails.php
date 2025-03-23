@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\MarketplaceSearchDetailResponse;
-use Cantie\AppStoreConnect\Services\AppStore\MarketplaceSearchDetailCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\MarketplaceSearchDetailUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\MarketplaceSearchDetailResponse;
+use Mantix\AppStoreConnect\Services\AppStore\MarketplaceSearchDetailCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\MarketplaceSearchDetailUpdateRequest;
 
 /**
  * The "marketplaceSearchDetails" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $marketplaceSearchDetails = $appStoreService->marketplaceSearchDetails;
  *  </code>
  */
-class MarketplaceSearchDetails extends \Cantie\AppStoreConnect\Services\Resource
+class MarketplaceSearchDetails extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

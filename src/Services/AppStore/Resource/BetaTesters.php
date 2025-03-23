@@ -24,31 +24,31 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\BetaTestersResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaTesterResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaTesterCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\BetaTesterAppsLinkagesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaTesterAppsLinkagesRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppsWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaTesterBetaGroupsLinkagesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaTesterBetaGroupsLinkagesRequest;
-use Cantie\AppStoreConnect\Services\AppStore\BetaGroupsWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaTesterBuildsLinkagesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaTesterBuildsLinkagesRequest;
-use Cantie\AppStoreConnect\Services\AppStore\BuildsWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaTesterUsagesV1MetricResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaTestersResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaTesterResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaTesterCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\BetaTesterAppsLinkagesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaTesterAppsLinkagesRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppsWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaTesterBetaGroupsLinkagesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaTesterBetaGroupsLinkagesRequest;
+use Mantix\AppStoreConnect\Services\AppStore\BetaGroupsWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaTesterBuildsLinkagesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaTesterBuildsLinkagesRequest;
+use Mantix\AppStoreConnect\Services\AppStore\BuildsWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaTesterUsagesV1MetricResponse;
 
 /**
  * The "betaTesters" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $betaTesters = $appStoreService->betaTesters;
  *  </code>
  */
-class BetaTesters extends \Cantie\AppStoreConnect\Services\Resource
+class BetaTesters extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

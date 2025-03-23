@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppEncryptionDeclarationState extends \Cantie\AppStoreConnect\Model
+class AppEncryptionDeclarationState extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $CREATED = "CREATED";

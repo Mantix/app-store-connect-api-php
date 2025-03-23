@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class ReviewSubmissionItemCreateRequest_Data_Relationships_ReviewSubmission_Data extends \Cantie\AppStoreConnect\Model
+class ReviewSubmissionItemCreateRequest_Data_Relationships_ReviewSubmission_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'reviewSubmissions';
 	public $id;
@@ -52,7 +52,7 @@ class ReviewSubmissionItemCreateRequest_Data_Relationships_ReviewSubmission_Data
 
 }
 
-class ReviewSubmissionItemCreateRequest_Data_Relationships_ReviewSubmission extends \Cantie\AppStoreConnect\Model
+class ReviewSubmissionItemCreateRequest_Data_Relationships_ReviewSubmission extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = ReviewSubmissionItemCreateRequest_Data_Relationships_ReviewSubmission_Data::class;
 	protected $dataDataType = 'object';
@@ -75,7 +75,7 @@ class ReviewSubmissionItemCreateRequest_Data_Relationships_ReviewSubmission exte
 
 }
 
-class ReviewSubmissionItemCreateRequest_Data_Relationships_AppStoreVersion_Data extends \Cantie\AppStoreConnect\Model
+class ReviewSubmissionItemCreateRequest_Data_Relationships_AppStoreVersion_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersions';
 	public $id;
@@ -101,7 +101,7 @@ class ReviewSubmissionItemCreateRequest_Data_Relationships_AppStoreVersion_Data 
 
 }
 
-class ReviewSubmissionItemCreateRequest_Data_Relationships_AppStoreVersion extends \Cantie\AppStoreConnect\Model
+class ReviewSubmissionItemCreateRequest_Data_Relationships_AppStoreVersion extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = ReviewSubmissionItemCreateRequest_Data_Relationships_AppStoreVersion_Data::class;
 	protected $dataDataType = 'object';
@@ -124,7 +124,7 @@ class ReviewSubmissionItemCreateRequest_Data_Relationships_AppStoreVersion exten
 
 }
 
-class ReviewSubmissionItemCreateRequest_Data_Relationships_AppCustomProductPageVersion_Data extends \Cantie\AppStoreConnect\Model
+class ReviewSubmissionItemCreateRequest_Data_Relationships_AppCustomProductPageVersion_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appCustomProductPageVersions';
 	public $id;
@@ -150,7 +150,7 @@ class ReviewSubmissionItemCreateRequest_Data_Relationships_AppCustomProductPageV
 
 }
 
-class ReviewSubmissionItemCreateRequest_Data_Relationships_AppCustomProductPageVersion extends \Cantie\AppStoreConnect\Model
+class ReviewSubmissionItemCreateRequest_Data_Relationships_AppCustomProductPageVersion extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = ReviewSubmissionItemCreateRequest_Data_Relationships_AppCustomProductPageVersion_Data::class;
 	protected $dataDataType = 'object';
@@ -173,7 +173,7 @@ class ReviewSubmissionItemCreateRequest_Data_Relationships_AppCustomProductPageV
 
 }
 
-class ReviewSubmissionItemCreateRequest_Data_Relationships_AppStoreVersionExperiment_Data extends \Cantie\AppStoreConnect\Model
+class ReviewSubmissionItemCreateRequest_Data_Relationships_AppStoreVersionExperiment_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionExperiments';
 	public $id;
@@ -199,7 +199,7 @@ class ReviewSubmissionItemCreateRequest_Data_Relationships_AppStoreVersionExperi
 
 }
 
-class ReviewSubmissionItemCreateRequest_Data_Relationships_AppStoreVersionExperiment extends \Cantie\AppStoreConnect\Model
+class ReviewSubmissionItemCreateRequest_Data_Relationships_AppStoreVersionExperiment extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = ReviewSubmissionItemCreateRequest_Data_Relationships_AppStoreVersionExperiment_Data::class;
 	protected $dataDataType = 'object';
@@ -222,7 +222,7 @@ class ReviewSubmissionItemCreateRequest_Data_Relationships_AppStoreVersionExperi
 
 }
 
-class ReviewSubmissionItemCreateRequest_Data_Relationships_AppStoreVersionExperimentV2_Data extends \Cantie\AppStoreConnect\Model
+class ReviewSubmissionItemCreateRequest_Data_Relationships_AppStoreVersionExperimentV2_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionExperiments';
 	public $id;
@@ -248,7 +248,7 @@ class ReviewSubmissionItemCreateRequest_Data_Relationships_AppStoreVersionExperi
 
 }
 
-class ReviewSubmissionItemCreateRequest_Data_Relationships_AppStoreVersionExperimentV2 extends \Cantie\AppStoreConnect\Model
+class ReviewSubmissionItemCreateRequest_Data_Relationships_AppStoreVersionExperimentV2 extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = ReviewSubmissionItemCreateRequest_Data_Relationships_AppStoreVersionExperimentV2_Data::class;
 	protected $dataDataType = 'object';
@@ -271,7 +271,7 @@ class ReviewSubmissionItemCreateRequest_Data_Relationships_AppStoreVersionExperi
 
 }
 
-class ReviewSubmissionItemCreateRequest_Data_Relationships_AppEvent_Data extends \Cantie\AppStoreConnect\Model
+class ReviewSubmissionItemCreateRequest_Data_Relationships_AppEvent_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEvents';
 	public $id;
@@ -297,7 +297,7 @@ class ReviewSubmissionItemCreateRequest_Data_Relationships_AppEvent_Data extends
 
 }
 
-class ReviewSubmissionItemCreateRequest_Data_Relationships_AppEvent extends \Cantie\AppStoreConnect\Model
+class ReviewSubmissionItemCreateRequest_Data_Relationships_AppEvent extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = ReviewSubmissionItemCreateRequest_Data_Relationships_AppEvent_Data::class;
 	protected $dataDataType = 'object';
@@ -320,7 +320,7 @@ class ReviewSubmissionItemCreateRequest_Data_Relationships_AppEvent extends \Can
 
 }
 
-class ReviewSubmissionItemCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class ReviewSubmissionItemCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $reviewSubmissionType = ReviewSubmissionItemCreateRequest_Data_Relationships_ReviewSubmission::class;
 	protected $reviewSubmissionDataType = 'object';
@@ -428,7 +428,7 @@ class ReviewSubmissionItemCreateRequest_Data_Relationships extends \Cantie\AppSt
 
 }
 
-class ReviewSubmissionItemCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class ReviewSubmissionItemCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'reviewSubmissionItems';
 	protected $relationshipsType = ReviewSubmissionItemCreateRequest_Data_Relationships::class;
@@ -461,7 +461,7 @@ class ReviewSubmissionItemCreateRequest_Data extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class ReviewSubmissionItemCreateRequest extends \Cantie\AppStoreConnect\Model
+class ReviewSubmissionItemCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = ReviewSubmissionItemCreateRequest_Data::class;
 	protected $dataDataType = 'object';

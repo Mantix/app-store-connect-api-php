@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BuildBetaNotificationCreateRequest_Data_Relationships_Build_Data extends \Cantie\AppStoreConnect\Model
+class BuildBetaNotificationCreateRequest_Data_Relationships_Build_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'builds';
 	public $id;
@@ -52,7 +52,7 @@ class BuildBetaNotificationCreateRequest_Data_Relationships_Build_Data extends \
 
 }
 
-class BuildBetaNotificationCreateRequest_Data_Relationships_Build extends \Cantie\AppStoreConnect\Model
+class BuildBetaNotificationCreateRequest_Data_Relationships_Build extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BuildBetaNotificationCreateRequest_Data_Relationships_Build_Data::class;
 	protected $dataDataType = 'object';
@@ -75,7 +75,7 @@ class BuildBetaNotificationCreateRequest_Data_Relationships_Build extends \Canti
 
 }
 
-class BuildBetaNotificationCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class BuildBetaNotificationCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $buildType = BuildBetaNotificationCreateRequest_Data_Relationships_Build::class;
 	protected $buildDataType = 'object';
@@ -98,7 +98,7 @@ class BuildBetaNotificationCreateRequest_Data_Relationships extends \Cantie\AppS
 
 }
 
-class BuildBetaNotificationCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class BuildBetaNotificationCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'buildBetaNotifications';
 	protected $relationshipsType = BuildBetaNotificationCreateRequest_Data_Relationships::class;
@@ -131,7 +131,7 @@ class BuildBetaNotificationCreateRequest_Data extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class BuildBetaNotificationCreateRequest extends \Cantie\AppStoreConnect\Model
+class BuildBetaNotificationCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BuildBetaNotificationCreateRequest_Data::class;
 	protected $dataDataType = 'object';

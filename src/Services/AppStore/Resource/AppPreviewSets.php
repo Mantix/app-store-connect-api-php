@@ -24,23 +24,23 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppPreviewSetResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppPreviewSetCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppPreviewSetAppPreviewsLinkagesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppPreviewSetAppPreviewsLinkagesRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppPreviewsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppPreviewSetResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppPreviewSetCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppPreviewSetAppPreviewsLinkagesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppPreviewSetAppPreviewsLinkagesRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppPreviewsResponse;
 
 /**
  * The "appPreviewSets" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appPreviewSets = $appStoreService->appPreviewSets;
  *  </code>
  */
-class AppPreviewSets extends \Cantie\AppStoreConnect\Services\Resource
+class AppPreviewSets extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

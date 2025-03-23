@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterAchievementReleaseCreateRequest_Data_Relationships_GameCenterDetail_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementReleaseCreateRequest_Data_Relationships_GameCenterDetail_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterDetails';
 	public $id;
@@ -52,7 +52,7 @@ class GameCenterAchievementReleaseCreateRequest_Data_Relationships_GameCenterDet
 
 }
 
-class GameCenterAchievementReleaseCreateRequest_Data_Relationships_GameCenterDetail extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementReleaseCreateRequest_Data_Relationships_GameCenterDetail extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterAchievementReleaseCreateRequest_Data_Relationships_GameCenterDetail_Data::class;
 	protected $dataDataType = 'object';
@@ -75,7 +75,7 @@ class GameCenterAchievementReleaseCreateRequest_Data_Relationships_GameCenterDet
 
 }
 
-class GameCenterAchievementReleaseCreateRequest_Data_Relationships_GameCenterAchievement_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementReleaseCreateRequest_Data_Relationships_GameCenterAchievement_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterAchievements';
 	public $id;
@@ -101,7 +101,7 @@ class GameCenterAchievementReleaseCreateRequest_Data_Relationships_GameCenterAch
 
 }
 
-class GameCenterAchievementReleaseCreateRequest_Data_Relationships_GameCenterAchievement extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementReleaseCreateRequest_Data_Relationships_GameCenterAchievement extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterAchievementReleaseCreateRequest_Data_Relationships_GameCenterAchievement_Data::class;
 	protected $dataDataType = 'object';
@@ -124,7 +124,7 @@ class GameCenterAchievementReleaseCreateRequest_Data_Relationships_GameCenterAch
 
 }
 
-class GameCenterAchievementReleaseCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementReleaseCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $gameCenterDetailType = GameCenterAchievementReleaseCreateRequest_Data_Relationships_GameCenterDetail::class;
 	protected $gameCenterDetailDataType = 'object';
@@ -164,7 +164,7 @@ class GameCenterAchievementReleaseCreateRequest_Data_Relationships extends \Cant
 
 }
 
-class GameCenterAchievementReleaseCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementReleaseCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterAchievementReleases';
 	protected $relationshipsType = GameCenterAchievementReleaseCreateRequest_Data_Relationships::class;
@@ -197,7 +197,7 @@ class GameCenterAchievementReleaseCreateRequest_Data extends \Cantie\AppStoreCon
 
 }
 
-class GameCenterAchievementReleaseCreateRequest extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementReleaseCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterAchievementReleaseCreateRequest_Data::class;
 	protected $dataDataType = 'object';

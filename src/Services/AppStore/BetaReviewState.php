@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaReviewState extends \Cantie\AppStoreConnect\Model
+class BetaReviewState extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $WAITING_FOR_REVIEW = "WAITING_FOR_REVIEW";

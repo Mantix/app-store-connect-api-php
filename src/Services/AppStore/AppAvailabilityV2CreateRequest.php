@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppAvailabilityV2CreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppAvailabilityV2CreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $availableInNewTerritories;
 
@@ -42,7 +42,7 @@ class AppAvailabilityV2CreateRequest_Data_Attributes extends \Cantie\AppStoreCon
 
 }
 
-class AppAvailabilityV2CreateRequest_Data_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class AppAvailabilityV2CreateRequest_Data_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -68,7 +68,7 @@ class AppAvailabilityV2CreateRequest_Data_Relationships_App_Data extends \Cantie
 
 }
 
-class AppAvailabilityV2CreateRequest_Data_Relationships_App extends \Cantie\AppStoreConnect\Model
+class AppAvailabilityV2CreateRequest_Data_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppAvailabilityV2CreateRequest_Data_Relationships_App_Data::class;
 	protected $dataDataType = 'object';
@@ -91,7 +91,7 @@ class AppAvailabilityV2CreateRequest_Data_Relationships_App extends \Cantie\AppS
 
 }
 
-class AppAvailabilityV2CreateRequest_Data_Relationships_TerritoryAvailabilities_Data extends \Cantie\AppStoreConnect\Model
+class AppAvailabilityV2CreateRequest_Data_Relationships_TerritoryAvailabilities_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'territoryAvailabilities';
 	public $id;
@@ -117,7 +117,7 @@ class AppAvailabilityV2CreateRequest_Data_Relationships_TerritoryAvailabilities_
 
 }
 
-class AppAvailabilityV2CreateRequest_Data_Relationships_TerritoryAvailabilities extends \Cantie\AppStoreConnect\Model
+class AppAvailabilityV2CreateRequest_Data_Relationships_TerritoryAvailabilities extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppAvailabilityV2CreateRequest_Data_Relationships_TerritoryAvailabilities_Data::class;
 	protected $dataDataType = 'array';
@@ -140,7 +140,7 @@ class AppAvailabilityV2CreateRequest_Data_Relationships_TerritoryAvailabilities 
 
 }
 
-class AppAvailabilityV2CreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppAvailabilityV2CreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = AppAvailabilityV2CreateRequest_Data_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -180,7 +180,7 @@ class AppAvailabilityV2CreateRequest_Data_Relationships extends \Cantie\AppStore
 
 }
 
-class AppAvailabilityV2CreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppAvailabilityV2CreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appAvailabilities';
 	protected $attributesType = AppAvailabilityV2CreateRequest_Data_Attributes::class;
@@ -230,7 +230,7 @@ class AppAvailabilityV2CreateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppAvailabilityV2CreateRequest extends \Cantie\AppStoreConnect\Model
+class AppAvailabilityV2CreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppAvailabilityV2CreateRequest_Data::class;
 	protected $dataDataType = 'object';

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterMatchmakingRuleCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingRuleCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $referenceName;
 	public $description;
@@ -82,7 +82,7 @@ class GameCenterMatchmakingRuleCreateRequest_Data_Attributes extends \Cantie\App
 
 }
 
-class GameCenterMatchmakingRuleCreateRequest_Data_Relationships_RuleSet_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingRuleCreateRequest_Data_Relationships_RuleSet_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterMatchmakingRuleSets';
 	public $id;
@@ -108,7 +108,7 @@ class GameCenterMatchmakingRuleCreateRequest_Data_Relationships_RuleSet_Data ext
 
 }
 
-class GameCenterMatchmakingRuleCreateRequest_Data_Relationships_RuleSet extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingRuleCreateRequest_Data_Relationships_RuleSet extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterMatchmakingRuleCreateRequest_Data_Relationships_RuleSet_Data::class;
 	protected $dataDataType = 'object';
@@ -131,7 +131,7 @@ class GameCenterMatchmakingRuleCreateRequest_Data_Relationships_RuleSet extends 
 
 }
 
-class GameCenterMatchmakingRuleCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingRuleCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $ruleSetType = GameCenterMatchmakingRuleCreateRequest_Data_Relationships_RuleSet::class;
 	protected $ruleSetDataType = 'object';
@@ -154,7 +154,7 @@ class GameCenterMatchmakingRuleCreateRequest_Data_Relationships extends \Cantie\
 
 }
 
-class GameCenterMatchmakingRuleCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingRuleCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterMatchmakingRules';
 	protected $attributesType = GameCenterMatchmakingRuleCreateRequest_Data_Attributes::class;
@@ -204,7 +204,7 @@ class GameCenterMatchmakingRuleCreateRequest_Data extends \Cantie\AppStoreConnec
 
 }
 
-class GameCenterMatchmakingRuleCreateRequest extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingRuleCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterMatchmakingRuleCreateRequest_Data::class;
 	protected $dataDataType = 'object';

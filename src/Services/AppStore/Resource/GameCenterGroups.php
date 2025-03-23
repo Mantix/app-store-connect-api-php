@@ -24,32 +24,32 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterGroupsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterGroupResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterGroupCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterGroupUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterGroupGameCenterAchievementsLinkagesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterGroupGameCenterAchievementsLinkagesRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAchievementsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterDetailsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterGroupGameCenterLeaderboardSetsLinkagesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterGroupGameCenterLeaderboardSetsLinkagesRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterGroupGameCenterLeaderboardsLinkagesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterGroupGameCenterLeaderboardsLinkagesRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterGroupsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterGroupResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterGroupCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterGroupUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterGroupGameCenterAchievementsLinkagesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterGroupGameCenterAchievementsLinkagesRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAchievementsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterDetailsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterGroupGameCenterLeaderboardSetsLinkagesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterGroupGameCenterLeaderboardSetsLinkagesRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterGroupGameCenterLeaderboardsLinkagesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterGroupGameCenterLeaderboardsLinkagesRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardsResponse;
 
 /**
  * The "gameCenterGroups" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $gameCenterGroups = $appStoreService->gameCenterGroups;
  *  </code>
  */
-class GameCenterGroups extends \Cantie\AppStoreConnect\Services\Resource
+class GameCenterGroups extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

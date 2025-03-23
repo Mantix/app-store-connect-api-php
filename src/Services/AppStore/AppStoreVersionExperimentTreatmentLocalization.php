@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppStoreVersionExperimentTreatmentLocalization_Attributes extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentLocalization_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $locale;
 
@@ -42,7 +42,7 @@ class AppStoreVersionExperimentTreatmentLocalization_Attributes extends \Cantie\
 
 }
 
-class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppStoreVersionExperimentTreatment_Links extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppStoreVersionExperimentTreatment_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -68,7 +68,7 @@ class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppStoreVersi
 
 }
 
-class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppStoreVersionExperimentTreatment_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppStoreVersionExperimentTreatment_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionExperimentTreatments';
 	public $id;
@@ -94,7 +94,7 @@ class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppStoreVersi
 
 }
 
-class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppStoreVersionExperimentTreatment extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppStoreVersionExperimentTreatment extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppStoreVersionExperimentTreatmentLocalization_Relationships_AppStoreVersionExperimentTreatment_Links::class;
 	protected $linksDataType = 'object';
@@ -134,7 +134,7 @@ class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppStoreVersi
 
 }
 
-class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppScreenshotSets_Links extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppScreenshotSets_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -160,7 +160,7 @@ class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppScreenshot
 
 }
 
-class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppScreenshotSets_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppScreenshotSets_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appScreenshotSets';
 	public $id;
@@ -186,7 +186,7 @@ class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppScreenshot
 
 }
 
-class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppScreenshotSets extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppScreenshotSets extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppStoreVersionExperimentTreatmentLocalization_Relationships_AppScreenshotSets_Links::class;
 	protected $linksDataType = 'object';
@@ -243,7 +243,7 @@ class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppScreenshot
 
 }
 
-class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppPreviewSets_Links extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppPreviewSets_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -269,7 +269,7 @@ class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppPreviewSet
 
 }
 
-class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppPreviewSets_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppPreviewSets_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appPreviewSets';
 	public $id;
@@ -295,7 +295,7 @@ class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppPreviewSet
 
 }
 
-class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppPreviewSets extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppPreviewSets extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppStoreVersionExperimentTreatmentLocalization_Relationships_AppPreviewSets_Links::class;
 	protected $linksDataType = 'object';
@@ -352,7 +352,7 @@ class AppStoreVersionExperimentTreatmentLocalization_Relationships_AppPreviewSet
 
 }
 
-class AppStoreVersionExperimentTreatmentLocalization_Relationships extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentLocalization_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appStoreVersionExperimentTreatmentType = AppStoreVersionExperimentTreatmentLocalization_Relationships_AppStoreVersionExperimentTreatment::class;
 	protected $appStoreVersionExperimentTreatmentDataType = 'object';
@@ -409,7 +409,7 @@ class AppStoreVersionExperimentTreatmentLocalization_Relationships extends \Cant
 
 }
 
-class AppStoreVersionExperimentTreatmentLocalization extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentLocalization extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionExperimentTreatmentLocalizations';
 	public $id;

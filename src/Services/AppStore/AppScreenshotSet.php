@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppScreenshotSet_Attributes extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSet_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $screenshotDisplayType; // 
 
@@ -48,7 +48,7 @@ class AppScreenshotSet_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppScreenshotSet_Relationships_AppStoreVersionLocalization_Links extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSet_Relationships_AppStoreVersionLocalization_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -74,7 +74,7 @@ class AppScreenshotSet_Relationships_AppStoreVersionLocalization_Links extends \
 
 }
 
-class AppScreenshotSet_Relationships_AppStoreVersionLocalization_Data extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSet_Relationships_AppStoreVersionLocalization_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionLocalizations';
 	public $id;
@@ -100,7 +100,7 @@ class AppScreenshotSet_Relationships_AppStoreVersionLocalization_Data extends \C
 
 }
 
-class AppScreenshotSet_Relationships_AppStoreVersionLocalization extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSet_Relationships_AppStoreVersionLocalization extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppScreenshotSet_Relationships_AppStoreVersionLocalization_Links::class;
 	protected $linksDataType = 'object';
@@ -140,7 +140,7 @@ class AppScreenshotSet_Relationships_AppStoreVersionLocalization extends \Cantie
 
 }
 
-class AppScreenshotSet_Relationships_AppCustomProductPageLocalization_Links extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSet_Relationships_AppCustomProductPageLocalization_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -166,7 +166,7 @@ class AppScreenshotSet_Relationships_AppCustomProductPageLocalization_Links exte
 
 }
 
-class AppScreenshotSet_Relationships_AppCustomProductPageLocalization_Data extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSet_Relationships_AppCustomProductPageLocalization_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appCustomProductPageLocalizations';
 	public $id;
@@ -192,7 +192,7 @@ class AppScreenshotSet_Relationships_AppCustomProductPageLocalization_Data exten
 
 }
 
-class AppScreenshotSet_Relationships_AppCustomProductPageLocalization extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSet_Relationships_AppCustomProductPageLocalization extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppScreenshotSet_Relationships_AppCustomProductPageLocalization_Links::class;
 	protected $linksDataType = 'object';
@@ -232,7 +232,7 @@ class AppScreenshotSet_Relationships_AppCustomProductPageLocalization extends \C
 
 }
 
-class AppScreenshotSet_Relationships_AppStoreVersionExperimentTreatmentLocalization_Links extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSet_Relationships_AppStoreVersionExperimentTreatmentLocalization_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -258,7 +258,7 @@ class AppScreenshotSet_Relationships_AppStoreVersionExperimentTreatmentLocalizat
 
 }
 
-class AppScreenshotSet_Relationships_AppStoreVersionExperimentTreatmentLocalization_Data extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSet_Relationships_AppStoreVersionExperimentTreatmentLocalization_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionExperimentTreatmentLocalizations';
 	public $id;
@@ -284,7 +284,7 @@ class AppScreenshotSet_Relationships_AppStoreVersionExperimentTreatmentLocalizat
 
 }
 
-class AppScreenshotSet_Relationships_AppStoreVersionExperimentTreatmentLocalization extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSet_Relationships_AppStoreVersionExperimentTreatmentLocalization extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppScreenshotSet_Relationships_AppStoreVersionExperimentTreatmentLocalization_Links::class;
 	protected $linksDataType = 'object';
@@ -324,7 +324,7 @@ class AppScreenshotSet_Relationships_AppStoreVersionExperimentTreatmentLocalizat
 
 }
 
-class AppScreenshotSet_Relationships_AppScreenshots_Links extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSet_Relationships_AppScreenshots_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -350,7 +350,7 @@ class AppScreenshotSet_Relationships_AppScreenshots_Links extends \Cantie\AppSto
 
 }
 
-class AppScreenshotSet_Relationships_AppScreenshots_Data extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSet_Relationships_AppScreenshots_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appScreenshots';
 	public $id;
@@ -376,7 +376,7 @@ class AppScreenshotSet_Relationships_AppScreenshots_Data extends \Cantie\AppStor
 
 }
 
-class AppScreenshotSet_Relationships_AppScreenshots extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSet_Relationships_AppScreenshots extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppScreenshotSet_Relationships_AppScreenshots_Links::class;
 	protected $linksDataType = 'object';
@@ -433,7 +433,7 @@ class AppScreenshotSet_Relationships_AppScreenshots extends \Cantie\AppStoreConn
 
 }
 
-class AppScreenshotSet_Relationships extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSet_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appStoreVersionLocalizationType = AppScreenshotSet_Relationships_AppStoreVersionLocalization::class;
 	protected $appStoreVersionLocalizationDataType = 'object';
@@ -507,7 +507,7 @@ class AppScreenshotSet_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppScreenshotSet extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSet extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appScreenshotSets';
 	public $id;

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class PromotedPurchaseImageUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseImageUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $sourceFileChecksum;
 	public $uploaded;
@@ -52,7 +52,7 @@ class PromotedPurchaseImageUpdateRequest_Data_Attributes extends \Cantie\AppStor
 
 }
 
-class PromotedPurchaseImageUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseImageUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'promotedPurchaseImages';
 	public $id;
@@ -95,7 +95,7 @@ class PromotedPurchaseImageUpdateRequest_Data extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class PromotedPurchaseImageUpdateRequest extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseImageUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = PromotedPurchaseImageUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppClipAppStoreReviewDetail_Attributes extends \Cantie\AppStoreConnect\Model
+class AppClipAppStoreReviewDetail_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	protected $invocationUrlsType = '';
 	protected $invocationUrlsDataType = 'array';
@@ -49,7 +49,7 @@ class AppClipAppStoreReviewDetail_Attributes extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class AppClipAppStoreReviewDetail_Relationships_AppClipDefaultExperience_Links extends \Cantie\AppStoreConnect\Model
+class AppClipAppStoreReviewDetail_Relationships_AppClipDefaultExperience_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -75,7 +75,7 @@ class AppClipAppStoreReviewDetail_Relationships_AppClipDefaultExperience_Links e
 
 }
 
-class AppClipAppStoreReviewDetail_Relationships_AppClipDefaultExperience_Data extends \Cantie\AppStoreConnect\Model
+class AppClipAppStoreReviewDetail_Relationships_AppClipDefaultExperience_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipDefaultExperiences';
 	public $id;
@@ -101,7 +101,7 @@ class AppClipAppStoreReviewDetail_Relationships_AppClipDefaultExperience_Data ex
 
 }
 
-class AppClipAppStoreReviewDetail_Relationships_AppClipDefaultExperience extends \Cantie\AppStoreConnect\Model
+class AppClipAppStoreReviewDetail_Relationships_AppClipDefaultExperience extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppClipAppStoreReviewDetail_Relationships_AppClipDefaultExperience_Links::class;
 	protected $linksDataType = 'object';
@@ -141,7 +141,7 @@ class AppClipAppStoreReviewDetail_Relationships_AppClipDefaultExperience extends
 
 }
 
-class AppClipAppStoreReviewDetail_Relationships extends \Cantie\AppStoreConnect\Model
+class AppClipAppStoreReviewDetail_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appClipDefaultExperienceType = AppClipAppStoreReviewDetail_Relationships_AppClipDefaultExperience::class;
 	protected $appClipDefaultExperienceDataType = 'object';
@@ -164,7 +164,7 @@ class AppClipAppStoreReviewDetail_Relationships extends \Cantie\AppStoreConnect\
 
 }
 
-class AppClipAppStoreReviewDetail extends \Cantie\AppStoreConnect\Model
+class AppClipAppStoreReviewDetail extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipAppStoreReviewDetails';
 	public $id;

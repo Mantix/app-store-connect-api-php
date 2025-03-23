@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class InAppPurchasePriceScheduleCreateRequest_Data_Relationships_InAppPurchase_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceScheduleCreateRequest_Data_Relationships_InAppPurchase_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchases';
 	public $id;
@@ -52,7 +52,7 @@ class InAppPurchasePriceScheduleCreateRequest_Data_Relationships_InAppPurchase_D
 
 }
 
-class InAppPurchasePriceScheduleCreateRequest_Data_Relationships_InAppPurchase extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceScheduleCreateRequest_Data_Relationships_InAppPurchase extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = InAppPurchasePriceScheduleCreateRequest_Data_Relationships_InAppPurchase_Data::class;
 	protected $dataDataType = 'object';
@@ -75,7 +75,7 @@ class InAppPurchasePriceScheduleCreateRequest_Data_Relationships_InAppPurchase e
 
 }
 
-class InAppPurchasePriceScheduleCreateRequest_Data_Relationships_BaseTerritory_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceScheduleCreateRequest_Data_Relationships_BaseTerritory_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'territories';
 	public $id;
@@ -101,7 +101,7 @@ class InAppPurchasePriceScheduleCreateRequest_Data_Relationships_BaseTerritory_D
 
 }
 
-class InAppPurchasePriceScheduleCreateRequest_Data_Relationships_BaseTerritory extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceScheduleCreateRequest_Data_Relationships_BaseTerritory extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = InAppPurchasePriceScheduleCreateRequest_Data_Relationships_BaseTerritory_Data::class;
 	protected $dataDataType = 'object';
@@ -124,7 +124,7 @@ class InAppPurchasePriceScheduleCreateRequest_Data_Relationships_BaseTerritory e
 
 }
 
-class InAppPurchasePriceScheduleCreateRequest_Data_Relationships_ManualPrices_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceScheduleCreateRequest_Data_Relationships_ManualPrices_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchasePrices';
 	public $id;
@@ -150,7 +150,7 @@ class InAppPurchasePriceScheduleCreateRequest_Data_Relationships_ManualPrices_Da
 
 }
 
-class InAppPurchasePriceScheduleCreateRequest_Data_Relationships_ManualPrices extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceScheduleCreateRequest_Data_Relationships_ManualPrices extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = InAppPurchasePriceScheduleCreateRequest_Data_Relationships_ManualPrices_Data::class;
 	protected $dataDataType = 'array';
@@ -173,7 +173,7 @@ class InAppPurchasePriceScheduleCreateRequest_Data_Relationships_ManualPrices ex
 
 }
 
-class InAppPurchasePriceScheduleCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceScheduleCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $inAppPurchaseType = InAppPurchasePriceScheduleCreateRequest_Data_Relationships_InAppPurchase::class;
 	protected $inAppPurchaseDataType = 'object';
@@ -230,7 +230,7 @@ class InAppPurchasePriceScheduleCreateRequest_Data_Relationships extends \Cantie
 
 }
 
-class InAppPurchasePriceScheduleCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceScheduleCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchasePriceSchedules';
 	protected $relationshipsType = InAppPurchasePriceScheduleCreateRequest_Data_Relationships::class;
@@ -263,7 +263,7 @@ class InAppPurchasePriceScheduleCreateRequest_Data extends \Cantie\AppStoreConne
 
 }
 
-class InAppPurchasePriceScheduleCreateRequest extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceScheduleCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = InAppPurchasePriceScheduleCreateRequest_Data::class;
 	protected $dataDataType = 'object';

@@ -24,24 +24,24 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterMatchmakingRuleResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterMatchmakingRuleCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterMatchmakingRuleUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterMatchmakingBooleanRuleResultsV1MetricResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterMatchmakingNumberRuleResultsV1MetricResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterMatchmakingRuleErrorsV1MetricResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterMatchmakingRuleResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterMatchmakingRuleCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterMatchmakingRuleUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterMatchmakingBooleanRuleResultsV1MetricResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterMatchmakingNumberRuleResultsV1MetricResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterMatchmakingRuleErrorsV1MetricResponse;
 
 /**
  * The "gameCenterMatchmakingRules" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $gameCenterMatchmakingRules = $appStoreService->gameCenterMatchmakingRules;
  *  </code>
  */
-class GameCenterMatchmakingRules extends \Cantie\AppStoreConnect\Services\Resource
+class GameCenterMatchmakingRules extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

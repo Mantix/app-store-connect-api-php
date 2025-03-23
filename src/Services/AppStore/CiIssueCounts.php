@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiIssueCounts extends \Cantie\AppStoreConnect\Model
+class CiIssueCounts extends \Mantix\AppStoreConnect\Model
 {
 	public $analyzerWarnings;
 	public $errors;

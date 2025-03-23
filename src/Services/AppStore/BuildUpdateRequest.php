@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BuildUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class BuildUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $expired;
 	public $usesNonExemptEncryption;
@@ -52,7 +52,7 @@ class BuildUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BuildUpdateRequest_Data_Relationships_AppEncryptionDeclaration_Data extends \Cantie\AppStoreConnect\Model
+class BuildUpdateRequest_Data_Relationships_AppEncryptionDeclaration_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEncryptionDeclarations';
 	public $id;
@@ -78,7 +78,7 @@ class BuildUpdateRequest_Data_Relationships_AppEncryptionDeclaration_Data extend
 
 }
 
-class BuildUpdateRequest_Data_Relationships_AppEncryptionDeclaration extends \Cantie\AppStoreConnect\Model
+class BuildUpdateRequest_Data_Relationships_AppEncryptionDeclaration extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BuildUpdateRequest_Data_Relationships_AppEncryptionDeclaration_Data::class;
 	protected $dataDataType = 'object';
@@ -101,7 +101,7 @@ class BuildUpdateRequest_Data_Relationships_AppEncryptionDeclaration extends \Ca
 
 }
 
-class BuildUpdateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class BuildUpdateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appEncryptionDeclarationType = BuildUpdateRequest_Data_Relationships_AppEncryptionDeclaration::class;
 	protected $appEncryptionDeclarationDataType = 'object';
@@ -124,7 +124,7 @@ class BuildUpdateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class BuildUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class BuildUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'builds';
 	public $id;
@@ -184,7 +184,7 @@ class BuildUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BuildUpdateRequest extends \Cantie\AppStoreConnect\Model
+class BuildUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BuildUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

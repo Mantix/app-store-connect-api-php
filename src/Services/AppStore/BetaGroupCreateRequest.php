@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaGroupCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class BetaGroupCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $isInternalGroup;
@@ -102,7 +102,7 @@ class BetaGroupCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class BetaGroupCreateRequest_Data_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class BetaGroupCreateRequest_Data_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -128,7 +128,7 @@ class BetaGroupCreateRequest_Data_Relationships_App_Data extends \Cantie\AppStor
 
 }
 
-class BetaGroupCreateRequest_Data_Relationships_App extends \Cantie\AppStoreConnect\Model
+class BetaGroupCreateRequest_Data_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BetaGroupCreateRequest_Data_Relationships_App_Data::class;
 	protected $dataDataType = 'object';
@@ -151,7 +151,7 @@ class BetaGroupCreateRequest_Data_Relationships_App extends \Cantie\AppStoreConn
 
 }
 
-class BetaGroupCreateRequest_Data_Relationships_Builds_Data extends \Cantie\AppStoreConnect\Model
+class BetaGroupCreateRequest_Data_Relationships_Builds_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'builds';
 	public $id;
@@ -177,7 +177,7 @@ class BetaGroupCreateRequest_Data_Relationships_Builds_Data extends \Cantie\AppS
 
 }
 
-class BetaGroupCreateRequest_Data_Relationships_Builds extends \Cantie\AppStoreConnect\Model
+class BetaGroupCreateRequest_Data_Relationships_Builds extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BetaGroupCreateRequest_Data_Relationships_Builds_Data::class;
 	protected $dataDataType = 'array';
@@ -200,7 +200,7 @@ class BetaGroupCreateRequest_Data_Relationships_Builds extends \Cantie\AppStoreC
 
 }
 
-class BetaGroupCreateRequest_Data_Relationships_BetaTesters_Data extends \Cantie\AppStoreConnect\Model
+class BetaGroupCreateRequest_Data_Relationships_BetaTesters_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaTesters';
 	public $id;
@@ -226,7 +226,7 @@ class BetaGroupCreateRequest_Data_Relationships_BetaTesters_Data extends \Cantie
 
 }
 
-class BetaGroupCreateRequest_Data_Relationships_BetaTesters extends \Cantie\AppStoreConnect\Model
+class BetaGroupCreateRequest_Data_Relationships_BetaTesters extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BetaGroupCreateRequest_Data_Relationships_BetaTesters_Data::class;
 	protected $dataDataType = 'array';
@@ -249,7 +249,7 @@ class BetaGroupCreateRequest_Data_Relationships_BetaTesters extends \Cantie\AppS
 
 }
 
-class BetaGroupCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class BetaGroupCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = BetaGroupCreateRequest_Data_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -306,7 +306,7 @@ class BetaGroupCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\
 
 }
 
-class BetaGroupCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class BetaGroupCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaGroups';
 	protected $attributesType = BetaGroupCreateRequest_Data_Attributes::class;
@@ -356,7 +356,7 @@ class BetaGroupCreateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BetaGroupCreateRequest extends \Cantie\AppStoreConnect\Model
+class BetaGroupCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BetaGroupCreateRequest_Data::class;
 	protected $dataDataType = 'object';

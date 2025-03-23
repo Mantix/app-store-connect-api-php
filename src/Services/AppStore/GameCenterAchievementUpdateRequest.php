@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterAchievementUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $referenceName;
 	public $points;
@@ -82,7 +82,7 @@ class GameCenterAchievementUpdateRequest_Data_Attributes extends \Cantie\AppStor
 
 }
 
-class GameCenterAchievementUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterAchievements';
 	public $id;
@@ -125,7 +125,7 @@ class GameCenterAchievementUpdateRequest_Data extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class GameCenterAchievementUpdateRequest extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterAchievementUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

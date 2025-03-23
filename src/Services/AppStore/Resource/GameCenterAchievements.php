@@ -24,25 +24,25 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAchievementResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAchievementCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAchievementUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAchievementGroupAchievementLinkageResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAchievementGroupAchievementLinkageRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAchievementLocalizationsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAchievementReleasesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAchievementResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAchievementCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAchievementUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAchievementGroupAchievementLinkageResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAchievementGroupAchievementLinkageRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAchievementLocalizationsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAchievementReleasesResponse;
 
 /**
  * The "gameCenterAchievements" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $gameCenterAchievements = $appStoreService->gameCenterAchievements;
  *  </code>
  */
-class GameCenterAchievements extends \Cantie\AppStoreConnect\Services\Resource
+class GameCenterAchievements extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

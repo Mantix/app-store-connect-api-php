@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class EndAppAvailabilityPreOrderCreateRequest_Data_Relationships_TerritoryAvailabilities_Data extends \Cantie\AppStoreConnect\Model
+class EndAppAvailabilityPreOrderCreateRequest_Data_Relationships_TerritoryAvailabilities_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'territoryAvailabilities';
 	public $id;
@@ -52,7 +52,7 @@ class EndAppAvailabilityPreOrderCreateRequest_Data_Relationships_TerritoryAvaila
 
 }
 
-class EndAppAvailabilityPreOrderCreateRequest_Data_Relationships_TerritoryAvailabilities extends \Cantie\AppStoreConnect\Model
+class EndAppAvailabilityPreOrderCreateRequest_Data_Relationships_TerritoryAvailabilities extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = EndAppAvailabilityPreOrderCreateRequest_Data_Relationships_TerritoryAvailabilities_Data::class;
 	protected $dataDataType = 'array';
@@ -75,7 +75,7 @@ class EndAppAvailabilityPreOrderCreateRequest_Data_Relationships_TerritoryAvaila
 
 }
 
-class EndAppAvailabilityPreOrderCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class EndAppAvailabilityPreOrderCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $territoryAvailabilitiesType = EndAppAvailabilityPreOrderCreateRequest_Data_Relationships_TerritoryAvailabilities::class;
 	protected $territoryAvailabilitiesDataType = 'object';
@@ -98,7 +98,7 @@ class EndAppAvailabilityPreOrderCreateRequest_Data_Relationships extends \Cantie
 
 }
 
-class EndAppAvailabilityPreOrderCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class EndAppAvailabilityPreOrderCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'endAppAvailabilityPreOrders';
 	protected $relationshipsType = EndAppAvailabilityPreOrderCreateRequest_Data_Relationships::class;
@@ -131,7 +131,7 @@ class EndAppAvailabilityPreOrderCreateRequest_Data extends \Cantie\AppStoreConne
 
 }
 
-class EndAppAvailabilityPreOrderCreateRequest extends \Cantie\AppStoreConnect\Model
+class EndAppAvailabilityPreOrderCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = EndAppAvailabilityPreOrderCreateRequest_Data::class;
 	protected $dataDataType = 'object';

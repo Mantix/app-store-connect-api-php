@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppPriceV2InlineCreate extends \Cantie\AppStoreConnect\Model
+class AppPriceV2InlineCreate extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appPrices';
 	public $id;

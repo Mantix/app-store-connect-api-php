@@ -24,22 +24,22 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\InAppPurchasePriceScheduleResponse;
-use Cantie\AppStoreConnect\Services\AppStore\InAppPurchasePriceScheduleCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\InAppPurchasePricesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\TerritoryResponse;
+use Mantix\AppStoreConnect\Services\AppStore\InAppPurchasePriceScheduleResponse;
+use Mantix\AppStoreConnect\Services\AppStore\InAppPurchasePriceScheduleCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\InAppPurchasePricesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\TerritoryResponse;
 
 /**
  * The "inAppPurchasePriceSchedules" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $inAppPurchasePriceSchedules = $appStoreService->inAppPurchasePriceSchedules;
  *  </code>
  */
-class InAppPurchasePriceSchedules extends \Cantie\AppStoreConnect\Services\Resource
+class InAppPurchasePriceSchedules extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

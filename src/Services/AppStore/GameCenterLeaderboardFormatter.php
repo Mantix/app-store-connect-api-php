@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterLeaderboardFormatter extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardFormatter extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $INTEGER = "INTEGER";

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AlternativeDistributionPackageCreateRequest_Data_Relationships_AppStoreVersion_Data extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionPackageCreateRequest_Data_Relationships_AppStoreVersion_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersions';
 	public $id;
@@ -52,7 +52,7 @@ class AlternativeDistributionPackageCreateRequest_Data_Relationships_AppStoreVer
 
 }
 
-class AlternativeDistributionPackageCreateRequest_Data_Relationships_AppStoreVersion extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionPackageCreateRequest_Data_Relationships_AppStoreVersion extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AlternativeDistributionPackageCreateRequest_Data_Relationships_AppStoreVersion_Data::class;
 	protected $dataDataType = 'object';
@@ -75,7 +75,7 @@ class AlternativeDistributionPackageCreateRequest_Data_Relationships_AppStoreVer
 
 }
 
-class AlternativeDistributionPackageCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionPackageCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appStoreVersionType = AlternativeDistributionPackageCreateRequest_Data_Relationships_AppStoreVersion::class;
 	protected $appStoreVersionDataType = 'object';
@@ -98,7 +98,7 @@ class AlternativeDistributionPackageCreateRequest_Data_Relationships extends \Ca
 
 }
 
-class AlternativeDistributionPackageCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionPackageCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'alternativeDistributionPackages';
 	protected $relationshipsType = AlternativeDistributionPackageCreateRequest_Data_Relationships::class;
@@ -131,7 +131,7 @@ class AlternativeDistributionPackageCreateRequest_Data extends \Cantie\AppStoreC
 
 }
 
-class AlternativeDistributionPackageCreateRequest extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionPackageCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AlternativeDistributionPackageCreateRequest_Data::class;
 	protected $dataDataType = 'object';

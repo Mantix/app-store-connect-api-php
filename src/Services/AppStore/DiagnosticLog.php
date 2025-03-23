@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class DiagnosticLog extends \Cantie\AppStoreConnect\Model
+class DiagnosticLog extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'diagnosticLogs';
 	public $id;

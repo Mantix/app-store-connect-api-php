@@ -51,7 +51,7 @@ $ret = $appstore->salesReports->listSalesReports([
     // missing required parameters lead to exception
 ]);
 echo "Expected result is Exception: <br>";
-var_dump($ret instanceof Cantie\AppStoreConnect\Exception);
+var_dump($ret instanceof Mantix\AppStoreConnect\Exception);
 echo "<br>";
 echo "Get errors by getErrors(): <br>";
 var_dump(json_encode($ret->getErrors()));

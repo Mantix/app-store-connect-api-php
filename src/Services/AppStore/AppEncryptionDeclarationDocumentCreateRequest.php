@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppEncryptionDeclarationDocumentCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppEncryptionDeclarationDocumentCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $fileSize;
 	public $fileName;
@@ -52,7 +52,7 @@ class AppEncryptionDeclarationDocumentCreateRequest_Data_Attributes extends \Can
 
 }
 
-class AppEncryptionDeclarationDocumentCreateRequest_Data_Relationships_AppEncryptionDeclaration_Data extends \Cantie\AppStoreConnect\Model
+class AppEncryptionDeclarationDocumentCreateRequest_Data_Relationships_AppEncryptionDeclaration_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEncryptionDeclarations';
 	public $id;
@@ -78,7 +78,7 @@ class AppEncryptionDeclarationDocumentCreateRequest_Data_Relationships_AppEncryp
 
 }
 
-class AppEncryptionDeclarationDocumentCreateRequest_Data_Relationships_AppEncryptionDeclaration extends \Cantie\AppStoreConnect\Model
+class AppEncryptionDeclarationDocumentCreateRequest_Data_Relationships_AppEncryptionDeclaration extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppEncryptionDeclarationDocumentCreateRequest_Data_Relationships_AppEncryptionDeclaration_Data::class;
 	protected $dataDataType = 'object';
@@ -101,7 +101,7 @@ class AppEncryptionDeclarationDocumentCreateRequest_Data_Relationships_AppEncryp
 
 }
 
-class AppEncryptionDeclarationDocumentCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppEncryptionDeclarationDocumentCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appEncryptionDeclarationType = AppEncryptionDeclarationDocumentCreateRequest_Data_Relationships_AppEncryptionDeclaration::class;
 	protected $appEncryptionDeclarationDataType = 'object';
@@ -124,7 +124,7 @@ class AppEncryptionDeclarationDocumentCreateRequest_Data_Relationships extends \
 
 }
 
-class AppEncryptionDeclarationDocumentCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppEncryptionDeclarationDocumentCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEncryptionDeclarationDocuments';
 	protected $attributesType = AppEncryptionDeclarationDocumentCreateRequest_Data_Attributes::class;
@@ -174,7 +174,7 @@ class AppEncryptionDeclarationDocumentCreateRequest_Data extends \Cantie\AppStor
 
 }
 
-class AppEncryptionDeclarationDocumentCreateRequest extends \Cantie\AppStoreConnect\Model
+class AppEncryptionDeclarationDocumentCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppEncryptionDeclarationDocumentCreateRequest_Data::class;
 	protected $dataDataType = 'object';

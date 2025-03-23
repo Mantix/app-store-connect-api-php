@@ -24,20 +24,20 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAchievementReleaseResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAchievementReleaseCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAchievementReleaseResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAchievementReleaseCreateRequest;
 
 /**
  * The "gameCenterAchievementReleases" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $gameCenterAchievementReleases = $appStoreService->gameCenterAchievementReleases;
  *  </code>
  */
-class GameCenterAchievementReleases extends \Cantie\AppStoreConnect\Services\Resource
+class GameCenterAchievementReleases extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

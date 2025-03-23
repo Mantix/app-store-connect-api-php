@@ -24,20 +24,20 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\TerritoryAvailabilityResponse;
-use Cantie\AppStoreConnect\Services\AppStore\TerritoryAvailabilityUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\TerritoryAvailabilityResponse;
+use Mantix\AppStoreConnect\Services\AppStore\TerritoryAvailabilityUpdateRequest;
 
 /**
  * The "territoryAvailabilities" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $territoryAvailabilities = $appStoreService->territoryAvailabilities;
  *  </code>
  */
-class TerritoryAvailabilities extends \Cantie\AppStoreConnect\Services\Resource
+class TerritoryAvailabilities extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

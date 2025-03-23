@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppClipAdvancedExperienceLocalization_Attributes extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperienceLocalization_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $language; // 
 	public $title;
@@ -68,7 +68,7 @@ class AppClipAdvancedExperienceLocalization_Attributes extends \Cantie\AppStoreC
 
 }
 
-class AppClipAdvancedExperienceLocalization extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperienceLocalization extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipAdvancedExperienceLocalizations';
 	public $id;

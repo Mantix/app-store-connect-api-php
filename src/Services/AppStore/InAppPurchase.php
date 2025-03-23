@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class InAppPurchase_Attributes extends \Cantie\AppStoreConnect\Model
+class InAppPurchase_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $referenceName;
 	public $productId;
@@ -72,7 +72,7 @@ class InAppPurchase_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class InAppPurchase_Relationships_Apps_Links extends \Cantie\AppStoreConnect\Model
+class InAppPurchase_Relationships_Apps_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -98,7 +98,7 @@ class InAppPurchase_Relationships_Apps_Links extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class InAppPurchase_Relationships_Apps_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchase_Relationships_Apps_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -124,7 +124,7 @@ class InAppPurchase_Relationships_Apps_Data extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class InAppPurchase_Relationships_Apps extends \Cantie\AppStoreConnect\Model
+class InAppPurchase_Relationships_Apps extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = InAppPurchase_Relationships_Apps_Links::class;
 	protected $linksDataType = 'object';
@@ -181,7 +181,7 @@ class InAppPurchase_Relationships_Apps extends \Cantie\AppStoreConnect\Model
 
 }
 
-class InAppPurchase_Relationships extends \Cantie\AppStoreConnect\Model
+class InAppPurchase_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appsType = InAppPurchase_Relationships_Apps::class;
 	protected $appsDataType = 'object';
@@ -204,7 +204,7 @@ class InAppPurchase_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class InAppPurchase extends \Cantie\AppStoreConnect\Model
+class InAppPurchase extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchases';
 	public $id;

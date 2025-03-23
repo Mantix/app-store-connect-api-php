@@ -24,23 +24,23 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppEncryptionDeclarationsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppEncryptionDeclarationResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppEncryptionDeclarationDocumentResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppEncryptionDeclarationBuildsLinkagesRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppEncryptionDeclarationsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppEncryptionDeclarationResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppEncryptionDeclarationDocumentResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppEncryptionDeclarationBuildsLinkagesRequest;
 
 /**
  * The "appEncryptionDeclarations" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appEncryptionDeclarations = $appStoreService->appEncryptionDeclarations;
  *  </code>
  */
-class AppEncryptionDeclarations extends \Cantie\AppStoreConnect\Services\Resource
+class AppEncryptionDeclarations extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

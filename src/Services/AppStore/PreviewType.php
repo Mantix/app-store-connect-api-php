@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class PreviewType extends \Cantie\AppStoreConnect\Model
+class PreviewType extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $IPHONE_67 = "IPHONE_67";

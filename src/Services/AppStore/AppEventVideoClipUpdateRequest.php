@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppEventVideoClipUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppEventVideoClipUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $previewFrameTimeCode;
 	public $uploaded;
@@ -52,7 +52,7 @@ class AppEventVideoClipUpdateRequest_Data_Attributes extends \Cantie\AppStoreCon
 
 }
 
-class AppEventVideoClipUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppEventVideoClipUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEventVideoClips';
 	public $id;
@@ -95,7 +95,7 @@ class AppEventVideoClipUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppEventVideoClipUpdateRequest extends \Cantie\AppStoreConnect\Model
+class AppEventVideoClipUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppEventVideoClipUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionOfferCodeOneTimeUseCodeValue extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeOneTimeUseCodeValue extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionOfferCodeOneTimeUseCodeValues';
 	public $id;

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppEventScreenshot_Attributes extends \Cantie\AppStoreConnect\Model
+class AppEventScreenshot_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $fileSize;
 	public $fileName;
@@ -129,7 +129,7 @@ class AppEventScreenshot_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppEventScreenshot_Relationships_AppEventLocalization_Links extends \Cantie\AppStoreConnect\Model
+class AppEventScreenshot_Relationships_AppEventLocalization_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -155,7 +155,7 @@ class AppEventScreenshot_Relationships_AppEventLocalization_Links extends \Canti
 
 }
 
-class AppEventScreenshot_Relationships_AppEventLocalization_Data extends \Cantie\AppStoreConnect\Model
+class AppEventScreenshot_Relationships_AppEventLocalization_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEventLocalizations';
 	public $id;
@@ -181,7 +181,7 @@ class AppEventScreenshot_Relationships_AppEventLocalization_Data extends \Cantie
 
 }
 
-class AppEventScreenshot_Relationships_AppEventLocalization extends \Cantie\AppStoreConnect\Model
+class AppEventScreenshot_Relationships_AppEventLocalization extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppEventScreenshot_Relationships_AppEventLocalization_Links::class;
 	protected $linksDataType = 'object';
@@ -221,7 +221,7 @@ class AppEventScreenshot_Relationships_AppEventLocalization extends \Cantie\AppS
 
 }
 
-class AppEventScreenshot_Relationships extends \Cantie\AppStoreConnect\Model
+class AppEventScreenshot_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appEventLocalizationType = AppEventScreenshot_Relationships_AppEventLocalization::class;
 	protected $appEventLocalizationDataType = 'object';
@@ -244,7 +244,7 @@ class AppEventScreenshot_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppEventScreenshot extends \Cantie\AppStoreConnect\Model
+class AppEventScreenshot extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEventScreenshots';
 	public $id;

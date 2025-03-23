@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppPreOrderResponse extends \Cantie\AppStoreConnect\Model
+class AppPreOrderResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppPreOrder::class;
 	protected $dataDataType = '';

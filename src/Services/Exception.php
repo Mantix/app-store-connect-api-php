@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-namespace Cantie\AppStoreConnect\Services;
+namespace Mantix\AppStoreConnect\Services;
 
-use Cantie\AppStoreConnect\Exception as AppleException;
-// use Cantie\AppStoreConnect\Services\AppStore\ErrorResponse as ErrorResponse;
+use Mantix\AppStoreConnect\Exception as AppleException;
+// use Mantix\AppStoreConnect\Services\AppStore\ErrorResponse as ErrorResponse;
 
 class Exception extends AppleException
 {

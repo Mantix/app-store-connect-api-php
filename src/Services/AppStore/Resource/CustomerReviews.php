@@ -24,20 +24,20 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\CustomerReviewResponse;
-use Cantie\AppStoreConnect\Services\AppStore\CustomerReviewResponseV1Response;
+use Mantix\AppStoreConnect\Services\AppStore\CustomerReviewResponse;
+use Mantix\AppStoreConnect\Services\AppStore\CustomerReviewResponseV1Response;
 
 /**
  * The "customerReviews" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $customerReviews = $appStoreService->customerReviews;
  *  </code>
  */
-class CustomerReviews extends \Cantie\AppStoreConnect\Services\Resource
+class CustomerReviews extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

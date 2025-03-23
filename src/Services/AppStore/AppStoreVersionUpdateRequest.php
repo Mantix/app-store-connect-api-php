@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppStoreVersionUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $versionString;
 	public $copyright;
@@ -92,7 +92,7 @@ class AppStoreVersionUpdateRequest_Data_Attributes extends \Cantie\AppStoreConne
 
 }
 
-class AppStoreVersionUpdateRequest_Data_Relationships_Build_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionUpdateRequest_Data_Relationships_Build_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'builds';
 	public $id;
@@ -118,7 +118,7 @@ class AppStoreVersionUpdateRequest_Data_Relationships_Build_Data extends \Cantie
 
 }
 
-class AppStoreVersionUpdateRequest_Data_Relationships_Build extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionUpdateRequest_Data_Relationships_Build extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersionUpdateRequest_Data_Relationships_Build_Data::class;
 	protected $dataDataType = 'object';
@@ -141,7 +141,7 @@ class AppStoreVersionUpdateRequest_Data_Relationships_Build extends \Cantie\AppS
 
 }
 
-class AppStoreVersionUpdateRequest_Data_Relationships_AppClipDefaultExperience_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionUpdateRequest_Data_Relationships_AppClipDefaultExperience_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipDefaultExperiences';
 	public $id;
@@ -167,7 +167,7 @@ class AppStoreVersionUpdateRequest_Data_Relationships_AppClipDefaultExperience_D
 
 }
 
-class AppStoreVersionUpdateRequest_Data_Relationships_AppClipDefaultExperience extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionUpdateRequest_Data_Relationships_AppClipDefaultExperience extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersionUpdateRequest_Data_Relationships_AppClipDefaultExperience_Data::class;
 	protected $dataDataType = 'object';
@@ -190,7 +190,7 @@ class AppStoreVersionUpdateRequest_Data_Relationships_AppClipDefaultExperience e
 
 }
 
-class AppStoreVersionUpdateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionUpdateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $buildType = AppStoreVersionUpdateRequest_Data_Relationships_Build::class;
 	protected $buildDataType = 'object';
@@ -230,7 +230,7 @@ class AppStoreVersionUpdateRequest_Data_Relationships extends \Cantie\AppStoreCo
 
 }
 
-class AppStoreVersionUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersions';
 	public $id;
@@ -290,7 +290,7 @@ class AppStoreVersionUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppStoreVersionUpdateRequest extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersionUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

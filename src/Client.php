@@ -15,15 +15,15 @@
  * limitations under the License.
  */
 
-namespace Cantie\AppStoreConnect;
+namespace Mantix\AppStoreConnect;
 
-use Cantie\AppStoreConnect\AccessToken\Generate;
+use Mantix\AppStoreConnect\AccessToken\Generate;
 
 use DateTime;
 use InvalidArgumentException;
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\ClientInterface;
-use Cantie\AppStoreConnect\Http\REST;
+use Mantix\AppStoreConnect\Http\REST;
 
 use Psr\Log\LoggerInterface;
 use Psr\Http\Message\RequestInterface;

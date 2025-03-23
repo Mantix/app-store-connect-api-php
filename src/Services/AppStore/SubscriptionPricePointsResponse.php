@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionPricePointsResponse extends \Cantie\AppStoreConnect\Model
+class SubscriptionPricePointsResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionPricePoint::class;
 	protected $dataDataType = 'array';

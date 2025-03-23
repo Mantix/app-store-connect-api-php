@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiTestStatus extends \Cantie\AppStoreConnect\Model
+class CiTestStatus extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $SUCCESS = "SUCCESS";

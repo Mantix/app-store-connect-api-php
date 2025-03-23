@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiActionType extends \Cantie\AppStoreConnect\Model
+class CiActionType extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $BUILD = "BUILD";

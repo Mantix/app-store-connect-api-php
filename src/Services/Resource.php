@@ -15,14 +15,14 @@
  * limitations under the License.
  */
 
-namespace Cantie\AppStoreConnect\Services;
+namespace Mantix\AppStoreConnect\Services;
 
-use Cantie\AppStoreConnect\Model;
-use Cantie\AppStoreConnect\Http\MediaFileUpload;
-use Cantie\AppStoreConnect\Exception as AppleException;
-use Cantie\AppStoreConnect\Utils\UriTemplate;
+use Mantix\AppStoreConnect\Model;
+use Mantix\AppStoreConnect\Http\MediaFileUpload;
+use Mantix\AppStoreConnect\Exception as AppleException;
+use Mantix\AppStoreConnect\Utils\UriTemplate;
 use GuzzleHttp\Psr7\Request;
-use Cantie\AppStoreConnect\Services\AppStore\gzip;
+use Mantix\AppStoreConnect\Services\AppStore\gzip;
 
 class Resource
 {
@@ -43,7 +43,7 @@ class Resource
   /** @var string $rootUrl */
   private $rootUrl;
 
-  /** @var \Cantie\AppStoreConnect\Client $client */
+  /** @var \Mantix\AppStoreConnect\Client $client */
   private $client;
 
   /** @var string $serviceName */
@@ -76,7 +76,7 @@ class Resource
    * @param $arguments
    * @param $expectedClass - optional, the expected class name
    * @return mixed|$expectedClass|ResponseInterface|RequestInterface
-   * @throws \Cantie\AppStoreConnect\Services\Exception
+   * @throws \Mantix\AppStoreConnect\Services\Exception
    */
   public function call($name, $arguments, $expectedClass = null)
   {

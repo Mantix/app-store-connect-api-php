@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionAvailabilityResponse;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionAvailabilityCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\TerritoriesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionAvailabilityResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionAvailabilityCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\TerritoriesResponse;
 
 /**
  * The "subscriptionAvailabilities" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $subscriptionAvailabilities = $appStoreService->subscriptionAvailabilities;
  *  </code>
  */
-class SubscriptionAvailabilities extends \Cantie\AppStoreConnect\Services\Resource
+class SubscriptionAvailabilities extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

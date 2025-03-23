@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AnalyticsReportRequestCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AnalyticsReportRequestCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $accessType; // ONE_TIME_SNAPSHOT, ONGOING
 
@@ -42,7 +42,7 @@ class AnalyticsReportRequestCreateRequest_Data_Attributes extends \Cantie\AppSto
 
 }
 
-class AnalyticsReportRequestCreateRequest_Data_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class AnalyticsReportRequestCreateRequest_Data_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -68,7 +68,7 @@ class AnalyticsReportRequestCreateRequest_Data_Relationships_App_Data extends \C
 
 }
 
-class AnalyticsReportRequestCreateRequest_Data_Relationships_App extends \Cantie\AppStoreConnect\Model
+class AnalyticsReportRequestCreateRequest_Data_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AnalyticsReportRequestCreateRequest_Data_Relationships_App_Data::class;
 	protected $dataDataType = 'object';
@@ -91,7 +91,7 @@ class AnalyticsReportRequestCreateRequest_Data_Relationships_App extends \Cantie
 
 }
 
-class AnalyticsReportRequestCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AnalyticsReportRequestCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = AnalyticsReportRequestCreateRequest_Data_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -114,7 +114,7 @@ class AnalyticsReportRequestCreateRequest_Data_Relationships extends \Cantie\App
 
 }
 
-class AnalyticsReportRequestCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AnalyticsReportRequestCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'analyticsReportRequests';
 	protected $attributesType = AnalyticsReportRequestCreateRequest_Data_Attributes::class;
@@ -164,7 +164,7 @@ class AnalyticsReportRequestCreateRequest_Data extends \Cantie\AppStoreConnect\M
 
 }
 
-class AnalyticsReportRequestCreateRequest extends \Cantie\AppStoreConnect\Model
+class AnalyticsReportRequestCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AnalyticsReportRequestCreateRequest_Data::class;
 	protected $dataDataType = 'object';

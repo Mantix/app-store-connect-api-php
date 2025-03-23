@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class UploadOperation extends \Cantie\AppStoreConnect\Model
+class UploadOperation extends \Mantix\AppStoreConnect\Model
 {
 	public $method;
 	public $url;

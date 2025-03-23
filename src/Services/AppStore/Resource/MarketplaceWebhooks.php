@@ -24,22 +24,22 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\MarketplaceWebhooksResponse;
-use Cantie\AppStoreConnect\Services\AppStore\MarketplaceWebhookResponse;
-use Cantie\AppStoreConnect\Services\AppStore\MarketplaceWebhookCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\MarketplaceWebhookUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\MarketplaceWebhooksResponse;
+use Mantix\AppStoreConnect\Services\AppStore\MarketplaceWebhookResponse;
+use Mantix\AppStoreConnect\Services\AppStore\MarketplaceWebhookCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\MarketplaceWebhookUpdateRequest;
 
 /**
  * The "marketplaceWebhooks" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $marketplaceWebhooks = $appStoreService->marketplaceWebhooks;
  *  </code>
  */
-class MarketplaceWebhooks extends \Cantie\AppStoreConnect\Services\Resource
+class MarketplaceWebhooks extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

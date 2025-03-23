@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class Certificate_Attributes extends \Cantie\AppStoreConnect\Model
+class Certificate_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $certificateType; // 
@@ -114,7 +114,7 @@ class Certificate_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Certificate extends \Cantie\AppStoreConnect\Model
+class Certificate extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'certificates';
 	public $id;

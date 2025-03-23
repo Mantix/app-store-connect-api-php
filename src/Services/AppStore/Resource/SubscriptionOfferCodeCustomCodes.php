@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionOfferCodeCustomCodeResponse;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionOfferCodeCustomCodeCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionOfferCodeCustomCodeUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionOfferCodeCustomCodeResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionOfferCodeCustomCodeCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionOfferCodeCustomCodeUpdateRequest;
 
 /**
  * The "subscriptionOfferCodeCustomCodes" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $subscriptionOfferCodeCustomCodes = $appStoreService->subscriptionOfferCodeCustomCodes;
  *  </code>
  */
-class SubscriptionOfferCodeCustomCodes extends \Cantie\AppStoreConnect\Services\Resource
+class SubscriptionOfferCodeCustomCodes extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

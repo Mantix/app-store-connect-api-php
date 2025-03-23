@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AnalyticsReport_Attributes extends \Cantie\AppStoreConnect\Model
+class AnalyticsReport_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $category; // APP_USAGE, APP_STORE_ENGAGEMENT, COMMERCE, FRAMEWORK_USAGE, PERFORMANCE
@@ -52,7 +52,7 @@ class AnalyticsReport_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AnalyticsReport extends \Cantie\AppStoreConnect\Model
+class AnalyticsReport extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'analyticsReports';
 	public $id;

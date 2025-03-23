@@ -24,20 +24,20 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterMatchmakingRuleSetTestResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterMatchmakingRuleSetTestCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterMatchmakingRuleSetTestResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterMatchmakingRuleSetTestCreateRequest;
 
 /**
  * The "gameCenterMatchmakingRuleSetTests" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $gameCenterMatchmakingRuleSetTests = $appStoreService->gameCenterMatchmakingRuleSetTests;
  *  </code>
  */
-class GameCenterMatchmakingRuleSetTests extends \Cantie\AppStoreConnect\Services\Resource
+class GameCenterMatchmakingRuleSetTests extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

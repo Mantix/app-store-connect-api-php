@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\InAppPurchaseAvailabilityResponse;
-use Cantie\AppStoreConnect\Services\AppStore\InAppPurchaseAvailabilityCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\TerritoriesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\InAppPurchaseAvailabilityResponse;
+use Mantix\AppStoreConnect\Services\AppStore\InAppPurchaseAvailabilityCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\TerritoriesResponse;
 
 /**
  * The "inAppPurchaseAvailabilities" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $inAppPurchaseAvailabilities = $appStoreService->inAppPurchaseAvailabilities;
  *  </code>
  */
-class InAppPurchaseAvailabilities extends \Cantie\AppStoreConnect\Services\Resource
+class InAppPurchaseAvailabilities extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

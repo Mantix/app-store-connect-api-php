@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppCustomProductPageLocalization_Attributes extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageLocalization_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $locale;
 	public $promotionalText;
@@ -52,7 +52,7 @@ class AppCustomProductPageLocalization_Attributes extends \Cantie\AppStoreConnec
 
 }
 
-class AppCustomProductPageLocalization_Relationships_AppCustomProductPageVersion_Links extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageLocalization_Relationships_AppCustomProductPageVersion_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -78,7 +78,7 @@ class AppCustomProductPageLocalization_Relationships_AppCustomProductPageVersion
 
 }
 
-class AppCustomProductPageLocalization_Relationships_AppCustomProductPageVersion_Data extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageLocalization_Relationships_AppCustomProductPageVersion_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appCustomProductPageVersions';
 	public $id;
@@ -104,7 +104,7 @@ class AppCustomProductPageLocalization_Relationships_AppCustomProductPageVersion
 
 }
 
-class AppCustomProductPageLocalization_Relationships_AppCustomProductPageVersion extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageLocalization_Relationships_AppCustomProductPageVersion extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppCustomProductPageLocalization_Relationships_AppCustomProductPageVersion_Links::class;
 	protected $linksDataType = 'object';
@@ -144,7 +144,7 @@ class AppCustomProductPageLocalization_Relationships_AppCustomProductPageVersion
 
 }
 
-class AppCustomProductPageLocalization_Relationships_AppScreenshotSets_Links extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageLocalization_Relationships_AppScreenshotSets_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -170,7 +170,7 @@ class AppCustomProductPageLocalization_Relationships_AppScreenshotSets_Links ext
 
 }
 
-class AppCustomProductPageLocalization_Relationships_AppScreenshotSets_Data extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageLocalization_Relationships_AppScreenshotSets_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appScreenshotSets';
 	public $id;
@@ -196,7 +196,7 @@ class AppCustomProductPageLocalization_Relationships_AppScreenshotSets_Data exte
 
 }
 
-class AppCustomProductPageLocalization_Relationships_AppScreenshotSets extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageLocalization_Relationships_AppScreenshotSets extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppCustomProductPageLocalization_Relationships_AppScreenshotSets_Links::class;
 	protected $linksDataType = 'object';
@@ -253,7 +253,7 @@ class AppCustomProductPageLocalization_Relationships_AppScreenshotSets extends \
 
 }
 
-class AppCustomProductPageLocalization_Relationships_AppPreviewSets_Links extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageLocalization_Relationships_AppPreviewSets_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -279,7 +279,7 @@ class AppCustomProductPageLocalization_Relationships_AppPreviewSets_Links extend
 
 }
 
-class AppCustomProductPageLocalization_Relationships_AppPreviewSets_Data extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageLocalization_Relationships_AppPreviewSets_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appPreviewSets';
 	public $id;
@@ -305,7 +305,7 @@ class AppCustomProductPageLocalization_Relationships_AppPreviewSets_Data extends
 
 }
 
-class AppCustomProductPageLocalization_Relationships_AppPreviewSets extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageLocalization_Relationships_AppPreviewSets extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppCustomProductPageLocalization_Relationships_AppPreviewSets_Links::class;
 	protected $linksDataType = 'object';
@@ -362,7 +362,7 @@ class AppCustomProductPageLocalization_Relationships_AppPreviewSets extends \Can
 
 }
 
-class AppCustomProductPageLocalization_Relationships extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageLocalization_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appCustomProductPageVersionType = AppCustomProductPageLocalization_Relationships_AppCustomProductPageVersion::class;
 	protected $appCustomProductPageVersionDataType = 'object';
@@ -419,7 +419,7 @@ class AppCustomProductPageLocalization_Relationships extends \Cantie\AppStoreCon
 
 }
 
-class AppCustomProductPageLocalization extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageLocalization extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appCustomProductPageLocalizations';
 	public $id;

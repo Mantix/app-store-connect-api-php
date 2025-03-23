@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppEncryptionDeclaration_Attributes extends \Cantie\AppStoreConnect\Model
+class AppEncryptionDeclaration_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $appDescription;
 	public $createdDate;
@@ -184,7 +184,7 @@ class AppEncryptionDeclaration_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppEncryptionDeclaration_Relationships_App_Links extends \Cantie\AppStoreConnect\Model
+class AppEncryptionDeclaration_Relationships_App_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -210,7 +210,7 @@ class AppEncryptionDeclaration_Relationships_App_Links extends \Cantie\AppStoreC
 
 }
 
-class AppEncryptionDeclaration_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class AppEncryptionDeclaration_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -236,7 +236,7 @@ class AppEncryptionDeclaration_Relationships_App_Data extends \Cantie\AppStoreCo
 
 }
 
-class AppEncryptionDeclaration_Relationships_App extends \Cantie\AppStoreConnect\Model
+class AppEncryptionDeclaration_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppEncryptionDeclaration_Relationships_App_Links::class;
 	protected $linksDataType = 'object';
@@ -276,7 +276,7 @@ class AppEncryptionDeclaration_Relationships_App extends \Cantie\AppStoreConnect
 
 }
 
-class AppEncryptionDeclaration_Relationships_Builds_Links extends \Cantie\AppStoreConnect\Model
+class AppEncryptionDeclaration_Relationships_Builds_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -302,7 +302,7 @@ class AppEncryptionDeclaration_Relationships_Builds_Links extends \Cantie\AppSto
 
 }
 
-class AppEncryptionDeclaration_Relationships_Builds_Data extends \Cantie\AppStoreConnect\Model
+class AppEncryptionDeclaration_Relationships_Builds_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'builds';
 	public $id;
@@ -328,7 +328,7 @@ class AppEncryptionDeclaration_Relationships_Builds_Data extends \Cantie\AppStor
 
 }
 
-class AppEncryptionDeclaration_Relationships_Builds extends \Cantie\AppStoreConnect\Model
+class AppEncryptionDeclaration_Relationships_Builds extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppEncryptionDeclaration_Relationships_Builds_Links::class;
 	protected $linksDataType = 'object';
@@ -385,7 +385,7 @@ class AppEncryptionDeclaration_Relationships_Builds extends \Cantie\AppStoreConn
 
 }
 
-class AppEncryptionDeclaration_Relationships_AppEncryptionDeclarationDocument_Links extends \Cantie\AppStoreConnect\Model
+class AppEncryptionDeclaration_Relationships_AppEncryptionDeclarationDocument_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -411,7 +411,7 @@ class AppEncryptionDeclaration_Relationships_AppEncryptionDeclarationDocument_Li
 
 }
 
-class AppEncryptionDeclaration_Relationships_AppEncryptionDeclarationDocument_Data extends \Cantie\AppStoreConnect\Model
+class AppEncryptionDeclaration_Relationships_AppEncryptionDeclarationDocument_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEncryptionDeclarationDocuments';
 	public $id;
@@ -437,7 +437,7 @@ class AppEncryptionDeclaration_Relationships_AppEncryptionDeclarationDocument_Da
 
 }
 
-class AppEncryptionDeclaration_Relationships_AppEncryptionDeclarationDocument extends \Cantie\AppStoreConnect\Model
+class AppEncryptionDeclaration_Relationships_AppEncryptionDeclarationDocument extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppEncryptionDeclaration_Relationships_AppEncryptionDeclarationDocument_Links::class;
 	protected $linksDataType = 'object';
@@ -477,7 +477,7 @@ class AppEncryptionDeclaration_Relationships_AppEncryptionDeclarationDocument ex
 
 }
 
-class AppEncryptionDeclaration_Relationships extends \Cantie\AppStoreConnect\Model
+class AppEncryptionDeclaration_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = AppEncryptionDeclaration_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -534,7 +534,7 @@ class AppEncryptionDeclaration_Relationships extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class AppEncryptionDeclaration extends \Cantie\AppStoreConnect\Model
+class AppEncryptionDeclaration extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEncryptionDeclarations';
 	public $id;

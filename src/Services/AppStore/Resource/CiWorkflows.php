@@ -24,23 +24,23 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\CiWorkflowResponse;
-use Cantie\AppStoreConnect\Services\AppStore\CiWorkflowCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\CiWorkflowUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\CiBuildRunsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\ScmRepositoryResponse;
+use Mantix\AppStoreConnect\Services\AppStore\CiWorkflowResponse;
+use Mantix\AppStoreConnect\Services\AppStore\CiWorkflowCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\CiWorkflowUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\CiBuildRunsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\ScmRepositoryResponse;
 
 /**
  * The "ciWorkflows" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $ciWorkflows = $appStoreService->ciWorkflows;
  *  </code>
  */
-class CiWorkflows extends \Cantie\AppStoreConnect\Services\Resource
+class CiWorkflows extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

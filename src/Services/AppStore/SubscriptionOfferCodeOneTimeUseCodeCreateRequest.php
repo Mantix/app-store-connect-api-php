@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionOfferCodeOneTimeUseCodeCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeOneTimeUseCodeCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $numberOfCodes;
 	public $expirationDate;
@@ -52,7 +52,7 @@ class SubscriptionOfferCodeOneTimeUseCodeCreateRequest_Data_Attributes extends \
 
 }
 
-class SubscriptionOfferCodeOneTimeUseCodeCreateRequest_Data_Relationships_OfferCode_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeOneTimeUseCodeCreateRequest_Data_Relationships_OfferCode_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionOfferCodes';
 	public $id;
@@ -78,7 +78,7 @@ class SubscriptionOfferCodeOneTimeUseCodeCreateRequest_Data_Relationships_OfferC
 
 }
 
-class SubscriptionOfferCodeOneTimeUseCodeCreateRequest_Data_Relationships_OfferCode extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeOneTimeUseCodeCreateRequest_Data_Relationships_OfferCode extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionOfferCodeOneTimeUseCodeCreateRequest_Data_Relationships_OfferCode_Data::class;
 	protected $dataDataType = 'object';
@@ -101,7 +101,7 @@ class SubscriptionOfferCodeOneTimeUseCodeCreateRequest_Data_Relationships_OfferC
 
 }
 
-class SubscriptionOfferCodeOneTimeUseCodeCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeOneTimeUseCodeCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $offerCodeType = SubscriptionOfferCodeOneTimeUseCodeCreateRequest_Data_Relationships_OfferCode::class;
 	protected $offerCodeDataType = 'object';
@@ -124,7 +124,7 @@ class SubscriptionOfferCodeOneTimeUseCodeCreateRequest_Data_Relationships extend
 
 }
 
-class SubscriptionOfferCodeOneTimeUseCodeCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeOneTimeUseCodeCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionOfferCodeOneTimeUseCodes';
 	protected $attributesType = SubscriptionOfferCodeOneTimeUseCodeCreateRequest_Data_Attributes::class;
@@ -174,7 +174,7 @@ class SubscriptionOfferCodeOneTimeUseCodeCreateRequest_Data extends \Cantie\AppS
 
 }
 
-class SubscriptionOfferCodeOneTimeUseCodeCreateRequest extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeOneTimeUseCodeCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionOfferCodeOneTimeUseCodeCreateRequest_Data::class;
 	protected $dataDataType = 'object';

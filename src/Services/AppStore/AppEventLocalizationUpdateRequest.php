@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppEventLocalizationUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppEventLocalizationUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $shortDescription;
@@ -62,7 +62,7 @@ class AppEventLocalizationUpdateRequest_Data_Attributes extends \Cantie\AppStore
 
 }
 
-class AppEventLocalizationUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppEventLocalizationUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEventLocalizations';
 	public $id;
@@ -105,7 +105,7 @@ class AppEventLocalizationUpdateRequest_Data extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class AppEventLocalizationUpdateRequest extends \Cantie\AppStoreConnect\Model
+class AppEventLocalizationUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppEventLocalizationUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

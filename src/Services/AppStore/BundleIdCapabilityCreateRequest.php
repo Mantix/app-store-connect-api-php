@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BundleIdCapabilityCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class BundleIdCapabilityCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $capabilityType; // 
 	protected $settingsType = CapabilitySetting::class;
@@ -65,7 +65,7 @@ class BundleIdCapabilityCreateRequest_Data_Attributes extends \Cantie\AppStoreCo
 
 }
 
-class BundleIdCapabilityCreateRequest_Data_Relationships_BundleId_Data extends \Cantie\AppStoreConnect\Model
+class BundleIdCapabilityCreateRequest_Data_Relationships_BundleId_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'bundleIds';
 	public $id;
@@ -91,7 +91,7 @@ class BundleIdCapabilityCreateRequest_Data_Relationships_BundleId_Data extends \
 
 }
 
-class BundleIdCapabilityCreateRequest_Data_Relationships_BundleId extends \Cantie\AppStoreConnect\Model
+class BundleIdCapabilityCreateRequest_Data_Relationships_BundleId extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BundleIdCapabilityCreateRequest_Data_Relationships_BundleId_Data::class;
 	protected $dataDataType = 'object';
@@ -114,7 +114,7 @@ class BundleIdCapabilityCreateRequest_Data_Relationships_BundleId extends \Canti
 
 }
 
-class BundleIdCapabilityCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class BundleIdCapabilityCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $bundleIdType = BundleIdCapabilityCreateRequest_Data_Relationships_BundleId::class;
 	protected $bundleIdDataType = 'object';
@@ -137,7 +137,7 @@ class BundleIdCapabilityCreateRequest_Data_Relationships extends \Cantie\AppStor
 
 }
 
-class BundleIdCapabilityCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class BundleIdCapabilityCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'bundleIdCapabilities';
 	protected $attributesType = BundleIdCapabilityCreateRequest_Data_Attributes::class;
@@ -187,7 +187,7 @@ class BundleIdCapabilityCreateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BundleIdCapabilityCreateRequest extends \Cantie\AppStoreConnect\Model
+class BundleIdCapabilityCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BundleIdCapabilityCreateRequest_Data::class;
 	protected $dataDataType = 'object';

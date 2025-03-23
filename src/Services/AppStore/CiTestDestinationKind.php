@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiTestDestinationKind extends \Cantie\AppStoreConnect\Model
+class CiTestDestinationKind extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $SIMULATOR = "SIMULATOR";

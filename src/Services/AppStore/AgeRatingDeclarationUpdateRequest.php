@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AgeRatingDeclarationUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AgeRatingDeclarationUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $alcoholTobaccoOrDrugUseOrReferences; // NONE, INFREQUENT_OR_MILD, FREQUENT_OR_INTENSE
 	public $contests; // NONE, INFREQUENT_OR_MILD, FREQUENT_OR_INTENSE
@@ -218,7 +218,7 @@ class AgeRatingDeclarationUpdateRequest_Data_Attributes extends \Cantie\AppStore
 
 }
 
-class AgeRatingDeclarationUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AgeRatingDeclarationUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'ageRatingDeclarations';
 	public $id;
@@ -261,7 +261,7 @@ class AgeRatingDeclarationUpdateRequest_Data extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class AgeRatingDeclarationUpdateRequest extends \Cantie\AppStoreConnect\Model
+class AgeRatingDeclarationUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AgeRatingDeclarationUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

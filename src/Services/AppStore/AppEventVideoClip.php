@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppEventVideoClip_Attributes extends \Cantie\AppStoreConnect\Model
+class AppEventVideoClip_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $fileSize;
 	public $fileName;
@@ -139,7 +139,7 @@ class AppEventVideoClip_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppEventVideoClip_Relationships_AppEventLocalization_Links extends \Cantie\AppStoreConnect\Model
+class AppEventVideoClip_Relationships_AppEventLocalization_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -165,7 +165,7 @@ class AppEventVideoClip_Relationships_AppEventLocalization_Links extends \Cantie
 
 }
 
-class AppEventVideoClip_Relationships_AppEventLocalization_Data extends \Cantie\AppStoreConnect\Model
+class AppEventVideoClip_Relationships_AppEventLocalization_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEventLocalizations';
 	public $id;
@@ -191,7 +191,7 @@ class AppEventVideoClip_Relationships_AppEventLocalization_Data extends \Cantie\
 
 }
 
-class AppEventVideoClip_Relationships_AppEventLocalization extends \Cantie\AppStoreConnect\Model
+class AppEventVideoClip_Relationships_AppEventLocalization extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppEventVideoClip_Relationships_AppEventLocalization_Links::class;
 	protected $linksDataType = 'object';
@@ -231,7 +231,7 @@ class AppEventVideoClip_Relationships_AppEventLocalization extends \Cantie\AppSt
 
 }
 
-class AppEventVideoClip_Relationships extends \Cantie\AppStoreConnect\Model
+class AppEventVideoClip_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appEventLocalizationType = AppEventVideoClip_Relationships_AppEventLocalization::class;
 	protected $appEventLocalizationDataType = 'object';
@@ -254,7 +254,7 @@ class AppEventVideoClip_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppEventVideoClip extends \Cantie\AppStoreConnect\Model
+class AppEventVideoClip extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEventVideoClips';
 	public $id;

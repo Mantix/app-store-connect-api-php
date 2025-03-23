@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterMatchmakingQueue_Attributes extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingQueue_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $referenceName;
 	protected $classicMatchmakingBundleIdsType = '';
@@ -59,7 +59,7 @@ class GameCenterMatchmakingQueue_Attributes extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class GameCenterMatchmakingQueue_Relationships_RuleSet_Links extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingQueue_Relationships_RuleSet_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -85,7 +85,7 @@ class GameCenterMatchmakingQueue_Relationships_RuleSet_Links extends \Cantie\App
 
 }
 
-class GameCenterMatchmakingQueue_Relationships_RuleSet_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingQueue_Relationships_RuleSet_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterMatchmakingRuleSets';
 	public $id;
@@ -111,7 +111,7 @@ class GameCenterMatchmakingQueue_Relationships_RuleSet_Data extends \Cantie\AppS
 
 }
 
-class GameCenterMatchmakingQueue_Relationships_RuleSet extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingQueue_Relationships_RuleSet extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = GameCenterMatchmakingQueue_Relationships_RuleSet_Links::class;
 	protected $linksDataType = 'object';
@@ -151,7 +151,7 @@ class GameCenterMatchmakingQueue_Relationships_RuleSet extends \Cantie\AppStoreC
 
 }
 
-class GameCenterMatchmakingQueue_Relationships_ExperimentRuleSet_Links extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingQueue_Relationships_ExperimentRuleSet_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -177,7 +177,7 @@ class GameCenterMatchmakingQueue_Relationships_ExperimentRuleSet_Links extends \
 
 }
 
-class GameCenterMatchmakingQueue_Relationships_ExperimentRuleSet_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingQueue_Relationships_ExperimentRuleSet_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterMatchmakingRuleSets';
 	public $id;
@@ -203,7 +203,7 @@ class GameCenterMatchmakingQueue_Relationships_ExperimentRuleSet_Data extends \C
 
 }
 
-class GameCenterMatchmakingQueue_Relationships_ExperimentRuleSet extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingQueue_Relationships_ExperimentRuleSet extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = GameCenterMatchmakingQueue_Relationships_ExperimentRuleSet_Links::class;
 	protected $linksDataType = 'object';
@@ -243,7 +243,7 @@ class GameCenterMatchmakingQueue_Relationships_ExperimentRuleSet extends \Cantie
 
 }
 
-class GameCenterMatchmakingQueue_Relationships extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingQueue_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $ruleSetType = GameCenterMatchmakingQueue_Relationships_RuleSet::class;
 	protected $ruleSetDataType = 'object';
@@ -283,7 +283,7 @@ class GameCenterMatchmakingQueue_Relationships extends \Cantie\AppStoreConnect\M
 
 }
 
-class GameCenterMatchmakingQueue extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingQueue extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterMatchmakingQueues';
 	public $id;

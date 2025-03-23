@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreReviewAttachmentResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreReviewAttachmentCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreReviewAttachmentUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreReviewAttachmentResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreReviewAttachmentCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreReviewAttachmentUpdateRequest;
 
 /**
  * The "appStoreReviewAttachments" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appStoreReviewAttachments = $appStoreService->appStoreReviewAttachments;
  *  </code>
  */
-class AppStoreReviewAttachments extends \Cantie\AppStoreConnect\Services\Resource
+class AppStoreReviewAttachments extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

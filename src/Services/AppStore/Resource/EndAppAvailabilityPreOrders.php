@@ -24,20 +24,20 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\EndAppAvailabilityPreOrderResponse;
-use Cantie\AppStoreConnect\Services\AppStore\EndAppAvailabilityPreOrderCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\EndAppAvailabilityPreOrderResponse;
+use Mantix\AppStoreConnect\Services\AppStore\EndAppAvailabilityPreOrderCreateRequest;
 
 /**
  * The "endAppAvailabilityPreOrders" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $endAppAvailabilityPreOrders = $appStoreService->endAppAvailabilityPreOrders;
  *  </code>
  */
-class EndAppAvailabilityPreOrders extends \Cantie\AppStoreConnect\Services\Resource
+class EndAppAvailabilityPreOrders extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

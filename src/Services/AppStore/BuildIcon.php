@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BuildIcon_Attributes extends \Cantie\AppStoreConnect\Model
+class BuildIcon_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	protected $iconAssetType = ImageAsset::class;
@@ -75,7 +75,7 @@ class BuildIcon_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BuildIcon extends \Cantie\AppStoreConnect\Model
+class BuildIcon extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'buildIcons';
 	public $id;

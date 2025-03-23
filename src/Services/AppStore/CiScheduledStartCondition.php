@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiScheduledStartCondition_Schedule extends \Cantie\AppStoreConnect\Model
+class CiScheduledStartCondition_Schedule extends \Mantix\AppStoreConnect\Model
 {
 	public $frequency; // WEEKLY, DAILY, HOURLY
 	protected $daysType = '';
@@ -89,7 +89,7 @@ class CiScheduledStartCondition_Schedule extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiScheduledStartCondition extends \Cantie\AppStoreConnect\Model
+class CiScheduledStartCondition extends \Mantix\AppStoreConnect\Model
 {
 	protected $sourceType = CiBranchPatterns::class;
 	protected $sourceDataType = '';

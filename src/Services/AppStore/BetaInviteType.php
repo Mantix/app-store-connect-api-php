@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaInviteType extends \Cantie\AppStoreConnect\Model
+class BetaInviteType extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $EMAIL = "EMAIL";

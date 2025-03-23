@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterPlayerAchievementSubmissionResponse extends \Cantie\AppStoreConnect\Model
+class GameCenterPlayerAchievementSubmissionResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterPlayerAchievementSubmission::class;
 	protected $dataDataType = '';

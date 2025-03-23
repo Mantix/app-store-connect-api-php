@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class UserInvitationResponse extends \Cantie\AppStoreConnect\Model
+class UserInvitationResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = UserInvitation::class;
 	protected $dataDataType = '';

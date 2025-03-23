@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppPrice_Relationships_App_Links extends \Cantie\AppStoreConnect\Model
+class AppPrice_Relationships_App_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -52,7 +52,7 @@ class AppPrice_Relationships_App_Links extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPrice_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class AppPrice_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -78,7 +78,7 @@ class AppPrice_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPrice_Relationships_App extends \Cantie\AppStoreConnect\Model
+class AppPrice_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppPrice_Relationships_App_Links::class;
 	protected $linksDataType = 'object';
@@ -118,7 +118,7 @@ class AppPrice_Relationships_App extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPrice_Relationships_PriceTier_Links extends \Cantie\AppStoreConnect\Model
+class AppPrice_Relationships_PriceTier_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -144,7 +144,7 @@ class AppPrice_Relationships_PriceTier_Links extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class AppPrice_Relationships_PriceTier_Data extends \Cantie\AppStoreConnect\Model
+class AppPrice_Relationships_PriceTier_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appPriceTiers';
 	public $id;
@@ -170,7 +170,7 @@ class AppPrice_Relationships_PriceTier_Data extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class AppPrice_Relationships_PriceTier extends \Cantie\AppStoreConnect\Model
+class AppPrice_Relationships_PriceTier extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppPrice_Relationships_PriceTier_Links::class;
 	protected $linksDataType = 'object';
@@ -210,7 +210,7 @@ class AppPrice_Relationships_PriceTier extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPrice_Relationships extends \Cantie\AppStoreConnect\Model
+class AppPrice_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = AppPrice_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -250,7 +250,7 @@ class AppPrice_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPrice extends \Cantie\AppStoreConnect\Model
+class AppPrice extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appPrices';
 	public $id;

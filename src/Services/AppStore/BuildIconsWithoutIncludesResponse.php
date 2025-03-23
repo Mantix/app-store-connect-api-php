@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BuildIconsWithoutIncludesResponse extends \Cantie\AppStoreConnect\Model
+class BuildIconsWithoutIncludesResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = Build::class;
 	protected $dataDataType = 'array';

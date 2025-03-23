@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class ScmPullRequestResponse extends \Cantie\AppStoreConnect\Model
+class ScmPullRequestResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = ScmPullRequest::class;
 	protected $dataDataType = '';

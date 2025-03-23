@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class PrereleaseVersion_Attributes extends \Cantie\AppStoreConnect\Model
+class PrereleaseVersion_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $version;
 	public $platform; // 
@@ -58,7 +58,7 @@ class PrereleaseVersion_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class PrereleaseVersion_Relationships_Builds_Links extends \Cantie\AppStoreConnect\Model
+class PrereleaseVersion_Relationships_Builds_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -84,7 +84,7 @@ class PrereleaseVersion_Relationships_Builds_Links extends \Cantie\AppStoreConne
 
 }
 
-class PrereleaseVersion_Relationships_Builds_Data extends \Cantie\AppStoreConnect\Model
+class PrereleaseVersion_Relationships_Builds_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'builds';
 	public $id;
@@ -110,7 +110,7 @@ class PrereleaseVersion_Relationships_Builds_Data extends \Cantie\AppStoreConnec
 
 }
 
-class PrereleaseVersion_Relationships_Builds extends \Cantie\AppStoreConnect\Model
+class PrereleaseVersion_Relationships_Builds extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = PrereleaseVersion_Relationships_Builds_Links::class;
 	protected $linksDataType = 'object';
@@ -167,7 +167,7 @@ class PrereleaseVersion_Relationships_Builds extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class PrereleaseVersion_Relationships_App_Links extends \Cantie\AppStoreConnect\Model
+class PrereleaseVersion_Relationships_App_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -193,7 +193,7 @@ class PrereleaseVersion_Relationships_App_Links extends \Cantie\AppStoreConnect\
 
 }
 
-class PrereleaseVersion_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class PrereleaseVersion_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -219,7 +219,7 @@ class PrereleaseVersion_Relationships_App_Data extends \Cantie\AppStoreConnect\M
 
 }
 
-class PrereleaseVersion_Relationships_App extends \Cantie\AppStoreConnect\Model
+class PrereleaseVersion_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = PrereleaseVersion_Relationships_App_Links::class;
 	protected $linksDataType = 'object';
@@ -259,7 +259,7 @@ class PrereleaseVersion_Relationships_App extends \Cantie\AppStoreConnect\Model
 
 }
 
-class PrereleaseVersion_Relationships extends \Cantie\AppStoreConnect\Model
+class PrereleaseVersion_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $buildsType = PrereleaseVersion_Relationships_Builds::class;
 	protected $buildsDataType = 'object';
@@ -299,7 +299,7 @@ class PrereleaseVersion_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class PrereleaseVersion extends \Cantie\AppStoreConnect\Model
+class PrereleaseVersion extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'preReleaseVersions';
 	public $id;

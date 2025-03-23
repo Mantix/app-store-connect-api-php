@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaLicenseAgreement_Attributes extends \Cantie\AppStoreConnect\Model
+class BetaLicenseAgreement_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $agreementText;
 
@@ -42,7 +42,7 @@ class BetaLicenseAgreement_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BetaLicenseAgreement_Relationships_App_Links extends \Cantie\AppStoreConnect\Model
+class BetaLicenseAgreement_Relationships_App_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -68,7 +68,7 @@ class BetaLicenseAgreement_Relationships_App_Links extends \Cantie\AppStoreConne
 
 }
 
-class BetaLicenseAgreement_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class BetaLicenseAgreement_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -94,7 +94,7 @@ class BetaLicenseAgreement_Relationships_App_Data extends \Cantie\AppStoreConnec
 
 }
 
-class BetaLicenseAgreement_Relationships_App extends \Cantie\AppStoreConnect\Model
+class BetaLicenseAgreement_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = BetaLicenseAgreement_Relationships_App_Links::class;
 	protected $linksDataType = 'object';
@@ -134,7 +134,7 @@ class BetaLicenseAgreement_Relationships_App extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class BetaLicenseAgreement_Relationships extends \Cantie\AppStoreConnect\Model
+class BetaLicenseAgreement_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = BetaLicenseAgreement_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -157,7 +157,7 @@ class BetaLicenseAgreement_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BetaLicenseAgreement extends \Cantie\AppStoreConnect\Model
+class BetaLicenseAgreement extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaLicenseAgreements';
 	public $id;

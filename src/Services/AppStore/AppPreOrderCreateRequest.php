@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppPreOrderCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppPreOrderCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $appReleaseDate;
 
@@ -42,7 +42,7 @@ class AppPreOrderCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\M
 
 }
 
-class AppPreOrderCreateRequest_Data_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class AppPreOrderCreateRequest_Data_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -68,7 +68,7 @@ class AppPreOrderCreateRequest_Data_Relationships_App_Data extends \Cantie\AppSt
 
 }
 
-class AppPreOrderCreateRequest_Data_Relationships_App extends \Cantie\AppStoreConnect\Model
+class AppPreOrderCreateRequest_Data_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppPreOrderCreateRequest_Data_Relationships_App_Data::class;
 	protected $dataDataType = 'object';
@@ -91,7 +91,7 @@ class AppPreOrderCreateRequest_Data_Relationships_App extends \Cantie\AppStoreCo
 
 }
 
-class AppPreOrderCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppPreOrderCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = AppPreOrderCreateRequest_Data_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -114,7 +114,7 @@ class AppPreOrderCreateRequest_Data_Relationships extends \Cantie\AppStoreConnec
 
 }
 
-class AppPreOrderCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppPreOrderCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appPreOrders';
 	protected $attributesType = AppPreOrderCreateRequest_Data_Attributes::class;
@@ -164,7 +164,7 @@ class AppPreOrderCreateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPreOrderCreateRequest extends \Cantie\AppStoreConnect\Model
+class AppPreOrderCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppPreOrderCreateRequest_Data::class;
 	protected $dataDataType = 'object';

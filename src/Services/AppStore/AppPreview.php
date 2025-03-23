@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppPreview_Attributes extends \Cantie\AppStoreConnect\Model
+class AppPreview_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $fileSize;
 	public $fileName;
@@ -143,7 +143,7 @@ class AppPreview_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPreview_Relationships_AppPreviewSet_Links extends \Cantie\AppStoreConnect\Model
+class AppPreview_Relationships_AppPreviewSet_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -169,7 +169,7 @@ class AppPreview_Relationships_AppPreviewSet_Links extends \Cantie\AppStoreConne
 
 }
 
-class AppPreview_Relationships_AppPreviewSet_Data extends \Cantie\AppStoreConnect\Model
+class AppPreview_Relationships_AppPreviewSet_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appPreviewSets';
 	public $id;
@@ -195,7 +195,7 @@ class AppPreview_Relationships_AppPreviewSet_Data extends \Cantie\AppStoreConnec
 
 }
 
-class AppPreview_Relationships_AppPreviewSet extends \Cantie\AppStoreConnect\Model
+class AppPreview_Relationships_AppPreviewSet extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppPreview_Relationships_AppPreviewSet_Links::class;
 	protected $linksDataType = 'object';
@@ -235,7 +235,7 @@ class AppPreview_Relationships_AppPreviewSet extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class AppPreview_Relationships extends \Cantie\AppStoreConnect\Model
+class AppPreview_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appPreviewSetType = AppPreview_Relationships_AppPreviewSet::class;
 	protected $appPreviewSetDataType = 'object';
@@ -258,7 +258,7 @@ class AppPreview_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPreview extends \Cantie\AppStoreConnect\Model
+class AppPreview extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appPreviews';
 	public $id;

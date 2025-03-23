@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionPriceCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class SubscriptionPriceCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $startDate;
 	public $preserveCurrentPrice;
@@ -52,7 +52,7 @@ class SubscriptionPriceCreateRequest_Data_Attributes extends \Cantie\AppStoreCon
 
 }
 
-class SubscriptionPriceCreateRequest_Data_Relationships_Subscription_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionPriceCreateRequest_Data_Relationships_Subscription_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptions';
 	public $id;
@@ -78,7 +78,7 @@ class SubscriptionPriceCreateRequest_Data_Relationships_Subscription_Data extend
 
 }
 
-class SubscriptionPriceCreateRequest_Data_Relationships_Subscription extends \Cantie\AppStoreConnect\Model
+class SubscriptionPriceCreateRequest_Data_Relationships_Subscription extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionPriceCreateRequest_Data_Relationships_Subscription_Data::class;
 	protected $dataDataType = 'object';
@@ -101,7 +101,7 @@ class SubscriptionPriceCreateRequest_Data_Relationships_Subscription extends \Ca
 
 }
 
-class SubscriptionPriceCreateRequest_Data_Relationships_Territory_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionPriceCreateRequest_Data_Relationships_Territory_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'territories';
 	public $id;
@@ -127,7 +127,7 @@ class SubscriptionPriceCreateRequest_Data_Relationships_Territory_Data extends \
 
 }
 
-class SubscriptionPriceCreateRequest_Data_Relationships_Territory extends \Cantie\AppStoreConnect\Model
+class SubscriptionPriceCreateRequest_Data_Relationships_Territory extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionPriceCreateRequest_Data_Relationships_Territory_Data::class;
 	protected $dataDataType = 'object';
@@ -150,7 +150,7 @@ class SubscriptionPriceCreateRequest_Data_Relationships_Territory extends \Canti
 
 }
 
-class SubscriptionPriceCreateRequest_Data_Relationships_SubscriptionPricePoint_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionPriceCreateRequest_Data_Relationships_SubscriptionPricePoint_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionPricePoints';
 	public $id;
@@ -176,7 +176,7 @@ class SubscriptionPriceCreateRequest_Data_Relationships_SubscriptionPricePoint_D
 
 }
 
-class SubscriptionPriceCreateRequest_Data_Relationships_SubscriptionPricePoint extends \Cantie\AppStoreConnect\Model
+class SubscriptionPriceCreateRequest_Data_Relationships_SubscriptionPricePoint extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionPriceCreateRequest_Data_Relationships_SubscriptionPricePoint_Data::class;
 	protected $dataDataType = 'object';
@@ -199,7 +199,7 @@ class SubscriptionPriceCreateRequest_Data_Relationships_SubscriptionPricePoint e
 
 }
 
-class SubscriptionPriceCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class SubscriptionPriceCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $subscriptionType = SubscriptionPriceCreateRequest_Data_Relationships_Subscription::class;
 	protected $subscriptionDataType = 'object';
@@ -256,7 +256,7 @@ class SubscriptionPriceCreateRequest_Data_Relationships extends \Cantie\AppStore
 
 }
 
-class SubscriptionPriceCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionPriceCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionPrices';
 	protected $attributesType = SubscriptionPriceCreateRequest_Data_Attributes::class;
@@ -306,7 +306,7 @@ class SubscriptionPriceCreateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class SubscriptionPriceCreateRequest extends \Cantie\AppStoreConnect\Model
+class SubscriptionPriceCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionPriceCreateRequest_Data::class;
 	protected $dataDataType = 'object';

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiProduct_Attributes extends \Cantie\AppStoreConnect\Model
+class CiProduct_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $createdDate;
@@ -62,7 +62,7 @@ class CiProduct_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiProduct_Relationships_App_Links extends \Cantie\AppStoreConnect\Model
+class CiProduct_Relationships_App_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -88,7 +88,7 @@ class CiProduct_Relationships_App_Links extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiProduct_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class CiProduct_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -114,7 +114,7 @@ class CiProduct_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiProduct_Relationships_App extends \Cantie\AppStoreConnect\Model
+class CiProduct_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = CiProduct_Relationships_App_Links::class;
 	protected $linksDataType = 'object';
@@ -154,7 +154,7 @@ class CiProduct_Relationships_App extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiProduct_Relationships_BundleId_Links extends \Cantie\AppStoreConnect\Model
+class CiProduct_Relationships_BundleId_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -180,7 +180,7 @@ class CiProduct_Relationships_BundleId_Links extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class CiProduct_Relationships_BundleId_Data extends \Cantie\AppStoreConnect\Model
+class CiProduct_Relationships_BundleId_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'bundleIds';
 	public $id;
@@ -206,7 +206,7 @@ class CiProduct_Relationships_BundleId_Data extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class CiProduct_Relationships_BundleId extends \Cantie\AppStoreConnect\Model
+class CiProduct_Relationships_BundleId extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = CiProduct_Relationships_BundleId_Links::class;
 	protected $linksDataType = 'object';
@@ -246,7 +246,7 @@ class CiProduct_Relationships_BundleId extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiProduct_Relationships_PrimaryRepositories_Links extends \Cantie\AppStoreConnect\Model
+class CiProduct_Relationships_PrimaryRepositories_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -272,7 +272,7 @@ class CiProduct_Relationships_PrimaryRepositories_Links extends \Cantie\AppStore
 
 }
 
-class CiProduct_Relationships_PrimaryRepositories_Data extends \Cantie\AppStoreConnect\Model
+class CiProduct_Relationships_PrimaryRepositories_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'scmRepositories';
 	public $id;
@@ -298,7 +298,7 @@ class CiProduct_Relationships_PrimaryRepositories_Data extends \Cantie\AppStoreC
 
 }
 
-class CiProduct_Relationships_PrimaryRepositories extends \Cantie\AppStoreConnect\Model
+class CiProduct_Relationships_PrimaryRepositories extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = CiProduct_Relationships_PrimaryRepositories_Links::class;
 	protected $linksDataType = 'object';
@@ -355,7 +355,7 @@ class CiProduct_Relationships_PrimaryRepositories extends \Cantie\AppStoreConnec
 
 }
 
-class CiProduct_Relationships extends \Cantie\AppStoreConnect\Model
+class CiProduct_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = CiProduct_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -412,7 +412,7 @@ class CiProduct_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiProduct extends \Cantie\AppStoreConnect\Model
+class CiProduct extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'ciProducts';
 	public $id;

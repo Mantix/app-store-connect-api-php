@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppClipAdvancedExperienceImageResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppClipAdvancedExperienceImageCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppClipAdvancedExperienceImageUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppClipAdvancedExperienceImageResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppClipAdvancedExperienceImageCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppClipAdvancedExperienceImageUpdateRequest;
 
 /**
  * The "appClipAdvancedExperienceImages" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appClipAdvancedExperienceImages = $appStoreService->appClipAdvancedExperienceImages;
  *  </code>
  */
-class AppClipAdvancedExperienceImages extends \Cantie\AppStoreConnect\Services\Resource
+class AppClipAdvancedExperienceImages extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

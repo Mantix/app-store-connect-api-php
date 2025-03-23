@@ -24,22 +24,22 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\UserInvitationsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\UserInvitationResponse;
-use Cantie\AppStoreConnect\Services\AppStore\UserInvitationCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppsWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\UserInvitationsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\UserInvitationResponse;
+use Mantix\AppStoreConnect\Services\AppStore\UserInvitationCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppsWithoutIncludesResponse;
 
 /**
  * The "userInvitations" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $userInvitations = $appStoreService->userInvitations;
  *  </code>
  */
-class UserInvitations extends \Cantie\AppStoreConnect\Services\Resource
+class UserInvitations extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

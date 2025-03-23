@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaBuildLocalization_Attributes extends \Cantie\AppStoreConnect\Model
+class BetaBuildLocalization_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $whatsNew;
 	public $locale;
@@ -52,7 +52,7 @@ class BetaBuildLocalization_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BetaBuildLocalization_Relationships_Build_Links extends \Cantie\AppStoreConnect\Model
+class BetaBuildLocalization_Relationships_Build_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -78,7 +78,7 @@ class BetaBuildLocalization_Relationships_Build_Links extends \Cantie\AppStoreCo
 
 }
 
-class BetaBuildLocalization_Relationships_Build_Data extends \Cantie\AppStoreConnect\Model
+class BetaBuildLocalization_Relationships_Build_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'builds';
 	public $id;
@@ -104,7 +104,7 @@ class BetaBuildLocalization_Relationships_Build_Data extends \Cantie\AppStoreCon
 
 }
 
-class BetaBuildLocalization_Relationships_Build extends \Cantie\AppStoreConnect\Model
+class BetaBuildLocalization_Relationships_Build extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = BetaBuildLocalization_Relationships_Build_Links::class;
 	protected $linksDataType = 'object';
@@ -144,7 +144,7 @@ class BetaBuildLocalization_Relationships_Build extends \Cantie\AppStoreConnect\
 
 }
 
-class BetaBuildLocalization_Relationships extends \Cantie\AppStoreConnect\Model
+class BetaBuildLocalization_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $buildType = BetaBuildLocalization_Relationships_Build::class;
 	protected $buildDataType = 'object';
@@ -167,7 +167,7 @@ class BetaBuildLocalization_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BetaBuildLocalization extends \Cantie\AppStoreConnect\Model
+class BetaBuildLocalization extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaBuildLocalizations';
 	public $id;

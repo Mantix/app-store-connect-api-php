@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CertificateType extends \Cantie\AppStoreConnect\Model
+class CertificateType extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $IOS_DEVELOPMENT = "IOS_DEVELOPMENT";

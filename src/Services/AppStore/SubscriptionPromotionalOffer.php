@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionPromotionalOffer_Attributes extends \Cantie\AppStoreConnect\Model
+class SubscriptionPromotionalOffer_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $offerCode;
@@ -94,7 +94,7 @@ class SubscriptionPromotionalOffer_Attributes extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class SubscriptionPromotionalOffer_Relationships_Subscription_Links extends \Cantie\AppStoreConnect\Model
+class SubscriptionPromotionalOffer_Relationships_Subscription_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -120,7 +120,7 @@ class SubscriptionPromotionalOffer_Relationships_Subscription_Links extends \Can
 
 }
 
-class SubscriptionPromotionalOffer_Relationships_Subscription_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionPromotionalOffer_Relationships_Subscription_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptions';
 	public $id;
@@ -146,7 +146,7 @@ class SubscriptionPromotionalOffer_Relationships_Subscription_Data extends \Cant
 
 }
 
-class SubscriptionPromotionalOffer_Relationships_Subscription extends \Cantie\AppStoreConnect\Model
+class SubscriptionPromotionalOffer_Relationships_Subscription extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = SubscriptionPromotionalOffer_Relationships_Subscription_Links::class;
 	protected $linksDataType = 'object';
@@ -186,7 +186,7 @@ class SubscriptionPromotionalOffer_Relationships_Subscription extends \Cantie\Ap
 
 }
 
-class SubscriptionPromotionalOffer_Relationships_Prices_Links extends \Cantie\AppStoreConnect\Model
+class SubscriptionPromotionalOffer_Relationships_Prices_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -212,7 +212,7 @@ class SubscriptionPromotionalOffer_Relationships_Prices_Links extends \Cantie\Ap
 
 }
 
-class SubscriptionPromotionalOffer_Relationships_Prices_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionPromotionalOffer_Relationships_Prices_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionPromotionalOfferPrices';
 	public $id;
@@ -238,7 +238,7 @@ class SubscriptionPromotionalOffer_Relationships_Prices_Data extends \Cantie\App
 
 }
 
-class SubscriptionPromotionalOffer_Relationships_Prices extends \Cantie\AppStoreConnect\Model
+class SubscriptionPromotionalOffer_Relationships_Prices extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = SubscriptionPromotionalOffer_Relationships_Prices_Links::class;
 	protected $linksDataType = 'object';
@@ -295,7 +295,7 @@ class SubscriptionPromotionalOffer_Relationships_Prices extends \Cantie\AppStore
 
 }
 
-class SubscriptionPromotionalOffer_Relationships extends \Cantie\AppStoreConnect\Model
+class SubscriptionPromotionalOffer_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $subscriptionType = SubscriptionPromotionalOffer_Relationships_Subscription::class;
 	protected $subscriptionDataType = 'object';
@@ -335,7 +335,7 @@ class SubscriptionPromotionalOffer_Relationships extends \Cantie\AppStoreConnect
 
 }
 
-class SubscriptionPromotionalOffer extends \Cantie\AppStoreConnect\Model
+class SubscriptionPromotionalOffer extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionPromotionalOffers';
 	public $id;

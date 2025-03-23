@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppEventScreenshotResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppEventScreenshotCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppEventScreenshotUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppEventScreenshotResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppEventScreenshotCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppEventScreenshotUpdateRequest;
 
 /**
  * The "appEventScreenshots" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appEventScreenshots = $appStoreService->appEventScreenshots;
  *  </code>
  */
-class AppEventScreenshots extends \Cantie\AppStoreConnect\Services\Resource
+class AppEventScreenshots extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class PagingInformation_Paging extends \Cantie\AppStoreConnect\Model
+class PagingInformation_Paging extends \Mantix\AppStoreConnect\Model
 {
 	public $total;
 	public $limit;
@@ -52,7 +52,7 @@ class PagingInformation_Paging extends \Cantie\AppStoreConnect\Model
 
 }
 
-class PagingInformation extends \Cantie\AppStoreConnect\Model
+class PagingInformation extends \Mantix\AppStoreConnect\Model
 {
 	protected $pagingType = PagingInformation_Paging::class;
 	protected $pagingDataType = 'object';

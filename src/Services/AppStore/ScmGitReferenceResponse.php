@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class ScmGitReferenceResponse extends \Cantie\AppStoreConnect\Model
+class ScmGitReferenceResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = ScmGitReference::class;
 	protected $dataDataType = '';

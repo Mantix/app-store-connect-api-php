@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppEncryptionDeclarationDocumentUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppEncryptionDeclarationDocumentUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $sourceFileChecksum;
 	public $uploaded;
@@ -52,7 +52,7 @@ class AppEncryptionDeclarationDocumentUpdateRequest_Data_Attributes extends \Can
 
 }
 
-class AppEncryptionDeclarationDocumentUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppEncryptionDeclarationDocumentUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEncryptionDeclarationDocuments';
 	public $id;
@@ -95,7 +95,7 @@ class AppEncryptionDeclarationDocumentUpdateRequest_Data extends \Cantie\AppStor
 
 }
 
-class AppEncryptionDeclarationDocumentUpdateRequest extends \Cantie\AppStoreConnect\Model
+class AppEncryptionDeclarationDocumentUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppEncryptionDeclarationDocumentUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

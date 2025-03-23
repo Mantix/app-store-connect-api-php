@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppStoreVersionSubmissionCreateRequest_Data_Relationships_AppStoreVersion_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionSubmissionCreateRequest_Data_Relationships_AppStoreVersion_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersions';
 	public $id;
@@ -52,7 +52,7 @@ class AppStoreVersionSubmissionCreateRequest_Data_Relationships_AppStoreVersion_
 
 }
 
-class AppStoreVersionSubmissionCreateRequest_Data_Relationships_AppStoreVersion extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionSubmissionCreateRequest_Data_Relationships_AppStoreVersion extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersionSubmissionCreateRequest_Data_Relationships_AppStoreVersion_Data::class;
 	protected $dataDataType = 'object';
@@ -75,7 +75,7 @@ class AppStoreVersionSubmissionCreateRequest_Data_Relationships_AppStoreVersion 
 
 }
 
-class AppStoreVersionSubmissionCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionSubmissionCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appStoreVersionType = AppStoreVersionSubmissionCreateRequest_Data_Relationships_AppStoreVersion::class;
 	protected $appStoreVersionDataType = 'object';
@@ -98,7 +98,7 @@ class AppStoreVersionSubmissionCreateRequest_Data_Relationships extends \Cantie\
 
 }
 
-class AppStoreVersionSubmissionCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionSubmissionCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionSubmissions';
 	protected $relationshipsType = AppStoreVersionSubmissionCreateRequest_Data_Relationships::class;
@@ -131,7 +131,7 @@ class AppStoreVersionSubmissionCreateRequest_Data extends \Cantie\AppStoreConnec
 
 }
 
-class AppStoreVersionSubmissionCreateRequest extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionSubmissionCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersionSubmissionCreateRequest_Data::class;
 	protected $dataDataType = 'object';

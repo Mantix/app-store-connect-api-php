@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class DeviceCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class DeviceCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $platform; // 
@@ -68,7 +68,7 @@ class DeviceCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class DeviceCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class DeviceCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'devices';
 	protected $attributesType = DeviceCreateRequest_Data_Attributes::class;
@@ -101,7 +101,7 @@ class DeviceCreateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class DeviceCreateRequest extends \Cantie\AppStoreConnect\Model
+class DeviceCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = DeviceCreateRequest_Data::class;
 	protected $dataDataType = 'object';

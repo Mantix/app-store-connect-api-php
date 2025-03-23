@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppClipAdvancedExperienceLanguage extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperienceLanguage extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $AR = "AR";

@@ -15,10 +15,10 @@
  * limitations under the License.
  */
 
-namespace Cantie\AppStoreConnect;
+namespace Mantix\AppStoreConnect;
 
-use Cantie\AppStoreConnect\Exception as AppleException;
-use Cantie\AppStoreConnect\ModelConfig as ModelConfig;
+use Mantix\AppStoreConnect\Exception as AppleException;
+use Mantix\AppStoreConnect\ModelConfig as ModelConfig;
 use ReflectionObject;
 use ReflectionProperty;
 use stdClass;
@@ -33,7 +33,7 @@ use stdClass;
 class Model implements \ArrayAccess
 {
     /**
-     * If you need to specify a NULL JSON value, use Cantie\AppStoreConnect\Model::NULL_VALUE
+     * If you need to specify a NULL JSON value, use Mantix\AppStoreConnect\Model::NULL_VALUE
      * instead - it will be replaced when converting to JSON with a real null.
      */
     const NULL_VALUE = "{}gapi-php-null";
@@ -268,7 +268,7 @@ class Model implements \ArrayAccess
 
     /**
      * Verify if $obj is an array.
-     * @throws \Cantie\AppStoreConnect\Exception Thrown if $obj isn't an array.
+     * @throws \Mantix\AppStoreConnect\Exception Thrown if $obj isn't an array.
      * @param array $obj Items that should be validated.
      * @param string $method Method expecting an array as an argument.
      */

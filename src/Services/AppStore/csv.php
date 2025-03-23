@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class csv extends \Cantie\AppStoreConnect\Model
+class csv extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 

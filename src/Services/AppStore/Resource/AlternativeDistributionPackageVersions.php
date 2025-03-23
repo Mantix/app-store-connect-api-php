@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AlternativeDistributionPackageVersionResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AlternativeDistributionPackageDeltasResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AlternativeDistributionPackageVariantsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AlternativeDistributionPackageVersionResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AlternativeDistributionPackageDeltasResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AlternativeDistributionPackageVariantsResponse;
 
 /**
  * The "alternativeDistributionPackageVersions" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $alternativeDistributionPackageVersions = $appStoreService->alternativeDistributionPackageVersions;
  *  </code>
  */
-class AlternativeDistributionPackageVersions extends \Cantie\AppStoreConnect\Services\Resource
+class AlternativeDistributionPackageVersions extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

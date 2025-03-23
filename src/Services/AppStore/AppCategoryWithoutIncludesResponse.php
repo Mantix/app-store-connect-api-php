@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppCategoryWithoutIncludesResponse extends \Cantie\AppStoreConnect\Model
+class AppCategoryWithoutIncludesResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppCategory::class;
 	protected $dataDataType = '';

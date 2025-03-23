@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppEvent_Attributes_TerritorySchedules extends \Cantie\AppStoreConnect\Model
+class AppEvent_Attributes_TerritorySchedules extends \Mantix\AppStoreConnect\Model
 {
 	protected $territoriesType = '';
 	protected $territoriesDataType = 'array';
@@ -79,7 +79,7 @@ class AppEvent_Attributes_TerritorySchedules extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class AppEvent_Attributes_ArchivedTerritorySchedules extends \Cantie\AppStoreConnect\Model
+class AppEvent_Attributes_ArchivedTerritorySchedules extends \Mantix\AppStoreConnect\Model
 {
 	protected $territoriesType = '';
 	protected $territoriesDataType = 'array';
@@ -132,7 +132,7 @@ class AppEvent_Attributes_ArchivedTerritorySchedules extends \Cantie\AppStoreCon
 
 }
 
-class AppEvent_Attributes extends \Cantie\AppStoreConnect\Model
+class AppEvent_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $referenceName;
 	public $badge; // LIVE_EVENT, PREMIERE, CHALLENGE, COMPETITION, NEW_SEASON, MAJOR_UPDATE, SPECIAL_EVENT
@@ -252,7 +252,7 @@ class AppEvent_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppEvent_Relationships_Localizations_Links extends \Cantie\AppStoreConnect\Model
+class AppEvent_Relationships_Localizations_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -278,7 +278,7 @@ class AppEvent_Relationships_Localizations_Links extends \Cantie\AppStoreConnect
 
 }
 
-class AppEvent_Relationships_Localizations_Data extends \Cantie\AppStoreConnect\Model
+class AppEvent_Relationships_Localizations_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEventLocalizations';
 	public $id;
@@ -304,7 +304,7 @@ class AppEvent_Relationships_Localizations_Data extends \Cantie\AppStoreConnect\
 
 }
 
-class AppEvent_Relationships_Localizations extends \Cantie\AppStoreConnect\Model
+class AppEvent_Relationships_Localizations extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppEvent_Relationships_Localizations_Links::class;
 	protected $linksDataType = 'object';
@@ -361,7 +361,7 @@ class AppEvent_Relationships_Localizations extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppEvent_Relationships extends \Cantie\AppStoreConnect\Model
+class AppEvent_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $localizationsType = AppEvent_Relationships_Localizations::class;
 	protected $localizationsDataType = 'object';
@@ -384,7 +384,7 @@ class AppEvent_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppEvent extends \Cantie\AppStoreConnect\Model
+class AppEvent extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEvents';
 	public $id;

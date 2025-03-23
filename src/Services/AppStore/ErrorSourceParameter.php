@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class ErrorSourceParameter extends \Cantie\AppStoreConnect\Model
+class ErrorSourceParameter extends \Mantix\AppStoreConnect\Model
 {
 	public $parameter;
 

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class TerritoriesWithoutIncludesResponse extends \Cantie\AppStoreConnect\Model
+class TerritoriesWithoutIncludesResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = EndUserLicenseAgreement::class;
 	protected $dataDataType = 'array';

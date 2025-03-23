@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\RoutingAppCoverageResponse;
-use Cantie\AppStoreConnect\Services\AppStore\RoutingAppCoverageCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\RoutingAppCoverageUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\RoutingAppCoverageResponse;
+use Mantix\AppStoreConnect\Services\AppStore\RoutingAppCoverageCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\RoutingAppCoverageUpdateRequest;
 
 /**
  * The "routingAppCoverages" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $routingAppCoverages = $appStoreService->routingAppCoverages;
  *  </code>
  */
-class RoutingAppCoverages extends \Cantie\AppStoreConnect\Services\Resource
+class RoutingAppCoverages extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

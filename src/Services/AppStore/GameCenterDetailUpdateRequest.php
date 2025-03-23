@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterDetailUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class GameCenterDetailUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $challengeEnabled;
 
@@ -42,7 +42,7 @@ class GameCenterDetailUpdateRequest_Data_Attributes extends \Cantie\AppStoreConn
 
 }
 
-class GameCenterDetailUpdateRequest_Data_Relationships_GameCenterGroup_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterDetailUpdateRequest_Data_Relationships_GameCenterGroup_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterGroups';
 	public $id;
@@ -68,7 +68,7 @@ class GameCenterDetailUpdateRequest_Data_Relationships_GameCenterGroup_Data exte
 
 }
 
-class GameCenterDetailUpdateRequest_Data_Relationships_GameCenterGroup extends \Cantie\AppStoreConnect\Model
+class GameCenterDetailUpdateRequest_Data_Relationships_GameCenterGroup extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterDetailUpdateRequest_Data_Relationships_GameCenterGroup_Data::class;
 	protected $dataDataType = 'object';
@@ -91,7 +91,7 @@ class GameCenterDetailUpdateRequest_Data_Relationships_GameCenterGroup extends \
 
 }
 
-class GameCenterDetailUpdateRequest_Data_Relationships_DefaultLeaderboard_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterDetailUpdateRequest_Data_Relationships_DefaultLeaderboard_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterLeaderboards';
 	public $id;
@@ -117,7 +117,7 @@ class GameCenterDetailUpdateRequest_Data_Relationships_DefaultLeaderboard_Data e
 
 }
 
-class GameCenterDetailUpdateRequest_Data_Relationships_DefaultLeaderboard extends \Cantie\AppStoreConnect\Model
+class GameCenterDetailUpdateRequest_Data_Relationships_DefaultLeaderboard extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterDetailUpdateRequest_Data_Relationships_DefaultLeaderboard_Data::class;
 	protected $dataDataType = 'object';
@@ -140,7 +140,7 @@ class GameCenterDetailUpdateRequest_Data_Relationships_DefaultLeaderboard extend
 
 }
 
-class GameCenterDetailUpdateRequest_Data_Relationships_DefaultGroupLeaderboard_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterDetailUpdateRequest_Data_Relationships_DefaultGroupLeaderboard_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterLeaderboards';
 	public $id;
@@ -166,7 +166,7 @@ class GameCenterDetailUpdateRequest_Data_Relationships_DefaultGroupLeaderboard_D
 
 }
 
-class GameCenterDetailUpdateRequest_Data_Relationships_DefaultGroupLeaderboard extends \Cantie\AppStoreConnect\Model
+class GameCenterDetailUpdateRequest_Data_Relationships_DefaultGroupLeaderboard extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterDetailUpdateRequest_Data_Relationships_DefaultGroupLeaderboard_Data::class;
 	protected $dataDataType = 'object';
@@ -189,7 +189,7 @@ class GameCenterDetailUpdateRequest_Data_Relationships_DefaultGroupLeaderboard e
 
 }
 
-class GameCenterDetailUpdateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class GameCenterDetailUpdateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $gameCenterGroupType = GameCenterDetailUpdateRequest_Data_Relationships_GameCenterGroup::class;
 	protected $gameCenterGroupDataType = 'object';
@@ -246,7 +246,7 @@ class GameCenterDetailUpdateRequest_Data_Relationships extends \Cantie\AppStoreC
 
 }
 
-class GameCenterDetailUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterDetailUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterDetails';
 	public $id;
@@ -306,7 +306,7 @@ class GameCenterDetailUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class GameCenterDetailUpdateRequest extends \Cantie\AppStoreConnect\Model
+class GameCenterDetailUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterDetailUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

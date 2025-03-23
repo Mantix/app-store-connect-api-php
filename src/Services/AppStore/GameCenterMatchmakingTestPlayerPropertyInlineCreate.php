@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterMatchmakingTestPlayerPropertyInlineCreate_Attributes extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingTestPlayerPropertyInlineCreate_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $playerId;
 	protected $propertiesType = Property::class;
@@ -59,7 +59,7 @@ class GameCenterMatchmakingTestPlayerPropertyInlineCreate_Attributes extends \Ca
 
 }
 
-class GameCenterMatchmakingTestPlayerPropertyInlineCreate extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingTestPlayerPropertyInlineCreate extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterMatchmakingTestPlayerProperties';
 	public $id;

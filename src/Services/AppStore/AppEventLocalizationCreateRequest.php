@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppEventLocalizationCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppEventLocalizationCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $locale;
 	public $name;
@@ -72,7 +72,7 @@ class AppEventLocalizationCreateRequest_Data_Attributes extends \Cantie\AppStore
 
 }
 
-class AppEventLocalizationCreateRequest_Data_Relationships_AppEvent_Data extends \Cantie\AppStoreConnect\Model
+class AppEventLocalizationCreateRequest_Data_Relationships_AppEvent_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEvents';
 	public $id;
@@ -98,7 +98,7 @@ class AppEventLocalizationCreateRequest_Data_Relationships_AppEvent_Data extends
 
 }
 
-class AppEventLocalizationCreateRequest_Data_Relationships_AppEvent extends \Cantie\AppStoreConnect\Model
+class AppEventLocalizationCreateRequest_Data_Relationships_AppEvent extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppEventLocalizationCreateRequest_Data_Relationships_AppEvent_Data::class;
 	protected $dataDataType = 'object';
@@ -121,7 +121,7 @@ class AppEventLocalizationCreateRequest_Data_Relationships_AppEvent extends \Can
 
 }
 
-class AppEventLocalizationCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppEventLocalizationCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appEventType = AppEventLocalizationCreateRequest_Data_Relationships_AppEvent::class;
 	protected $appEventDataType = 'object';
@@ -144,7 +144,7 @@ class AppEventLocalizationCreateRequest_Data_Relationships extends \Cantie\AppSt
 
 }
 
-class AppEventLocalizationCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppEventLocalizationCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEventLocalizations';
 	protected $attributesType = AppEventLocalizationCreateRequest_Data_Attributes::class;
@@ -194,7 +194,7 @@ class AppEventLocalizationCreateRequest_Data extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class AppEventLocalizationCreateRequest extends \Cantie\AppStoreConnect\Model
+class AppEventLocalizationCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppEventLocalizationCreateRequest_Data::class;
 	protected $dataDataType = 'object';

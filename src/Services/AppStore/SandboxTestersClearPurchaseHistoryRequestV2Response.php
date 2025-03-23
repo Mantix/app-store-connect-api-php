@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SandboxTestersClearPurchaseHistoryRequestV2Response extends \Cantie\AppStoreConnect\Model
+class SandboxTestersClearPurchaseHistoryRequestV2Response extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SandboxTestersClearPurchaseHistoryRequestV2::class;
 	protected $dataDataType = '';

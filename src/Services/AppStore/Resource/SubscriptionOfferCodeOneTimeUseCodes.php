@@ -24,22 +24,22 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionOfferCodeOneTimeUseCodeResponse;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionOfferCodeOneTimeUseCodeCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionOfferCodeOneTimeUseCodeUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\csv;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionOfferCodeOneTimeUseCodeResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionOfferCodeOneTimeUseCodeCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionOfferCodeOneTimeUseCodeUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\csv;
 
 /**
  * The "subscriptionOfferCodeOneTimeUseCodes" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $subscriptionOfferCodeOneTimeUseCodes = $appStoreService->subscriptionOfferCodeOneTimeUseCodes;
  *  </code>
  */
-class SubscriptionOfferCodeOneTimeUseCodes extends \Cantie\AppStoreConnect\Services\Resource
+class SubscriptionOfferCodeOneTimeUseCodes extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

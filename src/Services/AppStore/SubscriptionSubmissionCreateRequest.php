@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionSubmissionCreateRequest_Data_Relationships_Subscription_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionSubmissionCreateRequest_Data_Relationships_Subscription_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptions';
 	public $id;
@@ -52,7 +52,7 @@ class SubscriptionSubmissionCreateRequest_Data_Relationships_Subscription_Data e
 
 }
 
-class SubscriptionSubmissionCreateRequest_Data_Relationships_Subscription extends \Cantie\AppStoreConnect\Model
+class SubscriptionSubmissionCreateRequest_Data_Relationships_Subscription extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionSubmissionCreateRequest_Data_Relationships_Subscription_Data::class;
 	protected $dataDataType = 'object';
@@ -75,7 +75,7 @@ class SubscriptionSubmissionCreateRequest_Data_Relationships_Subscription extend
 
 }
 
-class SubscriptionSubmissionCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class SubscriptionSubmissionCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $subscriptionType = SubscriptionSubmissionCreateRequest_Data_Relationships_Subscription::class;
 	protected $subscriptionDataType = 'object';
@@ -98,7 +98,7 @@ class SubscriptionSubmissionCreateRequest_Data_Relationships extends \Cantie\App
 
 }
 
-class SubscriptionSubmissionCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionSubmissionCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionSubmissions';
 	protected $relationshipsType = SubscriptionSubmissionCreateRequest_Data_Relationships::class;
@@ -131,7 +131,7 @@ class SubscriptionSubmissionCreateRequest_Data extends \Cantie\AppStoreConnect\M
 
 }
 
-class SubscriptionSubmissionCreateRequest extends \Cantie\AppStoreConnect\Model
+class SubscriptionSubmissionCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionSubmissionCreateRequest_Data::class;
 	protected $dataDataType = 'object';

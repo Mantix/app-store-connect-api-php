@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppScreenshotUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppScreenshotUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $sourceFileChecksum;
 	public $uploaded;
@@ -52,7 +52,7 @@ class AppScreenshotUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect
 
 }
 
-class AppScreenshotUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppScreenshotUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appScreenshots';
 	public $id;
@@ -95,7 +95,7 @@ class AppScreenshotUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppScreenshotUpdateRequest extends \Cantie\AppStoreConnect\Model
+class AppScreenshotUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppScreenshotUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

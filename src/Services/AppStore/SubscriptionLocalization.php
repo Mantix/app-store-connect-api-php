@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionLocalization_Attributes extends \Cantie\AppStoreConnect\Model
+class SubscriptionLocalization_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $locale;
@@ -72,7 +72,7 @@ class SubscriptionLocalization_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class SubscriptionLocalization_Relationships_Subscription_Links extends \Cantie\AppStoreConnect\Model
+class SubscriptionLocalization_Relationships_Subscription_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -98,7 +98,7 @@ class SubscriptionLocalization_Relationships_Subscription_Links extends \Cantie\
 
 }
 
-class SubscriptionLocalization_Relationships_Subscription_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionLocalization_Relationships_Subscription_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptions';
 	public $id;
@@ -124,7 +124,7 @@ class SubscriptionLocalization_Relationships_Subscription_Data extends \Cantie\A
 
 }
 
-class SubscriptionLocalization_Relationships_Subscription extends \Cantie\AppStoreConnect\Model
+class SubscriptionLocalization_Relationships_Subscription extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = SubscriptionLocalization_Relationships_Subscription_Links::class;
 	protected $linksDataType = 'object';
@@ -164,7 +164,7 @@ class SubscriptionLocalization_Relationships_Subscription extends \Cantie\AppSto
 
 }
 
-class SubscriptionLocalization_Relationships extends \Cantie\AppStoreConnect\Model
+class SubscriptionLocalization_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $subscriptionType = SubscriptionLocalization_Relationships_Subscription::class;
 	protected $subscriptionDataType = 'object';
@@ -187,7 +187,7 @@ class SubscriptionLocalization_Relationships extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class SubscriptionLocalization extends \Cantie\AppStoreConnect\Model
+class SubscriptionLocalization extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionLocalizations';
 	public $id;

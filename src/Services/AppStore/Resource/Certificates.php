@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\CertificatesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\CertificateResponse;
-use Cantie\AppStoreConnect\Services\AppStore\CertificateCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\CertificatesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\CertificateResponse;
+use Mantix\AppStoreConnect\Services\AppStore\CertificateCreateRequest;
 
 /**
  * The "certificates" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $certificates = $appStoreService->certificates;
  *  </code>
  */
-class Certificates extends \Cantie\AppStoreConnect\Services\Resource
+class Certificates extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

@@ -24,25 +24,25 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\BundleIdsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BundleIdResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BundleIdCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\BundleIdUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BundleIdCapabilitiesWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\ProfilesWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BundleIdsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BundleIdResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BundleIdCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\BundleIdUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BundleIdCapabilitiesWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\ProfilesWithoutIncludesResponse;
 
 /**
  * The "bundleIds" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $bundleIds = $appStoreService->bundleIds;
  *  </code>
  */
-class BundleIds extends \Cantie\AppStoreConnect\Services\Resource
+class BundleIds extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

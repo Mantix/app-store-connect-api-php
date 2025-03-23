@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class TerritoryAvailability_Attributes extends \Cantie\AppStoreConnect\Model
+class TerritoryAvailability_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $available;
 	public $releaseDate;
@@ -89,7 +89,7 @@ class TerritoryAvailability_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class TerritoryAvailability_Relationships_Territory_Links extends \Cantie\AppStoreConnect\Model
+class TerritoryAvailability_Relationships_Territory_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -115,7 +115,7 @@ class TerritoryAvailability_Relationships_Territory_Links extends \Cantie\AppSto
 
 }
 
-class TerritoryAvailability_Relationships_Territory_Data extends \Cantie\AppStoreConnect\Model
+class TerritoryAvailability_Relationships_Territory_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'territories';
 	public $id;
@@ -141,7 +141,7 @@ class TerritoryAvailability_Relationships_Territory_Data extends \Cantie\AppStor
 
 }
 
-class TerritoryAvailability_Relationships_Territory extends \Cantie\AppStoreConnect\Model
+class TerritoryAvailability_Relationships_Territory extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = TerritoryAvailability_Relationships_Territory_Links::class;
 	protected $linksDataType = 'object';
@@ -181,7 +181,7 @@ class TerritoryAvailability_Relationships_Territory extends \Cantie\AppStoreConn
 
 }
 
-class TerritoryAvailability_Relationships extends \Cantie\AppStoreConnect\Model
+class TerritoryAvailability_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $territoryType = TerritoryAvailability_Relationships_Territory::class;
 	protected $territoryDataType = 'object';
@@ -204,7 +204,7 @@ class TerritoryAvailability_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class TerritoryAvailability extends \Cantie\AppStoreConnect\Model
+class TerritoryAvailability extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'territoryAvailabilities';
 	public $id;

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaAppReviewSubmissionCreateRequest_Data_Relationships_Build_Data extends \Cantie\AppStoreConnect\Model
+class BetaAppReviewSubmissionCreateRequest_Data_Relationships_Build_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'builds';
 	public $id;
@@ -52,7 +52,7 @@ class BetaAppReviewSubmissionCreateRequest_Data_Relationships_Build_Data extends
 
 }
 
-class BetaAppReviewSubmissionCreateRequest_Data_Relationships_Build extends \Cantie\AppStoreConnect\Model
+class BetaAppReviewSubmissionCreateRequest_Data_Relationships_Build extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BetaAppReviewSubmissionCreateRequest_Data_Relationships_Build_Data::class;
 	protected $dataDataType = 'object';
@@ -75,7 +75,7 @@ class BetaAppReviewSubmissionCreateRequest_Data_Relationships_Build extends \Can
 
 }
 
-class BetaAppReviewSubmissionCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class BetaAppReviewSubmissionCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $buildType = BetaAppReviewSubmissionCreateRequest_Data_Relationships_Build::class;
 	protected $buildDataType = 'object';
@@ -98,7 +98,7 @@ class BetaAppReviewSubmissionCreateRequest_Data_Relationships extends \Cantie\Ap
 
 }
 
-class BetaAppReviewSubmissionCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class BetaAppReviewSubmissionCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaAppReviewSubmissions';
 	protected $relationshipsType = BetaAppReviewSubmissionCreateRequest_Data_Relationships::class;
@@ -131,7 +131,7 @@ class BetaAppReviewSubmissionCreateRequest_Data extends \Cantie\AppStoreConnect\
 
 }
 
-class BetaAppReviewSubmissionCreateRequest extends \Cantie\AppStoreConnect\Model
+class BetaAppReviewSubmissionCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BetaAppReviewSubmissionCreateRequest_Data::class;
 	protected $dataDataType = 'object';

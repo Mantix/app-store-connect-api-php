@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BundleIdsResponse extends \Cantie\AppStoreConnect\Model
+class BundleIdsResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BundleId::class;
 	protected $dataDataType = 'array';

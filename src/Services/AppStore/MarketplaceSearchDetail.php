@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class MarketplaceSearchDetail_Attributes extends \Cantie\AppStoreConnect\Model
+class MarketplaceSearchDetail_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $catalogUrl;
 
@@ -42,7 +42,7 @@ class MarketplaceSearchDetail_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class MarketplaceSearchDetail extends \Cantie\AppStoreConnect\Model
+class MarketplaceSearchDetail extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'marketplaceSearchDetails';
 	public $id;

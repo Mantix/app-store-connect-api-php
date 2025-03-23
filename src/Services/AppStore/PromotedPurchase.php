@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class PromotedPurchase_Attributes extends \Cantie\AppStoreConnect\Model
+class PromotedPurchase_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $visibleForAllUsers;
 	public $enabled;
@@ -62,7 +62,7 @@ class PromotedPurchase_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class PromotedPurchase_Relationships_InAppPurchaseV2_Links extends \Cantie\AppStoreConnect\Model
+class PromotedPurchase_Relationships_InAppPurchaseV2_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -88,7 +88,7 @@ class PromotedPurchase_Relationships_InAppPurchaseV2_Links extends \Cantie\AppSt
 
 }
 
-class PromotedPurchase_Relationships_InAppPurchaseV2_Data extends \Cantie\AppStoreConnect\Model
+class PromotedPurchase_Relationships_InAppPurchaseV2_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchases';
 	public $id;
@@ -114,7 +114,7 @@ class PromotedPurchase_Relationships_InAppPurchaseV2_Data extends \Cantie\AppSto
 
 }
 
-class PromotedPurchase_Relationships_InAppPurchaseV2 extends \Cantie\AppStoreConnect\Model
+class PromotedPurchase_Relationships_InAppPurchaseV2 extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = PromotedPurchase_Relationships_InAppPurchaseV2_Links::class;
 	protected $linksDataType = 'object';
@@ -154,7 +154,7 @@ class PromotedPurchase_Relationships_InAppPurchaseV2 extends \Cantie\AppStoreCon
 
 }
 
-class PromotedPurchase_Relationships_Subscription_Links extends \Cantie\AppStoreConnect\Model
+class PromotedPurchase_Relationships_Subscription_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -180,7 +180,7 @@ class PromotedPurchase_Relationships_Subscription_Links extends \Cantie\AppStore
 
 }
 
-class PromotedPurchase_Relationships_Subscription_Data extends \Cantie\AppStoreConnect\Model
+class PromotedPurchase_Relationships_Subscription_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptions';
 	public $id;
@@ -206,7 +206,7 @@ class PromotedPurchase_Relationships_Subscription_Data extends \Cantie\AppStoreC
 
 }
 
-class PromotedPurchase_Relationships_Subscription extends \Cantie\AppStoreConnect\Model
+class PromotedPurchase_Relationships_Subscription extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = PromotedPurchase_Relationships_Subscription_Links::class;
 	protected $linksDataType = 'object';
@@ -246,7 +246,7 @@ class PromotedPurchase_Relationships_Subscription extends \Cantie\AppStoreConnec
 
 }
 
-class PromotedPurchase_Relationships_PromotionImages_Links extends \Cantie\AppStoreConnect\Model
+class PromotedPurchase_Relationships_PromotionImages_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -272,7 +272,7 @@ class PromotedPurchase_Relationships_PromotionImages_Links extends \Cantie\AppSt
 
 }
 
-class PromotedPurchase_Relationships_PromotionImages_Data extends \Cantie\AppStoreConnect\Model
+class PromotedPurchase_Relationships_PromotionImages_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'promotedPurchaseImages';
 	public $id;
@@ -298,7 +298,7 @@ class PromotedPurchase_Relationships_PromotionImages_Data extends \Cantie\AppSto
 
 }
 
-class PromotedPurchase_Relationships_PromotionImages extends \Cantie\AppStoreConnect\Model
+class PromotedPurchase_Relationships_PromotionImages extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = PromotedPurchase_Relationships_PromotionImages_Links::class;
 	protected $linksDataType = 'object';
@@ -355,7 +355,7 @@ class PromotedPurchase_Relationships_PromotionImages extends \Cantie\AppStoreCon
 
 }
 
-class PromotedPurchase_Relationships extends \Cantie\AppStoreConnect\Model
+class PromotedPurchase_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $inAppPurchaseV2Type = PromotedPurchase_Relationships_InAppPurchaseV2::class;
 	protected $inAppPurchaseV2DataType = 'object';
@@ -412,7 +412,7 @@ class PromotedPurchase_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class PromotedPurchase extends \Cantie\AppStoreConnect\Model
+class PromotedPurchase extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'promotedPurchases';
 	public $id;

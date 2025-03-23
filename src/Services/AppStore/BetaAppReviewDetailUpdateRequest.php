@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaAppReviewDetailUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class BetaAppReviewDetailUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $contactFirstName;
 	public $contactLastName;
@@ -112,7 +112,7 @@ class BetaAppReviewDetailUpdateRequest_Data_Attributes extends \Cantie\AppStoreC
 
 }
 
-class BetaAppReviewDetailUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class BetaAppReviewDetailUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaAppReviewDetails';
 	public $id;
@@ -155,7 +155,7 @@ class BetaAppReviewDetailUpdateRequest_Data extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class BetaAppReviewDetailUpdateRequest extends \Cantie\AppStoreConnect\Model
+class BetaAppReviewDetailUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BetaAppReviewDetailUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

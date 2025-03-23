@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppClipDefaultExperienceLocalizationCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceLocalizationCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $locale;
 	public $subtitle;
@@ -52,7 +52,7 @@ class AppClipDefaultExperienceLocalizationCreateRequest_Data_Attributes extends 
 
 }
 
-class AppClipDefaultExperienceLocalizationCreateRequest_Data_Relationships_AppClipDefaultExperience_Data extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceLocalizationCreateRequest_Data_Relationships_AppClipDefaultExperience_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipDefaultExperiences';
 	public $id;
@@ -78,7 +78,7 @@ class AppClipDefaultExperienceLocalizationCreateRequest_Data_Relationships_AppCl
 
 }
 
-class AppClipDefaultExperienceLocalizationCreateRequest_Data_Relationships_AppClipDefaultExperience extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceLocalizationCreateRequest_Data_Relationships_AppClipDefaultExperience extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppClipDefaultExperienceLocalizationCreateRequest_Data_Relationships_AppClipDefaultExperience_Data::class;
 	protected $dataDataType = 'object';
@@ -101,7 +101,7 @@ class AppClipDefaultExperienceLocalizationCreateRequest_Data_Relationships_AppCl
 
 }
 
-class AppClipDefaultExperienceLocalizationCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceLocalizationCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appClipDefaultExperienceType = AppClipDefaultExperienceLocalizationCreateRequest_Data_Relationships_AppClipDefaultExperience::class;
 	protected $appClipDefaultExperienceDataType = 'object';
@@ -124,7 +124,7 @@ class AppClipDefaultExperienceLocalizationCreateRequest_Data_Relationships exten
 
 }
 
-class AppClipDefaultExperienceLocalizationCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceLocalizationCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipDefaultExperienceLocalizations';
 	protected $attributesType = AppClipDefaultExperienceLocalizationCreateRequest_Data_Attributes::class;
@@ -174,7 +174,7 @@ class AppClipDefaultExperienceLocalizationCreateRequest_Data extends \Cantie\App
 
 }
 
-class AppClipDefaultExperienceLocalizationCreateRequest extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceLocalizationCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppClipDefaultExperienceLocalizationCreateRequest_Data::class;
 	protected $dataDataType = 'object';

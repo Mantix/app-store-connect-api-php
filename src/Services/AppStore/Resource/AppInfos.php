@@ -24,23 +24,23 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppInfoResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppInfoUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AgeRatingDeclarationResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppInfoLocalizationsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppCategoryResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppInfoResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppInfoUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AgeRatingDeclarationResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppInfoLocalizationsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppCategoryResponse;
 
 /**
  * The "appInfos" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appInfos = $appStoreService->appInfos;
  *  </code>
  */
-class AppInfos extends \Cantie\AppStoreConnect\Services\Resource
+class AppInfos extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

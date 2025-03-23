@@ -24,22 +24,22 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\DevicesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\DeviceResponse;
-use Cantie\AppStoreConnect\Services\AppStore\DeviceCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\DeviceUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\DevicesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\DeviceResponse;
+use Mantix\AppStoreConnect\Services\AppStore\DeviceCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\DeviceUpdateRequest;
 
 /**
  * The "devices" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $devices = $appStoreService->devices;
  *  </code>
  */
-class Devices extends \Cantie\AppStoreConnect\Services\Resource
+class Devices extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

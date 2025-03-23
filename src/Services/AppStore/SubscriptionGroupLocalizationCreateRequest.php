@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionGroupLocalizationCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class SubscriptionGroupLocalizationCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $customAppName;
@@ -62,7 +62,7 @@ class SubscriptionGroupLocalizationCreateRequest_Data_Attributes extends \Cantie
 
 }
 
-class SubscriptionGroupLocalizationCreateRequest_Data_Relationships_SubscriptionGroup_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionGroupLocalizationCreateRequest_Data_Relationships_SubscriptionGroup_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionGroups';
 	public $id;
@@ -88,7 +88,7 @@ class SubscriptionGroupLocalizationCreateRequest_Data_Relationships_Subscription
 
 }
 
-class SubscriptionGroupLocalizationCreateRequest_Data_Relationships_SubscriptionGroup extends \Cantie\AppStoreConnect\Model
+class SubscriptionGroupLocalizationCreateRequest_Data_Relationships_SubscriptionGroup extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionGroupLocalizationCreateRequest_Data_Relationships_SubscriptionGroup_Data::class;
 	protected $dataDataType = 'object';
@@ -111,7 +111,7 @@ class SubscriptionGroupLocalizationCreateRequest_Data_Relationships_Subscription
 
 }
 
-class SubscriptionGroupLocalizationCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class SubscriptionGroupLocalizationCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $subscriptionGroupType = SubscriptionGroupLocalizationCreateRequest_Data_Relationships_SubscriptionGroup::class;
 	protected $subscriptionGroupDataType = 'object';
@@ -134,7 +134,7 @@ class SubscriptionGroupLocalizationCreateRequest_Data_Relationships extends \Can
 
 }
 
-class SubscriptionGroupLocalizationCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionGroupLocalizationCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionGroupLocalizations';
 	protected $attributesType = SubscriptionGroupLocalizationCreateRequest_Data_Attributes::class;
@@ -184,7 +184,7 @@ class SubscriptionGroupLocalizationCreateRequest_Data extends \Cantie\AppStoreCo
 
 }
 
-class SubscriptionGroupLocalizationCreateRequest extends \Cantie\AppStoreConnect\Model
+class SubscriptionGroupLocalizationCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionGroupLocalizationCreateRequest_Data::class;
 	protected $dataDataType = 'object';

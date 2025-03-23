@@ -24,23 +24,23 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\ReviewSubmissionsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\ReviewSubmissionResponse;
-use Cantie\AppStoreConnect\Services\AppStore\ReviewSubmissionCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\ReviewSubmissionUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\ReviewSubmissionItemsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\ReviewSubmissionsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\ReviewSubmissionResponse;
+use Mantix\AppStoreConnect\Services\AppStore\ReviewSubmissionCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\ReviewSubmissionUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\ReviewSubmissionItemsResponse;
 
 /**
  * The "reviewSubmissions" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $reviewSubmissions = $appStoreService->reviewSubmissions;
  *  </code>
  */
-class ReviewSubmissions extends \Cantie\AppStoreConnect\Services\Resource
+class ReviewSubmissions extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

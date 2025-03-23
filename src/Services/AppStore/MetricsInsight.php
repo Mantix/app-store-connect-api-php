@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class MetricsInsight_Populations extends \Cantie\AppStoreConnect\Model
+class MetricsInsight_Populations extends \Mantix\AppStoreConnect\Model
 {
 	public $deltaPercentage;
 	public $percentile;
@@ -92,7 +92,7 @@ class MetricsInsight_Populations extends \Cantie\AppStoreConnect\Model
 
 }
 
-class MetricsInsight extends \Cantie\AppStoreConnect\Model
+class MetricsInsight extends \Mantix\AppStoreConnect\Model
 {
 	public $metricCategory; // 
 	public $latestVersion;

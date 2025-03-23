@@ -24,19 +24,19 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AlternativeDistributionPackageDeltaResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AlternativeDistributionPackageDeltaResponse;
 
 /**
  * The "alternativeDistributionPackageDeltas" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $alternativeDistributionPackageDeltas = $appStoreService->alternativeDistributionPackageDeltas;
  *  </code>
  */
-class AlternativeDistributionPackageDeltas extends \Cantie\AppStoreConnect\Services\Resource
+class AlternativeDistributionPackageDeltas extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

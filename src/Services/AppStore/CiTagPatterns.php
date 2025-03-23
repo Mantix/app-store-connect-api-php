@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiTagPatterns_Patterns extends \Cantie\AppStoreConnect\Model
+class CiTagPatterns_Patterns extends \Mantix\AppStoreConnect\Model
 {
 	public $pattern;
 	public $isPrefix;
@@ -52,7 +52,7 @@ class CiTagPatterns_Patterns extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiTagPatterns extends \Cantie\AppStoreConnect\Model
+class CiTagPatterns extends \Mantix\AppStoreConnect\Model
 {
 	public $isAllMatch;
 	protected $patternsType = CiTagPatterns_Patterns::class;

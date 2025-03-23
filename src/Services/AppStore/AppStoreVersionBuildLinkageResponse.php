@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppStoreVersionBuildLinkageResponse_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionBuildLinkageResponse_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'builds';
 	public $id;
@@ -52,7 +52,7 @@ class AppStoreVersionBuildLinkageResponse_Data extends \Cantie\AppStoreConnect\M
 
 }
 
-class AppStoreVersionBuildLinkageResponse extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionBuildLinkageResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersionBuildLinkageResponse_Data::class;
 	protected $dataDataType = 'object';

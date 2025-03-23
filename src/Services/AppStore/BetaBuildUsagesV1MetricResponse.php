@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaBuildUsagesV1MetricResponse_Data_DataPoints_Values extends \Cantie\AppStoreConnect\Model
+class BetaBuildUsagesV1MetricResponse_Data_DataPoints_Values extends \Mantix\AppStoreConnect\Model
 {
 	public $crashCount;
 	public $installCount;
@@ -82,7 +82,7 @@ class BetaBuildUsagesV1MetricResponse_Data_DataPoints_Values extends \Cantie\App
 
 }
 
-class BetaBuildUsagesV1MetricResponse_Data_DataPoints extends \Cantie\AppStoreConnect\Model
+class BetaBuildUsagesV1MetricResponse_Data_DataPoints extends \Mantix\AppStoreConnect\Model
 {
 	public $start;
 	public $end;
@@ -125,7 +125,7 @@ class BetaBuildUsagesV1MetricResponse_Data_DataPoints extends \Cantie\AppStoreCo
 
 }
 
-class BetaBuildUsagesV1MetricResponse_Data_Dimensions_BundleIds_Links extends \Cantie\AppStoreConnect\Model
+class BetaBuildUsagesV1MetricResponse_Data_Dimensions_BundleIds_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $groupBy;
 
@@ -141,7 +141,7 @@ class BetaBuildUsagesV1MetricResponse_Data_Dimensions_BundleIds_Links extends \C
 
 }
 
-class BetaBuildUsagesV1MetricResponse_Data_Dimensions_BundleIds extends \Cantie\AppStoreConnect\Model
+class BetaBuildUsagesV1MetricResponse_Data_Dimensions_BundleIds extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = BetaBuildUsagesV1MetricResponse_Data_Dimensions_BundleIds_Links::class;
 	protected $linksDataType = 'object';
@@ -164,7 +164,7 @@ class BetaBuildUsagesV1MetricResponse_Data_Dimensions_BundleIds extends \Cantie\
 
 }
 
-class BetaBuildUsagesV1MetricResponse_Data_Dimensions extends \Cantie\AppStoreConnect\Model
+class BetaBuildUsagesV1MetricResponse_Data_Dimensions extends \Mantix\AppStoreConnect\Model
 {
 	protected $bundleIdsType = BetaBuildUsagesV1MetricResponse_Data_Dimensions_BundleIds::class;
 	protected $bundleIdsDataType = 'object';
@@ -187,7 +187,7 @@ class BetaBuildUsagesV1MetricResponse_Data_Dimensions extends \Cantie\AppStoreCo
 
 }
 
-class BetaBuildUsagesV1MetricResponse_Data extends \Cantie\AppStoreConnect\Model
+class BetaBuildUsagesV1MetricResponse_Data extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataPointsType = BetaBuildUsagesV1MetricResponse_Data_DataPoints::class;
 	protected $dataPointsDataType = 'object';
@@ -227,7 +227,7 @@ class BetaBuildUsagesV1MetricResponse_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BetaBuildUsagesV1MetricResponse extends \Cantie\AppStoreConnect\Model
+class BetaBuildUsagesV1MetricResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BetaBuildUsagesV1MetricResponse_Data::class;
 	protected $dataDataType = 'array';

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CustomerReviewResponseV1Response extends \Cantie\AppStoreConnect\Model
+class CustomerReviewResponseV1Response extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = CustomerReviewResponseV1::class;
 	protected $dataDataType = '';

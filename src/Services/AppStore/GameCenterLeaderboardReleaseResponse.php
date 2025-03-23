@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterLeaderboardReleaseResponse extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardReleaseResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterLeaderboardRelease::class;
 	protected $dataDataType = '';

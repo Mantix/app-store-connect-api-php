@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionIntroductoryOfferResponse;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionIntroductoryOfferCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionIntroductoryOfferUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionIntroductoryOfferResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionIntroductoryOfferCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionIntroductoryOfferUpdateRequest;
 
 /**
  * The "subscriptionIntroductoryOffers" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $subscriptionIntroductoryOffers = $appStoreService->subscriptionIntroductoryOffers;
  *  </code>
  */
-class SubscriptionIntroductoryOffers extends \Cantie\AppStoreConnect\Services\Resource
+class SubscriptionIntroductoryOffers extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

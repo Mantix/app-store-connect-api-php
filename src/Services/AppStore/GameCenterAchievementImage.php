@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterAchievementImage_Attributes extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementImage_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $fileSize;
 	public $fileName;
@@ -103,7 +103,7 @@ class GameCenterAchievementImage_Attributes extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class GameCenterAchievementImage_Relationships_GameCenterAchievementLocalization_Links extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementImage_Relationships_GameCenterAchievementLocalization_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -129,7 +129,7 @@ class GameCenterAchievementImage_Relationships_GameCenterAchievementLocalization
 
 }
 
-class GameCenterAchievementImage_Relationships_GameCenterAchievementLocalization_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementImage_Relationships_GameCenterAchievementLocalization_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterAchievementLocalizations';
 	public $id;
@@ -155,7 +155,7 @@ class GameCenterAchievementImage_Relationships_GameCenterAchievementLocalization
 
 }
 
-class GameCenterAchievementImage_Relationships_GameCenterAchievementLocalization extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementImage_Relationships_GameCenterAchievementLocalization extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = GameCenterAchievementImage_Relationships_GameCenterAchievementLocalization_Links::class;
 	protected $linksDataType = 'object';
@@ -195,7 +195,7 @@ class GameCenterAchievementImage_Relationships_GameCenterAchievementLocalization
 
 }
 
-class GameCenterAchievementImage_Relationships extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementImage_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $gameCenterAchievementLocalizationType = GameCenterAchievementImage_Relationships_GameCenterAchievementLocalization::class;
 	protected $gameCenterAchievementLocalizationDataType = 'object';
@@ -218,7 +218,7 @@ class GameCenterAchievementImage_Relationships extends \Cantie\AppStoreConnect\M
 
 }
 
-class GameCenterAchievementImage extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementImage extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterAchievementImages';
 	public $id;

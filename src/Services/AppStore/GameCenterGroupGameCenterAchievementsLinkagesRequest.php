@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterGroupGameCenterAchievementsLinkagesRequest_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterGroupGameCenterAchievementsLinkagesRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterAchievements';
 	public $id;
@@ -52,7 +52,7 @@ class GameCenterGroupGameCenterAchievementsLinkagesRequest_Data extends \Cantie\
 
 }
 
-class GameCenterGroupGameCenterAchievementsLinkagesRequest extends \Cantie\AppStoreConnect\Model
+class GameCenterGroupGameCenterAchievementsLinkagesRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterGroupGameCenterAchievementsLinkagesRequest_Data::class;
 	protected $dataDataType = 'array';

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class Actor_Attributes extends \Cantie\AppStoreConnect\Model
+class Actor_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $actorType; // USER, API_KEY, XCODE_CLOUD, APPLE
 	public $userFirstName;
@@ -82,7 +82,7 @@ class Actor_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Actor extends \Cantie\AppStoreConnect\Model
+class Actor extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'actors';
 	public $id;

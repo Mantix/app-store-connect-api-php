@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionStatusUrlVersion extends \Cantie\AppStoreConnect\Model
+class SubscriptionStatusUrlVersion extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $V1 = "V1";

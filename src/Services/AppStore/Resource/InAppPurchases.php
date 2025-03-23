@@ -24,29 +24,29 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\InAppPurchaseResponse;
-use Cantie\AppStoreConnect\Services\AppStore\InAppPurchaseV2Response;
-use Cantie\AppStoreConnect\Services\AppStore\InAppPurchaseV2CreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\InAppPurchaseV2UpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\InAppPurchaseAppStoreReviewScreenshotResponse;
-use Cantie\AppStoreConnect\Services\AppStore\InAppPurchaseContentResponse;
-use Cantie\AppStoreConnect\Services\AppStore\InAppPurchasePriceScheduleResponse;
-use Cantie\AppStoreConnect\Services\AppStore\InAppPurchaseAvailabilityResponse;
-use Cantie\AppStoreConnect\Services\AppStore\InAppPurchaseLocalizationsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\csv;
-use Cantie\AppStoreConnect\Services\AppStore\PromotedPurchaseResponse;
+use Mantix\AppStoreConnect\Services\AppStore\InAppPurchaseResponse;
+use Mantix\AppStoreConnect\Services\AppStore\InAppPurchaseV2Response;
+use Mantix\AppStoreConnect\Services\AppStore\InAppPurchaseV2CreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\InAppPurchaseV2UpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\InAppPurchaseAppStoreReviewScreenshotResponse;
+use Mantix\AppStoreConnect\Services\AppStore\InAppPurchaseContentResponse;
+use Mantix\AppStoreConnect\Services\AppStore\InAppPurchasePriceScheduleResponse;
+use Mantix\AppStoreConnect\Services\AppStore\InAppPurchaseAvailabilityResponse;
+use Mantix\AppStoreConnect\Services\AppStore\InAppPurchaseLocalizationsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\csv;
+use Mantix\AppStoreConnect\Services\AppStore\PromotedPurchaseResponse;
 
 /**
  * The "inAppPurchases" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $inAppPurchases = $appStoreService->inAppPurchases;
  *  </code>
  */
-class InAppPurchases extends \Cantie\AppStoreConnect\Services\Resource
+class InAppPurchases extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

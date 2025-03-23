@@ -24,34 +24,34 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionResponse;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionAppStoreReviewScreenshotResponse;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionIntroductoryOffersLinkagesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionIntroductoryOffersLinkagesRequest;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionIntroductoryOffersResponse;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionOfferCodesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\csv;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionPricesLinkagesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionPricesLinkagesRequest;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionPricesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\PromotedPurchaseResponse;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionPromotionalOffersResponse;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionAvailabilityResponse;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionLocalizationsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionAppStoreReviewScreenshotResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionIntroductoryOffersLinkagesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionIntroductoryOffersLinkagesRequest;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionIntroductoryOffersResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionOfferCodesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\csv;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionPricesLinkagesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionPricesLinkagesRequest;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionPricesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\PromotedPurchaseResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionPromotionalOffersResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionAvailabilityResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionLocalizationsResponse;
 
 /**
  * The "subscriptions" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $subscriptions = $appStoreService->subscriptions;
  *  </code>
  */
-class Subscriptions extends \Cantie\AppStoreConnect\Services\Resource
+class Subscriptions extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

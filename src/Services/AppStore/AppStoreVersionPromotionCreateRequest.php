@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppStoreVersionPromotionCreateRequest_Data_Relationships_AppStoreVersion_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionPromotionCreateRequest_Data_Relationships_AppStoreVersion_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersions';
 	public $id;
@@ -52,7 +52,7 @@ class AppStoreVersionPromotionCreateRequest_Data_Relationships_AppStoreVersion_D
 
 }
 
-class AppStoreVersionPromotionCreateRequest_Data_Relationships_AppStoreVersion extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionPromotionCreateRequest_Data_Relationships_AppStoreVersion extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersionPromotionCreateRequest_Data_Relationships_AppStoreVersion_Data::class;
 	protected $dataDataType = 'object';
@@ -75,7 +75,7 @@ class AppStoreVersionPromotionCreateRequest_Data_Relationships_AppStoreVersion e
 
 }
 
-class AppStoreVersionPromotionCreateRequest_Data_Relationships_AppStoreVersionExperimentTreatment_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionPromotionCreateRequest_Data_Relationships_AppStoreVersionExperimentTreatment_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionExperimentTreatments';
 	public $id;
@@ -101,7 +101,7 @@ class AppStoreVersionPromotionCreateRequest_Data_Relationships_AppStoreVersionEx
 
 }
 
-class AppStoreVersionPromotionCreateRequest_Data_Relationships_AppStoreVersionExperimentTreatment extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionPromotionCreateRequest_Data_Relationships_AppStoreVersionExperimentTreatment extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersionPromotionCreateRequest_Data_Relationships_AppStoreVersionExperimentTreatment_Data::class;
 	protected $dataDataType = 'object';
@@ -124,7 +124,7 @@ class AppStoreVersionPromotionCreateRequest_Data_Relationships_AppStoreVersionEx
 
 }
 
-class AppStoreVersionPromotionCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionPromotionCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appStoreVersionType = AppStoreVersionPromotionCreateRequest_Data_Relationships_AppStoreVersion::class;
 	protected $appStoreVersionDataType = 'object';
@@ -164,7 +164,7 @@ class AppStoreVersionPromotionCreateRequest_Data_Relationships extends \Cantie\A
 
 }
 
-class AppStoreVersionPromotionCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionPromotionCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionPromotions';
 	protected $relationshipsType = AppStoreVersionPromotionCreateRequest_Data_Relationships::class;
@@ -197,7 +197,7 @@ class AppStoreVersionPromotionCreateRequest_Data extends \Cantie\AppStoreConnect
 
 }
 
-class AppStoreVersionPromotionCreateRequest extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionPromotionCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersionPromotionCreateRequest_Data::class;
 	protected $dataDataType = 'object';

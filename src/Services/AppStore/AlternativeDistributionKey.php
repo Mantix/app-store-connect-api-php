@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AlternativeDistributionKey_Attributes extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionKey_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $publicKey;
 
@@ -42,7 +42,7 @@ class AlternativeDistributionKey_Attributes extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class AlternativeDistributionKey extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionKey extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'alternativeDistributionKeys';
 	public $id;

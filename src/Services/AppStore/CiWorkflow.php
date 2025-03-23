@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiWorkflow_Attributes extends \Cantie\AppStoreConnect\Model
+class CiWorkflow_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $description;
@@ -238,7 +238,7 @@ class CiWorkflow_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiWorkflow_Relationships_Product_Links extends \Cantie\AppStoreConnect\Model
+class CiWorkflow_Relationships_Product_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -264,7 +264,7 @@ class CiWorkflow_Relationships_Product_Links extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class CiWorkflow_Relationships_Product_Data extends \Cantie\AppStoreConnect\Model
+class CiWorkflow_Relationships_Product_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'ciProducts';
 	public $id;
@@ -290,7 +290,7 @@ class CiWorkflow_Relationships_Product_Data extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class CiWorkflow_Relationships_Product extends \Cantie\AppStoreConnect\Model
+class CiWorkflow_Relationships_Product extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = CiWorkflow_Relationships_Product_Links::class;
 	protected $linksDataType = 'object';
@@ -330,7 +330,7 @@ class CiWorkflow_Relationships_Product extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiWorkflow_Relationships_Repository_Links extends \Cantie\AppStoreConnect\Model
+class CiWorkflow_Relationships_Repository_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -356,7 +356,7 @@ class CiWorkflow_Relationships_Repository_Links extends \Cantie\AppStoreConnect\
 
 }
 
-class CiWorkflow_Relationships_Repository_Data extends \Cantie\AppStoreConnect\Model
+class CiWorkflow_Relationships_Repository_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'scmRepositories';
 	public $id;
@@ -382,7 +382,7 @@ class CiWorkflow_Relationships_Repository_Data extends \Cantie\AppStoreConnect\M
 
 }
 
-class CiWorkflow_Relationships_Repository extends \Cantie\AppStoreConnect\Model
+class CiWorkflow_Relationships_Repository extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = CiWorkflow_Relationships_Repository_Links::class;
 	protected $linksDataType = 'object';
@@ -422,7 +422,7 @@ class CiWorkflow_Relationships_Repository extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiWorkflow_Relationships_XcodeVersion_Links extends \Cantie\AppStoreConnect\Model
+class CiWorkflow_Relationships_XcodeVersion_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -448,7 +448,7 @@ class CiWorkflow_Relationships_XcodeVersion_Links extends \Cantie\AppStoreConnec
 
 }
 
-class CiWorkflow_Relationships_XcodeVersion_Data extends \Cantie\AppStoreConnect\Model
+class CiWorkflow_Relationships_XcodeVersion_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'ciXcodeVersions';
 	public $id;
@@ -474,7 +474,7 @@ class CiWorkflow_Relationships_XcodeVersion_Data extends \Cantie\AppStoreConnect
 
 }
 
-class CiWorkflow_Relationships_XcodeVersion extends \Cantie\AppStoreConnect\Model
+class CiWorkflow_Relationships_XcodeVersion extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = CiWorkflow_Relationships_XcodeVersion_Links::class;
 	protected $linksDataType = 'object';
@@ -514,7 +514,7 @@ class CiWorkflow_Relationships_XcodeVersion extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class CiWorkflow_Relationships_MacOsVersion_Links extends \Cantie\AppStoreConnect\Model
+class CiWorkflow_Relationships_MacOsVersion_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -540,7 +540,7 @@ class CiWorkflow_Relationships_MacOsVersion_Links extends \Cantie\AppStoreConnec
 
 }
 
-class CiWorkflow_Relationships_MacOsVersion_Data extends \Cantie\AppStoreConnect\Model
+class CiWorkflow_Relationships_MacOsVersion_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'ciMacOsVersions';
 	public $id;
@@ -566,7 +566,7 @@ class CiWorkflow_Relationships_MacOsVersion_Data extends \Cantie\AppStoreConnect
 
 }
 
-class CiWorkflow_Relationships_MacOsVersion extends \Cantie\AppStoreConnect\Model
+class CiWorkflow_Relationships_MacOsVersion extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = CiWorkflow_Relationships_MacOsVersion_Links::class;
 	protected $linksDataType = 'object';
@@ -606,7 +606,7 @@ class CiWorkflow_Relationships_MacOsVersion extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class CiWorkflow_Relationships extends \Cantie\AppStoreConnect\Model
+class CiWorkflow_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $productType = CiWorkflow_Relationships_Product::class;
 	protected $productDataType = 'object';
@@ -680,7 +680,7 @@ class CiWorkflow_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiWorkflow extends \Cantie\AppStoreConnect\Model
+class CiWorkflow extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'ciWorkflows';
 	public $id;

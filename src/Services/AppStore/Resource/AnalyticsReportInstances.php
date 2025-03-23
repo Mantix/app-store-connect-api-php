@@ -24,20 +24,20 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AnalyticsReportInstanceResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AnalyticsReportSegmentsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AnalyticsReportInstanceResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AnalyticsReportSegmentsResponse;
 
 /**
  * The "analyticsReportInstances" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $analyticsReportInstances = $appStoreService->analyticsReportInstances;
  *  </code>
  */
-class AnalyticsReportInstances extends \Cantie\AppStoreConnect\Services\Resource
+class AnalyticsReportInstances extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

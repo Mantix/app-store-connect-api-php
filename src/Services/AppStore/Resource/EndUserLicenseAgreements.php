@@ -24,22 +24,22 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\EndUserLicenseAgreementResponse;
-use Cantie\AppStoreConnect\Services\AppStore\EndUserLicenseAgreementCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\EndUserLicenseAgreementUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\TerritoriesWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\EndUserLicenseAgreementResponse;
+use Mantix\AppStoreConnect\Services\AppStore\EndUserLicenseAgreementCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\EndUserLicenseAgreementUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\TerritoriesWithoutIncludesResponse;
 
 /**
  * The "endUserLicenseAgreements" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $endUserLicenseAgreements = $appStoreService->endUserLicenseAgreements;
  *  </code>
  */
-class EndUserLicenseAgreements extends \Cantie\AppStoreConnect\Services\Resource
+class EndUserLicenseAgreements extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

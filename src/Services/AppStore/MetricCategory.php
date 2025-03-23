@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class MetricCategory extends \Cantie\AppStoreConnect\Model
+class MetricCategory extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $HANG = "HANG";

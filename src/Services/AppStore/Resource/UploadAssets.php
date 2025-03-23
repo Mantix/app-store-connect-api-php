@@ -24,19 +24,19 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\UsersResponse;
+use Mantix\AppStoreConnect\Services\AppStore\UsersResponse;
 
 /**
  * The "uploadAssets" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $uploadAssets = $appStoreService->uploadAssets;
  *  </code>
  */
-class UploadAssets extends \Cantie\AppStoreConnect\Services\Resource
+class UploadAssets extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

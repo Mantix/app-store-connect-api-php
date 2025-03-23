@@ -24,22 +24,22 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\BetaAppReviewSubmissionsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaAppReviewSubmissionResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaAppReviewSubmissionCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\BuildWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaAppReviewSubmissionsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaAppReviewSubmissionResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaAppReviewSubmissionCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\BuildWithoutIncludesResponse;
 
 /**
  * The "betaAppReviewSubmissions" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $betaAppReviewSubmissions = $appStoreService->betaAppReviewSubmissions;
  *  </code>
  */
-class BetaAppReviewSubmissions extends \Cantie\AppStoreConnect\Services\Resource
+class BetaAppReviewSubmissions extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

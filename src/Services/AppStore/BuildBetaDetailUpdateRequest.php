@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BuildBetaDetailUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class BuildBetaDetailUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $autoNotifyEnabled;
 
@@ -42,7 +42,7 @@ class BuildBetaDetailUpdateRequest_Data_Attributes extends \Cantie\AppStoreConne
 
 }
 
-class BuildBetaDetailUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class BuildBetaDetailUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'buildBetaDetails';
 	public $id;
@@ -85,7 +85,7 @@ class BuildBetaDetailUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BuildBetaDetailUpdateRequest extends \Cantie\AppStoreConnect\Model
+class BuildBetaDetailUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BuildBetaDetailUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

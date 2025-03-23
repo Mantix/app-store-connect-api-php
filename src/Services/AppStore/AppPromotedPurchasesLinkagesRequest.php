@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppPromotedPurchasesLinkagesRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppPromotedPurchasesLinkagesRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'promotedPurchases';
 	public $id;
@@ -52,7 +52,7 @@ class AppPromotedPurchasesLinkagesRequest_Data extends \Cantie\AppStoreConnect\M
 
 }
 
-class AppPromotedPurchasesLinkagesRequest extends \Cantie\AppStoreConnect\Model
+class AppPromotedPurchasesLinkagesRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppPromotedPurchasesLinkagesRequest_Data::class;
 	protected $dataDataType = 'array';

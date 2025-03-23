@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class InAppPurchasePrice_Attributes extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePrice_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $startDate;
 	public $endDate;
@@ -62,7 +62,7 @@ class InAppPurchasePrice_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class InAppPurchasePrice_Relationships_InAppPurchasePricePoint_Links extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePrice_Relationships_InAppPurchasePricePoint_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -88,7 +88,7 @@ class InAppPurchasePrice_Relationships_InAppPurchasePricePoint_Links extends \Ca
 
 }
 
-class InAppPurchasePrice_Relationships_InAppPurchasePricePoint_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePrice_Relationships_InAppPurchasePricePoint_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchasePricePoints';
 	public $id;
@@ -114,7 +114,7 @@ class InAppPurchasePrice_Relationships_InAppPurchasePricePoint_Data extends \Can
 
 }
 
-class InAppPurchasePrice_Relationships_InAppPurchasePricePoint extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePrice_Relationships_InAppPurchasePricePoint extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = InAppPurchasePrice_Relationships_InAppPurchasePricePoint_Links::class;
 	protected $linksDataType = 'object';
@@ -154,7 +154,7 @@ class InAppPurchasePrice_Relationships_InAppPurchasePricePoint extends \Cantie\A
 
 }
 
-class InAppPurchasePrice_Relationships_Territory_Links extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePrice_Relationships_Territory_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -180,7 +180,7 @@ class InAppPurchasePrice_Relationships_Territory_Links extends \Cantie\AppStoreC
 
 }
 
-class InAppPurchasePrice_Relationships_Territory_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePrice_Relationships_Territory_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'territories';
 	public $id;
@@ -206,7 +206,7 @@ class InAppPurchasePrice_Relationships_Territory_Data extends \Cantie\AppStoreCo
 
 }
 
-class InAppPurchasePrice_Relationships_Territory extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePrice_Relationships_Territory extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = InAppPurchasePrice_Relationships_Territory_Links::class;
 	protected $linksDataType = 'object';
@@ -246,7 +246,7 @@ class InAppPurchasePrice_Relationships_Territory extends \Cantie\AppStoreConnect
 
 }
 
-class InAppPurchasePrice_Relationships extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePrice_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $inAppPurchasePricePointType = InAppPurchasePrice_Relationships_InAppPurchasePricePoint::class;
 	protected $inAppPurchasePricePointDataType = 'object';
@@ -286,7 +286,7 @@ class InAppPurchasePrice_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class InAppPurchasePrice extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePrice extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchasePrices';
 	public $id;

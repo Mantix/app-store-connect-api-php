@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppWithoutIncludesResponse extends \Cantie\AppStoreConnect\Model
+class AppWithoutIncludesResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = PrereleaseVersion::class;
 	protected $dataDataType = '';

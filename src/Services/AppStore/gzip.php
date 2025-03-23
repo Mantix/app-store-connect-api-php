@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class gzip extends \Cantie\AppStoreConnect\Model
+class gzip extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 

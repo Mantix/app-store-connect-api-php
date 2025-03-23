@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppClipDomainStatusResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaAppClipInvocationsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BuildBundleFileSizesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppClipDomainStatusResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaAppClipInvocationsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BuildBundleFileSizesResponse;
 
 /**
  * The "buildBundles" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $buildBundles = $appStoreService->buildBundles;
  *  </code>
  */
-class BuildBundles extends \Cantie\AppStoreConnect\Services\Resource
+class BuildBundles extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

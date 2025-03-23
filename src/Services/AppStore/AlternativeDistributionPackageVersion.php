@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AlternativeDistributionPackageVersion_Attributes extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionPackageVersion_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $url;
 	public $urlExpirationDate;
@@ -82,7 +82,7 @@ class AlternativeDistributionPackageVersion_Attributes extends \Cantie\AppStoreC
 
 }
 
-class AlternativeDistributionPackageVersion_Relationships_Variants_Links extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionPackageVersion_Relationships_Variants_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -108,7 +108,7 @@ class AlternativeDistributionPackageVersion_Relationships_Variants_Links extends
 
 }
 
-class AlternativeDistributionPackageVersion_Relationships_Variants_Data extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionPackageVersion_Relationships_Variants_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'alternativeDistributionPackageVariants';
 	public $id;
@@ -134,7 +134,7 @@ class AlternativeDistributionPackageVersion_Relationships_Variants_Data extends 
 
 }
 
-class AlternativeDistributionPackageVersion_Relationships_Variants extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionPackageVersion_Relationships_Variants extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AlternativeDistributionPackageVersion_Relationships_Variants_Links::class;
 	protected $linksDataType = 'object';
@@ -191,7 +191,7 @@ class AlternativeDistributionPackageVersion_Relationships_Variants extends \Cant
 
 }
 
-class AlternativeDistributionPackageVersion_Relationships_Deltas_Links extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionPackageVersion_Relationships_Deltas_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -217,7 +217,7 @@ class AlternativeDistributionPackageVersion_Relationships_Deltas_Links extends \
 
 }
 
-class AlternativeDistributionPackageVersion_Relationships_Deltas_Data extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionPackageVersion_Relationships_Deltas_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'alternativeDistributionPackageDeltas';
 	public $id;
@@ -243,7 +243,7 @@ class AlternativeDistributionPackageVersion_Relationships_Deltas_Data extends \C
 
 }
 
-class AlternativeDistributionPackageVersion_Relationships_Deltas extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionPackageVersion_Relationships_Deltas extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AlternativeDistributionPackageVersion_Relationships_Deltas_Links::class;
 	protected $linksDataType = 'object';
@@ -300,7 +300,7 @@ class AlternativeDistributionPackageVersion_Relationships_Deltas extends \Cantie
 
 }
 
-class AlternativeDistributionPackageVersion_Relationships_AlternativeDistributionPackage_Links extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionPackageVersion_Relationships_AlternativeDistributionPackage_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -326,7 +326,7 @@ class AlternativeDistributionPackageVersion_Relationships_AlternativeDistributio
 
 }
 
-class AlternativeDistributionPackageVersion_Relationships_AlternativeDistributionPackage_Data extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionPackageVersion_Relationships_AlternativeDistributionPackage_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'alternativeDistributionPackages';
 	public $id;
@@ -352,7 +352,7 @@ class AlternativeDistributionPackageVersion_Relationships_AlternativeDistributio
 
 }
 
-class AlternativeDistributionPackageVersion_Relationships_AlternativeDistributionPackage extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionPackageVersion_Relationships_AlternativeDistributionPackage extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AlternativeDistributionPackageVersion_Relationships_AlternativeDistributionPackage_Links::class;
 	protected $linksDataType = 'object';
@@ -392,7 +392,7 @@ class AlternativeDistributionPackageVersion_Relationships_AlternativeDistributio
 
 }
 
-class AlternativeDistributionPackageVersion_Relationships extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionPackageVersion_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $variantsType = AlternativeDistributionPackageVersion_Relationships_Variants::class;
 	protected $variantsDataType = 'object';
@@ -449,7 +449,7 @@ class AlternativeDistributionPackageVersion_Relationships extends \Cantie\AppSto
 
 }
 
-class AlternativeDistributionPackageVersion extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionPackageVersion extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'alternativeDistributionPackageVersions';
 	public $id;

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionOfferCodeOneTimeUseCode_Attributes extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeOneTimeUseCode_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $numberOfCodes;
 	public $createdDate;
@@ -72,7 +72,7 @@ class SubscriptionOfferCodeOneTimeUseCode_Attributes extends \Cantie\AppStoreCon
 
 }
 
-class SubscriptionOfferCodeOneTimeUseCode_Relationships_OfferCode_Links extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeOneTimeUseCode_Relationships_OfferCode_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -98,7 +98,7 @@ class SubscriptionOfferCodeOneTimeUseCode_Relationships_OfferCode_Links extends 
 
 }
 
-class SubscriptionOfferCodeOneTimeUseCode_Relationships_OfferCode_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeOneTimeUseCode_Relationships_OfferCode_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionOfferCodes';
 	public $id;
@@ -124,7 +124,7 @@ class SubscriptionOfferCodeOneTimeUseCode_Relationships_OfferCode_Data extends \
 
 }
 
-class SubscriptionOfferCodeOneTimeUseCode_Relationships_OfferCode extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeOneTimeUseCode_Relationships_OfferCode extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = SubscriptionOfferCodeOneTimeUseCode_Relationships_OfferCode_Links::class;
 	protected $linksDataType = 'object';
@@ -164,7 +164,7 @@ class SubscriptionOfferCodeOneTimeUseCode_Relationships_OfferCode extends \Canti
 
 }
 
-class SubscriptionOfferCodeOneTimeUseCode_Relationships extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeOneTimeUseCode_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $offerCodeType = SubscriptionOfferCodeOneTimeUseCode_Relationships_OfferCode::class;
 	protected $offerCodeDataType = 'object';
@@ -187,7 +187,7 @@ class SubscriptionOfferCodeOneTimeUseCode_Relationships extends \Cantie\AppStore
 
 }
 
-class SubscriptionOfferCodeOneTimeUseCode extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeOneTimeUseCode extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionOfferCodeOneTimeUseCodes';
 	public $id;

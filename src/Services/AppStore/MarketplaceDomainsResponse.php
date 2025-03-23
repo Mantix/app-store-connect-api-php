@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class MarketplaceDomainsResponse extends \Cantie\AppStoreConnect\Model
+class MarketplaceDomainsResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = MarketplaceDomain::class;
 	protected $dataDataType = 'array';

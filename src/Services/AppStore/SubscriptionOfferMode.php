@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionOfferMode extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferMode extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $PAY_AS_YOU_GO = "PAY_AS_YOU_GO";

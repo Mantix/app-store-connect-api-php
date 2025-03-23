@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppEncryptionDeclarationDocumentResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppEncryptionDeclarationDocumentCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppEncryptionDeclarationDocumentUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppEncryptionDeclarationDocumentResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppEncryptionDeclarationDocumentCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppEncryptionDeclarationDocumentUpdateRequest;
 
 /**
  * The "appEncryptionDeclarationDocuments" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appEncryptionDeclarationDocuments = $appStoreService->appEncryptionDeclarationDocuments;
  *  </code>
  */
-class AppEncryptionDeclarationDocuments extends \Cantie\AppStoreConnect\Services\Resource
+class AppEncryptionDeclarationDocuments extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

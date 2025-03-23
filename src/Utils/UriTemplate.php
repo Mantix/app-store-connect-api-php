@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-namespace Cantie\AppStoreConnect\Utils;
+namespace Mantix\AppStoreConnect\Utils;
 
 /**
  * Implementation of levels 1-3 of the URI Template spec.

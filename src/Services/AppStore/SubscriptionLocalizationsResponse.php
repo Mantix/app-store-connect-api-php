@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionLocalizationsResponse extends \Cantie\AppStoreConnect\Model
+class SubscriptionLocalizationsResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionLocalization::class;
 	protected $dataDataType = 'array';

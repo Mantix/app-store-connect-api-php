@@ -1,6 +1,6 @@
 <?php
 
-namespace Cantie\AppStoreConnect\AccessToken;
+namespace Mantix\AppStoreConnect\AccessToken;
 
 use DateTime;
 use Firebase\JWT\JWT;

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class InAppPurchaseAppStoreReviewScreenshotResponse extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAppStoreReviewScreenshotResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = InAppPurchaseAppStoreReviewScreenshot::class;
 	protected $dataDataType = '';

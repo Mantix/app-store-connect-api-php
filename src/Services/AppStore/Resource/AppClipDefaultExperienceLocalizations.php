@@ -24,22 +24,22 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppClipDefaultExperienceLocalizationResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppClipDefaultExperienceLocalizationCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppClipDefaultExperienceLocalizationUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppClipHeaderImageResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppClipDefaultExperienceLocalizationResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppClipDefaultExperienceLocalizationCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppClipDefaultExperienceLocalizationUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppClipHeaderImageResponse;
 
 /**
  * The "appClipDefaultExperienceLocalizations" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appClipDefaultExperienceLocalizations = $appStoreService->appClipDefaultExperienceLocalizations;
  *  </code>
  */
-class AppClipDefaultExperienceLocalizations extends \Cantie\AppStoreConnect\Services\Resource
+class AppClipDefaultExperienceLocalizations extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

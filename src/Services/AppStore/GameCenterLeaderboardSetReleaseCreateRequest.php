@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterLeaderboardSetReleaseCreateRequest_Data_Relationships_GameCenterDetail_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardSetReleaseCreateRequest_Data_Relationships_GameCenterDetail_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterDetails';
 	public $id;
@@ -52,7 +52,7 @@ class GameCenterLeaderboardSetReleaseCreateRequest_Data_Relationships_GameCenter
 
 }
 
-class GameCenterLeaderboardSetReleaseCreateRequest_Data_Relationships_GameCenterDetail extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardSetReleaseCreateRequest_Data_Relationships_GameCenterDetail extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterLeaderboardSetReleaseCreateRequest_Data_Relationships_GameCenterDetail_Data::class;
 	protected $dataDataType = 'object';
@@ -75,7 +75,7 @@ class GameCenterLeaderboardSetReleaseCreateRequest_Data_Relationships_GameCenter
 
 }
 
-class GameCenterLeaderboardSetReleaseCreateRequest_Data_Relationships_GameCenterLeaderboardSet_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardSetReleaseCreateRequest_Data_Relationships_GameCenterLeaderboardSet_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterLeaderboardSets';
 	public $id;
@@ -101,7 +101,7 @@ class GameCenterLeaderboardSetReleaseCreateRequest_Data_Relationships_GameCenter
 
 }
 
-class GameCenterLeaderboardSetReleaseCreateRequest_Data_Relationships_GameCenterLeaderboardSet extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardSetReleaseCreateRequest_Data_Relationships_GameCenterLeaderboardSet extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterLeaderboardSetReleaseCreateRequest_Data_Relationships_GameCenterLeaderboardSet_Data::class;
 	protected $dataDataType = 'object';
@@ -124,7 +124,7 @@ class GameCenterLeaderboardSetReleaseCreateRequest_Data_Relationships_GameCenter
 
 }
 
-class GameCenterLeaderboardSetReleaseCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardSetReleaseCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $gameCenterDetailType = GameCenterLeaderboardSetReleaseCreateRequest_Data_Relationships_GameCenterDetail::class;
 	protected $gameCenterDetailDataType = 'object';
@@ -164,7 +164,7 @@ class GameCenterLeaderboardSetReleaseCreateRequest_Data_Relationships extends \C
 
 }
 
-class GameCenterLeaderboardSetReleaseCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardSetReleaseCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterLeaderboardSetReleases';
 	protected $relationshipsType = GameCenterLeaderboardSetReleaseCreateRequest_Data_Relationships::class;
@@ -197,7 +197,7 @@ class GameCenterLeaderboardSetReleaseCreateRequest_Data extends \Cantie\AppStore
 
 }
 
-class GameCenterLeaderboardSetReleaseCreateRequest extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardSetReleaseCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterLeaderboardSetReleaseCreateRequest_Data::class;
 	protected $dataDataType = 'object';

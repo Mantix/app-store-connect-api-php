@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class MarketplaceWebhook_Attributes extends \Cantie\AppStoreConnect\Model
+class MarketplaceWebhook_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $endpointUrl;
 
@@ -42,7 +42,7 @@ class MarketplaceWebhook_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class MarketplaceWebhook extends \Cantie\AppStoreConnect\Model
+class MarketplaceWebhook extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'marketplaceWebhooks';
 	public $id;

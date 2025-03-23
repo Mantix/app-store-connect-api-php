@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AlternativeDistributionPackageDelta_Attributes extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionPackageDelta_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $url;
 	public $urlExpirationDate;
@@ -72,7 +72,7 @@ class AlternativeDistributionPackageDelta_Attributes extends \Cantie\AppStoreCon
 
 }
 
-class AlternativeDistributionPackageDelta extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionPackageDelta extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'alternativeDistributionPackageDeltas';
 	public $id;

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppScreenshotSetAppScreenshotsLinkagesResponse_Data extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSetAppScreenshotsLinkagesResponse_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appScreenshots';
 	public $id;
@@ -52,7 +52,7 @@ class AppScreenshotSetAppScreenshotsLinkagesResponse_Data extends \Cantie\AppSto
 
 }
 
-class AppScreenshotSetAppScreenshotsLinkagesResponse extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSetAppScreenshotsLinkagesResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppScreenshotSetAppScreenshotsLinkagesResponse_Data::class;
 	protected $dataDataType = 'array';

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionPromotionalOfferUpdateRequest_Data_Relationships_Prices_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionPromotionalOfferUpdateRequest_Data_Relationships_Prices_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionPromotionalOfferPrices';
 	public $id;
@@ -52,7 +52,7 @@ class SubscriptionPromotionalOfferUpdateRequest_Data_Relationships_Prices_Data e
 
 }
 
-class SubscriptionPromotionalOfferUpdateRequest_Data_Relationships_Prices extends \Cantie\AppStoreConnect\Model
+class SubscriptionPromotionalOfferUpdateRequest_Data_Relationships_Prices extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionPromotionalOfferUpdateRequest_Data_Relationships_Prices_Data::class;
 	protected $dataDataType = 'array';
@@ -75,7 +75,7 @@ class SubscriptionPromotionalOfferUpdateRequest_Data_Relationships_Prices extend
 
 }
 
-class SubscriptionPromotionalOfferUpdateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class SubscriptionPromotionalOfferUpdateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $pricesType = SubscriptionPromotionalOfferUpdateRequest_Data_Relationships_Prices::class;
 	protected $pricesDataType = 'object';
@@ -98,7 +98,7 @@ class SubscriptionPromotionalOfferUpdateRequest_Data_Relationships extends \Cant
 
 }
 
-class SubscriptionPromotionalOfferUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionPromotionalOfferUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionPromotionalOffers';
 	public $id;
@@ -141,7 +141,7 @@ class SubscriptionPromotionalOfferUpdateRequest_Data extends \Cantie\AppStoreCon
 
 }
 
-class SubscriptionPromotionalOfferUpdateRequest extends \Cantie\AppStoreConnect\Model
+class SubscriptionPromotionalOfferUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionPromotionalOfferUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

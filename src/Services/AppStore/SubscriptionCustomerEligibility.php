@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionCustomerEligibility extends \Cantie\AppStoreConnect\Model
+class SubscriptionCustomerEligibility extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $NEW = "NEW";

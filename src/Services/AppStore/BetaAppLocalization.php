@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaAppLocalization_Attributes extends \Cantie\AppStoreConnect\Model
+class BetaAppLocalization_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $feedbackEmail;
 	public $marketingUrl;
@@ -92,7 +92,7 @@ class BetaAppLocalization_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BetaAppLocalization_Relationships_App_Links extends \Cantie\AppStoreConnect\Model
+class BetaAppLocalization_Relationships_App_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -118,7 +118,7 @@ class BetaAppLocalization_Relationships_App_Links extends \Cantie\AppStoreConnec
 
 }
 
-class BetaAppLocalization_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class BetaAppLocalization_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -144,7 +144,7 @@ class BetaAppLocalization_Relationships_App_Data extends \Cantie\AppStoreConnect
 
 }
 
-class BetaAppLocalization_Relationships_App extends \Cantie\AppStoreConnect\Model
+class BetaAppLocalization_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = BetaAppLocalization_Relationships_App_Links::class;
 	protected $linksDataType = 'object';
@@ -184,7 +184,7 @@ class BetaAppLocalization_Relationships_App extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class BetaAppLocalization_Relationships extends \Cantie\AppStoreConnect\Model
+class BetaAppLocalization_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = BetaAppLocalization_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -207,7 +207,7 @@ class BetaAppLocalization_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BetaAppLocalization extends \Cantie\AppStoreConnect\Model
+class BetaAppLocalization extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaAppLocalizations';
 	public $id;

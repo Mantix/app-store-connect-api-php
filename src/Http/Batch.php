@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-namespace Cantie\AppStoreConnect\Http;
+namespace Mantix\AppStoreConnect\Http;
 
-use Cantie\AppStoreConnect\Client;
-use Cantie\AppStoreConnect\Http\REST;
-use Cantie\AppStoreConnect\Services\Exception as AppleServiceException;
+use Mantix\AppStoreConnect\Client;
+use Mantix\AppStoreConnect\Http\REST;
+use Mantix\AppStoreConnect\Services\Exception as AppleServiceException;
 use GuzzleHttp\Psr7;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
@@ -28,7 +28,7 @@ use Psr\Http\Message\ResponseInterface;
 /**
  * Class to handle batched requests to the Apple API service.
  *
- * Note that calls to `Cantie\AppStoreConnect\Http\Batch::execute()` do not clear the queued
+ * Note that calls to `Mantix\AppStoreConnect\Http\Batch::execute()` do not clear the queued
  * requests. To start a new batch, be sure to create a new instance of this
  * class.
  */

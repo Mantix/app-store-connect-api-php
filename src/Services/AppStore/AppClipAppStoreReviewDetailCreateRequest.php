@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppClipAppStoreReviewDetailCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppClipAppStoreReviewDetailCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	protected $invocationUrlsType = '';
 	protected $invocationUrlsDataType = 'array';
@@ -49,7 +49,7 @@ class AppClipAppStoreReviewDetailCreateRequest_Data_Attributes extends \Cantie\A
 
 }
 
-class AppClipAppStoreReviewDetailCreateRequest_Data_Relationships_AppClipDefaultExperience_Data extends \Cantie\AppStoreConnect\Model
+class AppClipAppStoreReviewDetailCreateRequest_Data_Relationships_AppClipDefaultExperience_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipDefaultExperiences';
 	public $id;
@@ -75,7 +75,7 @@ class AppClipAppStoreReviewDetailCreateRequest_Data_Relationships_AppClipDefault
 
 }
 
-class AppClipAppStoreReviewDetailCreateRequest_Data_Relationships_AppClipDefaultExperience extends \Cantie\AppStoreConnect\Model
+class AppClipAppStoreReviewDetailCreateRequest_Data_Relationships_AppClipDefaultExperience extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppClipAppStoreReviewDetailCreateRequest_Data_Relationships_AppClipDefaultExperience_Data::class;
 	protected $dataDataType = 'object';
@@ -98,7 +98,7 @@ class AppClipAppStoreReviewDetailCreateRequest_Data_Relationships_AppClipDefault
 
 }
 
-class AppClipAppStoreReviewDetailCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppClipAppStoreReviewDetailCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appClipDefaultExperienceType = AppClipAppStoreReviewDetailCreateRequest_Data_Relationships_AppClipDefaultExperience::class;
 	protected $appClipDefaultExperienceDataType = 'object';
@@ -121,7 +121,7 @@ class AppClipAppStoreReviewDetailCreateRequest_Data_Relationships extends \Canti
 
 }
 
-class AppClipAppStoreReviewDetailCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppClipAppStoreReviewDetailCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipAppStoreReviewDetails';
 	protected $attributesType = AppClipAppStoreReviewDetailCreateRequest_Data_Attributes::class;
@@ -171,7 +171,7 @@ class AppClipAppStoreReviewDetailCreateRequest_Data extends \Cantie\AppStoreConn
 
 }
 
-class AppClipAppStoreReviewDetailCreateRequest extends \Cantie\AppStoreConnect\Model
+class AppClipAppStoreReviewDetailCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppClipAppStoreReviewDetailCreateRequest_Data::class;
 	protected $dataDataType = 'object';

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaGroupUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class BetaGroupUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $publicLinkEnabled;
@@ -92,7 +92,7 @@ class BetaGroupUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class BetaGroupUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class BetaGroupUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaGroups';
 	public $id;
@@ -135,7 +135,7 @@ class BetaGroupUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BetaGroupUpdateRequest extends \Cantie\AppStoreConnect\Model
+class BetaGroupUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BetaGroupUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

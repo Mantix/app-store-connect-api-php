@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterGroupsResponse extends \Cantie\AppStoreConnect\Model
+class GameCenterGroupsResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterGroup::class;
 	protected $dataDataType = 'array';

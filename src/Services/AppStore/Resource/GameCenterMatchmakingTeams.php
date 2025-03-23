@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterMatchmakingTeamResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterMatchmakingTeamCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterMatchmakingTeamUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterMatchmakingTeamResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterMatchmakingTeamCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterMatchmakingTeamUpdateRequest;
 
 /**
  * The "gameCenterMatchmakingTeams" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $gameCenterMatchmakingTeams = $appStoreService->gameCenterMatchmakingTeams;
  *  </code>
  */
-class GameCenterMatchmakingTeams extends \Cantie\AppStoreConnect\Services\Resource
+class GameCenterMatchmakingTeams extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

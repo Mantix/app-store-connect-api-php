@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAchievementImageResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAchievementImageCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAchievementImageUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAchievementImageResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAchievementImageCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAchievementImageUpdateRequest;
 
 /**
  * The "gameCenterAchievementImages" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $gameCenterAchievementImages = $appStoreService->gameCenterAchievementImages;
  *  </code>
  */
-class GameCenterAchievementImages extends \Cantie\AppStoreConnect\Services\Resource
+class GameCenterAchievementImages extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

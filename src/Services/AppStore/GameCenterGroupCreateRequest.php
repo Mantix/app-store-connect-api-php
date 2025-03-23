@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterGroupCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class GameCenterGroupCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $referenceName;
 
@@ -42,7 +42,7 @@ class GameCenterGroupCreateRequest_Data_Attributes extends \Cantie\AppStoreConne
 
 }
 
-class GameCenterGroupCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterGroupCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterGroups';
 	protected $attributesType = GameCenterGroupCreateRequest_Data_Attributes::class;
@@ -75,7 +75,7 @@ class GameCenterGroupCreateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class GameCenterGroupCreateRequest extends \Cantie\AppStoreConnect\Model
+class GameCenterGroupCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterGroupCreateRequest_Data::class;
 	protected $dataDataType = 'object';

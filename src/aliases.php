@@ -19,8 +19,8 @@ foreach ($classMap as $class => $alias) {
 
 /** @phpstan-ignore-next-line */
 if (\false) {
-    class AppleClient extends \Cantie\AppStoreConnect\Client {}
-    class AppleService extends \Cantie\AppStoreConnect\Service {}
-    class AppleService_AppStore extends \Cantie\AppStoreConnect\Services\AppStore {}
-    class AppleService_Upload extends \Cantie\AppStoreConnect\Services\Upload {}
+    class AppleClient extends \Mantix\AppStoreConnect\Client {}
+    class AppleService extends \Mantix\AppStoreConnect\Service {}
+    class AppleService_AppStore extends \Mantix\AppStoreConnect\Services\AppStore {}
+    class AppleService_Upload extends \Mantix\AppStoreConnect\Services\Upload {}
 }

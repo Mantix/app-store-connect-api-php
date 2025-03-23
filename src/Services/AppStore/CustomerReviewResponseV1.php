@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CustomerReviewResponseV1_Attributes extends \Cantie\AppStoreConnect\Model
+class CustomerReviewResponseV1_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $responseBody;
 	public $lastModifiedDate;
@@ -62,7 +62,7 @@ class CustomerReviewResponseV1_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CustomerReviewResponseV1_Relationships_Review_Links extends \Cantie\AppStoreConnect\Model
+class CustomerReviewResponseV1_Relationships_Review_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -88,7 +88,7 @@ class CustomerReviewResponseV1_Relationships_Review_Links extends \Cantie\AppSto
 
 }
 
-class CustomerReviewResponseV1_Relationships_Review_Data extends \Cantie\AppStoreConnect\Model
+class CustomerReviewResponseV1_Relationships_Review_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'customerReviews';
 	public $id;
@@ -114,7 +114,7 @@ class CustomerReviewResponseV1_Relationships_Review_Data extends \Cantie\AppStor
 
 }
 
-class CustomerReviewResponseV1_Relationships_Review extends \Cantie\AppStoreConnect\Model
+class CustomerReviewResponseV1_Relationships_Review extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = CustomerReviewResponseV1_Relationships_Review_Links::class;
 	protected $linksDataType = 'object';
@@ -154,7 +154,7 @@ class CustomerReviewResponseV1_Relationships_Review extends \Cantie\AppStoreConn
 
 }
 
-class CustomerReviewResponseV1_Relationships extends \Cantie\AppStoreConnect\Model
+class CustomerReviewResponseV1_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $reviewType = CustomerReviewResponseV1_Relationships_Review::class;
 	protected $reviewDataType = 'object';
@@ -177,7 +177,7 @@ class CustomerReviewResponseV1_Relationships extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class CustomerReviewResponseV1 extends \Cantie\AppStoreConnect\Model
+class CustomerReviewResponseV1 extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'customerReviewResponses';
 	public $id;

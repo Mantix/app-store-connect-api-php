@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionGroupLocalizationUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class SubscriptionGroupLocalizationUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $customAppName;
@@ -52,7 +52,7 @@ class SubscriptionGroupLocalizationUpdateRequest_Data_Attributes extends \Cantie
 
 }
 
-class SubscriptionGroupLocalizationUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionGroupLocalizationUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionGroupLocalizations';
 	public $id;
@@ -95,7 +95,7 @@ class SubscriptionGroupLocalizationUpdateRequest_Data extends \Cantie\AppStoreCo
 
 }
 
-class SubscriptionGroupLocalizationUpdateRequest extends \Cantie\AppStoreConnect\Model
+class SubscriptionGroupLocalizationUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionGroupLocalizationUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

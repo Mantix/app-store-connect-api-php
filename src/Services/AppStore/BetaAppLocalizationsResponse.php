@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaAppLocalizationsResponse extends \Cantie\AppStoreConnect\Model
+class BetaAppLocalizationsResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BetaAppLocalization::class;
 	protected $dataDataType = 'array';

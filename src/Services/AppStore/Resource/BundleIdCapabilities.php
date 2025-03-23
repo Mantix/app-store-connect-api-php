@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\BundleIdCapabilityResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BundleIdCapabilityCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\BundleIdCapabilityUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\BundleIdCapabilityResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BundleIdCapabilityCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\BundleIdCapabilityUpdateRequest;
 
 /**
  * The "bundleIdCapabilities" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $bundleIdCapabilities = $appStoreService->bundleIdCapabilities;
  *  </code>
  */
-class BundleIdCapabilities extends \Cantie\AppStoreConnect\Services\Resource
+class BundleIdCapabilities extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

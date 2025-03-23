@@ -24,22 +24,22 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppCategoriesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppCategoryResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppCategoryWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppCategoriesWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppCategoriesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppCategoryResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppCategoryWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppCategoriesWithoutIncludesResponse;
 
 /**
  * The "appCategories" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appCategories = $appStoreService->appCategories;
  *  </code>
  */
-class AppCategories extends \Cantie\AppStoreConnect\Services\Resource
+class AppCategories extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

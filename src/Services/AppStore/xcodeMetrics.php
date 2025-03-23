@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class xcodeMetrics_Insights extends \Cantie\AppStoreConnect\Model
+class xcodeMetrics_Insights extends \Mantix\AppStoreConnect\Model
 {
 	protected $trendingUpType = MetricsInsight::class;
 	protected $trendingUpDataType = 'array';
@@ -66,7 +66,7 @@ class xcodeMetrics_Insights extends \Cantie\AppStoreConnect\Model
 
 }
 
-class xcodeMetrics_ProductData_MetricCategories_Metrics_GoalKeys extends \Cantie\AppStoreConnect\Model
+class xcodeMetrics_ProductData_MetricCategories_Metrics_GoalKeys extends \Mantix\AppStoreConnect\Model
 {
 	public $goalKey;
 	public $lowerBound;
@@ -102,7 +102,7 @@ class xcodeMetrics_ProductData_MetricCategories_Metrics_GoalKeys extends \Cantie
 
 }
 
-class xcodeMetrics_ProductData_MetricCategories_Metrics_Unit extends \Cantie\AppStoreConnect\Model
+class xcodeMetrics_ProductData_MetricCategories_Metrics_Unit extends \Mantix\AppStoreConnect\Model
 {
 	public $identifier;
 	public $displayName;
@@ -128,7 +128,7 @@ class xcodeMetrics_ProductData_MetricCategories_Metrics_Unit extends \Cantie\App
 
 }
 
-class xcodeMetrics_ProductData_MetricCategories_Metrics_Datasets_FilterCriteria extends \Cantie\AppStoreConnect\Model
+class xcodeMetrics_ProductData_MetricCategories_Metrics_Datasets_FilterCriteria extends \Mantix\AppStoreConnect\Model
 {
 	public $percentile;
 	public $device;
@@ -164,7 +164,7 @@ class xcodeMetrics_ProductData_MetricCategories_Metrics_Datasets_FilterCriteria 
 
 }
 
-class xcodeMetrics_ProductData_MetricCategories_Metrics_Datasets_Points_PercentageBreakdown extends \Cantie\AppStoreConnect\Model
+class xcodeMetrics_ProductData_MetricCategories_Metrics_Datasets_Points_PercentageBreakdown extends \Mantix\AppStoreConnect\Model
 {
 	public $value;
 	public $subSystemLabel;
@@ -190,7 +190,7 @@ class xcodeMetrics_ProductData_MetricCategories_Metrics_Datasets_Points_Percenta
 
 }
 
-class xcodeMetrics_ProductData_MetricCategories_Metrics_Datasets_Points extends \Cantie\AppStoreConnect\Model
+class xcodeMetrics_ProductData_MetricCategories_Metrics_Datasets_Points extends \Mantix\AppStoreConnect\Model
 {
 	public $version;
 	public $value;
@@ -253,7 +253,7 @@ class xcodeMetrics_ProductData_MetricCategories_Metrics_Datasets_Points extends 
 
 }
 
-class xcodeMetrics_ProductData_MetricCategories_Metrics_Datasets extends \Cantie\AppStoreConnect\Model
+class xcodeMetrics_ProductData_MetricCategories_Metrics_Datasets extends \Mantix\AppStoreConnect\Model
 {
 	protected $filterCriteriaType = xcodeMetrics_ProductData_MetricCategories_Metrics_Datasets_FilterCriteria::class;
 	protected $filterCriteriaDataType = 'object';
@@ -293,7 +293,7 @@ class xcodeMetrics_ProductData_MetricCategories_Metrics_Datasets extends \Cantie
 
 }
 
-class xcodeMetrics_ProductData_MetricCategories_Metrics extends \Cantie\AppStoreConnect\Model
+class xcodeMetrics_ProductData_MetricCategories_Metrics extends \Mantix\AppStoreConnect\Model
 {
 	public $identifier;
 	protected $goalKeysType = xcodeMetrics_ProductData_MetricCategories_Metrics_GoalKeys::class;
@@ -360,7 +360,7 @@ class xcodeMetrics_ProductData_MetricCategories_Metrics extends \Cantie\AppStore
 
 }
 
-class xcodeMetrics_ProductData_MetricCategories extends \Cantie\AppStoreConnect\Model
+class xcodeMetrics_ProductData_MetricCategories extends \Mantix\AppStoreConnect\Model
 {
 	public $identifier; // 
 	protected $metricsType = xcodeMetrics_ProductData_MetricCategories_Metrics::class;
@@ -399,7 +399,7 @@ class xcodeMetrics_ProductData_MetricCategories extends \Cantie\AppStoreConnect\
 
 }
 
-class xcodeMetrics_ProductData extends \Cantie\AppStoreConnect\Model
+class xcodeMetrics_ProductData extends \Mantix\AppStoreConnect\Model
 {
 	public $platform;
 	protected $metricCategoriesType = xcodeMetrics_ProductData_MetricCategories::class;
@@ -432,7 +432,7 @@ class xcodeMetrics_ProductData extends \Cantie\AppStoreConnect\Model
 
 }
 
-class xcodeMetrics extends \Cantie\AppStoreConnect\Model
+class xcodeMetrics extends \Mantix\AppStoreConnect\Model
 {
 	public $version;
 	protected $insightsType = xcodeMetrics_Insights::class;

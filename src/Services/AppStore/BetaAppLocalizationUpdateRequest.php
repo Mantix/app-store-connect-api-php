@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaAppLocalizationUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class BetaAppLocalizationUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $feedbackEmail;
 	public $marketingUrl;
@@ -82,7 +82,7 @@ class BetaAppLocalizationUpdateRequest_Data_Attributes extends \Cantie\AppStoreC
 
 }
 
-class BetaAppLocalizationUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class BetaAppLocalizationUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaAppLocalizations';
 	public $id;
@@ -125,7 +125,7 @@ class BetaAppLocalizationUpdateRequest_Data extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class BetaAppLocalizationUpdateRequest extends \Cantie\AppStoreConnect\Model
+class BetaAppLocalizationUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BetaAppLocalizationUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

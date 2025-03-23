@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class UserInvitationCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class UserInvitationCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $email;
 	public $firstName;
@@ -98,7 +98,7 @@ class UserInvitationCreateRequest_Data_Attributes extends \Cantie\AppStoreConnec
 
 }
 
-class UserInvitationCreateRequest_Data_Relationships_VisibleApps_Data extends \Cantie\AppStoreConnect\Model
+class UserInvitationCreateRequest_Data_Relationships_VisibleApps_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -124,7 +124,7 @@ class UserInvitationCreateRequest_Data_Relationships_VisibleApps_Data extends \C
 
 }
 
-class UserInvitationCreateRequest_Data_Relationships_VisibleApps extends \Cantie\AppStoreConnect\Model
+class UserInvitationCreateRequest_Data_Relationships_VisibleApps extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = UserInvitationCreateRequest_Data_Relationships_VisibleApps_Data::class;
 	protected $dataDataType = 'array';
@@ -147,7 +147,7 @@ class UserInvitationCreateRequest_Data_Relationships_VisibleApps extends \Cantie
 
 }
 
-class UserInvitationCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class UserInvitationCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $visibleAppsType = UserInvitationCreateRequest_Data_Relationships_VisibleApps::class;
 	protected $visibleAppsDataType = 'object';
@@ -170,7 +170,7 @@ class UserInvitationCreateRequest_Data_Relationships extends \Cantie\AppStoreCon
 
 }
 
-class UserInvitationCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class UserInvitationCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'userInvitations';
 	protected $attributesType = UserInvitationCreateRequest_Data_Attributes::class;
@@ -220,7 +220,7 @@ class UserInvitationCreateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class UserInvitationCreateRequest extends \Cantie\AppStoreConnect\Model
+class UserInvitationCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = UserInvitationCreateRequest_Data::class;
 	protected $dataDataType = 'object';

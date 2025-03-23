@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppClipHeaderImageResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppClipHeaderImageCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppClipHeaderImageUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppClipHeaderImageResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppClipHeaderImageCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppClipHeaderImageUpdateRequest;
 
 /**
  * The "appClipHeaderImages" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appClipHeaderImages = $appStoreService->appClipHeaderImages;
  *  </code>
  */
-class AppClipHeaderImages extends \Cantie\AppStoreConnect\Services\Resource
+class AppClipHeaderImages extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

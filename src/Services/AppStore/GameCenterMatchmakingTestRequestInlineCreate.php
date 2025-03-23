@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterMatchmakingTestRequestInlineCreate_Attributes extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingTestRequestInlineCreate_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $requestName;
 	public $secondsInQueue;
@@ -145,7 +145,7 @@ class GameCenterMatchmakingTestRequestInlineCreate_Attributes extends \Cantie\Ap
 
 }
 
-class GameCenterMatchmakingTestRequestInlineCreate_Relationships_MatchmakingPlayerProperties_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingTestRequestInlineCreate_Relationships_MatchmakingPlayerProperties_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterMatchmakingTestPlayerProperties';
 	public $id;
@@ -171,7 +171,7 @@ class GameCenterMatchmakingTestRequestInlineCreate_Relationships_MatchmakingPlay
 
 }
 
-class GameCenterMatchmakingTestRequestInlineCreate_Relationships_MatchmakingPlayerProperties extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingTestRequestInlineCreate_Relationships_MatchmakingPlayerProperties extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterMatchmakingTestRequestInlineCreate_Relationships_MatchmakingPlayerProperties_Data::class;
 	protected $dataDataType = 'array';
@@ -194,7 +194,7 @@ class GameCenterMatchmakingTestRequestInlineCreate_Relationships_MatchmakingPlay
 
 }
 
-class GameCenterMatchmakingTestRequestInlineCreate_Relationships extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingTestRequestInlineCreate_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $matchmakingPlayerPropertiesType = GameCenterMatchmakingTestRequestInlineCreate_Relationships_MatchmakingPlayerProperties::class;
 	protected $matchmakingPlayerPropertiesDataType = 'object';
@@ -217,7 +217,7 @@ class GameCenterMatchmakingTestRequestInlineCreate_Relationships extends \Cantie
 
 }
 
-class GameCenterMatchmakingTestRequestInlineCreate extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingTestRequestInlineCreate extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterMatchmakingTestRequests';
 	public $id;

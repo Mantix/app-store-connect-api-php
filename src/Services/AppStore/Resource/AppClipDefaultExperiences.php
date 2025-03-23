@@ -24,26 +24,26 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppClipDefaultExperienceResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppClipDefaultExperienceCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppClipDefaultExperienceUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppClipAppStoreReviewDetailResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppClipDefaultExperienceLocalizationsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppClipDefaultExperienceReleaseWithAppStoreVersionLinkageResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppClipDefaultExperienceReleaseWithAppStoreVersionLinkageRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppClipDefaultExperienceResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppClipDefaultExperienceCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppClipDefaultExperienceUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppClipAppStoreReviewDetailResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppClipDefaultExperienceLocalizationsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppClipDefaultExperienceReleaseWithAppStoreVersionLinkageResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppClipDefaultExperienceReleaseWithAppStoreVersionLinkageRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionResponse;
 
 /**
  * The "appClipDefaultExperiences" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appClipDefaultExperiences = $appStoreService->appClipDefaultExperiences;
  *  </code>
  */
-class AppClipDefaultExperiences extends \Cantie\AppStoreConnect\Services\Resource
+class AppClipDefaultExperiences extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

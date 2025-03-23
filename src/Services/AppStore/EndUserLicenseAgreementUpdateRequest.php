@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class EndUserLicenseAgreementUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class EndUserLicenseAgreementUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $agreementText;
 
@@ -42,7 +42,7 @@ class EndUserLicenseAgreementUpdateRequest_Data_Attributes extends \Cantie\AppSt
 
 }
 
-class EndUserLicenseAgreementUpdateRequest_Data_Relationships_Territories_Data extends \Cantie\AppStoreConnect\Model
+class EndUserLicenseAgreementUpdateRequest_Data_Relationships_Territories_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'territories';
 	public $id;
@@ -68,7 +68,7 @@ class EndUserLicenseAgreementUpdateRequest_Data_Relationships_Territories_Data e
 
 }
 
-class EndUserLicenseAgreementUpdateRequest_Data_Relationships_Territories extends \Cantie\AppStoreConnect\Model
+class EndUserLicenseAgreementUpdateRequest_Data_Relationships_Territories extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = EndUserLicenseAgreementUpdateRequest_Data_Relationships_Territories_Data::class;
 	protected $dataDataType = 'array';
@@ -91,7 +91,7 @@ class EndUserLicenseAgreementUpdateRequest_Data_Relationships_Territories extend
 
 }
 
-class EndUserLicenseAgreementUpdateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class EndUserLicenseAgreementUpdateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $territoriesType = EndUserLicenseAgreementUpdateRequest_Data_Relationships_Territories::class;
 	protected $territoriesDataType = 'object';
@@ -114,7 +114,7 @@ class EndUserLicenseAgreementUpdateRequest_Data_Relationships extends \Cantie\Ap
 
 }
 
-class EndUserLicenseAgreementUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class EndUserLicenseAgreementUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'endUserLicenseAgreements';
 	public $id;
@@ -174,7 +174,7 @@ class EndUserLicenseAgreementUpdateRequest_Data extends \Cantie\AppStoreConnect\
 
 }
 
-class EndUserLicenseAgreementUpdateRequest extends \Cantie\AppStoreConnect\Model
+class EndUserLicenseAgreementUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = EndUserLicenseAgreementUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

@@ -24,22 +24,22 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\BuildBetaDetailsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BuildBetaDetailResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BuildBetaDetailUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\BuildWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BuildBetaDetailsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BuildBetaDetailResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BuildBetaDetailUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\BuildWithoutIncludesResponse;
 
 /**
  * The "buildBetaDetails" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $buildBetaDetails = $appStoreService->buildBetaDetails;
  *  </code>
  */
-class BuildBetaDetails extends \Cantie\AppStoreConnect\Services\Resource
+class BuildBetaDetails extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

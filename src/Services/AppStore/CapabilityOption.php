@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CapabilityOption extends \Cantie\AppStoreConnect\Model
+class CapabilityOption extends \Mantix\AppStoreConnect\Model
 {
 	public $key; // XCODE_5, XCODE_6, COMPLETE_PROTECTION, PROTECTED_UNLESS_OPEN, PROTECTED_UNTIL_FIRST_USER_AUTH, PRIMARY_APP_CONSENT
 	public $name;

@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\InAppPurchaseAppStoreReviewScreenshotResponse;
-use Cantie\AppStoreConnect\Services\AppStore\InAppPurchaseAppStoreReviewScreenshotCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\InAppPurchaseAppStoreReviewScreenshotUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\InAppPurchaseAppStoreReviewScreenshotResponse;
+use Mantix\AppStoreConnect\Services\AppStore\InAppPurchaseAppStoreReviewScreenshotCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\InAppPurchaseAppStoreReviewScreenshotUpdateRequest;
 
 /**
  * The "inAppPurchaseAppStoreReviewScreenshots" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $inAppPurchaseAppStoreReviewScreenshots = $appStoreService->inAppPurchaseAppStoreReviewScreenshots;
  *  </code>
  */
-class InAppPurchaseAppStoreReviewScreenshots extends \Cantie\AppStoreConnect\Services\Resource
+class InAppPurchaseAppStoreReviewScreenshots extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

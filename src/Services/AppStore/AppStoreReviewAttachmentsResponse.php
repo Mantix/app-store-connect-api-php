@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppStoreReviewAttachmentsResponse extends \Cantie\AppStoreConnect\Model
+class AppStoreReviewAttachmentsResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreReviewAttachment::class;
 	protected $dataDataType = 'array';

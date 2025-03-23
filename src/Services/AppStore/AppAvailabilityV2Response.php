@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppAvailabilityV2Response extends \Cantie\AppStoreConnect\Model
+class AppAvailabilityV2Response extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppAvailabilityV2::class;
 	protected $dataDataType = '';

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaAppClipInvocationLocalizationInlineCreate_Attributes extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocationLocalizationInlineCreate_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $title;
 	public $locale;
@@ -52,7 +52,7 @@ class BetaAppClipInvocationLocalizationInlineCreate_Attributes extends \Cantie\A
 
 }
 
-class BetaAppClipInvocationLocalizationInlineCreate_Relationships_BetaAppClipInvocation_Data extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocationLocalizationInlineCreate_Relationships_BetaAppClipInvocation_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaAppClipInvocations';
 	public $id;
@@ -78,7 +78,7 @@ class BetaAppClipInvocationLocalizationInlineCreate_Relationships_BetaAppClipInv
 
 }
 
-class BetaAppClipInvocationLocalizationInlineCreate_Relationships_BetaAppClipInvocation extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocationLocalizationInlineCreate_Relationships_BetaAppClipInvocation extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BetaAppClipInvocationLocalizationInlineCreate_Relationships_BetaAppClipInvocation_Data::class;
 	protected $dataDataType = 'object';
@@ -101,7 +101,7 @@ class BetaAppClipInvocationLocalizationInlineCreate_Relationships_BetaAppClipInv
 
 }
 
-class BetaAppClipInvocationLocalizationInlineCreate_Relationships extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocationLocalizationInlineCreate_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $betaAppClipInvocationType = BetaAppClipInvocationLocalizationInlineCreate_Relationships_BetaAppClipInvocation::class;
 	protected $betaAppClipInvocationDataType = 'object';
@@ -124,7 +124,7 @@ class BetaAppClipInvocationLocalizationInlineCreate_Relationships extends \Canti
 
 }
 
-class BetaAppClipInvocationLocalizationInlineCreate extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocationLocalizationInlineCreate extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaAppClipInvocationLocalizations';
 	public $id;

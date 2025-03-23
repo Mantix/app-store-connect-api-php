@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaAppClipInvocationCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocationCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $url;
 
@@ -42,7 +42,7 @@ class BetaAppClipInvocationCreateRequest_Data_Attributes extends \Cantie\AppStor
 
 }
 
-class BetaAppClipInvocationCreateRequest_Data_Relationships_BuildBundle_Data extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocationCreateRequest_Data_Relationships_BuildBundle_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'buildBundles';
 	public $id;
@@ -68,7 +68,7 @@ class BetaAppClipInvocationCreateRequest_Data_Relationships_BuildBundle_Data ext
 
 }
 
-class BetaAppClipInvocationCreateRequest_Data_Relationships_BuildBundle extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocationCreateRequest_Data_Relationships_BuildBundle extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BetaAppClipInvocationCreateRequest_Data_Relationships_BuildBundle_Data::class;
 	protected $dataDataType = 'object';
@@ -91,7 +91,7 @@ class BetaAppClipInvocationCreateRequest_Data_Relationships_BuildBundle extends 
 
 }
 
-class BetaAppClipInvocationCreateRequest_Data_Relationships_BetaAppClipInvocationLocalizations_Data extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocationCreateRequest_Data_Relationships_BetaAppClipInvocationLocalizations_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaAppClipInvocationLocalizations';
 	public $id;
@@ -117,7 +117,7 @@ class BetaAppClipInvocationCreateRequest_Data_Relationships_BetaAppClipInvocatio
 
 }
 
-class BetaAppClipInvocationCreateRequest_Data_Relationships_BetaAppClipInvocationLocalizations extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocationCreateRequest_Data_Relationships_BetaAppClipInvocationLocalizations extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BetaAppClipInvocationCreateRequest_Data_Relationships_BetaAppClipInvocationLocalizations_Data::class;
 	protected $dataDataType = 'array';
@@ -140,7 +140,7 @@ class BetaAppClipInvocationCreateRequest_Data_Relationships_BetaAppClipInvocatio
 
 }
 
-class BetaAppClipInvocationCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocationCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $buildBundleType = BetaAppClipInvocationCreateRequest_Data_Relationships_BuildBundle::class;
 	protected $buildBundleDataType = 'object';
@@ -180,7 +180,7 @@ class BetaAppClipInvocationCreateRequest_Data_Relationships extends \Cantie\AppS
 
 }
 
-class BetaAppClipInvocationCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocationCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaAppClipInvocations';
 	protected $attributesType = BetaAppClipInvocationCreateRequest_Data_Attributes::class;
@@ -230,7 +230,7 @@ class BetaAppClipInvocationCreateRequest_Data extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class BetaAppClipInvocationCreateRequest extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocationCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BetaAppClipInvocationCreateRequest_Data::class;
 	protected $dataDataType = 'object';

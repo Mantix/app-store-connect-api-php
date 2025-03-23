@@ -24,25 +24,25 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentV2Response;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentV2CreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentV2UpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentTreatmentsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentV2Response;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentV2CreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentV2UpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionExperimentTreatmentsResponse;
 
 /**
  * The "appStoreVersionExperiments" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appStoreVersionExperiments = $appStoreService->appStoreVersionExperiments;
  *  </code>
  */
-class AppStoreVersionExperiments extends \Cantie\AppStoreConnect\Services\Resource
+class AppStoreVersionExperiments extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

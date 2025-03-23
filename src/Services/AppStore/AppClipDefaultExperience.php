@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppClipDefaultExperience_Attributes extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperience_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $action; // 
 
@@ -48,7 +48,7 @@ class AppClipDefaultExperience_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppClipDefaultExperience_Relationships_AppClip_Links extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperience_Relationships_AppClip_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -74,7 +74,7 @@ class AppClipDefaultExperience_Relationships_AppClip_Links extends \Cantie\AppSt
 
 }
 
-class AppClipDefaultExperience_Relationships_AppClip_Data extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperience_Relationships_AppClip_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClips';
 	public $id;
@@ -100,7 +100,7 @@ class AppClipDefaultExperience_Relationships_AppClip_Data extends \Cantie\AppSto
 
 }
 
-class AppClipDefaultExperience_Relationships_AppClip extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperience_Relationships_AppClip extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppClipDefaultExperience_Relationships_AppClip_Links::class;
 	protected $linksDataType = 'object';
@@ -140,7 +140,7 @@ class AppClipDefaultExperience_Relationships_AppClip extends \Cantie\AppStoreCon
 
 }
 
-class AppClipDefaultExperience_Relationships_ReleaseWithAppStoreVersion_Links extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperience_Relationships_ReleaseWithAppStoreVersion_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -166,7 +166,7 @@ class AppClipDefaultExperience_Relationships_ReleaseWithAppStoreVersion_Links ex
 
 }
 
-class AppClipDefaultExperience_Relationships_ReleaseWithAppStoreVersion_Data extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperience_Relationships_ReleaseWithAppStoreVersion_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersions';
 	public $id;
@@ -192,7 +192,7 @@ class AppClipDefaultExperience_Relationships_ReleaseWithAppStoreVersion_Data ext
 
 }
 
-class AppClipDefaultExperience_Relationships_ReleaseWithAppStoreVersion extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperience_Relationships_ReleaseWithAppStoreVersion extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppClipDefaultExperience_Relationships_ReleaseWithAppStoreVersion_Links::class;
 	protected $linksDataType = 'object';
@@ -232,7 +232,7 @@ class AppClipDefaultExperience_Relationships_ReleaseWithAppStoreVersion extends 
 
 }
 
-class AppClipDefaultExperience_Relationships_AppClipDefaultExperienceLocalizations_Links extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperience_Relationships_AppClipDefaultExperienceLocalizations_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -258,7 +258,7 @@ class AppClipDefaultExperience_Relationships_AppClipDefaultExperienceLocalizatio
 
 }
 
-class AppClipDefaultExperience_Relationships_AppClipDefaultExperienceLocalizations_Data extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperience_Relationships_AppClipDefaultExperienceLocalizations_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipDefaultExperienceLocalizations';
 	public $id;
@@ -284,7 +284,7 @@ class AppClipDefaultExperience_Relationships_AppClipDefaultExperienceLocalizatio
 
 }
 
-class AppClipDefaultExperience_Relationships_AppClipDefaultExperienceLocalizations extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperience_Relationships_AppClipDefaultExperienceLocalizations extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppClipDefaultExperience_Relationships_AppClipDefaultExperienceLocalizations_Links::class;
 	protected $linksDataType = 'object';
@@ -341,7 +341,7 @@ class AppClipDefaultExperience_Relationships_AppClipDefaultExperienceLocalizatio
 
 }
 
-class AppClipDefaultExperience_Relationships_AppClipAppStoreReviewDetail_Links extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperience_Relationships_AppClipAppStoreReviewDetail_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -367,7 +367,7 @@ class AppClipDefaultExperience_Relationships_AppClipAppStoreReviewDetail_Links e
 
 }
 
-class AppClipDefaultExperience_Relationships_AppClipAppStoreReviewDetail_Data extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperience_Relationships_AppClipAppStoreReviewDetail_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipAppStoreReviewDetails';
 	public $id;
@@ -393,7 +393,7 @@ class AppClipDefaultExperience_Relationships_AppClipAppStoreReviewDetail_Data ex
 
 }
 
-class AppClipDefaultExperience_Relationships_AppClipAppStoreReviewDetail extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperience_Relationships_AppClipAppStoreReviewDetail extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppClipDefaultExperience_Relationships_AppClipAppStoreReviewDetail_Links::class;
 	protected $linksDataType = 'object';
@@ -433,7 +433,7 @@ class AppClipDefaultExperience_Relationships_AppClipAppStoreReviewDetail extends
 
 }
 
-class AppClipDefaultExperience_Relationships extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperience_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appClipType = AppClipDefaultExperience_Relationships_AppClip::class;
 	protected $appClipDataType = 'object';
@@ -507,7 +507,7 @@ class AppClipDefaultExperience_Relationships extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class AppClipDefaultExperience extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperience extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipDefaultExperiences';
 	public $id;

@@ -24,38 +24,38 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\BuildsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BuildResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BuildUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BuildAppEncryptionDeclarationLinkageResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BuildAppEncryptionDeclarationLinkageRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppEncryptionDeclarationWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaAppReviewSubmissionWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaBuildLocalizationsWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BuildBetaGroupsLinkagesRequest;
-use Cantie\AppStoreConnect\Services\AppStore\BuildBetaDetailResponse;
-use Cantie\AppStoreConnect\Services\AppStore\DiagnosticSignaturesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BuildIconsWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BuildIndividualTestersLinkagesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BuildIndividualTestersLinkagesRequest;
-use Cantie\AppStoreConnect\Services\AppStore\BetaTestersWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\xcodeMetrics;
-use Cantie\AppStoreConnect\Services\AppStore\PrereleaseVersionWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaBuildUsagesV1MetricResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BuildsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BuildResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BuildUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BuildAppEncryptionDeclarationLinkageResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BuildAppEncryptionDeclarationLinkageRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppEncryptionDeclarationWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaAppReviewSubmissionWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaBuildLocalizationsWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BuildBetaGroupsLinkagesRequest;
+use Mantix\AppStoreConnect\Services\AppStore\BuildBetaDetailResponse;
+use Mantix\AppStoreConnect\Services\AppStore\DiagnosticSignaturesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BuildIconsWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BuildIndividualTestersLinkagesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BuildIndividualTestersLinkagesRequest;
+use Mantix\AppStoreConnect\Services\AppStore\BetaTestersWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\xcodeMetrics;
+use Mantix\AppStoreConnect\Services\AppStore\PrereleaseVersionWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaBuildUsagesV1MetricResponse;
 
 /**
  * The "builds" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $builds = $appStoreService->builds;
  *  </code>
  */
-class Builds extends \Cantie\AppStoreConnect\Services\Resource
+class Builds extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

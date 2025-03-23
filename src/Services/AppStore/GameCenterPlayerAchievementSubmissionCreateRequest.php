@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterPlayerAchievementSubmissionCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class GameCenterPlayerAchievementSubmissionCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $bundleId;
 	protected $challengeIdsType = '';
@@ -99,7 +99,7 @@ class GameCenterPlayerAchievementSubmissionCreateRequest_Data_Attributes extends
 
 }
 
-class GameCenterPlayerAchievementSubmissionCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterPlayerAchievementSubmissionCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterPlayerAchievementSubmissions';
 	protected $attributesType = GameCenterPlayerAchievementSubmissionCreateRequest_Data_Attributes::class;
@@ -132,7 +132,7 @@ class GameCenterPlayerAchievementSubmissionCreateRequest_Data extends \Cantie\Ap
 
 }
 
-class GameCenterPlayerAchievementSubmissionCreateRequest extends \Cantie\AppStoreConnect\Model
+class GameCenterPlayerAchievementSubmissionCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterPlayerAchievementSubmissionCreateRequest_Data::class;
 	protected $dataDataType = 'object';

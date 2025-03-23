@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class EndAppAvailabilityPreOrder extends \Cantie\AppStoreConnect\Model
+class EndAppAvailabilityPreOrder extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'endAppAvailabilityPreOrders';
 	public $id;

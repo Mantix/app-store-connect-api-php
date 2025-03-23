@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-namespace Cantie\AppStoreConnect\Task;
+namespace Mantix\AppStoreConnect\Task;
 
 /**
  * Interface for checking how many times a given task can be retried following

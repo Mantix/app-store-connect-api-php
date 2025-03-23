@@ -24,22 +24,22 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreReviewDetailResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreReviewDetailCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreReviewDetailUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreReviewAttachmentsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreReviewDetailResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreReviewDetailCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreReviewDetailUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreReviewAttachmentsResponse;
 
 /**
  * The "appStoreReviewDetails" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appStoreReviewDetails = $appStoreService->appStoreReviewDetails;
  *  </code>
  */
-class AppStoreReviewDetails extends \Cantie\AppStoreConnect\Services\Resource
+class AppStoreReviewDetails extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

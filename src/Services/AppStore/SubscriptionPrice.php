@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionPrice_Attributes extends \Cantie\AppStoreConnect\Model
+class SubscriptionPrice_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $startDate;
 	public $preserved;
@@ -52,7 +52,7 @@ class SubscriptionPrice_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class SubscriptionPrice_Relationships_Territory_Links extends \Cantie\AppStoreConnect\Model
+class SubscriptionPrice_Relationships_Territory_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -78,7 +78,7 @@ class SubscriptionPrice_Relationships_Territory_Links extends \Cantie\AppStoreCo
 
 }
 
-class SubscriptionPrice_Relationships_Territory_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionPrice_Relationships_Territory_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'territories';
 	public $id;
@@ -104,7 +104,7 @@ class SubscriptionPrice_Relationships_Territory_Data extends \Cantie\AppStoreCon
 
 }
 
-class SubscriptionPrice_Relationships_Territory extends \Cantie\AppStoreConnect\Model
+class SubscriptionPrice_Relationships_Territory extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = SubscriptionPrice_Relationships_Territory_Links::class;
 	protected $linksDataType = 'object';
@@ -144,7 +144,7 @@ class SubscriptionPrice_Relationships_Territory extends \Cantie\AppStoreConnect\
 
 }
 
-class SubscriptionPrice_Relationships_SubscriptionPricePoint_Links extends \Cantie\AppStoreConnect\Model
+class SubscriptionPrice_Relationships_SubscriptionPricePoint_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -170,7 +170,7 @@ class SubscriptionPrice_Relationships_SubscriptionPricePoint_Links extends \Cant
 
 }
 
-class SubscriptionPrice_Relationships_SubscriptionPricePoint_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionPrice_Relationships_SubscriptionPricePoint_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionPricePoints';
 	public $id;
@@ -196,7 +196,7 @@ class SubscriptionPrice_Relationships_SubscriptionPricePoint_Data extends \Canti
 
 }
 
-class SubscriptionPrice_Relationships_SubscriptionPricePoint extends \Cantie\AppStoreConnect\Model
+class SubscriptionPrice_Relationships_SubscriptionPricePoint extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = SubscriptionPrice_Relationships_SubscriptionPricePoint_Links::class;
 	protected $linksDataType = 'object';
@@ -236,7 +236,7 @@ class SubscriptionPrice_Relationships_SubscriptionPricePoint extends \Cantie\App
 
 }
 
-class SubscriptionPrice_Relationships extends \Cantie\AppStoreConnect\Model
+class SubscriptionPrice_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $territoryType = SubscriptionPrice_Relationships_Territory::class;
 	protected $territoryDataType = 'object';
@@ -276,7 +276,7 @@ class SubscriptionPrice_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class SubscriptionPrice extends \Cantie\AppStoreConnect\Model
+class SubscriptionPrice extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionPrices';
 	public $id;

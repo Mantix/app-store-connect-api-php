@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppStoreVersionSubmissionResponse extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionSubmissionResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersionSubmission::class;
 	protected $dataDataType = '';

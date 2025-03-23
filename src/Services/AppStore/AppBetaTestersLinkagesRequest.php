@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppBetaTestersLinkagesRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppBetaTestersLinkagesRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaTesters';
 	public $id;
@@ -52,7 +52,7 @@ class AppBetaTestersLinkagesRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppBetaTestersLinkagesRequest extends \Cantie\AppStoreConnect\Model
+class AppBetaTestersLinkagesRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppBetaTestersLinkagesRequest_Data::class;
 	protected $dataDataType = 'array';

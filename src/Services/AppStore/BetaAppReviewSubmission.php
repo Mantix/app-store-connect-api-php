@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaAppReviewSubmission_Attributes extends \Cantie\AppStoreConnect\Model
+class BetaAppReviewSubmission_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $betaReviewState; // 
 	public $submittedDate;
@@ -58,7 +58,7 @@ class BetaAppReviewSubmission_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BetaAppReviewSubmission_Relationships_Build_Links extends \Cantie\AppStoreConnect\Model
+class BetaAppReviewSubmission_Relationships_Build_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -84,7 +84,7 @@ class BetaAppReviewSubmission_Relationships_Build_Links extends \Cantie\AppStore
 
 }
 
-class BetaAppReviewSubmission_Relationships_Build_Data extends \Cantie\AppStoreConnect\Model
+class BetaAppReviewSubmission_Relationships_Build_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'builds';
 	public $id;
@@ -110,7 +110,7 @@ class BetaAppReviewSubmission_Relationships_Build_Data extends \Cantie\AppStoreC
 
 }
 
-class BetaAppReviewSubmission_Relationships_Build extends \Cantie\AppStoreConnect\Model
+class BetaAppReviewSubmission_Relationships_Build extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = BetaAppReviewSubmission_Relationships_Build_Links::class;
 	protected $linksDataType = 'object';
@@ -150,7 +150,7 @@ class BetaAppReviewSubmission_Relationships_Build extends \Cantie\AppStoreConnec
 
 }
 
-class BetaAppReviewSubmission_Relationships extends \Cantie\AppStoreConnect\Model
+class BetaAppReviewSubmission_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $buildType = BetaAppReviewSubmission_Relationships_Build::class;
 	protected $buildDataType = 'object';
@@ -173,7 +173,7 @@ class BetaAppReviewSubmission_Relationships extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class BetaAppReviewSubmission extends \Cantie\AppStoreConnect\Model
+class BetaAppReviewSubmission extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaAppReviewSubmissions';
 	public $id;

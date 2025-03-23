@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiTestDestination extends \Cantie\AppStoreConnect\Model
+class CiTestDestination extends \Mantix\AppStoreConnect\Model
 {
 	public $deviceTypeName;
 	public $deviceTypeIdentifier;

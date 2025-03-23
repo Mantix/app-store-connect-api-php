@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppStoreReviewDetail_Attributes extends \Cantie\AppStoreConnect\Model
+class AppStoreReviewDetail_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $contactFirstName;
 	public $contactLastName;
@@ -112,7 +112,7 @@ class AppStoreReviewDetail_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppStoreReviewDetail_Relationships_AppStoreVersion_Links extends \Cantie\AppStoreConnect\Model
+class AppStoreReviewDetail_Relationships_AppStoreVersion_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -138,7 +138,7 @@ class AppStoreReviewDetail_Relationships_AppStoreVersion_Links extends \Cantie\A
 
 }
 
-class AppStoreReviewDetail_Relationships_AppStoreVersion_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreReviewDetail_Relationships_AppStoreVersion_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersions';
 	public $id;
@@ -164,7 +164,7 @@ class AppStoreReviewDetail_Relationships_AppStoreVersion_Data extends \Cantie\Ap
 
 }
 
-class AppStoreReviewDetail_Relationships_AppStoreVersion extends \Cantie\AppStoreConnect\Model
+class AppStoreReviewDetail_Relationships_AppStoreVersion extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppStoreReviewDetail_Relationships_AppStoreVersion_Links::class;
 	protected $linksDataType = 'object';
@@ -204,7 +204,7 @@ class AppStoreReviewDetail_Relationships_AppStoreVersion extends \Cantie\AppStor
 
 }
 
-class AppStoreReviewDetail_Relationships_AppStoreReviewAttachments_Links extends \Cantie\AppStoreConnect\Model
+class AppStoreReviewDetail_Relationships_AppStoreReviewAttachments_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -230,7 +230,7 @@ class AppStoreReviewDetail_Relationships_AppStoreReviewAttachments_Links extends
 
 }
 
-class AppStoreReviewDetail_Relationships_AppStoreReviewAttachments_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreReviewDetail_Relationships_AppStoreReviewAttachments_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreReviewAttachments';
 	public $id;
@@ -256,7 +256,7 @@ class AppStoreReviewDetail_Relationships_AppStoreReviewAttachments_Data extends 
 
 }
 
-class AppStoreReviewDetail_Relationships_AppStoreReviewAttachments extends \Cantie\AppStoreConnect\Model
+class AppStoreReviewDetail_Relationships_AppStoreReviewAttachments extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppStoreReviewDetail_Relationships_AppStoreReviewAttachments_Links::class;
 	protected $linksDataType = 'object';
@@ -313,7 +313,7 @@ class AppStoreReviewDetail_Relationships_AppStoreReviewAttachments extends \Cant
 
 }
 
-class AppStoreReviewDetail_Relationships extends \Cantie\AppStoreConnect\Model
+class AppStoreReviewDetail_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appStoreVersionType = AppStoreReviewDetail_Relationships_AppStoreVersion::class;
 	protected $appStoreVersionDataType = 'object';
@@ -353,7 +353,7 @@ class AppStoreReviewDetail_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppStoreReviewDetail extends \Cantie\AppStoreConnect\Model
+class AppStoreReviewDetail extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreReviewDetails';
 	public $id;

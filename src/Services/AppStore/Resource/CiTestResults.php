@@ -24,19 +24,19 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\CiTestResultResponse;
+use Mantix\AppStoreConnect\Services\AppStore\CiTestResultResponse;
 
 /**
  * The "ciTestResults" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $ciTestResults = $appStoreService->ciTestResults;
  *  </code>
  */
-class CiTestResults extends \Cantie\AppStoreConnect\Services\Resource
+class CiTestResults extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

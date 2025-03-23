@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SandboxTesterV2UpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class SandboxTesterV2UpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $territory; // 
 	public $interruptPurchases;
@@ -68,7 +68,7 @@ class SandboxTesterV2UpdateRequest_Data_Attributes extends \Cantie\AppStoreConne
 
 }
 
-class SandboxTesterV2UpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class SandboxTesterV2UpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'sandboxTesters';
 	public $id;
@@ -111,7 +111,7 @@ class SandboxTesterV2UpdateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class SandboxTesterV2UpdateRequest extends \Cantie\AppStoreConnect\Model
+class SandboxTesterV2UpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SandboxTesterV2UpdateRequest_Data::class;
 	protected $dataDataType = 'object';

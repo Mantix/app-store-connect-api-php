@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AnalyticsReportRequest_Attributes extends \Cantie\AppStoreConnect\Model
+class AnalyticsReportRequest_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $accessType; // ONE_TIME_SNAPSHOT, ONGOING
 	public $stoppedDueToInactivity;
@@ -52,7 +52,7 @@ class AnalyticsReportRequest_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AnalyticsReportRequest_Relationships_Reports_Links extends \Cantie\AppStoreConnect\Model
+class AnalyticsReportRequest_Relationships_Reports_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -78,7 +78,7 @@ class AnalyticsReportRequest_Relationships_Reports_Links extends \Cantie\AppStor
 
 }
 
-class AnalyticsReportRequest_Relationships_Reports_Data extends \Cantie\AppStoreConnect\Model
+class AnalyticsReportRequest_Relationships_Reports_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'analyticsReports';
 	public $id;
@@ -104,7 +104,7 @@ class AnalyticsReportRequest_Relationships_Reports_Data extends \Cantie\AppStore
 
 }
 
-class AnalyticsReportRequest_Relationships_Reports extends \Cantie\AppStoreConnect\Model
+class AnalyticsReportRequest_Relationships_Reports extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AnalyticsReportRequest_Relationships_Reports_Links::class;
 	protected $linksDataType = 'object';
@@ -161,7 +161,7 @@ class AnalyticsReportRequest_Relationships_Reports extends \Cantie\AppStoreConne
 
 }
 
-class AnalyticsReportRequest_Relationships extends \Cantie\AppStoreConnect\Model
+class AnalyticsReportRequest_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $reportsType = AnalyticsReportRequest_Relationships_Reports::class;
 	protected $reportsDataType = 'object';
@@ -184,7 +184,7 @@ class AnalyticsReportRequest_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AnalyticsReportRequest extends \Cantie\AppStoreConnect\Model
+class AnalyticsReportRequest extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'analyticsReportRequests';
 	public $id;

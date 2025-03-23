@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppEventCreateRequest_Data_Attributes_TerritorySchedules extends \Cantie\AppStoreConnect\Model
+class AppEventCreateRequest_Data_Attributes_TerritorySchedules extends \Mantix\AppStoreConnect\Model
 {
 	protected $territoriesType = '';
 	protected $territoriesDataType = 'array';
@@ -79,7 +79,7 @@ class AppEventCreateRequest_Data_Attributes_TerritorySchedules extends \Cantie\A
 
 }
 
-class AppEventCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppEventCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $referenceName;
 	public $badge; // LIVE_EVENT, PREMIERE, CHALLENGE, COMPETITION, NEW_SEASON, MAJOR_UPDATE, SPECIAL_EVENT
@@ -172,7 +172,7 @@ class AppEventCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class AppEventCreateRequest_Data_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class AppEventCreateRequest_Data_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -198,7 +198,7 @@ class AppEventCreateRequest_Data_Relationships_App_Data extends \Cantie\AppStore
 
 }
 
-class AppEventCreateRequest_Data_Relationships_App extends \Cantie\AppStoreConnect\Model
+class AppEventCreateRequest_Data_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppEventCreateRequest_Data_Relationships_App_Data::class;
 	protected $dataDataType = 'object';
@@ -221,7 +221,7 @@ class AppEventCreateRequest_Data_Relationships_App extends \Cantie\AppStoreConne
 
 }
 
-class AppEventCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppEventCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = AppEventCreateRequest_Data_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -244,7 +244,7 @@ class AppEventCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\M
 
 }
 
-class AppEventCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppEventCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEvents';
 	protected $attributesType = AppEventCreateRequest_Data_Attributes::class;
@@ -294,7 +294,7 @@ class AppEventCreateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppEventCreateRequest extends \Cantie\AppStoreConnect\Model
+class AppEventCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppEventCreateRequest_Data::class;
 	protected $dataDataType = 'object';

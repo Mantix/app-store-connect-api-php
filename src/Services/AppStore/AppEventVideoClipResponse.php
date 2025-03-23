@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppEventVideoClipResponse extends \Cantie\AppStoreConnect\Model
+class AppEventVideoClipResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppEventVideoClip::class;
 	protected $dataDataType = '';

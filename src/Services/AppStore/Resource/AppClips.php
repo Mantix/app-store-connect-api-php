@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppClipResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppClipAdvancedExperiencesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppClipDefaultExperiencesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppClipResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppClipAdvancedExperiencesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppClipDefaultExperiencesResponse;
 
 /**
  * The "appClips" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appClips = $appStoreService->appClips;
  *  </code>
  */
-class AppClips extends \Cantie\AppStoreConnect\Services\Resource
+class AppClips extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

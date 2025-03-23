@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiBranchPatterns_Patterns extends \Cantie\AppStoreConnect\Model
+class CiBranchPatterns_Patterns extends \Mantix\AppStoreConnect\Model
 {
 	public $pattern;
 	public $isPrefix;
@@ -52,7 +52,7 @@ class CiBranchPatterns_Patterns extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiBranchPatterns extends \Cantie\AppStoreConnect\Model
+class CiBranchPatterns extends \Mantix\AppStoreConnect\Model
 {
 	public $isAllMatch;
 	protected $patternsType = CiBranchPatterns_Patterns::class;

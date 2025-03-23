@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterPlayerAchievementSubmission_Attributes extends \Cantie\AppStoreConnect\Model
+class GameCenterPlayerAchievementSubmission_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $bundleId;
 	protected $challengeIdsType = '';
@@ -99,7 +99,7 @@ class GameCenterPlayerAchievementSubmission_Attributes extends \Cantie\AppStoreC
 
 }
 
-class GameCenterPlayerAchievementSubmission extends \Cantie\AppStoreConnect\Model
+class GameCenterPlayerAchievementSubmission extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterPlayerAchievementSubmissions';
 	public $id;

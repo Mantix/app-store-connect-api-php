@@ -24,22 +24,22 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\ScmRepositoriesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\ScmRepositoryResponse;
-use Cantie\AppStoreConnect\Services\AppStore\ScmGitReferencesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\ScmPullRequestsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\ScmRepositoriesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\ScmRepositoryResponse;
+use Mantix\AppStoreConnect\Services\AppStore\ScmGitReferencesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\ScmPullRequestsResponse;
 
 /**
  * The "scmRepositories" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $scmRepositories = $appStoreService->scmRepositories;
  *  </code>
  */
-class ScmRepositories extends \Cantie\AppStoreConnect\Services\Resource
+class ScmRepositories extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class InAppPurchaseV2_Attributes extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $productId;
@@ -114,7 +114,7 @@ class InAppPurchaseV2_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class InAppPurchaseV2_Relationships_InAppPurchaseLocalizations_Links extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2_Relationships_InAppPurchaseLocalizations_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -140,7 +140,7 @@ class InAppPurchaseV2_Relationships_InAppPurchaseLocalizations_Links extends \Ca
 
 }
 
-class InAppPurchaseV2_Relationships_InAppPurchaseLocalizations_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2_Relationships_InAppPurchaseLocalizations_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchaseLocalizations';
 	public $id;
@@ -166,7 +166,7 @@ class InAppPurchaseV2_Relationships_InAppPurchaseLocalizations_Data extends \Can
 
 }
 
-class InAppPurchaseV2_Relationships_InAppPurchaseLocalizations extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2_Relationships_InAppPurchaseLocalizations extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = InAppPurchaseV2_Relationships_InAppPurchaseLocalizations_Links::class;
 	protected $linksDataType = 'object';
@@ -223,7 +223,7 @@ class InAppPurchaseV2_Relationships_InAppPurchaseLocalizations extends \Cantie\A
 
 }
 
-class InAppPurchaseV2_Relationships_PricePoints_Links extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2_Relationships_PricePoints_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -249,7 +249,7 @@ class InAppPurchaseV2_Relationships_PricePoints_Links extends \Cantie\AppStoreCo
 
 }
 
-class InAppPurchaseV2_Relationships_PricePoints_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2_Relationships_PricePoints_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchasePricePoints';
 	public $id;
@@ -275,7 +275,7 @@ class InAppPurchaseV2_Relationships_PricePoints_Data extends \Cantie\AppStoreCon
 
 }
 
-class InAppPurchaseV2_Relationships_PricePoints extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2_Relationships_PricePoints extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = InAppPurchaseV2_Relationships_PricePoints_Links::class;
 	protected $linksDataType = 'object';
@@ -332,7 +332,7 @@ class InAppPurchaseV2_Relationships_PricePoints extends \Cantie\AppStoreConnect\
 
 }
 
-class InAppPurchaseV2_Relationships_Content_Links extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2_Relationships_Content_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -358,7 +358,7 @@ class InAppPurchaseV2_Relationships_Content_Links extends \Cantie\AppStoreConnec
 
 }
 
-class InAppPurchaseV2_Relationships_Content_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2_Relationships_Content_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchaseContents';
 	public $id;
@@ -384,7 +384,7 @@ class InAppPurchaseV2_Relationships_Content_Data extends \Cantie\AppStoreConnect
 
 }
 
-class InAppPurchaseV2_Relationships_Content extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2_Relationships_Content extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = InAppPurchaseV2_Relationships_Content_Links::class;
 	protected $linksDataType = 'object';
@@ -424,7 +424,7 @@ class InAppPurchaseV2_Relationships_Content extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class InAppPurchaseV2_Relationships_AppStoreReviewScreenshot_Links extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2_Relationships_AppStoreReviewScreenshot_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -450,7 +450,7 @@ class InAppPurchaseV2_Relationships_AppStoreReviewScreenshot_Links extends \Cant
 
 }
 
-class InAppPurchaseV2_Relationships_AppStoreReviewScreenshot_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2_Relationships_AppStoreReviewScreenshot_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchaseAppStoreReviewScreenshots';
 	public $id;
@@ -476,7 +476,7 @@ class InAppPurchaseV2_Relationships_AppStoreReviewScreenshot_Data extends \Canti
 
 }
 
-class InAppPurchaseV2_Relationships_AppStoreReviewScreenshot extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2_Relationships_AppStoreReviewScreenshot extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = InAppPurchaseV2_Relationships_AppStoreReviewScreenshot_Links::class;
 	protected $linksDataType = 'object';
@@ -516,7 +516,7 @@ class InAppPurchaseV2_Relationships_AppStoreReviewScreenshot extends \Cantie\App
 
 }
 
-class InAppPurchaseV2_Relationships_PromotedPurchase_Links extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2_Relationships_PromotedPurchase_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -542,7 +542,7 @@ class InAppPurchaseV2_Relationships_PromotedPurchase_Links extends \Cantie\AppSt
 
 }
 
-class InAppPurchaseV2_Relationships_PromotedPurchase_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2_Relationships_PromotedPurchase_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'promotedPurchases';
 	public $id;
@@ -568,7 +568,7 @@ class InAppPurchaseV2_Relationships_PromotedPurchase_Data extends \Cantie\AppSto
 
 }
 
-class InAppPurchaseV2_Relationships_PromotedPurchase extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2_Relationships_PromotedPurchase extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = InAppPurchaseV2_Relationships_PromotedPurchase_Links::class;
 	protected $linksDataType = 'object';
@@ -608,7 +608,7 @@ class InAppPurchaseV2_Relationships_PromotedPurchase extends \Cantie\AppStoreCon
 
 }
 
-class InAppPurchaseV2_Relationships_IapPriceSchedule_Links extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2_Relationships_IapPriceSchedule_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -634,7 +634,7 @@ class InAppPurchaseV2_Relationships_IapPriceSchedule_Links extends \Cantie\AppSt
 
 }
 
-class InAppPurchaseV2_Relationships_IapPriceSchedule_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2_Relationships_IapPriceSchedule_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchasePriceSchedules';
 	public $id;
@@ -660,7 +660,7 @@ class InAppPurchaseV2_Relationships_IapPriceSchedule_Data extends \Cantie\AppSto
 
 }
 
-class InAppPurchaseV2_Relationships_IapPriceSchedule extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2_Relationships_IapPriceSchedule extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = InAppPurchaseV2_Relationships_IapPriceSchedule_Links::class;
 	protected $linksDataType = 'object';
@@ -700,7 +700,7 @@ class InAppPurchaseV2_Relationships_IapPriceSchedule extends \Cantie\AppStoreCon
 
 }
 
-class InAppPurchaseV2_Relationships_InAppPurchaseAvailability_Links extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2_Relationships_InAppPurchaseAvailability_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -726,7 +726,7 @@ class InAppPurchaseV2_Relationships_InAppPurchaseAvailability_Links extends \Can
 
 }
 
-class InAppPurchaseV2_Relationships_InAppPurchaseAvailability_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2_Relationships_InAppPurchaseAvailability_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchaseAvailabilities';
 	public $id;
@@ -752,7 +752,7 @@ class InAppPurchaseV2_Relationships_InAppPurchaseAvailability_Data extends \Cant
 
 }
 
-class InAppPurchaseV2_Relationships_InAppPurchaseAvailability extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2_Relationships_InAppPurchaseAvailability extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = InAppPurchaseV2_Relationships_InAppPurchaseAvailability_Links::class;
 	protected $linksDataType = 'object';
@@ -792,7 +792,7 @@ class InAppPurchaseV2_Relationships_InAppPurchaseAvailability extends \Cantie\Ap
 
 }
 
-class InAppPurchaseV2_Relationships extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $inAppPurchaseLocalizationsType = InAppPurchaseV2_Relationships_InAppPurchaseLocalizations::class;
 	protected $inAppPurchaseLocalizationsDataType = 'object';
@@ -917,7 +917,7 @@ class InAppPurchaseV2_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class InAppPurchaseV2 extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2 extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchases';
 	public $id;

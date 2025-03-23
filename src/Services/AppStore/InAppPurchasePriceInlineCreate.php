@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class InAppPurchasePriceInlineCreate_Attributes extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceInlineCreate_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $startDate;
 	public $endDate;
@@ -52,7 +52,7 @@ class InAppPurchasePriceInlineCreate_Attributes extends \Cantie\AppStoreConnect\
 
 }
 
-class InAppPurchasePriceInlineCreate_Relationships_InAppPurchaseV2_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceInlineCreate_Relationships_InAppPurchaseV2_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchases';
 	public $id;
@@ -78,7 +78,7 @@ class InAppPurchasePriceInlineCreate_Relationships_InAppPurchaseV2_Data extends 
 
 }
 
-class InAppPurchasePriceInlineCreate_Relationships_InAppPurchaseV2 extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceInlineCreate_Relationships_InAppPurchaseV2 extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = InAppPurchasePriceInlineCreate_Relationships_InAppPurchaseV2_Data::class;
 	protected $dataDataType = 'object';
@@ -101,7 +101,7 @@ class InAppPurchasePriceInlineCreate_Relationships_InAppPurchaseV2 extends \Cant
 
 }
 
-class InAppPurchasePriceInlineCreate_Relationships_InAppPurchasePricePoint_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceInlineCreate_Relationships_InAppPurchasePricePoint_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchasePricePoints';
 	public $id;
@@ -127,7 +127,7 @@ class InAppPurchasePriceInlineCreate_Relationships_InAppPurchasePricePoint_Data 
 
 }
 
-class InAppPurchasePriceInlineCreate_Relationships_InAppPurchasePricePoint extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceInlineCreate_Relationships_InAppPurchasePricePoint extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = InAppPurchasePriceInlineCreate_Relationships_InAppPurchasePricePoint_Data::class;
 	protected $dataDataType = 'object';
@@ -150,7 +150,7 @@ class InAppPurchasePriceInlineCreate_Relationships_InAppPurchasePricePoint exten
 
 }
 
-class InAppPurchasePriceInlineCreate_Relationships extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceInlineCreate_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $inAppPurchaseV2Type = InAppPurchasePriceInlineCreate_Relationships_InAppPurchaseV2::class;
 	protected $inAppPurchaseV2DataType = 'object';
@@ -190,7 +190,7 @@ class InAppPurchasePriceInlineCreate_Relationships extends \Cantie\AppStoreConne
 
 }
 
-class InAppPurchasePriceInlineCreate extends \Cantie\AppStoreConnect\Model
+class InAppPurchasePriceInlineCreate extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchasePrices';
 	public $id;

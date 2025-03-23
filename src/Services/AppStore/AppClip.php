@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppClip_Attributes extends \Cantie\AppStoreConnect\Model
+class AppClip_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $bundleId;
 
@@ -42,7 +42,7 @@ class AppClip_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppClip_Relationships_App_Links extends \Cantie\AppStoreConnect\Model
+class AppClip_Relationships_App_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -68,7 +68,7 @@ class AppClip_Relationships_App_Links extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppClip_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class AppClip_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -94,7 +94,7 @@ class AppClip_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppClip_Relationships_App extends \Cantie\AppStoreConnect\Model
+class AppClip_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppClip_Relationships_App_Links::class;
 	protected $linksDataType = 'object';
@@ -134,7 +134,7 @@ class AppClip_Relationships_App extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppClip_Relationships_AppClipDefaultExperiences_Links extends \Cantie\AppStoreConnect\Model
+class AppClip_Relationships_AppClipDefaultExperiences_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -160,7 +160,7 @@ class AppClip_Relationships_AppClipDefaultExperiences_Links extends \Cantie\AppS
 
 }
 
-class AppClip_Relationships_AppClipDefaultExperiences_Data extends \Cantie\AppStoreConnect\Model
+class AppClip_Relationships_AppClipDefaultExperiences_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipDefaultExperiences';
 	public $id;
@@ -186,7 +186,7 @@ class AppClip_Relationships_AppClipDefaultExperiences_Data extends \Cantie\AppSt
 
 }
 
-class AppClip_Relationships_AppClipDefaultExperiences extends \Cantie\AppStoreConnect\Model
+class AppClip_Relationships_AppClipDefaultExperiences extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppClip_Relationships_AppClipDefaultExperiences_Links::class;
 	protected $linksDataType = 'object';
@@ -243,7 +243,7 @@ class AppClip_Relationships_AppClipDefaultExperiences extends \Cantie\AppStoreCo
 
 }
 
-class AppClip_Relationships extends \Cantie\AppStoreConnect\Model
+class AppClip_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = AppClip_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -283,7 +283,7 @@ class AppClip_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppClip extends \Cantie\AppStoreConnect\Model
+class AppClip extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClips';
 	public $id;

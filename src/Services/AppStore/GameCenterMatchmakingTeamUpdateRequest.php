@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterMatchmakingTeamUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingTeamUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $minPlayers;
 	public $maxPlayers;
@@ -52,7 +52,7 @@ class GameCenterMatchmakingTeamUpdateRequest_Data_Attributes extends \Cantie\App
 
 }
 
-class GameCenterMatchmakingTeamUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingTeamUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterMatchmakingTeams';
 	public $id;
@@ -95,7 +95,7 @@ class GameCenterMatchmakingTeamUpdateRequest_Data extends \Cantie\AppStoreConnec
 
 }
 
-class GameCenterMatchmakingTeamUpdateRequest extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingTeamUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterMatchmakingTeamUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

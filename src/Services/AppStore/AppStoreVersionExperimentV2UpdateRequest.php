@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppStoreVersionExperimentV2UpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentV2UpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $trafficProportion;
@@ -62,7 +62,7 @@ class AppStoreVersionExperimentV2UpdateRequest_Data_Attributes extends \Cantie\A
 
 }
 
-class AppStoreVersionExperimentV2UpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentV2UpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionExperiments';
 	public $id;
@@ -105,7 +105,7 @@ class AppStoreVersionExperimentV2UpdateRequest_Data extends \Cantie\AppStoreConn
 
 }
 
-class AppStoreVersionExperimentV2UpdateRequest extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentV2UpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersionExperimentV2UpdateRequest_Data::class;
 	protected $dataDataType = 'object';

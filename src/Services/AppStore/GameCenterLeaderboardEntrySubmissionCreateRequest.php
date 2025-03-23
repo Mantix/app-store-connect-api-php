@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterLeaderboardEntrySubmissionCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardEntrySubmissionCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $bundleId;
 	protected $challengeIdsType = '';
@@ -109,7 +109,7 @@ class GameCenterLeaderboardEntrySubmissionCreateRequest_Data_Attributes extends 
 
 }
 
-class GameCenterLeaderboardEntrySubmissionCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardEntrySubmissionCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterLeaderboardEntrySubmissions';
 	protected $attributesType = GameCenterLeaderboardEntrySubmissionCreateRequest_Data_Attributes::class;
@@ -142,7 +142,7 @@ class GameCenterLeaderboardEntrySubmissionCreateRequest_Data extends \Cantie\App
 
 }
 
-class GameCenterLeaderboardEntrySubmissionCreateRequest extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardEntrySubmissionCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterLeaderboardEntrySubmissionCreateRequest_Data::class;
 	protected $dataDataType = 'object';

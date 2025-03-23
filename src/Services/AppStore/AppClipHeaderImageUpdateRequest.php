@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppClipHeaderImageUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppClipHeaderImageUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $sourceFileChecksum;
 	public $uploaded;
@@ -52,7 +52,7 @@ class AppClipHeaderImageUpdateRequest_Data_Attributes extends \Cantie\AppStoreCo
 
 }
 
-class AppClipHeaderImageUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppClipHeaderImageUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipHeaderImages';
 	public $id;
@@ -95,7 +95,7 @@ class AppClipHeaderImageUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppClipHeaderImageUpdateRequest extends \Cantie\AppStoreConnect\Model
+class AppClipHeaderImageUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppClipHeaderImageUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppClipAdvancedExperienceImageResponse extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperienceImageResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppClipAdvancedExperienceImage::class;
 	protected $dataDataType = '';

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppClipAction extends \Cantie\AppStoreConnect\Model
+class AppClipAction extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $OPEN = "OPEN";

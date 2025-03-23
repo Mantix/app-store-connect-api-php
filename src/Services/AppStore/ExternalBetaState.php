@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class ExternalBetaState extends \Cantie\AppStoreConnect\Model
+class ExternalBetaState extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $PROCESSING = "PROCESSING";

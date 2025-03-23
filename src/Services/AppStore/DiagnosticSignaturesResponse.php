@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class DiagnosticSignaturesResponse extends \Cantie\AppStoreConnect\Model
+class DiagnosticSignaturesResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = DiagnosticSignature::class;
 	protected $dataDataType = 'array';

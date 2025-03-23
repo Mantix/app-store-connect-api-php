@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-namespace Cantie\AppStoreConnect\Http;
+namespace Mantix\AppStoreConnect\Http;
 
-use Cantie\AppStoreConnect\Client;
-use Cantie\AppStoreConnect\Http\REST;
-use Cantie\AppStoreConnect\Exception as AppleException;
+use Mantix\AppStoreConnect\Client;
+use Mantix\AppStoreConnect\Http\REST;
+use Mantix\AppStoreConnect\Exception as AppleException;
 use GuzzleHttp\Psr7;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Uri;

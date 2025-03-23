@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CapabilityType extends \Cantie\AppStoreConnect\Model
+class CapabilityType extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $ICLOUD = "ICLOUD";

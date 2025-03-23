@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppStoreVersionState extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionState extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $ACCEPTED = "ACCEPTED";

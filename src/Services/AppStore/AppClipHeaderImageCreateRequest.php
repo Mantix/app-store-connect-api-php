@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppClipHeaderImageCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppClipHeaderImageCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $fileSize;
 	public $fileName;
@@ -52,7 +52,7 @@ class AppClipHeaderImageCreateRequest_Data_Attributes extends \Cantie\AppStoreCo
 
 }
 
-class AppClipHeaderImageCreateRequest_Data_Relationships_AppClipDefaultExperienceLocalization_Data extends \Cantie\AppStoreConnect\Model
+class AppClipHeaderImageCreateRequest_Data_Relationships_AppClipDefaultExperienceLocalization_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipDefaultExperienceLocalizations';
 	public $id;
@@ -78,7 +78,7 @@ class AppClipHeaderImageCreateRequest_Data_Relationships_AppClipDefaultExperienc
 
 }
 
-class AppClipHeaderImageCreateRequest_Data_Relationships_AppClipDefaultExperienceLocalization extends \Cantie\AppStoreConnect\Model
+class AppClipHeaderImageCreateRequest_Data_Relationships_AppClipDefaultExperienceLocalization extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppClipHeaderImageCreateRequest_Data_Relationships_AppClipDefaultExperienceLocalization_Data::class;
 	protected $dataDataType = 'object';
@@ -101,7 +101,7 @@ class AppClipHeaderImageCreateRequest_Data_Relationships_AppClipDefaultExperienc
 
 }
 
-class AppClipHeaderImageCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppClipHeaderImageCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appClipDefaultExperienceLocalizationType = AppClipHeaderImageCreateRequest_Data_Relationships_AppClipDefaultExperienceLocalization::class;
 	protected $appClipDefaultExperienceLocalizationDataType = 'object';
@@ -124,7 +124,7 @@ class AppClipHeaderImageCreateRequest_Data_Relationships extends \Cantie\AppStor
 
 }
 
-class AppClipHeaderImageCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppClipHeaderImageCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipHeaderImages';
 	protected $attributesType = AppClipHeaderImageCreateRequest_Data_Attributes::class;
@@ -174,7 +174,7 @@ class AppClipHeaderImageCreateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppClipHeaderImageCreateRequest extends \Cantie\AppStoreConnect\Model
+class AppClipHeaderImageCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppClipHeaderImageCreateRequest_Data::class;
 	protected $dataDataType = 'object';

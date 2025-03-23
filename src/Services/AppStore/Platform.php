@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class Platform extends \Cantie\AppStoreConnect\Model
+class Platform extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $IOS = "IOS";

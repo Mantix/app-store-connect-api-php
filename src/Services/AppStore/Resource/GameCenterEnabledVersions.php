@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterEnabledVersionCompatibleVersionsLinkagesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterEnabledVersionCompatibleVersionsLinkagesRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterEnabledVersionsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterEnabledVersionCompatibleVersionsLinkagesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterEnabledVersionCompatibleVersionsLinkagesRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterEnabledVersionsResponse;
 
 /**
  * The "gameCenterEnabledVersions" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $gameCenterEnabledVersions = $appStoreService->gameCenterEnabledVersions;
  *  </code>
  */
-class GameCenterEnabledVersions extends \Cantie\AppStoreConnect\Services\Resource
+class GameCenterEnabledVersions extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

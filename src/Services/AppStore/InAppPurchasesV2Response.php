@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class InAppPurchasesV2Response extends \Cantie\AppStoreConnect\Model
+class InAppPurchasesV2Response extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = InAppPurchaseV2::class;
 	protected $dataDataType = 'array';

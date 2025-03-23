@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppPreviewSetResponse extends \Cantie\AppStoreConnect\Model
+class AppPreviewSetResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppPreviewSet::class;
 	protected $dataDataType = '';

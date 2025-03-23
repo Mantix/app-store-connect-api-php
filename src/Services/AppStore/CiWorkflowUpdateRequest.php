@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiWorkflowUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class CiWorkflowUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $description;
@@ -228,7 +228,7 @@ class CiWorkflowUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class CiWorkflowUpdateRequest_Data_Relationships_XcodeVersion_Data extends \Cantie\AppStoreConnect\Model
+class CiWorkflowUpdateRequest_Data_Relationships_XcodeVersion_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'ciXcodeVersions';
 	public $id;
@@ -254,7 +254,7 @@ class CiWorkflowUpdateRequest_Data_Relationships_XcodeVersion_Data extends \Cant
 
 }
 
-class CiWorkflowUpdateRequest_Data_Relationships_XcodeVersion extends \Cantie\AppStoreConnect\Model
+class CiWorkflowUpdateRequest_Data_Relationships_XcodeVersion extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = CiWorkflowUpdateRequest_Data_Relationships_XcodeVersion_Data::class;
 	protected $dataDataType = 'object';
@@ -277,7 +277,7 @@ class CiWorkflowUpdateRequest_Data_Relationships_XcodeVersion extends \Cantie\Ap
 
 }
 
-class CiWorkflowUpdateRequest_Data_Relationships_MacOsVersion_Data extends \Cantie\AppStoreConnect\Model
+class CiWorkflowUpdateRequest_Data_Relationships_MacOsVersion_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'ciMacOsVersions';
 	public $id;
@@ -303,7 +303,7 @@ class CiWorkflowUpdateRequest_Data_Relationships_MacOsVersion_Data extends \Cant
 
 }
 
-class CiWorkflowUpdateRequest_Data_Relationships_MacOsVersion extends \Cantie\AppStoreConnect\Model
+class CiWorkflowUpdateRequest_Data_Relationships_MacOsVersion extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = CiWorkflowUpdateRequest_Data_Relationships_MacOsVersion_Data::class;
 	protected $dataDataType = 'object';
@@ -326,7 +326,7 @@ class CiWorkflowUpdateRequest_Data_Relationships_MacOsVersion extends \Cantie\Ap
 
 }
 
-class CiWorkflowUpdateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class CiWorkflowUpdateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $xcodeVersionType = CiWorkflowUpdateRequest_Data_Relationships_XcodeVersion::class;
 	protected $xcodeVersionDataType = 'object';
@@ -366,7 +366,7 @@ class CiWorkflowUpdateRequest_Data_Relationships extends \Cantie\AppStoreConnect
 
 }
 
-class CiWorkflowUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class CiWorkflowUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'ciWorkflows';
 	public $id;
@@ -426,7 +426,7 @@ class CiWorkflowUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiWorkflowUpdateRequest extends \Cantie\AppStoreConnect\Model
+class CiWorkflowUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = CiWorkflowUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

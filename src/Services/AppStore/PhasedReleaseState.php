@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class PhasedReleaseState extends \Cantie\AppStoreConnect\Model
+class PhasedReleaseState extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $INACTIVE = "INACTIVE";

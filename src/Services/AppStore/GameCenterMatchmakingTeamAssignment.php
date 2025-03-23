@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterMatchmakingTeamAssignment extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingTeamAssignment extends \Mantix\AppStoreConnect\Model
 {
 	public $playerId;
 	public $team;

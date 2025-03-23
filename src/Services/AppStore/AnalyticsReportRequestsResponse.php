@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AnalyticsReportRequestsResponse extends \Cantie\AppStoreConnect\Model
+class AnalyticsReportRequestsResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AnalyticsReportRequest::class;
 	protected $dataDataType = 'array';

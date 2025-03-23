@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AnalyticsReportInstance_Attributes extends \Cantie\AppStoreConnect\Model
+class AnalyticsReportInstance_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $granularity; // DAILY, WEEKLY, MONTHLY
 	public $processingDate;
@@ -52,7 +52,7 @@ class AnalyticsReportInstance_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AnalyticsReportInstance extends \Cantie\AppStoreConnect\Model
+class AnalyticsReportInstance extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'analyticsReportInstances';
 	public $id;

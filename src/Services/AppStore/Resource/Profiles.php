@@ -24,24 +24,24 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\ProfilesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\ProfileResponse;
-use Cantie\AppStoreConnect\Services\AppStore\ProfileCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\BundleIdWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\CertificatesWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\DevicesWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\ProfilesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\ProfileResponse;
+use Mantix\AppStoreConnect\Services\AppStore\ProfileCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\BundleIdWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\CertificatesWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\DevicesWithoutIncludesResponse;
 
 /**
  * The "profiles" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $profiles = $appStoreService->profiles;
  *  </code>
  */
-class Profiles extends \Cantie\AppStoreConnect\Services\Resource
+class Profiles extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

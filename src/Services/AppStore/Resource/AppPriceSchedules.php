@@ -24,22 +24,22 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppPriceScheduleResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppPriceScheduleCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppPricesV2Response;
-use Cantie\AppStoreConnect\Services\AppStore\TerritoryResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppPriceScheduleResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppPriceScheduleCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppPricesV2Response;
+use Mantix\AppStoreConnect\Services\AppStore\TerritoryResponse;
 
 /**
  * The "appPriceSchedules" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appPriceSchedules = $appStoreService->appPriceSchedules;
  *  </code>
  */
-class AppPriceSchedules extends \Cantie\AppStoreConnect\Services\Resource
+class AppPriceSchedules extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

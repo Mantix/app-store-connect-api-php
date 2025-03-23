@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaTesterInvitation extends \Cantie\AppStoreConnect\Model
+class BetaTesterInvitation extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaTesterInvitations';
 	public $id;

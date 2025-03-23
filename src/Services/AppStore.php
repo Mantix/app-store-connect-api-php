@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services;
+namespace Mantix\AppStoreConnect\Services;
 
-class AppStore extends \Cantie\AppStoreConnect\Service
+class AppStore extends \Mantix\AppStoreConnect\Service
 {
 
 	public $actors;

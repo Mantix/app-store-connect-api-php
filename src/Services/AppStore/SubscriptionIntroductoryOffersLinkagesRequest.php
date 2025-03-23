@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionIntroductoryOffersLinkagesRequest_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionIntroductoryOffersLinkagesRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionIntroductoryOffers';
 	public $id;
@@ -52,7 +52,7 @@ class SubscriptionIntroductoryOffersLinkagesRequest_Data extends \Cantie\AppStor
 
 }
 
-class SubscriptionIntroductoryOffersLinkagesRequest extends \Cantie\AppStoreConnect\Model
+class SubscriptionIntroductoryOffersLinkagesRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionIntroductoryOffersLinkagesRequest_Data::class;
 	protected $dataDataType = 'array';

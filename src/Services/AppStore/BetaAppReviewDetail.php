@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaAppReviewDetail_Attributes extends \Cantie\AppStoreConnect\Model
+class BetaAppReviewDetail_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $contactFirstName;
 	public $contactLastName;
@@ -112,7 +112,7 @@ class BetaAppReviewDetail_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BetaAppReviewDetail_Relationships_App_Links extends \Cantie\AppStoreConnect\Model
+class BetaAppReviewDetail_Relationships_App_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -138,7 +138,7 @@ class BetaAppReviewDetail_Relationships_App_Links extends \Cantie\AppStoreConnec
 
 }
 
-class BetaAppReviewDetail_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class BetaAppReviewDetail_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -164,7 +164,7 @@ class BetaAppReviewDetail_Relationships_App_Data extends \Cantie\AppStoreConnect
 
 }
 
-class BetaAppReviewDetail_Relationships_App extends \Cantie\AppStoreConnect\Model
+class BetaAppReviewDetail_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = BetaAppReviewDetail_Relationships_App_Links::class;
 	protected $linksDataType = 'object';
@@ -204,7 +204,7 @@ class BetaAppReviewDetail_Relationships_App extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class BetaAppReviewDetail_Relationships extends \Cantie\AppStoreConnect\Model
+class BetaAppReviewDetail_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = BetaAppReviewDetail_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -227,7 +227,7 @@ class BetaAppReviewDetail_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BetaAppReviewDetail extends \Cantie\AppStoreConnect\Model
+class BetaAppReviewDetail extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaAppReviewDetails';
 	public $id;

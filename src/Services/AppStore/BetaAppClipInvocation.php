@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaAppClipInvocation_Attributes extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocation_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $url;
 
@@ -42,7 +42,7 @@ class BetaAppClipInvocation_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BetaAppClipInvocation_Relationships_BetaAppClipInvocationLocalizations_Links extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocation_Relationships_BetaAppClipInvocationLocalizations_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -68,7 +68,7 @@ class BetaAppClipInvocation_Relationships_BetaAppClipInvocationLocalizations_Lin
 
 }
 
-class BetaAppClipInvocation_Relationships_BetaAppClipInvocationLocalizations_Data extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocation_Relationships_BetaAppClipInvocationLocalizations_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaAppClipInvocationLocalizations';
 	public $id;
@@ -94,7 +94,7 @@ class BetaAppClipInvocation_Relationships_BetaAppClipInvocationLocalizations_Dat
 
 }
 
-class BetaAppClipInvocation_Relationships_BetaAppClipInvocationLocalizations extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocation_Relationships_BetaAppClipInvocationLocalizations extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = BetaAppClipInvocation_Relationships_BetaAppClipInvocationLocalizations_Links::class;
 	protected $linksDataType = 'object';
@@ -151,7 +151,7 @@ class BetaAppClipInvocation_Relationships_BetaAppClipInvocationLocalizations ext
 
 }
 
-class BetaAppClipInvocation_Relationships extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocation_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $betaAppClipInvocationLocalizationsType = BetaAppClipInvocation_Relationships_BetaAppClipInvocationLocalizations::class;
 	protected $betaAppClipInvocationLocalizationsDataType = 'object';
@@ -174,7 +174,7 @@ class BetaAppClipInvocation_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BetaAppClipInvocation extends \Cantie\AppStoreConnect\Model
+class BetaAppClipInvocation extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaAppClipInvocations';
 	public $id;

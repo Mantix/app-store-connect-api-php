@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterAchievementImageUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementImageUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $uploaded;
 
@@ -42,7 +42,7 @@ class GameCenterAchievementImageUpdateRequest_Data_Attributes extends \Cantie\Ap
 
 }
 
-class GameCenterAchievementImageUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementImageUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterAchievementImages';
 	public $id;
@@ -85,7 +85,7 @@ class GameCenterAchievementImageUpdateRequest_Data extends \Cantie\AppStoreConne
 
 }
 
-class GameCenterAchievementImageUpdateRequest extends \Cantie\AppStoreConnect\Model
+class GameCenterAchievementImageUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterAchievementImageUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

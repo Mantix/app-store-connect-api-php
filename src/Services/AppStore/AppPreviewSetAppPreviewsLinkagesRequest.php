@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppPreviewSetAppPreviewsLinkagesRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppPreviewSetAppPreviewsLinkagesRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appPreviews';
 	public $id;
@@ -52,7 +52,7 @@ class AppPreviewSetAppPreviewsLinkagesRequest_Data extends \Cantie\AppStoreConne
 
 }
 
-class AppPreviewSetAppPreviewsLinkagesRequest extends \Cantie\AppStoreConnect\Model
+class AppPreviewSetAppPreviewsLinkagesRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppPreviewSetAppPreviewsLinkagesRequest_Data::class;
 	protected $dataDataType = 'array';

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class InAppPurchaseAppStoreReviewScreenshotCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAppStoreReviewScreenshotCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $fileSize;
 	public $fileName;
@@ -52,7 +52,7 @@ class InAppPurchaseAppStoreReviewScreenshotCreateRequest_Data_Attributes extends
 
 }
 
-class InAppPurchaseAppStoreReviewScreenshotCreateRequest_Data_Relationships_InAppPurchaseV2_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAppStoreReviewScreenshotCreateRequest_Data_Relationships_InAppPurchaseV2_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchases';
 	public $id;
@@ -78,7 +78,7 @@ class InAppPurchaseAppStoreReviewScreenshotCreateRequest_Data_Relationships_InAp
 
 }
 
-class InAppPurchaseAppStoreReviewScreenshotCreateRequest_Data_Relationships_InAppPurchaseV2 extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAppStoreReviewScreenshotCreateRequest_Data_Relationships_InAppPurchaseV2 extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = InAppPurchaseAppStoreReviewScreenshotCreateRequest_Data_Relationships_InAppPurchaseV2_Data::class;
 	protected $dataDataType = 'object';
@@ -101,7 +101,7 @@ class InAppPurchaseAppStoreReviewScreenshotCreateRequest_Data_Relationships_InAp
 
 }
 
-class InAppPurchaseAppStoreReviewScreenshotCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAppStoreReviewScreenshotCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $inAppPurchaseV2Type = InAppPurchaseAppStoreReviewScreenshotCreateRequest_Data_Relationships_InAppPurchaseV2::class;
 	protected $inAppPurchaseV2DataType = 'object';
@@ -124,7 +124,7 @@ class InAppPurchaseAppStoreReviewScreenshotCreateRequest_Data_Relationships exte
 
 }
 
-class InAppPurchaseAppStoreReviewScreenshotCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAppStoreReviewScreenshotCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchaseAppStoreReviewScreenshots';
 	protected $attributesType = InAppPurchaseAppStoreReviewScreenshotCreateRequest_Data_Attributes::class;
@@ -174,7 +174,7 @@ class InAppPurchaseAppStoreReviewScreenshotCreateRequest_Data extends \Cantie\Ap
 
 }
 
-class InAppPurchaseAppStoreReviewScreenshotCreateRequest extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseAppStoreReviewScreenshotCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = InAppPurchaseAppStoreReviewScreenshotCreateRequest_Data::class;
 	protected $dataDataType = 'object';

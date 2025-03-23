@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class PromotedPurchaseCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $visibleForAllUsers;
 	public $enabled;
@@ -52,7 +52,7 @@ class PromotedPurchaseCreateRequest_Data_Attributes extends \Cantie\AppStoreConn
 
 }
 
-class PromotedPurchaseCreateRequest_Data_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseCreateRequest_Data_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -78,7 +78,7 @@ class PromotedPurchaseCreateRequest_Data_Relationships_App_Data extends \Cantie\
 
 }
 
-class PromotedPurchaseCreateRequest_Data_Relationships_App extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseCreateRequest_Data_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = PromotedPurchaseCreateRequest_Data_Relationships_App_Data::class;
 	protected $dataDataType = 'object';
@@ -101,7 +101,7 @@ class PromotedPurchaseCreateRequest_Data_Relationships_App extends \Cantie\AppSt
 
 }
 
-class PromotedPurchaseCreateRequest_Data_Relationships_InAppPurchaseV2_Data extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseCreateRequest_Data_Relationships_InAppPurchaseV2_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchases';
 	public $id;
@@ -127,7 +127,7 @@ class PromotedPurchaseCreateRequest_Data_Relationships_InAppPurchaseV2_Data exte
 
 }
 
-class PromotedPurchaseCreateRequest_Data_Relationships_InAppPurchaseV2 extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseCreateRequest_Data_Relationships_InAppPurchaseV2 extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = PromotedPurchaseCreateRequest_Data_Relationships_InAppPurchaseV2_Data::class;
 	protected $dataDataType = 'object';
@@ -150,7 +150,7 @@ class PromotedPurchaseCreateRequest_Data_Relationships_InAppPurchaseV2 extends \
 
 }
 
-class PromotedPurchaseCreateRequest_Data_Relationships_Subscription_Data extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseCreateRequest_Data_Relationships_Subscription_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptions';
 	public $id;
@@ -176,7 +176,7 @@ class PromotedPurchaseCreateRequest_Data_Relationships_Subscription_Data extends
 
 }
 
-class PromotedPurchaseCreateRequest_Data_Relationships_Subscription extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseCreateRequest_Data_Relationships_Subscription extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = PromotedPurchaseCreateRequest_Data_Relationships_Subscription_Data::class;
 	protected $dataDataType = 'object';
@@ -199,7 +199,7 @@ class PromotedPurchaseCreateRequest_Data_Relationships_Subscription extends \Can
 
 }
 
-class PromotedPurchaseCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = PromotedPurchaseCreateRequest_Data_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -256,7 +256,7 @@ class PromotedPurchaseCreateRequest_Data_Relationships extends \Cantie\AppStoreC
 
 }
 
-class PromotedPurchaseCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'promotedPurchases';
 	protected $attributesType = PromotedPurchaseCreateRequest_Data_Attributes::class;
@@ -306,7 +306,7 @@ class PromotedPurchaseCreateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class PromotedPurchaseCreateRequest extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = PromotedPurchaseCreateRequest_Data::class;
 	protected $dataDataType = 'object';

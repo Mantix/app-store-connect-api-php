@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class Property extends \Cantie\AppStoreConnect\Model
+class Property extends \Mantix\AppStoreConnect\Model
 {
 	public $key;
 	public $value;

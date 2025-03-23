@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\ScmProvidersResponse;
-use Cantie\AppStoreConnect\Services\AppStore\ScmProviderResponse;
-use Cantie\AppStoreConnect\Services\AppStore\ScmRepositoriesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\ScmProvidersResponse;
+use Mantix\AppStoreConnect\Services\AppStore\ScmProviderResponse;
+use Mantix\AppStoreConnect\Services\AppStore\ScmRepositoriesResponse;
 
 /**
  * The "scmProviders" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $scmProviders = $appStoreService->scmProviders;
  *  </code>
  */
-class ScmProviders extends \Cantie\AppStoreConnect\Services\Resource
+class ScmProviders extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppClipAdvancedExperienceImageCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperienceImageCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $fileSize;
 	public $fileName;
@@ -52,7 +52,7 @@ class AppClipAdvancedExperienceImageCreateRequest_Data_Attributes extends \Canti
 
 }
 
-class AppClipAdvancedExperienceImageCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperienceImageCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipAdvancedExperienceImages';
 	protected $attributesType = AppClipAdvancedExperienceImageCreateRequest_Data_Attributes::class;
@@ -85,7 +85,7 @@ class AppClipAdvancedExperienceImageCreateRequest_Data extends \Cantie\AppStoreC
 
 }
 
-class AppClipAdvancedExperienceImageCreateRequest extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperienceImageCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppClipAdvancedExperienceImageCreateRequest_Data::class;
 	protected $dataDataType = 'object';

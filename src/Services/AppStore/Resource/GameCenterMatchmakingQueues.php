@@ -24,25 +24,25 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterMatchmakingQueuesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterMatchmakingQueueResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterMatchmakingQueueCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterMatchmakingQueueUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterMatchmakingQueueSizesV1MetricResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterMatchmakingQueueRequestsV1MetricResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterMatchmakingSessionsV1MetricResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterMatchmakingQueuesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterMatchmakingQueueResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterMatchmakingQueueCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterMatchmakingQueueUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterMatchmakingQueueSizesV1MetricResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterMatchmakingQueueRequestsV1MetricResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterMatchmakingSessionsV1MetricResponse;
 
 /**
  * The "gameCenterMatchmakingQueues" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $gameCenterMatchmakingQueues = $appStoreService->gameCenterMatchmakingQueues;
  *  </code>
  */
-class GameCenterMatchmakingQueues extends \Cantie\AppStoreConnect\Services\Resource
+class GameCenterMatchmakingQueues extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardImageResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardImageCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardImageUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardImageResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardImageCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardImageUpdateRequest;
 
 /**
  * The "gameCenterLeaderboardImages" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $gameCenterLeaderboardImages = $appStoreService->gameCenterLeaderboardImages;
  *  </code>
  */
-class GameCenterLeaderboardImages extends \Cantie\AppStoreConnect\Services\Resource
+class GameCenterLeaderboardImages extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppClipDefaultExperienceLocalization_Attributes extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceLocalization_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $locale;
 	public $subtitle;
@@ -52,7 +52,7 @@ class AppClipDefaultExperienceLocalization_Attributes extends \Cantie\AppStoreCo
 
 }
 
-class AppClipDefaultExperienceLocalization_Relationships_AppClipDefaultExperience_Links extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceLocalization_Relationships_AppClipDefaultExperience_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -78,7 +78,7 @@ class AppClipDefaultExperienceLocalization_Relationships_AppClipDefaultExperienc
 
 }
 
-class AppClipDefaultExperienceLocalization_Relationships_AppClipDefaultExperience_Data extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceLocalization_Relationships_AppClipDefaultExperience_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipDefaultExperiences';
 	public $id;
@@ -104,7 +104,7 @@ class AppClipDefaultExperienceLocalization_Relationships_AppClipDefaultExperienc
 
 }
 
-class AppClipDefaultExperienceLocalization_Relationships_AppClipDefaultExperience extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceLocalization_Relationships_AppClipDefaultExperience extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppClipDefaultExperienceLocalization_Relationships_AppClipDefaultExperience_Links::class;
 	protected $linksDataType = 'object';
@@ -144,7 +144,7 @@ class AppClipDefaultExperienceLocalization_Relationships_AppClipDefaultExperienc
 
 }
 
-class AppClipDefaultExperienceLocalization_Relationships_AppClipHeaderImage_Links extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceLocalization_Relationships_AppClipHeaderImage_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -170,7 +170,7 @@ class AppClipDefaultExperienceLocalization_Relationships_AppClipHeaderImage_Link
 
 }
 
-class AppClipDefaultExperienceLocalization_Relationships_AppClipHeaderImage_Data extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceLocalization_Relationships_AppClipHeaderImage_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipHeaderImages';
 	public $id;
@@ -196,7 +196,7 @@ class AppClipDefaultExperienceLocalization_Relationships_AppClipHeaderImage_Data
 
 }
 
-class AppClipDefaultExperienceLocalization_Relationships_AppClipHeaderImage extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceLocalization_Relationships_AppClipHeaderImage extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppClipDefaultExperienceLocalization_Relationships_AppClipHeaderImage_Links::class;
 	protected $linksDataType = 'object';
@@ -236,7 +236,7 @@ class AppClipDefaultExperienceLocalization_Relationships_AppClipHeaderImage exte
 
 }
 
-class AppClipDefaultExperienceLocalization_Relationships extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceLocalization_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appClipDefaultExperienceType = AppClipDefaultExperienceLocalization_Relationships_AppClipDefaultExperience::class;
 	protected $appClipDefaultExperienceDataType = 'object';
@@ -276,7 +276,7 @@ class AppClipDefaultExperienceLocalization_Relationships extends \Cantie\AppStor
 
 }
 
-class AppClipDefaultExperienceLocalization extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceLocalization extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipDefaultExperienceLocalizations';
 	public $id;

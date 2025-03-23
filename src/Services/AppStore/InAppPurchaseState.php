@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class InAppPurchaseState extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseState extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $MISSING_METADATA = "MISSING_METADATA";

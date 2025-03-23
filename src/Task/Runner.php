@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-namespace Cantie\AppStoreConnect\Task;
+namespace Mantix\AppStoreConnect\Task;
 
-use Cantie\AppStoreConnect\Services\Exception as AppleServiceException;
-use Cantie\AppStoreConnect\Task\Exception as AppleTaskException;
+use Mantix\AppStoreConnect\Services\Exception as AppleServiceException;
+use Mantix\AppStoreConnect\Task\Exception as AppleTaskException;
 
 /**
  * A task runner with exponential backoff support.
@@ -91,7 +91,7 @@ class Runner
    * @param string $name The name of the current task (used for logging)
    * @param callable $action The task to run and possibly retry
    * @param array $arguments The task arguments
-   * @throws \Cantie\AppStoreConnect\Task\Exception when misconfigured
+   * @throws \Mantix\AppStoreConnect\Task\Exception when misconfigured
    */
   public function __construct(
       $config,
@@ -172,7 +172,7 @@ class Runner
    * Runs the task and (if applicable) automatically retries when errors occur.
    *
    * @return mixed
-   * @throws \Cantie\AppStoreConnect\Services\Exception on failure when no retries are available.
+   * @throws \Mantix\AppStoreConnect\Services\Exception on failure when no retries are available.
    */
   public function run()
   {

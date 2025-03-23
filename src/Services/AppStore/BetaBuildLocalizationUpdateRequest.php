@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaBuildLocalizationUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class BetaBuildLocalizationUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $whatsNew;
 
@@ -42,7 +42,7 @@ class BetaBuildLocalizationUpdateRequest_Data_Attributes extends \Cantie\AppStor
 
 }
 
-class BetaBuildLocalizationUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class BetaBuildLocalizationUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaBuildLocalizations';
 	public $id;
@@ -85,7 +85,7 @@ class BetaBuildLocalizationUpdateRequest_Data extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class BetaBuildLocalizationUpdateRequest extends \Cantie\AppStoreConnect\Model
+class BetaBuildLocalizationUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BetaBuildLocalizationUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

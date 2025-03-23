@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppPricePointV3Response extends \Cantie\AppStoreConnect\Model
+class AppPricePointV3Response extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppPricePointV3::class;
 	protected $dataDataType = '';

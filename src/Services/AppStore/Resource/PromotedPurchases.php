@@ -24,22 +24,22 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\PromotedPurchaseResponse;
-use Cantie\AppStoreConnect\Services\AppStore\PromotedPurchaseCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\PromotedPurchaseUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\PromotedPurchaseImagesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\PromotedPurchaseResponse;
+use Mantix\AppStoreConnect\Services\AppStore\PromotedPurchaseCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\PromotedPurchaseUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\PromotedPurchaseImagesResponse;
 
 /**
  * The "promotedPurchases" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $promotedPurchases = $appStoreService->promotedPurchases;
  *  </code>
  */
-class PromotedPurchases extends \Cantie\AppStoreConnect\Services\Resource
+class PromotedPurchases extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

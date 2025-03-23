@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class ProfilesWithoutIncludesResponse extends \Cantie\AppStoreConnect\Model
+class ProfilesWithoutIncludesResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BundleId::class;
 	protected $dataDataType = 'array';

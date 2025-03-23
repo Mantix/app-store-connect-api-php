@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppClipAdvancedExperienceImageUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperienceImageUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $sourceFileChecksum;
 	public $uploaded;
@@ -52,7 +52,7 @@ class AppClipAdvancedExperienceImageUpdateRequest_Data_Attributes extends \Canti
 
 }
 
-class AppClipAdvancedExperienceImageUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperienceImageUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipAdvancedExperienceImages';
 	public $id;
@@ -95,7 +95,7 @@ class AppClipAdvancedExperienceImageUpdateRequest_Data extends \Cantie\AppStoreC
 
 }
 
-class AppClipAdvancedExperienceImageUpdateRequest extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperienceImageUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppClipAdvancedExperienceImageUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

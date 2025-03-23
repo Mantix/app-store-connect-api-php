@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterMatchmakingTeam_Attributes extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingTeam_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $referenceName;
 	public $minPlayers;
@@ -62,7 +62,7 @@ class GameCenterMatchmakingTeam_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class GameCenterMatchmakingTeam extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingTeam extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterMatchmakingTeams';
 	public $id;

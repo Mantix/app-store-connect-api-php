@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-namespace Cantie\AppStoreConnect;
+namespace Mantix\AppStoreConnect;
 
-use Cantie\AppStoreConnect\Http\Batch;
+use Mantix\AppStoreConnect\Http\Batch;
 use TypeError;
 
 class Service

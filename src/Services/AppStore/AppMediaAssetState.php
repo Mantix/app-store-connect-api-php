@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppMediaAssetState extends \Cantie\AppStoreConnect\Model
+class AppMediaAssetState extends \Mantix\AppStoreConnect\Model
 {
 	protected $errorsType = AppMediaStateError::class;
 	protected $errorsDataType = 'array';

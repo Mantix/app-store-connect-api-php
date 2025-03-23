@@ -24,20 +24,20 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionSubmissionResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionSubmissionCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionSubmissionResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionSubmissionCreateRequest;
 
 /**
  * The "appStoreVersionSubmissions" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appStoreVersionSubmissions = $appStoreService->appStoreVersionSubmissions;
  *  </code>
  */
-class AppStoreVersionSubmissions extends \Cantie\AppStoreConnect\Services\Resource
+class AppStoreVersionSubmissions extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

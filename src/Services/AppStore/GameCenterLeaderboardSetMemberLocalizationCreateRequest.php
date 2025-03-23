@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $locale;
@@ -52,7 +52,7 @@ class GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data_Attributes ex
 
 }
 
-class GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data_Relationships_GameCenterLeaderboardSet_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data_Relationships_GameCenterLeaderboardSet_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterLeaderboardSets';
 	public $id;
@@ -78,7 +78,7 @@ class GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data_Relationships
 
 }
 
-class GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data_Relationships_GameCenterLeaderboardSet extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data_Relationships_GameCenterLeaderboardSet extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data_Relationships_GameCenterLeaderboardSet_Data::class;
 	protected $dataDataType = 'object';
@@ -101,7 +101,7 @@ class GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data_Relationships
 
 }
 
-class GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data_Relationships_GameCenterLeaderboard_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data_Relationships_GameCenterLeaderboard_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterLeaderboards';
 	public $id;
@@ -127,7 +127,7 @@ class GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data_Relationships
 
 }
 
-class GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data_Relationships_GameCenterLeaderboard extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data_Relationships_GameCenterLeaderboard extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data_Relationships_GameCenterLeaderboard_Data::class;
 	protected $dataDataType = 'object';
@@ -150,7 +150,7 @@ class GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data_Relationships
 
 }
 
-class GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $gameCenterLeaderboardSetType = GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data_Relationships_GameCenterLeaderboardSet::class;
 	protected $gameCenterLeaderboardSetDataType = 'object';
@@ -190,7 +190,7 @@ class GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data_Relationships
 
 }
 
-class GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterLeaderboardSetMemberLocalizations';
 	protected $attributesType = GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data_Attributes::class;
@@ -240,7 +240,7 @@ class GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data extends \Cant
 
 }
 
-class GameCenterLeaderboardSetMemberLocalizationCreateRequest extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardSetMemberLocalizationCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterLeaderboardSetMemberLocalizationCreateRequest_Data::class;
 	protected $dataDataType = 'object';

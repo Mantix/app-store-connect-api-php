@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class User_Attributes extends \Cantie\AppStoreConnect\Model
+class User_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $username;
 	public $firstName;
@@ -98,7 +98,7 @@ class User_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class User_Relationships_VisibleApps_Links extends \Cantie\AppStoreConnect\Model
+class User_Relationships_VisibleApps_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -124,7 +124,7 @@ class User_Relationships_VisibleApps_Links extends \Cantie\AppStoreConnect\Model
 
 }
 
-class User_Relationships_VisibleApps_Data extends \Cantie\AppStoreConnect\Model
+class User_Relationships_VisibleApps_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -150,7 +150,7 @@ class User_Relationships_VisibleApps_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class User_Relationships_VisibleApps extends \Cantie\AppStoreConnect\Model
+class User_Relationships_VisibleApps extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = User_Relationships_VisibleApps_Links::class;
 	protected $linksDataType = 'object';
@@ -207,7 +207,7 @@ class User_Relationships_VisibleApps extends \Cantie\AppStoreConnect\Model
 
 }
 
-class User_Relationships extends \Cantie\AppStoreConnect\Model
+class User_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $visibleAppsType = User_Relationships_VisibleApps::class;
 	protected $visibleAppsDataType = 'object';
@@ -230,7 +230,7 @@ class User_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class User extends \Cantie\AppStoreConnect\Model
+class User extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'users';
 	public $id;

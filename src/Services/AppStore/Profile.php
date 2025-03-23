@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class Profile_Attributes extends \Cantie\AppStoreConnect\Model
+class Profile_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $platform; // 
@@ -118,7 +118,7 @@ class Profile_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Profile_Relationships_BundleId_Links extends \Cantie\AppStoreConnect\Model
+class Profile_Relationships_BundleId_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -144,7 +144,7 @@ class Profile_Relationships_BundleId_Links extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Profile_Relationships_BundleId_Data extends \Cantie\AppStoreConnect\Model
+class Profile_Relationships_BundleId_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'bundleIds';
 	public $id;
@@ -170,7 +170,7 @@ class Profile_Relationships_BundleId_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Profile_Relationships_BundleId extends \Cantie\AppStoreConnect\Model
+class Profile_Relationships_BundleId extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = Profile_Relationships_BundleId_Links::class;
 	protected $linksDataType = 'object';
@@ -210,7 +210,7 @@ class Profile_Relationships_BundleId extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Profile_Relationships_Devices_Links extends \Cantie\AppStoreConnect\Model
+class Profile_Relationships_Devices_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -236,7 +236,7 @@ class Profile_Relationships_Devices_Links extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Profile_Relationships_Devices_Data extends \Cantie\AppStoreConnect\Model
+class Profile_Relationships_Devices_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'devices';
 	public $id;
@@ -262,7 +262,7 @@ class Profile_Relationships_Devices_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Profile_Relationships_Devices extends \Cantie\AppStoreConnect\Model
+class Profile_Relationships_Devices extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = Profile_Relationships_Devices_Links::class;
 	protected $linksDataType = 'object';
@@ -319,7 +319,7 @@ class Profile_Relationships_Devices extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Profile_Relationships_Certificates_Links extends \Cantie\AppStoreConnect\Model
+class Profile_Relationships_Certificates_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -345,7 +345,7 @@ class Profile_Relationships_Certificates_Links extends \Cantie\AppStoreConnect\M
 
 }
 
-class Profile_Relationships_Certificates_Data extends \Cantie\AppStoreConnect\Model
+class Profile_Relationships_Certificates_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'certificates';
 	public $id;
@@ -371,7 +371,7 @@ class Profile_Relationships_Certificates_Data extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class Profile_Relationships_Certificates extends \Cantie\AppStoreConnect\Model
+class Profile_Relationships_Certificates extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = Profile_Relationships_Certificates_Links::class;
 	protected $linksDataType = 'object';
@@ -428,7 +428,7 @@ class Profile_Relationships_Certificates extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Profile_Relationships extends \Cantie\AppStoreConnect\Model
+class Profile_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $bundleIdType = Profile_Relationships_BundleId::class;
 	protected $bundleIdDataType = 'object';
@@ -485,7 +485,7 @@ class Profile_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Profile extends \Cantie\AppStoreConnect\Model
+class Profile extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'profiles';
 	public $id;

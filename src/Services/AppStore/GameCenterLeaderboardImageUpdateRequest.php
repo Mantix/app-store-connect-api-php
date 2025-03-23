@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterLeaderboardImageUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardImageUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $uploaded;
 
@@ -42,7 +42,7 @@ class GameCenterLeaderboardImageUpdateRequest_Data_Attributes extends \Cantie\Ap
 
 }
 
-class GameCenterLeaderboardImageUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardImageUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterLeaderboardImages';
 	public $id;
@@ -85,7 +85,7 @@ class GameCenterLeaderboardImageUpdateRequest_Data extends \Cantie\AppStoreConne
 
 }
 
-class GameCenterLeaderboardImageUpdateRequest extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardImageUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterLeaderboardImageUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

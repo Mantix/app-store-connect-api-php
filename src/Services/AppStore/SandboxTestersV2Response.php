@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SandboxTestersV2Response extends \Cantie\AppStoreConnect\Model
+class SandboxTestersV2Response extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SandboxTesterV2::class;
 	protected $dataDataType = 'array';

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiFilesAndFoldersRule extends \Cantie\AppStoreConnect\Model
+class CiFilesAndFoldersRule extends \Mantix\AppStoreConnect\Model
 {
 	public $mode; // START_IF_ANY_FILE_MATCHES, DO_NOT_START_IF_ALL_FILES_MATCH
 	protected $matchersType = CiStartConditionFileMatcher::class;

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class MarketplaceSearchDetailUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class MarketplaceSearchDetailUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $catalogUrl;
 
@@ -42,7 +42,7 @@ class MarketplaceSearchDetailUpdateRequest_Data_Attributes extends \Cantie\AppSt
 
 }
 
-class MarketplaceSearchDetailUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class MarketplaceSearchDetailUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'marketplaceSearchDetails';
 	public $id;
@@ -85,7 +85,7 @@ class MarketplaceSearchDetailUpdateRequest_Data extends \Cantie\AppStoreConnect\
 
 }
 
-class MarketplaceSearchDetailUpdateRequest extends \Cantie\AppStoreConnect\Model
+class MarketplaceSearchDetailUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = MarketplaceSearchDetailUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

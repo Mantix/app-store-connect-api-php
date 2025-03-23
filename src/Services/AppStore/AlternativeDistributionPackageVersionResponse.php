@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AlternativeDistributionPackageVersionResponse extends \Cantie\AppStoreConnect\Model
+class AlternativeDistributionPackageVersionResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AlternativeDistributionPackageVersion::class;
 	protected $dataDataType = '';

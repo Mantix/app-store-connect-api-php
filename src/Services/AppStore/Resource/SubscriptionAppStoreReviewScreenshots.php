@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionAppStoreReviewScreenshotResponse;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionAppStoreReviewScreenshotCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionAppStoreReviewScreenshotUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionAppStoreReviewScreenshotResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionAppStoreReviewScreenshotCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionAppStoreReviewScreenshotUpdateRequest;
 
 /**
  * The "subscriptionAppStoreReviewScreenshots" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $subscriptionAppStoreReviewScreenshots = $appStoreService->subscriptionAppStoreReviewScreenshots;
  *  </code>
  */
-class SubscriptionAppStoreReviewScreenshots extends \Cantie\AppStoreConnect\Services\Resource
+class SubscriptionAppStoreReviewScreenshots extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

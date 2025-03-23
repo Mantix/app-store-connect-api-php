@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterAppVersionCompatibilityVersionsLinkagesRequest_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterAppVersionCompatibilityVersionsLinkagesRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterAppVersions';
 	public $id;
@@ -52,7 +52,7 @@ class GameCenterAppVersionCompatibilityVersionsLinkagesRequest_Data extends \Can
 
 }
 
-class GameCenterAppVersionCompatibilityVersionsLinkagesRequest extends \Cantie\AppStoreConnect\Model
+class GameCenterAppVersionCompatibilityVersionsLinkagesRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterAppVersionCompatibilityVersionsLinkagesRequest_Data::class;
 	protected $dataDataType = 'array';

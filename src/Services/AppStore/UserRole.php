@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class UserRole extends \Cantie\AppStoreConnect\Model
+class UserRole extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $ADMIN = "ADMIN";

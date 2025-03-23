@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppPriceTier_Relationships_PricePoints_Links extends \Cantie\AppStoreConnect\Model
+class AppPriceTier_Relationships_PricePoints_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -52,7 +52,7 @@ class AppPriceTier_Relationships_PricePoints_Links extends \Cantie\AppStoreConne
 
 }
 
-class AppPriceTier_Relationships_PricePoints_Data extends \Cantie\AppStoreConnect\Model
+class AppPriceTier_Relationships_PricePoints_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appPricePoints';
 	public $id;
@@ -78,7 +78,7 @@ class AppPriceTier_Relationships_PricePoints_Data extends \Cantie\AppStoreConnec
 
 }
 
-class AppPriceTier_Relationships_PricePoints extends \Cantie\AppStoreConnect\Model
+class AppPriceTier_Relationships_PricePoints extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppPriceTier_Relationships_PricePoints_Links::class;
 	protected $linksDataType = 'object';
@@ -135,7 +135,7 @@ class AppPriceTier_Relationships_PricePoints extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class AppPriceTier_Relationships extends \Cantie\AppStoreConnect\Model
+class AppPriceTier_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $pricePointsType = AppPriceTier_Relationships_PricePoints::class;
 	protected $pricePointsDataType = 'object';
@@ -158,7 +158,7 @@ class AppPriceTier_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPriceTier extends \Cantie\AppStoreConnect\Model
+class AppPriceTier extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appPriceTiers';
 	public $id;

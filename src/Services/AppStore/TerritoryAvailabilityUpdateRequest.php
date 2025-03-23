@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class TerritoryAvailabilityUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class TerritoryAvailabilityUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $available;
 	public $releaseDate;
@@ -62,7 +62,7 @@ class TerritoryAvailabilityUpdateRequest_Data_Attributes extends \Cantie\AppStor
 
 }
 
-class TerritoryAvailabilityUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class TerritoryAvailabilityUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'territoryAvailabilities';
 	public $id;
@@ -105,7 +105,7 @@ class TerritoryAvailabilityUpdateRequest_Data extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class TerritoryAvailabilityUpdateRequest extends \Cantie\AppStoreConnect\Model
+class TerritoryAvailabilityUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = TerritoryAvailabilityUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

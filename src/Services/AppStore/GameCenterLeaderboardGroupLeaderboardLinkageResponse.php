@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterLeaderboardGroupLeaderboardLinkageResponse_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardGroupLeaderboardLinkageResponse_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterLeaderboards';
 	public $id;
@@ -52,7 +52,7 @@ class GameCenterLeaderboardGroupLeaderboardLinkageResponse_Data extends \Cantie\
 
 }
 
-class GameCenterLeaderboardGroupLeaderboardLinkageResponse extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardGroupLeaderboardLinkageResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterLeaderboardGroupLeaderboardLinkageResponse_Data::class;
 	protected $dataDataType = 'object';

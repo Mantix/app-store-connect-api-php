@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class UserInvitation_Attributes extends \Cantie\AppStoreConnect\Model
+class UserInvitation_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $email;
 	public $firstName;
@@ -108,7 +108,7 @@ class UserInvitation_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class UserInvitation_Relationships_VisibleApps_Links extends \Cantie\AppStoreConnect\Model
+class UserInvitation_Relationships_VisibleApps_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -134,7 +134,7 @@ class UserInvitation_Relationships_VisibleApps_Links extends \Cantie\AppStoreCon
 
 }
 
-class UserInvitation_Relationships_VisibleApps_Data extends \Cantie\AppStoreConnect\Model
+class UserInvitation_Relationships_VisibleApps_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -160,7 +160,7 @@ class UserInvitation_Relationships_VisibleApps_Data extends \Cantie\AppStoreConn
 
 }
 
-class UserInvitation_Relationships_VisibleApps extends \Cantie\AppStoreConnect\Model
+class UserInvitation_Relationships_VisibleApps extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = UserInvitation_Relationships_VisibleApps_Links::class;
 	protected $linksDataType = 'object';
@@ -217,7 +217,7 @@ class UserInvitation_Relationships_VisibleApps extends \Cantie\AppStoreConnect\M
 
 }
 
-class UserInvitation_Relationships extends \Cantie\AppStoreConnect\Model
+class UserInvitation_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $visibleAppsType = UserInvitation_Relationships_VisibleApps::class;
 	protected $visibleAppsDataType = 'object';
@@ -240,7 +240,7 @@ class UserInvitation_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class UserInvitation extends \Cantie\AppStoreConnect\Model
+class UserInvitation extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'userInvitations';
 	public $id;

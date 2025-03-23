@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class ScmGitReference_Attributes extends \Cantie\AppStoreConnect\Model
+class ScmGitReference_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $canonicalName;
@@ -78,7 +78,7 @@ class ScmGitReference_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class ScmGitReference_Relationships_Repository_Links extends \Cantie\AppStoreConnect\Model
+class ScmGitReference_Relationships_Repository_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -104,7 +104,7 @@ class ScmGitReference_Relationships_Repository_Links extends \Cantie\AppStoreCon
 
 }
 
-class ScmGitReference_Relationships_Repository_Data extends \Cantie\AppStoreConnect\Model
+class ScmGitReference_Relationships_Repository_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'scmRepositories';
 	public $id;
@@ -130,7 +130,7 @@ class ScmGitReference_Relationships_Repository_Data extends \Cantie\AppStoreConn
 
 }
 
-class ScmGitReference_Relationships_Repository extends \Cantie\AppStoreConnect\Model
+class ScmGitReference_Relationships_Repository extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = ScmGitReference_Relationships_Repository_Links::class;
 	protected $linksDataType = 'object';
@@ -170,7 +170,7 @@ class ScmGitReference_Relationships_Repository extends \Cantie\AppStoreConnect\M
 
 }
 
-class ScmGitReference_Relationships extends \Cantie\AppStoreConnect\Model
+class ScmGitReference_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $repositoryType = ScmGitReference_Relationships_Repository::class;
 	protected $repositoryDataType = 'object';
@@ -193,7 +193,7 @@ class ScmGitReference_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class ScmGitReference extends \Cantie\AppStoreConnect\Model
+class ScmGitReference extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'scmGitReferences';
 	public $id;

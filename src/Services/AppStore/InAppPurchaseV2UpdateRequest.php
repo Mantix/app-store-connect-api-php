@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class InAppPurchaseV2UpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2UpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $reviewNote;
@@ -62,7 +62,7 @@ class InAppPurchaseV2UpdateRequest_Data_Attributes extends \Cantie\AppStoreConne
 
 }
 
-class InAppPurchaseV2UpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2UpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchases';
 	public $id;
@@ -105,7 +105,7 @@ class InAppPurchaseV2UpdateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class InAppPurchaseV2UpdateRequest extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseV2UpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = InAppPurchaseV2UpdateRequest_Data::class;
 	protected $dataDataType = 'object';

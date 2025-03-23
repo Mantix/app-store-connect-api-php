@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterLeaderboardLocalization_Attributes extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardLocalization_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $locale;
 	public $name;
@@ -88,7 +88,7 @@ class GameCenterLeaderboardLocalization_Attributes extends \Cantie\AppStoreConne
 
 }
 
-class GameCenterLeaderboardLocalization_Relationships_GameCenterLeaderboard_Links extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardLocalization_Relationships_GameCenterLeaderboard_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -114,7 +114,7 @@ class GameCenterLeaderboardLocalization_Relationships_GameCenterLeaderboard_Link
 
 }
 
-class GameCenterLeaderboardLocalization_Relationships_GameCenterLeaderboard_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardLocalization_Relationships_GameCenterLeaderboard_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterLeaderboards';
 	public $id;
@@ -140,7 +140,7 @@ class GameCenterLeaderboardLocalization_Relationships_GameCenterLeaderboard_Data
 
 }
 
-class GameCenterLeaderboardLocalization_Relationships_GameCenterLeaderboard extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardLocalization_Relationships_GameCenterLeaderboard extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = GameCenterLeaderboardLocalization_Relationships_GameCenterLeaderboard_Links::class;
 	protected $linksDataType = 'object';
@@ -180,7 +180,7 @@ class GameCenterLeaderboardLocalization_Relationships_GameCenterLeaderboard exte
 
 }
 
-class GameCenterLeaderboardLocalization_Relationships_GameCenterLeaderboardImage_Links extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardLocalization_Relationships_GameCenterLeaderboardImage_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -206,7 +206,7 @@ class GameCenterLeaderboardLocalization_Relationships_GameCenterLeaderboardImage
 
 }
 
-class GameCenterLeaderboardLocalization_Relationships_GameCenterLeaderboardImage_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardLocalization_Relationships_GameCenterLeaderboardImage_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterLeaderboardImages';
 	public $id;
@@ -232,7 +232,7 @@ class GameCenterLeaderboardLocalization_Relationships_GameCenterLeaderboardImage
 
 }
 
-class GameCenterLeaderboardLocalization_Relationships_GameCenterLeaderboardImage extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardLocalization_Relationships_GameCenterLeaderboardImage extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = GameCenterLeaderboardLocalization_Relationships_GameCenterLeaderboardImage_Links::class;
 	protected $linksDataType = 'object';
@@ -272,7 +272,7 @@ class GameCenterLeaderboardLocalization_Relationships_GameCenterLeaderboardImage
 
 }
 
-class GameCenterLeaderboardLocalization_Relationships extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardLocalization_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $gameCenterLeaderboardType = GameCenterLeaderboardLocalization_Relationships_GameCenterLeaderboard::class;
 	protected $gameCenterLeaderboardDataType = 'object';
@@ -312,7 +312,7 @@ class GameCenterLeaderboardLocalization_Relationships extends \Cantie\AppStoreCo
 
 }
 
-class GameCenterLeaderboardLocalization extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardLocalization extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterLeaderboardLocalizations';
 	public $id;

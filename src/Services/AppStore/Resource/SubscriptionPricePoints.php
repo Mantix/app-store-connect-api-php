@@ -24,20 +24,20 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionPricePointResponse;
-use Cantie\AppStoreConnect\Services\AppStore\csv;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionPricePointResponse;
+use Mantix\AppStoreConnect\Services\AppStore\csv;
 
 /**
  * The "subscriptionPricePoints" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $subscriptionPricePoints = $appStoreService->subscriptionPricePoints;
  *  </code>
  */
-class SubscriptionPricePoints extends \Cantie\AppStoreConnect\Services\Resource
+class SubscriptionPricePoints extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

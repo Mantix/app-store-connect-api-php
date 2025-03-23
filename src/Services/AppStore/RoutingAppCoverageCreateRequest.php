@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class RoutingAppCoverageCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class RoutingAppCoverageCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $fileSize;
 	public $fileName;
@@ -52,7 +52,7 @@ class RoutingAppCoverageCreateRequest_Data_Attributes extends \Cantie\AppStoreCo
 
 }
 
-class RoutingAppCoverageCreateRequest_Data_Relationships_AppStoreVersion_Data extends \Cantie\AppStoreConnect\Model
+class RoutingAppCoverageCreateRequest_Data_Relationships_AppStoreVersion_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersions';
 	public $id;
@@ -78,7 +78,7 @@ class RoutingAppCoverageCreateRequest_Data_Relationships_AppStoreVersion_Data ex
 
 }
 
-class RoutingAppCoverageCreateRequest_Data_Relationships_AppStoreVersion extends \Cantie\AppStoreConnect\Model
+class RoutingAppCoverageCreateRequest_Data_Relationships_AppStoreVersion extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = RoutingAppCoverageCreateRequest_Data_Relationships_AppStoreVersion_Data::class;
 	protected $dataDataType = 'object';
@@ -101,7 +101,7 @@ class RoutingAppCoverageCreateRequest_Data_Relationships_AppStoreVersion extends
 
 }
 
-class RoutingAppCoverageCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class RoutingAppCoverageCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appStoreVersionType = RoutingAppCoverageCreateRequest_Data_Relationships_AppStoreVersion::class;
 	protected $appStoreVersionDataType = 'object';
@@ -124,7 +124,7 @@ class RoutingAppCoverageCreateRequest_Data_Relationships extends \Cantie\AppStor
 
 }
 
-class RoutingAppCoverageCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class RoutingAppCoverageCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'routingAppCoverages';
 	protected $attributesType = RoutingAppCoverageCreateRequest_Data_Attributes::class;
@@ -174,7 +174,7 @@ class RoutingAppCoverageCreateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class RoutingAppCoverageCreateRequest extends \Cantie\AppStoreConnect\Model
+class RoutingAppCoverageCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = RoutingAppCoverageCreateRequest_Data::class;
 	protected $dataDataType = 'object';

@@ -26,7 +26,7 @@
 
 include_once __DIR__ . '/../vendor/autoload.php';
 include_once "templates/base.php";
-use Cantie\AppStoreConnect\Services\AppStore\AppScreenshotSetCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppScreenshotSetCreateRequest;
 
 echo pageHeader("Create App Screenshot Sets");
 if (!$apiKeyPath = getData('api_key_path')) {

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class ReviewSubmissionItemUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class ReviewSubmissionItemUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $resolved;
 	public $removed;
@@ -52,7 +52,7 @@ class ReviewSubmissionItemUpdateRequest_Data_Attributes extends \Cantie\AppStore
 
 }
 
-class ReviewSubmissionItemUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class ReviewSubmissionItemUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'reviewSubmissionItems';
 	public $id;
@@ -95,7 +95,7 @@ class ReviewSubmissionItemUpdateRequest_Data extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class ReviewSubmissionItemUpdateRequest extends \Cantie\AppStoreConnect\Model
+class ReviewSubmissionItemUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = ReviewSubmissionItemUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

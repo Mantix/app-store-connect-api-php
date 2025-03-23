@@ -24,22 +24,22 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\PreReleaseVersionsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\PrereleaseVersionResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppWithoutIncludesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BuildsWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\PreReleaseVersionsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\PrereleaseVersionResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BuildsWithoutIncludesResponse;
 
 /**
  * The "preReleaseVersions" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $preReleaseVersions = $appStoreService->preReleaseVersions;
  *  </code>
  */
-class PreReleaseVersions extends \Cantie\AppStoreConnect\Services\Resource
+class PreReleaseVersions extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

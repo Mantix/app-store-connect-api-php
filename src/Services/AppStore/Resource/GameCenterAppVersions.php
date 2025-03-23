@@ -24,25 +24,25 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAppVersionResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAppVersionCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAppVersionUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAppVersionCompatibilityVersionsLinkagesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAppVersionCompatibilityVersionsLinkagesRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAppVersionsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAppVersionResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAppVersionCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAppVersionUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAppVersionCompatibilityVersionsLinkagesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAppVersionCompatibilityVersionsLinkagesRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAppVersionsResponse;
 
 /**
  * The "gameCenterAppVersions" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $gameCenterAppVersions = $appStoreService->gameCenterAppVersions;
  *  </code>
  */
-class GameCenterAppVersions extends \Cantie\AppStoreConnect\Services\Resource
+class GameCenterAppVersions extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionAppStoreReviewScreenshot_Attributes extends \Cantie\AppStoreConnect\Model
+class SubscriptionAppStoreReviewScreenshot_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $fileSize;
 	public $fileName;
@@ -133,7 +133,7 @@ class SubscriptionAppStoreReviewScreenshot_Attributes extends \Cantie\AppStoreCo
 
 }
 
-class SubscriptionAppStoreReviewScreenshot_Relationships_Subscription_Links extends \Cantie\AppStoreConnect\Model
+class SubscriptionAppStoreReviewScreenshot_Relationships_Subscription_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -159,7 +159,7 @@ class SubscriptionAppStoreReviewScreenshot_Relationships_Subscription_Links exte
 
 }
 
-class SubscriptionAppStoreReviewScreenshot_Relationships_Subscription_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionAppStoreReviewScreenshot_Relationships_Subscription_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptions';
 	public $id;
@@ -185,7 +185,7 @@ class SubscriptionAppStoreReviewScreenshot_Relationships_Subscription_Data exten
 
 }
 
-class SubscriptionAppStoreReviewScreenshot_Relationships_Subscription extends \Cantie\AppStoreConnect\Model
+class SubscriptionAppStoreReviewScreenshot_Relationships_Subscription extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = SubscriptionAppStoreReviewScreenshot_Relationships_Subscription_Links::class;
 	protected $linksDataType = 'object';
@@ -225,7 +225,7 @@ class SubscriptionAppStoreReviewScreenshot_Relationships_Subscription extends \C
 
 }
 
-class SubscriptionAppStoreReviewScreenshot_Relationships extends \Cantie\AppStoreConnect\Model
+class SubscriptionAppStoreReviewScreenshot_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $subscriptionType = SubscriptionAppStoreReviewScreenshot_Relationships_Subscription::class;
 	protected $subscriptionDataType = 'object';
@@ -248,7 +248,7 @@ class SubscriptionAppStoreReviewScreenshot_Relationships extends \Cantie\AppStor
 
 }
 
-class SubscriptionAppStoreReviewScreenshot extends \Cantie\AppStoreConnect\Model
+class SubscriptionAppStoreReviewScreenshot extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionAppStoreReviewScreenshots';
 	public $id;

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionGracePeriodDuration extends \Cantie\AppStoreConnect\Model
+class SubscriptionGracePeriodDuration extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $THREE_DAYS = "THREE_DAYS";

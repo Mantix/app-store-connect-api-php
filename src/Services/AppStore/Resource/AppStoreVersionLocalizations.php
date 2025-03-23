@@ -24,23 +24,23 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionLocalizationResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionLocalizationCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppStoreVersionLocalizationUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppPreviewSetsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppScreenshotSetsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionLocalizationResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionLocalizationCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppStoreVersionLocalizationUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppPreviewSetsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppScreenshotSetsResponse;
 
 /**
  * The "appStoreVersionLocalizations" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appStoreVersionLocalizations = $appStoreService->appStoreVersionLocalizations;
  *  </code>
  */
-class AppStoreVersionLocalizations extends \Cantie\AppStoreConnect\Services\Resource
+class AppStoreVersionLocalizations extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

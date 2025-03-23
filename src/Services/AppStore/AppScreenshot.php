@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppScreenshot_Attributes extends \Cantie\AppStoreConnect\Model
+class AppScreenshot_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $fileSize;
 	public $fileName;
@@ -133,7 +133,7 @@ class AppScreenshot_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppScreenshot_Relationships_AppScreenshotSet_Links extends \Cantie\AppStoreConnect\Model
+class AppScreenshot_Relationships_AppScreenshotSet_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -159,7 +159,7 @@ class AppScreenshot_Relationships_AppScreenshotSet_Links extends \Cantie\AppStor
 
 }
 
-class AppScreenshot_Relationships_AppScreenshotSet_Data extends \Cantie\AppStoreConnect\Model
+class AppScreenshot_Relationships_AppScreenshotSet_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appScreenshotSets';
 	public $id;
@@ -185,7 +185,7 @@ class AppScreenshot_Relationships_AppScreenshotSet_Data extends \Cantie\AppStore
 
 }
 
-class AppScreenshot_Relationships_AppScreenshotSet extends \Cantie\AppStoreConnect\Model
+class AppScreenshot_Relationships_AppScreenshotSet extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppScreenshot_Relationships_AppScreenshotSet_Links::class;
 	protected $linksDataType = 'object';
@@ -225,7 +225,7 @@ class AppScreenshot_Relationships_AppScreenshotSet extends \Cantie\AppStoreConne
 
 }
 
-class AppScreenshot_Relationships extends \Cantie\AppStoreConnect\Model
+class AppScreenshot_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appScreenshotSetType = AppScreenshot_Relationships_AppScreenshotSet::class;
 	protected $appScreenshotSetDataType = 'object';
@@ -248,7 +248,7 @@ class AppScreenshot_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppScreenshot extends \Cantie\AppStoreConnect\Model
+class AppScreenshot extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appScreenshots';
 	public $id;

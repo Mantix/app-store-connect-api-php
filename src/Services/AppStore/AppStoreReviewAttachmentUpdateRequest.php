@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppStoreReviewAttachmentUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppStoreReviewAttachmentUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $sourceFileChecksum;
 	public $uploaded;
@@ -52,7 +52,7 @@ class AppStoreReviewAttachmentUpdateRequest_Data_Attributes extends \Cantie\AppS
 
 }
 
-class AppStoreReviewAttachmentUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreReviewAttachmentUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreReviewAttachments';
 	public $id;
@@ -95,7 +95,7 @@ class AppStoreReviewAttachmentUpdateRequest_Data extends \Cantie\AppStoreConnect
 
 }
 
-class AppStoreReviewAttachmentUpdateRequest extends \Cantie\AppStoreConnect\Model
+class AppStoreReviewAttachmentUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreReviewAttachmentUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

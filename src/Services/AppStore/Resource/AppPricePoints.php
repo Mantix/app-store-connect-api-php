@@ -24,23 +24,23 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppPricePointV3Response;
-use Cantie\AppStoreConnect\Services\AppStore\AppPricePointsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppPricePointResponse;
-use Cantie\AppStoreConnect\Services\AppStore\csv;
-use Cantie\AppStoreConnect\Services\AppStore\TerritoryResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppPricePointV3Response;
+use Mantix\AppStoreConnect\Services\AppStore\AppPricePointsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppPricePointResponse;
+use Mantix\AppStoreConnect\Services\AppStore\csv;
+use Mantix\AppStoreConnect\Services\AppStore\TerritoryResponse;
 
 /**
  * The "appPricePoints" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appPricePoints = $appStoreService->appPricePoints;
  *  </code>
  */
-class AppPricePoints extends \Cantie\AppStoreConnect\Services\Resource
+class AppPricePoints extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

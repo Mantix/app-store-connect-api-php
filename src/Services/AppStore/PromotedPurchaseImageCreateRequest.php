@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class PromotedPurchaseImageCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseImageCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $fileSize;
 	public $fileName;
@@ -52,7 +52,7 @@ class PromotedPurchaseImageCreateRequest_Data_Attributes extends \Cantie\AppStor
 
 }
 
-class PromotedPurchaseImageCreateRequest_Data_Relationships_PromotedPurchase_Data extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseImageCreateRequest_Data_Relationships_PromotedPurchase_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'promotedPurchases';
 	public $id;
@@ -78,7 +78,7 @@ class PromotedPurchaseImageCreateRequest_Data_Relationships_PromotedPurchase_Dat
 
 }
 
-class PromotedPurchaseImageCreateRequest_Data_Relationships_PromotedPurchase extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseImageCreateRequest_Data_Relationships_PromotedPurchase extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = PromotedPurchaseImageCreateRequest_Data_Relationships_PromotedPurchase_Data::class;
 	protected $dataDataType = 'object';
@@ -101,7 +101,7 @@ class PromotedPurchaseImageCreateRequest_Data_Relationships_PromotedPurchase ext
 
 }
 
-class PromotedPurchaseImageCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseImageCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $promotedPurchaseType = PromotedPurchaseImageCreateRequest_Data_Relationships_PromotedPurchase::class;
 	protected $promotedPurchaseDataType = 'object';
@@ -124,7 +124,7 @@ class PromotedPurchaseImageCreateRequest_Data_Relationships extends \Cantie\AppS
 
 }
 
-class PromotedPurchaseImageCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseImageCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'promotedPurchaseImages';
 	protected $attributesType = PromotedPurchaseImageCreateRequest_Data_Attributes::class;
@@ -174,7 +174,7 @@ class PromotedPurchaseImageCreateRequest_Data extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class PromotedPurchaseImageCreateRequest extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseImageCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = PromotedPurchaseImageCreateRequest_Data::class;
 	protected $dataDataType = 'object';

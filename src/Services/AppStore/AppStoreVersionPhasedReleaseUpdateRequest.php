@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppStoreVersionPhasedReleaseUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionPhasedReleaseUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $phasedReleaseState; // 
 
@@ -48,7 +48,7 @@ class AppStoreVersionPhasedReleaseUpdateRequest_Data_Attributes extends \Cantie\
 
 }
 
-class AppStoreVersionPhasedReleaseUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionPhasedReleaseUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionPhasedReleases';
 	public $id;
@@ -91,7 +91,7 @@ class AppStoreVersionPhasedReleaseUpdateRequest_Data extends \Cantie\AppStoreCon
 
 }
 
-class AppStoreVersionPhasedReleaseUpdateRequest extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionPhasedReleaseUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersionPhasedReleaseUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

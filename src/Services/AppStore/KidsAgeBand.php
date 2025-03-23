@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class KidsAgeBand extends \Cantie\AppStoreConnect\Model
+class KidsAgeBand extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $FIVE_AND_UNDER = "FIVE_AND_UNDER";

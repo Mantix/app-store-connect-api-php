@@ -24,23 +24,23 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionGroupResponse;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionGroupCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionGroupUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionGroupLocalizationsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionGroupResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionGroupCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionGroupUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionGroupLocalizationsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionsResponse;
 
 /**
  * The "subscriptionGroups" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $subscriptionGroups = $appStoreService->subscriptionGroups;
  *  </code>
  */
-class SubscriptionGroups extends \Cantie\AppStoreConnect\Services\Resource
+class SubscriptionGroups extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

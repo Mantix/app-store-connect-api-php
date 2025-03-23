@@ -24,36 +24,36 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterDetailResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterDetailCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterDetailUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAchievementReleasesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterDetailGameCenterAchievementsLinkagesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterDetailGameCenterAchievementsLinkagesRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAchievementsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterAppVersionsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterGroupResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterDetailGameCenterLeaderboardSetsLinkagesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterDetailGameCenterLeaderboardSetsLinkagesRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterDetailGameCenterLeaderboardsLinkagesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterDetailGameCenterLeaderboardsLinkagesRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardReleasesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetReleasesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterMatchmakingAppRequestsV1MetricResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterDetailResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterDetailCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterDetailUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAchievementReleasesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterDetailGameCenterAchievementsLinkagesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterDetailGameCenterAchievementsLinkagesRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAchievementsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterAppVersionsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterGroupResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterDetailGameCenterLeaderboardSetsLinkagesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterDetailGameCenterLeaderboardSetsLinkagesRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterDetailGameCenterLeaderboardsLinkagesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterDetailGameCenterLeaderboardsLinkagesRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardReleasesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetReleasesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterMatchmakingAppRequestsV1MetricResponse;
 
 /**
  * The "gameCenterDetails" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $gameCenterDetails = $appStoreService->gameCenterDetails;
  *  </code>
  */
-class GameCenterDetails extends \Cantie\AppStoreConnect\Services\Resource
+class GameCenterDetails extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

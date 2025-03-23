@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionOfferCodeCustomCodeCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeCustomCodeCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $customCode;
 	public $numberOfCodes;
@@ -62,7 +62,7 @@ class SubscriptionOfferCodeCustomCodeCreateRequest_Data_Attributes extends \Cant
 
 }
 
-class SubscriptionOfferCodeCustomCodeCreateRequest_Data_Relationships_OfferCode_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeCustomCodeCreateRequest_Data_Relationships_OfferCode_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionOfferCodes';
 	public $id;
@@ -88,7 +88,7 @@ class SubscriptionOfferCodeCustomCodeCreateRequest_Data_Relationships_OfferCode_
 
 }
 
-class SubscriptionOfferCodeCustomCodeCreateRequest_Data_Relationships_OfferCode extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeCustomCodeCreateRequest_Data_Relationships_OfferCode extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionOfferCodeCustomCodeCreateRequest_Data_Relationships_OfferCode_Data::class;
 	protected $dataDataType = 'object';
@@ -111,7 +111,7 @@ class SubscriptionOfferCodeCustomCodeCreateRequest_Data_Relationships_OfferCode 
 
 }
 
-class SubscriptionOfferCodeCustomCodeCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeCustomCodeCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $offerCodeType = SubscriptionOfferCodeCustomCodeCreateRequest_Data_Relationships_OfferCode::class;
 	protected $offerCodeDataType = 'object';
@@ -134,7 +134,7 @@ class SubscriptionOfferCodeCustomCodeCreateRequest_Data_Relationships extends \C
 
 }
 
-class SubscriptionOfferCodeCustomCodeCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeCustomCodeCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionOfferCodeCustomCodes';
 	protected $attributesType = SubscriptionOfferCodeCustomCodeCreateRequest_Data_Attributes::class;
@@ -184,7 +184,7 @@ class SubscriptionOfferCodeCustomCodeCreateRequest_Data extends \Cantie\AppStore
 
 }
 
-class SubscriptionOfferCodeCustomCodeCreateRequest extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeCustomCodeCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionOfferCodeCustomCodeCreateRequest_Data::class;
 	protected $dataDataType = 'object';

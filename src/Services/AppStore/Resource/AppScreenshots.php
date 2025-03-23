@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppScreenshotResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppScreenshotCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppScreenshotUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppScreenshotResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppScreenshotCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppScreenshotUpdateRequest;
 
 /**
  * The "appScreenshots" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appScreenshots = $appStoreService->appScreenshots;
  *  </code>
  */
-class AppScreenshots extends \Cantie\AppStoreConnect\Services\Resource
+class AppScreenshots extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

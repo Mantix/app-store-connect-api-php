@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services;
+namespace Mantix\AppStoreConnect\Services;
 
-class Upload extends \Cantie\AppStoreConnect\Service
+class Upload extends \Mantix\AppStoreConnect\Service
 {
 
 	public $uploadAssets;

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppPriceV2_Attributes extends \Cantie\AppStoreConnect\Model
+class AppPriceV2_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $manual;
 	public $startDate;
@@ -62,7 +62,7 @@ class AppPriceV2_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPriceV2_Relationships_AppPricePoint_Links extends \Cantie\AppStoreConnect\Model
+class AppPriceV2_Relationships_AppPricePoint_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -88,7 +88,7 @@ class AppPriceV2_Relationships_AppPricePoint_Links extends \Cantie\AppStoreConne
 
 }
 
-class AppPriceV2_Relationships_AppPricePoint_Data extends \Cantie\AppStoreConnect\Model
+class AppPriceV2_Relationships_AppPricePoint_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appPricePoints';
 	public $id;
@@ -114,7 +114,7 @@ class AppPriceV2_Relationships_AppPricePoint_Data extends \Cantie\AppStoreConnec
 
 }
 
-class AppPriceV2_Relationships_AppPricePoint extends \Cantie\AppStoreConnect\Model
+class AppPriceV2_Relationships_AppPricePoint extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppPriceV2_Relationships_AppPricePoint_Links::class;
 	protected $linksDataType = 'object';
@@ -154,7 +154,7 @@ class AppPriceV2_Relationships_AppPricePoint extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class AppPriceV2_Relationships_Territory_Links extends \Cantie\AppStoreConnect\Model
+class AppPriceV2_Relationships_Territory_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -180,7 +180,7 @@ class AppPriceV2_Relationships_Territory_Links extends \Cantie\AppStoreConnect\M
 
 }
 
-class AppPriceV2_Relationships_Territory_Data extends \Cantie\AppStoreConnect\Model
+class AppPriceV2_Relationships_Territory_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'territories';
 	public $id;
@@ -206,7 +206,7 @@ class AppPriceV2_Relationships_Territory_Data extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class AppPriceV2_Relationships_Territory extends \Cantie\AppStoreConnect\Model
+class AppPriceV2_Relationships_Territory extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppPriceV2_Relationships_Territory_Links::class;
 	protected $linksDataType = 'object';
@@ -246,7 +246,7 @@ class AppPriceV2_Relationships_Territory extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPriceV2_Relationships extends \Cantie\AppStoreConnect\Model
+class AppPriceV2_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appPricePointType = AppPriceV2_Relationships_AppPricePoint::class;
 	protected $appPricePointDataType = 'object';
@@ -286,7 +286,7 @@ class AppPriceV2_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPriceV2 extends \Cantie\AppStoreConnect\Model
+class AppPriceV2 extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appPrices';
 	public $id;

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class SubscriptionCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $productId;
@@ -92,7 +92,7 @@ class SubscriptionCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\
 
 }
 
-class SubscriptionCreateRequest_Data_Relationships_Group_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionCreateRequest_Data_Relationships_Group_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionGroups';
 	public $id;
@@ -118,7 +118,7 @@ class SubscriptionCreateRequest_Data_Relationships_Group_Data extends \Cantie\Ap
 
 }
 
-class SubscriptionCreateRequest_Data_Relationships_Group extends \Cantie\AppStoreConnect\Model
+class SubscriptionCreateRequest_Data_Relationships_Group extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionCreateRequest_Data_Relationships_Group_Data::class;
 	protected $dataDataType = 'object';
@@ -141,7 +141,7 @@ class SubscriptionCreateRequest_Data_Relationships_Group extends \Cantie\AppStor
 
 }
 
-class SubscriptionCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class SubscriptionCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $groupType = SubscriptionCreateRequest_Data_Relationships_Group::class;
 	protected $groupDataType = 'object';
@@ -164,7 +164,7 @@ class SubscriptionCreateRequest_Data_Relationships extends \Cantie\AppStoreConne
 
 }
 
-class SubscriptionCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptions';
 	protected $attributesType = SubscriptionCreateRequest_Data_Attributes::class;
@@ -214,7 +214,7 @@ class SubscriptionCreateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class SubscriptionCreateRequest extends \Cantie\AppStoreConnect\Model
+class SubscriptionCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionCreateRequest_Data::class;
 	protected $dataDataType = 'object';

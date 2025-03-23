@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterLeaderboardSetMemberLocalizationsResponse extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardSetMemberLocalizationsResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterLeaderboardSetMemberLocalization::class;
 	protected $dataDataType = 'array';

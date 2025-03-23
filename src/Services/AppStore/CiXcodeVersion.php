@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiXcodeVersion_Attributes_TestDestinations_AvailableRuntimes extends \Cantie\AppStoreConnect\Model
+class CiXcodeVersion_Attributes_TestDestinations_AvailableRuntimes extends \Mantix\AppStoreConnect\Model
 {
 	public $runtimeName;
 	public $runtimeIdentifier;
@@ -52,7 +52,7 @@ class CiXcodeVersion_Attributes_TestDestinations_AvailableRuntimes extends \Cant
 
 }
 
-class CiXcodeVersion_Attributes_TestDestinations extends \Cantie\AppStoreConnect\Model
+class CiXcodeVersion_Attributes_TestDestinations extends \Mantix\AppStoreConnect\Model
 {
 	public $deviceTypeName;
 	public $deviceTypeIdentifier;
@@ -111,7 +111,7 @@ class CiXcodeVersion_Attributes_TestDestinations extends \Cantie\AppStoreConnect
 
 }
 
-class CiXcodeVersion_Attributes extends \Cantie\AppStoreConnect\Model
+class CiXcodeVersion_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $version;
 	public $name;
@@ -154,7 +154,7 @@ class CiXcodeVersion_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiXcodeVersion_Relationships_MacOsVersions_Links extends \Cantie\AppStoreConnect\Model
+class CiXcodeVersion_Relationships_MacOsVersions_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -180,7 +180,7 @@ class CiXcodeVersion_Relationships_MacOsVersions_Links extends \Cantie\AppStoreC
 
 }
 
-class CiXcodeVersion_Relationships_MacOsVersions_Data extends \Cantie\AppStoreConnect\Model
+class CiXcodeVersion_Relationships_MacOsVersions_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'ciMacOsVersions';
 	public $id;
@@ -206,7 +206,7 @@ class CiXcodeVersion_Relationships_MacOsVersions_Data extends \Cantie\AppStoreCo
 
 }
 
-class CiXcodeVersion_Relationships_MacOsVersions extends \Cantie\AppStoreConnect\Model
+class CiXcodeVersion_Relationships_MacOsVersions extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = CiXcodeVersion_Relationships_MacOsVersions_Links::class;
 	protected $linksDataType = 'object';
@@ -263,7 +263,7 @@ class CiXcodeVersion_Relationships_MacOsVersions extends \Cantie\AppStoreConnect
 
 }
 
-class CiXcodeVersion_Relationships extends \Cantie\AppStoreConnect\Model
+class CiXcodeVersion_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $macOsVersionsType = CiXcodeVersion_Relationships_MacOsVersions::class;
 	protected $macOsVersionsDataType = 'object';
@@ -286,7 +286,7 @@ class CiXcodeVersion_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiXcodeVersion extends \Cantie\AppStoreConnect\Model
+class CiXcodeVersion extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'ciXcodeVersions';
 	public $id;

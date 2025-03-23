@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiTagStartCondition extends \Cantie\AppStoreConnect\Model
+class CiTagStartCondition extends \Mantix\AppStoreConnect\Model
 {
 	protected $sourceType = CiTagPatterns::class;
 	protected $sourceDataType = '';

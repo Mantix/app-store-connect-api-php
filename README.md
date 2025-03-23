@@ -1,15 +1,29 @@
 # App Store Connect APIs Client Library for PHP
-![GitHub Release](https://img.shields.io/github/v/release/cantie/app-store-connect-api)
-![Packagist Downloads](https://img.shields.io/packagist/dt/cantie/app-store-connect-api)
-![Packagist License](https://img.shields.io/packagist/l/cantie/app-store-connect-api)
-![Packagist Dependency Version](https://img.shields.io/packagist/dependency-v/cantie/app-store-connect-api/php)
 
+![GitHub Release](https://img.shields.io/github/v/release/mantix/app-store-connect-api)
+![Packagist Downloads](https://img.shields.io/packagist/dt/mantix/app-store-connect-api)
+![Packagist License](https://img.shields.io/packagist/l/mantix/app-store-connect-api)
+![Packagist Dependency Version](https://img.shields.io/packagist/dependency-v/mantix/app-store-connect-api/php)
 
+## Overview
 
-This library enables the automation of actions you take in App Store Connect. Its client was modified from [Google API PHP Client](https://github.com/googleapis/google-api-php-client) and i just added some resources for App Store Connect APIs.
+This library enables developers to automate their interactions with App Store Connect. It's a fork of the excellent [cantie/app-store-connect-api-php](https://github.com/cantie/app-store-connect-api-php) package, updated to work with modern PHP frameworks including Laravel 10+ and Carbon 3.x.
 
+The client was originally modified from [Google API PHP Client](https://github.com/googleapis/google-api-php-client) with resources specifically added for App Store Connect APIs.
 
-## Installation ##
+## Why This Fork?
+
+This fork was created to address the following needs:
+
+- Support for modern Laravel applications (10+)
+- Compatibility with Carbon 3.x
+- Future Laravel package development
+- Ongoing maintenance and updates
+- Enhanced documentation
+
+We maintain high compatibility with the original package while ensuring it works in modern PHP environments.
+
+## Installation
 
 The preferred method is via [composer](https://getcomposer.org/). Follow the
 [installation instructions](https://getcomposer.org/doc/00-intro.md) if you do not already have
@@ -18,24 +32,29 @@ composer installed.
 Once composer is installed, execute the following command in your project root to install this library:
 
 ```sh
-composer require cantie/app-store-connect-api
-```
-## Examples ##
-See the [`examples/`](examples) directory for examples of some APIs. You can
-view them in your browser by running the php built-in web server.
-
-```
-$ php -S localhost:8000 -t examples/
+composer require mantix/app-store-connect-api
 ```
 
-And then browsing to the host and port you specified
-(in the above example, `http://localhost:8000`).
+## Coming Soon: Laravel Package
 
-### Basic Example ###
+We're working on a dedicated Laravel package that will provide:
+
+- Simple configuration through Laravel's configuration system
+- Integration with Laravel's service container
+- Artisan commands for common App Store Connect operations
+- Middleware for API rate limiting and token management
+- Simple facade access to the API client
+
+Stay tuned for `mantix/laravel-app-store-connect`.
+
+## Usage Examples
+
+### Basic Example
+
 ```php
 use AppleClient;
 use AppleService_AppStore;
-use Cantie\AppStoreConnect\Services\AppStore\CustomerReviewResponseV1CreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\CustomerReviewResponseV1CreateRequest;
 
 $client = new AppleClient();
 $client->setApiKey("PATH_TO_API_KEY");
@@ -53,7 +72,7 @@ foreach ($results->getData() as $app) {
     $appCustomerReviews = $appstore->apps->listAppsCustomerReviews($app->getId());
     foreach ($appCustomerReviews as $appCustomerReview) {
         // Print all reviewer's nickname
-        $appCustomerReview->getAttributes()->getReviewerNickName(), "<br /> \n";
+        echo $appCustomerReview->getAttributes()->getReviewerNickName(), "<br /> \n";
 
         // Get response for this review
         $customerReviewResponseV1Response = $appstore->customerReviews->getCustomerReviewsResponse($appCustomerReview->getId());
@@ -81,7 +100,8 @@ foreach ($results->getData() as $app) {
 }
 ```
 
-### Create new client ###
+### Create New Client
+
 ```php
 use AppleClient;
 
@@ -93,8 +113,10 @@ $client->setKeyIdentifier($keyIdentifier);
 $client->generateToken();
 ```
 
-### Making a request ###
-For almost all request except upload service, we use AppStore service to handle
+### Making a Request
+
+For almost all requests except upload service, we use AppStore service:
+
 ```php
 use AppleService_AppStore;
 // All resources and their methods parameters are listed in src/Service/AppStore.php
@@ -102,27 +124,31 @@ $appstore = new AppleService_AppStore($client);
 // Make request, for example we call request for an Apps's resources
 $appstore->apps->listAppsAppStoreVersions($APP_ID_HERE, $OPTIONAL_PARAMS);
 ```
-For detail, you can view in src/Services/AppStore/Resource/*
 
-### Aliases ###
-Basic classes are aliased for convenient use, see more at src/aliases.php
+For details, you can view the source code in `src/Services/AppStore/Resource/*`
+
+### Aliases
+
+Basic classes are aliased for convenient use, see more at `src/aliases.php`
 
 ```php
 $classMap = [
-    'Cantie\\AppStoreConnect\\Client' => 'AppleClient',
-    'Cantie\\AppStoreConnect\\Service' => 'AppleService',
-    'Cantie\\AppStoreConnect\\Services\\AppStore' => 'AppleService_AppStore',
-    'Cantie\\AppStoreConnect\\Services\\Upload' => 'AppleService_Upload'
+    'Mantix\\AppStoreConnect\\Client' => 'AppleClient',
+    'Mantix\\AppStoreConnect\\Service' => 'AppleService',
+    'Mantix\\AppStoreConnect\\Services\\AppStore' => 'AppleService_AppStore',
+    'Mantix\\AppStoreConnect\\Services\\Upload' => 'AppleService_Upload'
 ];
 ```
 
-### Upload assets to App Store Connect ###
-In this example we will upload one screenshot file to app screenshot set
+### Upload Assets to App Store Connect
+
+In this example we will upload one screenshot file to app screenshot set:
+
 ```php
 // Firstly, we get app screenshot set step by step, we can reduce steps by include[] parameters in query
 use AppleService_Upload;
-use Cantie\AppStoreConnect\Services\AppStore\AppScreenshotCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppScreenshotUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppScreenshotCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppScreenshotUpdateRequest;
 
 $appId = $app->getId(); // $app from previous example
 $appStoreVersions = $appstore->apps->listAppsAppStoreVersions($appId);
@@ -180,10 +206,12 @@ $appScreenshotUpdateRequest = new AppScreenshotUpdateRequest([
 $ret = $appstore->appScreenshots->updateAppScreenshots($appScreenshotId, $appScreenshotUpdateRequest); 
 ```
 
-### Initialize classes ###
-All object classes are extended from Model.php can be initialized by an array of attribute names and values, as previous example:
+### Initialize Classes
+
+All object classes that extend from `Model.php` can be initialized with an array of attribute names and values, as in the previous example:
+
 ```php
-use Cantie\AppStoreConnect\Services\AppStore\AppScreenshotUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppScreenshotUpdateRequest;
 $appScreenshotUpdateRequest = new AppScreenshotUpdateRequest([
     'data' => [
         'type' => 'appScreenshots',
@@ -196,8 +224,10 @@ $appScreenshotUpdateRequest = new AppScreenshotUpdateRequest([
 ]);
 ```
 
-### Caching ###
-JWT token are cached for 10 minutes and only be created if doesn't existed or has been expired. JWT token is not shared between clients. Each client has its own token as defined in src/Client.php
+### Caching
+
+JWT tokens are cached for 10 minutes and only generated if they don't exist or have expired. JWT tokens are not shared between clients. Each client has its own token as defined in `src/Client.php`:
+
 ```php
 public function generateToken()
 {
@@ -209,3 +239,79 @@ public function generateToken()
     return $jwtToken;
 }
 ```
+
+## Laravel Integration
+
+While we're working on our dedicated Laravel package, here's a simple approach to integrate this library into your Laravel applications:
+
+### Service Provider
+
+Create a service provider for App Store Connect API:
+
+```php
+<?php
+
+namespace App\Providers;
+
+use AppleClient;
+use AppleService_AppStore;
+use Illuminate\Support\ServiceProvider;
+
+class AppStoreConnectServiceProvider extends ServiceProvider
+{
+    public function register()
+    {
+        $this->app->singleton(AppleClient::class, function ($app) {
+            $client = new AppleClient();
+            $client->setApiKey(storage_path('app/appstore_private_key.p8'));
+            $client->setIssuerId(config('services.appstore.issuer_id'));
+            $client->setKeyIdentifier(config('services.appstore.key_id'));
+            return $client;
+        });
+
+        $this->app->singleton(AppleService_AppStore::class, function ($app) {
+            return new AppleService_AppStore($app->make(AppleClient::class));
+        });
+    }
+}
+```
+
+### Configuration
+
+Update your `config/services.php` file:
+
+```php
+'appstore' => [
+    'key_id' => env('APPSTORE_KEY_ID'),
+    'issuer_id' => env('APPSTORE_ISSUER_ID'),
+]
+```
+
+### Usage in Laravel
+
+Now you can inject the service where needed:
+
+```php
+<?php
+
+namespace App\Http\Controllers;
+
+use AppleService_AppStore;
+
+class AppStoreController extends Controller
+{
+    public function listApps(AppleService_AppStore $appStoreService)
+    {
+        $apps = $appStoreService->apps->listApps();
+        return view('apps.index', compact('apps'));
+    }
+}
+```
+
+## Acknowledgements
+
+This package is a fork of [cantie/app-store-connect-api-php](https://github.com/cantie/app-store-connect-api-php). We express our gratitude to the original authors for their excellent work. Our goal is to build upon their foundation to ensure compatibility with modern PHP frameworks while maintaining the core functionality.
+
+## License
+
+This library is licensed under the MIT License.

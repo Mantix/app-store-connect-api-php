@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiIssue_Attributes extends \Cantie\AppStoreConnect\Model
+class CiIssue_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $issueType; // ANALYZER_WARNING, ERROR, TEST_FAILURE, WARNING
 	public $message;
@@ -79,7 +79,7 @@ class CiIssue_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CiIssue extends \Cantie\AppStoreConnect\Model
+class CiIssue extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'ciIssues';
 	public $id;

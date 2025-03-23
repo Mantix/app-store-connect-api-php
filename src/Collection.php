@@ -1,9 +1,9 @@
 <?php
 
-namespace Cantie\AppStoreConnect;
+namespace Mantix\AppStoreConnect;
 
 /**
- * Extension to the regular Cantie\AppStoreConnect\Model that automatically
+ * Extension to the regular Mantix\AppStoreConnect\Model that automatically
  * exposes the items array for iteration, so you can just
  * iterate over the object rather than a reference inside.
  */

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class diagnosticLogs_ProductData_DiagnosticInsights extends \Cantie\AppStoreConnect\Model
+class diagnosticLogs_ProductData_DiagnosticInsights extends \Mantix\AppStoreConnect\Model
 {
 	public $insightsURL;
 	public $insightsCategory;
@@ -62,7 +62,7 @@ class diagnosticLogs_ProductData_DiagnosticInsights extends \Cantie\AppStoreConn
 
 }
 
-class diagnosticLogs_ProductData_DiagnosticLogs_CallStackTree_CallStacks extends \Cantie\AppStoreConnect\Model
+class diagnosticLogs_ProductData_DiagnosticLogs_CallStackTree_CallStacks extends \Mantix\AppStoreConnect\Model
 {
 	protected $callStackRootFramesType = DiagnosticLogCallStackNode::class;
 	protected $callStackRootFramesDataType = 'array';
@@ -85,7 +85,7 @@ class diagnosticLogs_ProductData_DiagnosticLogs_CallStackTree_CallStacks extends
 
 }
 
-class diagnosticLogs_ProductData_DiagnosticLogs_CallStackTree extends \Cantie\AppStoreConnect\Model
+class diagnosticLogs_ProductData_DiagnosticLogs_CallStackTree extends \Mantix\AppStoreConnect\Model
 {
 	public $callStackPerThread;
 	protected $callStacksType = diagnosticLogs_ProductData_DiagnosticLogs_CallStackTree_CallStacks::class;
@@ -118,7 +118,7 @@ class diagnosticLogs_ProductData_DiagnosticLogs_CallStackTree extends \Cantie\Ap
 
 }
 
-class diagnosticLogs_ProductData_DiagnosticLogs_DiagnosticMetaData extends \Cantie\AppStoreConnect\Model
+class diagnosticLogs_ProductData_DiagnosticLogs_DiagnosticMetaData extends \Mantix\AppStoreConnect\Model
 {
 	public $bundleId;
 	public $event;
@@ -214,7 +214,7 @@ class diagnosticLogs_ProductData_DiagnosticLogs_DiagnosticMetaData extends \Cant
 
 }
 
-class diagnosticLogs_ProductData_DiagnosticLogs extends \Cantie\AppStoreConnect\Model
+class diagnosticLogs_ProductData_DiagnosticLogs extends \Mantix\AppStoreConnect\Model
 {
 	protected $callStackTreeType = diagnosticLogs_ProductData_DiagnosticLogs_CallStackTree::class;
 	protected $callStackTreeDataType = 'array';
@@ -254,7 +254,7 @@ class diagnosticLogs_ProductData_DiagnosticLogs extends \Cantie\AppStoreConnect\
 
 }
 
-class diagnosticLogs_ProductData extends \Cantie\AppStoreConnect\Model
+class diagnosticLogs_ProductData extends \Mantix\AppStoreConnect\Model
 {
 	public $signatureId;
 	protected $diagnosticInsightsType = diagnosticLogs_ProductData_DiagnosticInsights::class;
@@ -304,7 +304,7 @@ class diagnosticLogs_ProductData extends \Cantie\AppStoreConnect\Model
 
 }
 
-class diagnosticLogs extends \Cantie\AppStoreConnect\Model
+class diagnosticLogs extends \Mantix\AppStoreConnect\Model
 {
 	protected $productDataType = diagnosticLogs_ProductData::class;
 	protected $productDataDataType = 'array';

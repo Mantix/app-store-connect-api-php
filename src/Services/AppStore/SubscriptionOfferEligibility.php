@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionOfferEligibility extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferEligibility extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $STACK_WITH_INTRO_OFFERS = "STACK_WITH_INTRO_OFFERS";

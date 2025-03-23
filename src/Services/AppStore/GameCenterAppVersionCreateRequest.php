@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterAppVersionCreateRequest_Data_Relationships_AppStoreVersion_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterAppVersionCreateRequest_Data_Relationships_AppStoreVersion_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersions';
 	public $id;
@@ -52,7 +52,7 @@ class GameCenterAppVersionCreateRequest_Data_Relationships_AppStoreVersion_Data 
 
 }
 
-class GameCenterAppVersionCreateRequest_Data_Relationships_AppStoreVersion extends \Cantie\AppStoreConnect\Model
+class GameCenterAppVersionCreateRequest_Data_Relationships_AppStoreVersion extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterAppVersionCreateRequest_Data_Relationships_AppStoreVersion_Data::class;
 	protected $dataDataType = 'object';
@@ -75,7 +75,7 @@ class GameCenterAppVersionCreateRequest_Data_Relationships_AppStoreVersion exten
 
 }
 
-class GameCenterAppVersionCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class GameCenterAppVersionCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appStoreVersionType = GameCenterAppVersionCreateRequest_Data_Relationships_AppStoreVersion::class;
 	protected $appStoreVersionDataType = 'object';
@@ -98,7 +98,7 @@ class GameCenterAppVersionCreateRequest_Data_Relationships extends \Cantie\AppSt
 
 }
 
-class GameCenterAppVersionCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterAppVersionCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterAppVersions';
 	protected $relationshipsType = GameCenterAppVersionCreateRequest_Data_Relationships::class;
@@ -131,7 +131,7 @@ class GameCenterAppVersionCreateRequest_Data extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class GameCenterAppVersionCreateRequest extends \Cantie\AppStoreConnect\Model
+class GameCenterAppVersionCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterAppVersionCreateRequest_Data::class;
 	protected $dataDataType = 'object';

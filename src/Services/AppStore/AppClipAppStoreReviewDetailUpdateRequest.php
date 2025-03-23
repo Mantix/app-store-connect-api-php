@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppClipAppStoreReviewDetailUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppClipAppStoreReviewDetailUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	protected $invocationUrlsType = '';
 	protected $invocationUrlsDataType = 'array';
@@ -49,7 +49,7 @@ class AppClipAppStoreReviewDetailUpdateRequest_Data_Attributes extends \Cantie\A
 
 }
 
-class AppClipAppStoreReviewDetailUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppClipAppStoreReviewDetailUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipAppStoreReviewDetails';
 	public $id;
@@ -92,7 +92,7 @@ class AppClipAppStoreReviewDetailUpdateRequest_Data extends \Cantie\AppStoreConn
 
 }
 
-class AppClipAppStoreReviewDetailUpdateRequest extends \Cantie\AppStoreConnect\Model
+class AppClipAppStoreReviewDetailUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppClipAppStoreReviewDetailUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

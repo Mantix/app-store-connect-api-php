@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiStartConditionFileMatcher extends \Cantie\AppStoreConnect\Model
+class CiStartConditionFileMatcher extends \Mantix\AppStoreConnect\Model
 {
 	public $directory;
 	public $fileExtension;

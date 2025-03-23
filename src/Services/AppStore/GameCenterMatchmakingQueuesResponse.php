@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterMatchmakingQueuesResponse extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingQueuesResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterMatchmakingQueue::class;
 	protected $dataDataType = 'array';

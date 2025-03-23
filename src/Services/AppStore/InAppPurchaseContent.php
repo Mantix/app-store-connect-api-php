@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class InAppPurchaseContent_Attributes extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseContent_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $fileName;
 	public $fileSize;
@@ -72,7 +72,7 @@ class InAppPurchaseContent_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class InAppPurchaseContent_Relationships_InAppPurchaseV2_Links extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseContent_Relationships_InAppPurchaseV2_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -98,7 +98,7 @@ class InAppPurchaseContent_Relationships_InAppPurchaseV2_Links extends \Cantie\A
 
 }
 
-class InAppPurchaseContent_Relationships_InAppPurchaseV2_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseContent_Relationships_InAppPurchaseV2_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchases';
 	public $id;
@@ -124,7 +124,7 @@ class InAppPurchaseContent_Relationships_InAppPurchaseV2_Data extends \Cantie\Ap
 
 }
 
-class InAppPurchaseContent_Relationships_InAppPurchaseV2 extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseContent_Relationships_InAppPurchaseV2 extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = InAppPurchaseContent_Relationships_InAppPurchaseV2_Links::class;
 	protected $linksDataType = 'object';
@@ -164,7 +164,7 @@ class InAppPurchaseContent_Relationships_InAppPurchaseV2 extends \Cantie\AppStor
 
 }
 
-class InAppPurchaseContent_Relationships extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseContent_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $inAppPurchaseV2Type = InAppPurchaseContent_Relationships_InAppPurchaseV2::class;
 	protected $inAppPurchaseV2DataType = 'object';
@@ -187,7 +187,7 @@ class InAppPurchaseContent_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class InAppPurchaseContent extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseContent extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchaseContents';
 	public $id;

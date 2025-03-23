@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CertificateCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class CertificateCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $csrContent;
 	public $certificateType; // 
@@ -58,7 +58,7 @@ class CertificateCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\M
 
 }
 
-class CertificateCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class CertificateCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'certificates';
 	protected $attributesType = CertificateCreateRequest_Data_Attributes::class;
@@ -91,7 +91,7 @@ class CertificateCreateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class CertificateCreateRequest extends \Cantie\AppStoreConnect\Model
+class CertificateCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = CertificateCreateRequest_Data::class;
 	protected $dataDataType = 'object';

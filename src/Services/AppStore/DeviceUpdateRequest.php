@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class DeviceUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class DeviceUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $status; // ENABLED, DISABLED
@@ -52,7 +52,7 @@ class DeviceUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class DeviceUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class DeviceUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'devices';
 	public $id;
@@ -95,7 +95,7 @@ class DeviceUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class DeviceUpdateRequest extends \Cantie\AppStoreConnect\Model
+class DeviceUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = DeviceUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

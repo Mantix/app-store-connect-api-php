@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\InAppPurchaseLocalizationResponse;
-use Cantie\AppStoreConnect\Services\AppStore\InAppPurchaseLocalizationCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\InAppPurchaseLocalizationUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\InAppPurchaseLocalizationResponse;
+use Mantix\AppStoreConnect\Services\AppStore\InAppPurchaseLocalizationCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\InAppPurchaseLocalizationUpdateRequest;
 
 /**
  * The "inAppPurchaseLocalizations" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $inAppPurchaseLocalizations = $appStoreService->inAppPurchaseLocalizations;
  *  </code>
  */
-class InAppPurchaseLocalizations extends \Cantie\AppStoreConnect\Services\Resource
+class InAppPurchaseLocalizations extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class PagedDocumentLinks extends \Cantie\AppStoreConnect\Model
+class PagedDocumentLinks extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $first;

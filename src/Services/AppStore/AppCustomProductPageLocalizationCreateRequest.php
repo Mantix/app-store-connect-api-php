@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppCustomProductPageLocalizationCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageLocalizationCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $locale;
 	public $promotionalText;
@@ -52,7 +52,7 @@ class AppCustomProductPageLocalizationCreateRequest_Data_Attributes extends \Can
 
 }
 
-class AppCustomProductPageLocalizationCreateRequest_Data_Relationships_AppCustomProductPageVersion_Data extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageLocalizationCreateRequest_Data_Relationships_AppCustomProductPageVersion_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appCustomProductPageVersions';
 	public $id;
@@ -78,7 +78,7 @@ class AppCustomProductPageLocalizationCreateRequest_Data_Relationships_AppCustom
 
 }
 
-class AppCustomProductPageLocalizationCreateRequest_Data_Relationships_AppCustomProductPageVersion extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageLocalizationCreateRequest_Data_Relationships_AppCustomProductPageVersion extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppCustomProductPageLocalizationCreateRequest_Data_Relationships_AppCustomProductPageVersion_Data::class;
 	protected $dataDataType = 'object';
@@ -101,7 +101,7 @@ class AppCustomProductPageLocalizationCreateRequest_Data_Relationships_AppCustom
 
 }
 
-class AppCustomProductPageLocalizationCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageLocalizationCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appCustomProductPageVersionType = AppCustomProductPageLocalizationCreateRequest_Data_Relationships_AppCustomProductPageVersion::class;
 	protected $appCustomProductPageVersionDataType = 'object';
@@ -124,7 +124,7 @@ class AppCustomProductPageLocalizationCreateRequest_Data_Relationships extends \
 
 }
 
-class AppCustomProductPageLocalizationCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageLocalizationCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appCustomProductPageLocalizations';
 	protected $attributesType = AppCustomProductPageLocalizationCreateRequest_Data_Attributes::class;
@@ -174,7 +174,7 @@ class AppCustomProductPageLocalizationCreateRequest_Data extends \Cantie\AppStor
 
 }
 
-class AppCustomProductPageLocalizationCreateRequest extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageLocalizationCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppCustomProductPageLocalizationCreateRequest_Data::class;
 	protected $dataDataType = 'object';

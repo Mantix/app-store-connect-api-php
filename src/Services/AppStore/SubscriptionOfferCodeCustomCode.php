@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionOfferCodeCustomCode_Attributes extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeCustomCode_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $customCode;
 	public $numberOfCodes;
@@ -82,7 +82,7 @@ class SubscriptionOfferCodeCustomCode_Attributes extends \Cantie\AppStoreConnect
 
 }
 
-class SubscriptionOfferCodeCustomCode_Relationships_OfferCode_Links extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeCustomCode_Relationships_OfferCode_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -108,7 +108,7 @@ class SubscriptionOfferCodeCustomCode_Relationships_OfferCode_Links extends \Can
 
 }
 
-class SubscriptionOfferCodeCustomCode_Relationships_OfferCode_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeCustomCode_Relationships_OfferCode_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionOfferCodes';
 	public $id;
@@ -134,7 +134,7 @@ class SubscriptionOfferCodeCustomCode_Relationships_OfferCode_Data extends \Cant
 
 }
 
-class SubscriptionOfferCodeCustomCode_Relationships_OfferCode extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeCustomCode_Relationships_OfferCode extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = SubscriptionOfferCodeCustomCode_Relationships_OfferCode_Links::class;
 	protected $linksDataType = 'object';
@@ -174,7 +174,7 @@ class SubscriptionOfferCodeCustomCode_Relationships_OfferCode extends \Cantie\Ap
 
 }
 
-class SubscriptionOfferCodeCustomCode_Relationships extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeCustomCode_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $offerCodeType = SubscriptionOfferCodeCustomCode_Relationships_OfferCode::class;
 	protected $offerCodeDataType = 'object';
@@ -197,7 +197,7 @@ class SubscriptionOfferCodeCustomCode_Relationships extends \Cantie\AppStoreConn
 
 }
 
-class SubscriptionOfferCodeCustomCode extends \Cantie\AppStoreConnect\Model
+class SubscriptionOfferCodeCustomCode extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionOfferCodeCustomCodes';
 	public $id;

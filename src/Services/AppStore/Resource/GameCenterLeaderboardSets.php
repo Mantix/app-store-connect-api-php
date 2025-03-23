@@ -24,28 +24,28 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetGameCenterLeaderboardsLinkagesResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetGameCenterLeaderboardsLinkagesRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetGroupLeaderboardSetLinkageResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetGroupLeaderboardSetLinkageRequest;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetLocalizationsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetReleasesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetGameCenterLeaderboardsLinkagesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetGameCenterLeaderboardsLinkagesRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetGroupLeaderboardSetLinkageResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetGroupLeaderboardSetLinkageRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetLocalizationsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardSetReleasesResponse;
 
 /**
  * The "gameCenterLeaderboardSets" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $gameCenterLeaderboardSets = $appStoreService->gameCenterLeaderboardSets;
  *  </code>
  */
-class GameCenterLeaderboardSets extends \Cantie\AppStoreConnect\Services\Resource
+class GameCenterLeaderboardSets extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

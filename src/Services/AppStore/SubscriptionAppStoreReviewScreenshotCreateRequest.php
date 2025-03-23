@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionAppStoreReviewScreenshotCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class SubscriptionAppStoreReviewScreenshotCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $fileSize;
 	public $fileName;
@@ -52,7 +52,7 @@ class SubscriptionAppStoreReviewScreenshotCreateRequest_Data_Attributes extends 
 
 }
 
-class SubscriptionAppStoreReviewScreenshotCreateRequest_Data_Relationships_Subscription_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionAppStoreReviewScreenshotCreateRequest_Data_Relationships_Subscription_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptions';
 	public $id;
@@ -78,7 +78,7 @@ class SubscriptionAppStoreReviewScreenshotCreateRequest_Data_Relationships_Subsc
 
 }
 
-class SubscriptionAppStoreReviewScreenshotCreateRequest_Data_Relationships_Subscription extends \Cantie\AppStoreConnect\Model
+class SubscriptionAppStoreReviewScreenshotCreateRequest_Data_Relationships_Subscription extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionAppStoreReviewScreenshotCreateRequest_Data_Relationships_Subscription_Data::class;
 	protected $dataDataType = 'object';
@@ -101,7 +101,7 @@ class SubscriptionAppStoreReviewScreenshotCreateRequest_Data_Relationships_Subsc
 
 }
 
-class SubscriptionAppStoreReviewScreenshotCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class SubscriptionAppStoreReviewScreenshotCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $subscriptionType = SubscriptionAppStoreReviewScreenshotCreateRequest_Data_Relationships_Subscription::class;
 	protected $subscriptionDataType = 'object';
@@ -124,7 +124,7 @@ class SubscriptionAppStoreReviewScreenshotCreateRequest_Data_Relationships exten
 
 }
 
-class SubscriptionAppStoreReviewScreenshotCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionAppStoreReviewScreenshotCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionAppStoreReviewScreenshots';
 	protected $attributesType = SubscriptionAppStoreReviewScreenshotCreateRequest_Data_Attributes::class;
@@ -174,7 +174,7 @@ class SubscriptionAppStoreReviewScreenshotCreateRequest_Data extends \Cantie\App
 
 }
 
-class SubscriptionAppStoreReviewScreenshotCreateRequest extends \Cantie\AppStoreConnect\Model
+class SubscriptionAppStoreReviewScreenshotCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionAppStoreReviewScreenshotCreateRequest_Data::class;
 	protected $dataDataType = 'object';

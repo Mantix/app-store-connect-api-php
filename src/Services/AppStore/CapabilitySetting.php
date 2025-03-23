@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CapabilitySetting extends \Cantie\AppStoreConnect\Model
+class CapabilitySetting extends \Mantix\AppStoreConnect\Model
 {
 	public $key; // ICLOUD_VERSION, DATA_PROTECTION_PERMISSION_LEVEL, APPLE_ID_AUTH_APP_CONSENT
 	public $name;

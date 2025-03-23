@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppEventScreenshotCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppEventScreenshotCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $fileSize;
 	public $fileName;
@@ -68,7 +68,7 @@ class AppEventScreenshotCreateRequest_Data_Attributes extends \Cantie\AppStoreCo
 
 }
 
-class AppEventScreenshotCreateRequest_Data_Relationships_AppEventLocalization_Data extends \Cantie\AppStoreConnect\Model
+class AppEventScreenshotCreateRequest_Data_Relationships_AppEventLocalization_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEventLocalizations';
 	public $id;
@@ -94,7 +94,7 @@ class AppEventScreenshotCreateRequest_Data_Relationships_AppEventLocalization_Da
 
 }
 
-class AppEventScreenshotCreateRequest_Data_Relationships_AppEventLocalization extends \Cantie\AppStoreConnect\Model
+class AppEventScreenshotCreateRequest_Data_Relationships_AppEventLocalization extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppEventScreenshotCreateRequest_Data_Relationships_AppEventLocalization_Data::class;
 	protected $dataDataType = 'object';
@@ -117,7 +117,7 @@ class AppEventScreenshotCreateRequest_Data_Relationships_AppEventLocalization ex
 
 }
 
-class AppEventScreenshotCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppEventScreenshotCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appEventLocalizationType = AppEventScreenshotCreateRequest_Data_Relationships_AppEventLocalization::class;
 	protected $appEventLocalizationDataType = 'object';
@@ -140,7 +140,7 @@ class AppEventScreenshotCreateRequest_Data_Relationships extends \Cantie\AppStor
 
 }
 
-class AppEventScreenshotCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppEventScreenshotCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEventScreenshots';
 	protected $attributesType = AppEventScreenshotCreateRequest_Data_Attributes::class;
@@ -190,7 +190,7 @@ class AppEventScreenshotCreateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppEventScreenshotCreateRequest extends \Cantie\AppStoreConnect\Model
+class AppEventScreenshotCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppEventScreenshotCreateRequest_Data::class;
 	protected $dataDataType = 'object';

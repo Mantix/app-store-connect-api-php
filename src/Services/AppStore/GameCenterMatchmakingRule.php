@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterMatchmakingRule_Attributes extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingRule_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $referenceName;
 	public $description;
@@ -82,7 +82,7 @@ class GameCenterMatchmakingRule_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class GameCenterMatchmakingRule extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingRule extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterMatchmakingRules';
 	public $id;

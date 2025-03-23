@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionGroupUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class SubscriptionGroupUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $referenceName;
 
@@ -42,7 +42,7 @@ class SubscriptionGroupUpdateRequest_Data_Attributes extends \Cantie\AppStoreCon
 
 }
 
-class SubscriptionGroupUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionGroupUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionGroups';
 	public $id;
@@ -85,7 +85,7 @@ class SubscriptionGroupUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class SubscriptionGroupUpdateRequest extends \Cantie\AppStoreConnect\Model
+class SubscriptionGroupUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionGroupUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

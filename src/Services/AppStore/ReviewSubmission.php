@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class ReviewSubmission_Attributes extends \Cantie\AppStoreConnect\Model
+class ReviewSubmission_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $platform; // 
 	public $submittedDate;
@@ -68,7 +68,7 @@ class ReviewSubmission_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class ReviewSubmission_Relationships_App_Links extends \Cantie\AppStoreConnect\Model
+class ReviewSubmission_Relationships_App_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -94,7 +94,7 @@ class ReviewSubmission_Relationships_App_Links extends \Cantie\AppStoreConnect\M
 
 }
 
-class ReviewSubmission_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class ReviewSubmission_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -120,7 +120,7 @@ class ReviewSubmission_Relationships_App_Data extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class ReviewSubmission_Relationships_App extends \Cantie\AppStoreConnect\Model
+class ReviewSubmission_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = ReviewSubmission_Relationships_App_Links::class;
 	protected $linksDataType = 'object';
@@ -160,7 +160,7 @@ class ReviewSubmission_Relationships_App extends \Cantie\AppStoreConnect\Model
 
 }
 
-class ReviewSubmission_Relationships_Items_Links extends \Cantie\AppStoreConnect\Model
+class ReviewSubmission_Relationships_Items_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -186,7 +186,7 @@ class ReviewSubmission_Relationships_Items_Links extends \Cantie\AppStoreConnect
 
 }
 
-class ReviewSubmission_Relationships_Items_Data extends \Cantie\AppStoreConnect\Model
+class ReviewSubmission_Relationships_Items_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'reviewSubmissionItems';
 	public $id;
@@ -212,7 +212,7 @@ class ReviewSubmission_Relationships_Items_Data extends \Cantie\AppStoreConnect\
 
 }
 
-class ReviewSubmission_Relationships_Items extends \Cantie\AppStoreConnect\Model
+class ReviewSubmission_Relationships_Items extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = ReviewSubmission_Relationships_Items_Links::class;
 	protected $linksDataType = 'object';
@@ -269,7 +269,7 @@ class ReviewSubmission_Relationships_Items extends \Cantie\AppStoreConnect\Model
 
 }
 
-class ReviewSubmission_Relationships_AppStoreVersionForReview_Links extends \Cantie\AppStoreConnect\Model
+class ReviewSubmission_Relationships_AppStoreVersionForReview_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -295,7 +295,7 @@ class ReviewSubmission_Relationships_AppStoreVersionForReview_Links extends \Can
 
 }
 
-class ReviewSubmission_Relationships_AppStoreVersionForReview_Data extends \Cantie\AppStoreConnect\Model
+class ReviewSubmission_Relationships_AppStoreVersionForReview_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersions';
 	public $id;
@@ -321,7 +321,7 @@ class ReviewSubmission_Relationships_AppStoreVersionForReview_Data extends \Cant
 
 }
 
-class ReviewSubmission_Relationships_AppStoreVersionForReview extends \Cantie\AppStoreConnect\Model
+class ReviewSubmission_Relationships_AppStoreVersionForReview extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = ReviewSubmission_Relationships_AppStoreVersionForReview_Links::class;
 	protected $linksDataType = 'object';
@@ -361,7 +361,7 @@ class ReviewSubmission_Relationships_AppStoreVersionForReview extends \Cantie\Ap
 
 }
 
-class ReviewSubmission_Relationships_SubmittedByActor_Links extends \Cantie\AppStoreConnect\Model
+class ReviewSubmission_Relationships_SubmittedByActor_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -387,7 +387,7 @@ class ReviewSubmission_Relationships_SubmittedByActor_Links extends \Cantie\AppS
 
 }
 
-class ReviewSubmission_Relationships_SubmittedByActor_Data extends \Cantie\AppStoreConnect\Model
+class ReviewSubmission_Relationships_SubmittedByActor_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'actors';
 	public $id;
@@ -413,7 +413,7 @@ class ReviewSubmission_Relationships_SubmittedByActor_Data extends \Cantie\AppSt
 
 }
 
-class ReviewSubmission_Relationships_SubmittedByActor extends \Cantie\AppStoreConnect\Model
+class ReviewSubmission_Relationships_SubmittedByActor extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = ReviewSubmission_Relationships_SubmittedByActor_Links::class;
 	protected $linksDataType = 'object';
@@ -453,7 +453,7 @@ class ReviewSubmission_Relationships_SubmittedByActor extends \Cantie\AppStoreCo
 
 }
 
-class ReviewSubmission_Relationships_LastUpdatedByActor_Links extends \Cantie\AppStoreConnect\Model
+class ReviewSubmission_Relationships_LastUpdatedByActor_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -479,7 +479,7 @@ class ReviewSubmission_Relationships_LastUpdatedByActor_Links extends \Cantie\Ap
 
 }
 
-class ReviewSubmission_Relationships_LastUpdatedByActor_Data extends \Cantie\AppStoreConnect\Model
+class ReviewSubmission_Relationships_LastUpdatedByActor_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'actors';
 	public $id;
@@ -505,7 +505,7 @@ class ReviewSubmission_Relationships_LastUpdatedByActor_Data extends \Cantie\App
 
 }
 
-class ReviewSubmission_Relationships_LastUpdatedByActor extends \Cantie\AppStoreConnect\Model
+class ReviewSubmission_Relationships_LastUpdatedByActor extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = ReviewSubmission_Relationships_LastUpdatedByActor_Links::class;
 	protected $linksDataType = 'object';
@@ -545,7 +545,7 @@ class ReviewSubmission_Relationships_LastUpdatedByActor extends \Cantie\AppStore
 
 }
 
-class ReviewSubmission_Relationships extends \Cantie\AppStoreConnect\Model
+class ReviewSubmission_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = ReviewSubmission_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -636,7 +636,7 @@ class ReviewSubmission_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class ReviewSubmission extends \Cantie\AppStoreConnect\Model
+class ReviewSubmission extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'reviewSubmissions';
 	public $id;

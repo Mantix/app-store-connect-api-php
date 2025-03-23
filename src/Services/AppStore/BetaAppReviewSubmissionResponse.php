@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BetaAppReviewSubmissionResponse extends \Cantie\AppStoreConnect\Model
+class BetaAppReviewSubmissionResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BetaAppReviewSubmission::class;
 	protected $dataDataType = '';

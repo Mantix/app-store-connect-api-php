@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppScreenshotSetCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSetCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $screenshotDisplayType; // 
 
@@ -48,7 +48,7 @@ class AppScreenshotSetCreateRequest_Data_Attributes extends \Cantie\AppStoreConn
 
 }
 
-class AppScreenshotSetCreateRequest_Data_Relationships_AppStoreVersionLocalization_Data extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSetCreateRequest_Data_Relationships_AppStoreVersionLocalization_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionLocalizations';
 	public $id;
@@ -74,7 +74,7 @@ class AppScreenshotSetCreateRequest_Data_Relationships_AppStoreVersionLocalizati
 
 }
 
-class AppScreenshotSetCreateRequest_Data_Relationships_AppStoreVersionLocalization extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSetCreateRequest_Data_Relationships_AppStoreVersionLocalization extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppScreenshotSetCreateRequest_Data_Relationships_AppStoreVersionLocalization_Data::class;
 	protected $dataDataType = 'object';
@@ -97,7 +97,7 @@ class AppScreenshotSetCreateRequest_Data_Relationships_AppStoreVersionLocalizati
 
 }
 
-class AppScreenshotSetCreateRequest_Data_Relationships_AppCustomProductPageLocalization_Data extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSetCreateRequest_Data_Relationships_AppCustomProductPageLocalization_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appCustomProductPageLocalizations';
 	public $id;
@@ -123,7 +123,7 @@ class AppScreenshotSetCreateRequest_Data_Relationships_AppCustomProductPageLocal
 
 }
 
-class AppScreenshotSetCreateRequest_Data_Relationships_AppCustomProductPageLocalization extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSetCreateRequest_Data_Relationships_AppCustomProductPageLocalization extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppScreenshotSetCreateRequest_Data_Relationships_AppCustomProductPageLocalization_Data::class;
 	protected $dataDataType = 'object';
@@ -146,7 +146,7 @@ class AppScreenshotSetCreateRequest_Data_Relationships_AppCustomProductPageLocal
 
 }
 
-class AppScreenshotSetCreateRequest_Data_Relationships_AppStoreVersionExperimentTreatmentLocalization_Data extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSetCreateRequest_Data_Relationships_AppStoreVersionExperimentTreatmentLocalization_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionExperimentTreatmentLocalizations';
 	public $id;
@@ -172,7 +172,7 @@ class AppScreenshotSetCreateRequest_Data_Relationships_AppStoreVersionExperiment
 
 }
 
-class AppScreenshotSetCreateRequest_Data_Relationships_AppStoreVersionExperimentTreatmentLocalization extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSetCreateRequest_Data_Relationships_AppStoreVersionExperimentTreatmentLocalization extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppScreenshotSetCreateRequest_Data_Relationships_AppStoreVersionExperimentTreatmentLocalization_Data::class;
 	protected $dataDataType = 'object';
@@ -195,7 +195,7 @@ class AppScreenshotSetCreateRequest_Data_Relationships_AppStoreVersionExperiment
 
 }
 
-class AppScreenshotSetCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSetCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appStoreVersionLocalizationType = AppScreenshotSetCreateRequest_Data_Relationships_AppStoreVersionLocalization::class;
 	protected $appStoreVersionLocalizationDataType = 'object';
@@ -252,7 +252,7 @@ class AppScreenshotSetCreateRequest_Data_Relationships extends \Cantie\AppStoreC
 
 }
 
-class AppScreenshotSetCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSetCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appScreenshotSets';
 	protected $attributesType = AppScreenshotSetCreateRequest_Data_Attributes::class;
@@ -302,7 +302,7 @@ class AppScreenshotSetCreateRequest_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppScreenshotSetCreateRequest extends \Cantie\AppStoreConnect\Model
+class AppScreenshotSetCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppScreenshotSetCreateRequest_Data::class;
 	protected $dataDataType = 'object';

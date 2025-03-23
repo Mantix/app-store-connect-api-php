@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class Device_Attributes extends \Cantie\AppStoreConnect\Model
+class Device_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $platform; // 
@@ -108,7 +108,7 @@ class Device_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Device extends \Cantie\AppStoreConnect\Model
+class Device extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'devices';
 	public $id;

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionGroup_Attributes extends \Cantie\AppStoreConnect\Model
+class SubscriptionGroup_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $referenceName;
 
@@ -42,7 +42,7 @@ class SubscriptionGroup_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class SubscriptionGroup_Relationships_Subscriptions_Links extends \Cantie\AppStoreConnect\Model
+class SubscriptionGroup_Relationships_Subscriptions_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -68,7 +68,7 @@ class SubscriptionGroup_Relationships_Subscriptions_Links extends \Cantie\AppSto
 
 }
 
-class SubscriptionGroup_Relationships_Subscriptions_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionGroup_Relationships_Subscriptions_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptions';
 	public $id;
@@ -94,7 +94,7 @@ class SubscriptionGroup_Relationships_Subscriptions_Data extends \Cantie\AppStor
 
 }
 
-class SubscriptionGroup_Relationships_Subscriptions extends \Cantie\AppStoreConnect\Model
+class SubscriptionGroup_Relationships_Subscriptions extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = SubscriptionGroup_Relationships_Subscriptions_Links::class;
 	protected $linksDataType = 'object';
@@ -151,7 +151,7 @@ class SubscriptionGroup_Relationships_Subscriptions extends \Cantie\AppStoreConn
 
 }
 
-class SubscriptionGroup_Relationships_SubscriptionGroupLocalizations_Links extends \Cantie\AppStoreConnect\Model
+class SubscriptionGroup_Relationships_SubscriptionGroupLocalizations_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -177,7 +177,7 @@ class SubscriptionGroup_Relationships_SubscriptionGroupLocalizations_Links exten
 
 }
 
-class SubscriptionGroup_Relationships_SubscriptionGroupLocalizations_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionGroup_Relationships_SubscriptionGroupLocalizations_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionGroupLocalizations';
 	public $id;
@@ -203,7 +203,7 @@ class SubscriptionGroup_Relationships_SubscriptionGroupLocalizations_Data extend
 
 }
 
-class SubscriptionGroup_Relationships_SubscriptionGroupLocalizations extends \Cantie\AppStoreConnect\Model
+class SubscriptionGroup_Relationships_SubscriptionGroupLocalizations extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = SubscriptionGroup_Relationships_SubscriptionGroupLocalizations_Links::class;
 	protected $linksDataType = 'object';
@@ -260,7 +260,7 @@ class SubscriptionGroup_Relationships_SubscriptionGroupLocalizations extends \Ca
 
 }
 
-class SubscriptionGroup_Relationships extends \Cantie\AppStoreConnect\Model
+class SubscriptionGroup_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $subscriptionsType = SubscriptionGroup_Relationships_Subscriptions::class;
 	protected $subscriptionsDataType = 'object';
@@ -300,7 +300,7 @@ class SubscriptionGroup_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class SubscriptionGroup extends \Cantie\AppStoreConnect\Model
+class SubscriptionGroup extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionGroups';
 	public $id;

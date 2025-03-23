@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class InAppPurchaseLocalizationCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseLocalizationCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $locale;
@@ -62,7 +62,7 @@ class InAppPurchaseLocalizationCreateRequest_Data_Attributes extends \Cantie\App
 
 }
 
-class InAppPurchaseLocalizationCreateRequest_Data_Relationships_InAppPurchaseV2_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseLocalizationCreateRequest_Data_Relationships_InAppPurchaseV2_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchases';
 	public $id;
@@ -88,7 +88,7 @@ class InAppPurchaseLocalizationCreateRequest_Data_Relationships_InAppPurchaseV2_
 
 }
 
-class InAppPurchaseLocalizationCreateRequest_Data_Relationships_InAppPurchaseV2 extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseLocalizationCreateRequest_Data_Relationships_InAppPurchaseV2 extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = InAppPurchaseLocalizationCreateRequest_Data_Relationships_InAppPurchaseV2_Data::class;
 	protected $dataDataType = 'object';
@@ -111,7 +111,7 @@ class InAppPurchaseLocalizationCreateRequest_Data_Relationships_InAppPurchaseV2 
 
 }
 
-class InAppPurchaseLocalizationCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseLocalizationCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $inAppPurchaseV2Type = InAppPurchaseLocalizationCreateRequest_Data_Relationships_InAppPurchaseV2::class;
 	protected $inAppPurchaseV2DataType = 'object';
@@ -134,7 +134,7 @@ class InAppPurchaseLocalizationCreateRequest_Data_Relationships extends \Cantie\
 
 }
 
-class InAppPurchaseLocalizationCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseLocalizationCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'inAppPurchaseLocalizations';
 	protected $attributesType = InAppPurchaseLocalizationCreateRequest_Data_Attributes::class;
@@ -184,7 +184,7 @@ class InAppPurchaseLocalizationCreateRequest_Data extends \Cantie\AppStoreConnec
 
 }
 
-class InAppPurchaseLocalizationCreateRequest extends \Cantie\AppStoreConnect\Model
+class InAppPurchaseLocalizationCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = InAppPurchaseLocalizationCreateRequest_Data::class;
 	protected $dataDataType = 'object';

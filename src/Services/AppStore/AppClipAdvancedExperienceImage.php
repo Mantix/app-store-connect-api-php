@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppClipAdvancedExperienceImage_Attributes extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperienceImage_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $fileSize;
 	public $fileName;
@@ -113,7 +113,7 @@ class AppClipAdvancedExperienceImage_Attributes extends \Cantie\AppStoreConnect\
 
 }
 
-class AppClipAdvancedExperienceImage extends \Cantie\AppStoreConnect\Model
+class AppClipAdvancedExperienceImage extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appClipAdvancedExperienceImages';
 	public $id;

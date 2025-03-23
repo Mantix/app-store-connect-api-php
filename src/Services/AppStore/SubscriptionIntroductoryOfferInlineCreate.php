@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionIntroductoryOfferInlineCreate_Attributes extends \Cantie\AppStoreConnect\Model
+class SubscriptionIntroductoryOfferInlineCreate_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $startDate;
 	public $endDate;
@@ -94,7 +94,7 @@ class SubscriptionIntroductoryOfferInlineCreate_Attributes extends \Cantie\AppSt
 
 }
 
-class SubscriptionIntroductoryOfferInlineCreate_Relationships_Subscription_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionIntroductoryOfferInlineCreate_Relationships_Subscription_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptions';
 	public $id;
@@ -120,7 +120,7 @@ class SubscriptionIntroductoryOfferInlineCreate_Relationships_Subscription_Data 
 
 }
 
-class SubscriptionIntroductoryOfferInlineCreate_Relationships_Subscription extends \Cantie\AppStoreConnect\Model
+class SubscriptionIntroductoryOfferInlineCreate_Relationships_Subscription extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionIntroductoryOfferInlineCreate_Relationships_Subscription_Data::class;
 	protected $dataDataType = 'object';
@@ -143,7 +143,7 @@ class SubscriptionIntroductoryOfferInlineCreate_Relationships_Subscription exten
 
 }
 
-class SubscriptionIntroductoryOfferInlineCreate_Relationships_Territory_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionIntroductoryOfferInlineCreate_Relationships_Territory_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'territories';
 	public $id;
@@ -169,7 +169,7 @@ class SubscriptionIntroductoryOfferInlineCreate_Relationships_Territory_Data ext
 
 }
 
-class SubscriptionIntroductoryOfferInlineCreate_Relationships_Territory extends \Cantie\AppStoreConnect\Model
+class SubscriptionIntroductoryOfferInlineCreate_Relationships_Territory extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionIntroductoryOfferInlineCreate_Relationships_Territory_Data::class;
 	protected $dataDataType = 'object';
@@ -192,7 +192,7 @@ class SubscriptionIntroductoryOfferInlineCreate_Relationships_Territory extends 
 
 }
 
-class SubscriptionIntroductoryOfferInlineCreate_Relationships_SubscriptionPricePoint_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionIntroductoryOfferInlineCreate_Relationships_SubscriptionPricePoint_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionPricePoints';
 	public $id;
@@ -218,7 +218,7 @@ class SubscriptionIntroductoryOfferInlineCreate_Relationships_SubscriptionPriceP
 
 }
 
-class SubscriptionIntroductoryOfferInlineCreate_Relationships_SubscriptionPricePoint extends \Cantie\AppStoreConnect\Model
+class SubscriptionIntroductoryOfferInlineCreate_Relationships_SubscriptionPricePoint extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionIntroductoryOfferInlineCreate_Relationships_SubscriptionPricePoint_Data::class;
 	protected $dataDataType = 'object';
@@ -241,7 +241,7 @@ class SubscriptionIntroductoryOfferInlineCreate_Relationships_SubscriptionPriceP
 
 }
 
-class SubscriptionIntroductoryOfferInlineCreate_Relationships extends \Cantie\AppStoreConnect\Model
+class SubscriptionIntroductoryOfferInlineCreate_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $subscriptionType = SubscriptionIntroductoryOfferInlineCreate_Relationships_Subscription::class;
 	protected $subscriptionDataType = 'object';
@@ -298,7 +298,7 @@ class SubscriptionIntroductoryOfferInlineCreate_Relationships extends \Cantie\Ap
 
 }
 
-class SubscriptionIntroductoryOfferInlineCreate extends \Cantie\AppStoreConnect\Model
+class SubscriptionIntroductoryOfferInlineCreate extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionIntroductoryOffers';
 	public $id;

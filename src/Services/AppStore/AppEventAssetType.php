@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppEventAssetType extends \Cantie\AppStoreConnect\Model
+class AppEventAssetType extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $EVENT_CARD = "EVENT_CARD";

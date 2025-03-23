@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiGitRefKind extends \Cantie\AppStoreConnect\Model
+class CiGitRefKind extends \Mantix\AppStoreConnect\Model
 {
 	// enum class
 	public static $BRANCH = "BRANCH";

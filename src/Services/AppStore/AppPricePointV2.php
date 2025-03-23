@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppPricePointV2_Attributes extends \Cantie\AppStoreConnect\Model
+class AppPricePointV2_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $customerPrice;
 	public $proceeds;
@@ -52,7 +52,7 @@ class AppPricePointV2_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPricePointV2_Relationships_App_Links extends \Cantie\AppStoreConnect\Model
+class AppPricePointV2_Relationships_App_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -78,7 +78,7 @@ class AppPricePointV2_Relationships_App_Links extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class AppPricePointV2_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class AppPricePointV2_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -104,7 +104,7 @@ class AppPricePointV2_Relationships_App_Data extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class AppPricePointV2_Relationships_App extends \Cantie\AppStoreConnect\Model
+class AppPricePointV2_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppPricePointV2_Relationships_App_Links::class;
 	protected $linksDataType = 'object';
@@ -144,7 +144,7 @@ class AppPricePointV2_Relationships_App extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPricePointV2_Relationships_PriceTier_Links extends \Cantie\AppStoreConnect\Model
+class AppPricePointV2_Relationships_PriceTier_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -170,7 +170,7 @@ class AppPricePointV2_Relationships_PriceTier_Links extends \Cantie\AppStoreConn
 
 }
 
-class AppPricePointV2_Relationships_PriceTier_Data extends \Cantie\AppStoreConnect\Model
+class AppPricePointV2_Relationships_PriceTier_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appPriceTiers';
 	public $id;
@@ -196,7 +196,7 @@ class AppPricePointV2_Relationships_PriceTier_Data extends \Cantie\AppStoreConne
 
 }
 
-class AppPricePointV2_Relationships_PriceTier extends \Cantie\AppStoreConnect\Model
+class AppPricePointV2_Relationships_PriceTier extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppPricePointV2_Relationships_PriceTier_Links::class;
 	protected $linksDataType = 'object';
@@ -236,7 +236,7 @@ class AppPricePointV2_Relationships_PriceTier extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class AppPricePointV2_Relationships_Territory_Links extends \Cantie\AppStoreConnect\Model
+class AppPricePointV2_Relationships_Territory_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -262,7 +262,7 @@ class AppPricePointV2_Relationships_Territory_Links extends \Cantie\AppStoreConn
 
 }
 
-class AppPricePointV2_Relationships_Territory_Data extends \Cantie\AppStoreConnect\Model
+class AppPricePointV2_Relationships_Territory_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'territories';
 	public $id;
@@ -288,7 +288,7 @@ class AppPricePointV2_Relationships_Territory_Data extends \Cantie\AppStoreConne
 
 }
 
-class AppPricePointV2_Relationships_Territory extends \Cantie\AppStoreConnect\Model
+class AppPricePointV2_Relationships_Territory extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = AppPricePointV2_Relationships_Territory_Links::class;
 	protected $linksDataType = 'object';
@@ -328,7 +328,7 @@ class AppPricePointV2_Relationships_Territory extends \Cantie\AppStoreConnect\Mo
 
 }
 
-class AppPricePointV2_Relationships extends \Cantie\AppStoreConnect\Model
+class AppPricePointV2_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appType = AppPricePointV2_Relationships_App::class;
 	protected $appDataType = 'object';
@@ -385,7 +385,7 @@ class AppPricePointV2_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class AppPricePointV2 extends \Cantie\AppStoreConnect\Model
+class AppPricePointV2 extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appPricePoints';
 	public $id;

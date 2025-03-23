@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterLeaderboardSetImage_Attributes extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardSetImage_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $fileSize;
 	public $fileName;
@@ -103,7 +103,7 @@ class GameCenterLeaderboardSetImage_Attributes extends \Cantie\AppStoreConnect\M
 
 }
 
-class GameCenterLeaderboardSetImage_Relationships_GameCenterLeaderboardSetLocalization_Links extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardSetImage_Relationships_GameCenterLeaderboardSetLocalization_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -129,7 +129,7 @@ class GameCenterLeaderboardSetImage_Relationships_GameCenterLeaderboardSetLocali
 
 }
 
-class GameCenterLeaderboardSetImage_Relationships_GameCenterLeaderboardSetLocalization_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardSetImage_Relationships_GameCenterLeaderboardSetLocalization_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterLeaderboardSetLocalizations';
 	public $id;
@@ -155,7 +155,7 @@ class GameCenterLeaderboardSetImage_Relationships_GameCenterLeaderboardSetLocali
 
 }
 
-class GameCenterLeaderboardSetImage_Relationships_GameCenterLeaderboardSetLocalization extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardSetImage_Relationships_GameCenterLeaderboardSetLocalization extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = GameCenterLeaderboardSetImage_Relationships_GameCenterLeaderboardSetLocalization_Links::class;
 	protected $linksDataType = 'object';
@@ -195,7 +195,7 @@ class GameCenterLeaderboardSetImage_Relationships_GameCenterLeaderboardSetLocali
 
 }
 
-class GameCenterLeaderboardSetImage_Relationships extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardSetImage_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $gameCenterLeaderboardSetLocalizationType = GameCenterLeaderboardSetImage_Relationships_GameCenterLeaderboardSetLocalization::class;
 	protected $gameCenterLeaderboardSetLocalizationDataType = 'object';
@@ -218,7 +218,7 @@ class GameCenterLeaderboardSetImage_Relationships extends \Cantie\AppStoreConnec
 
 }
 
-class GameCenterLeaderboardSetImage extends \Cantie\AppStoreConnect\Model
+class GameCenterLeaderboardSetImage extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'gameCenterLeaderboardSetImages';
 	public $id;

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionLocalizationCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class SubscriptionLocalizationCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $locale;
@@ -62,7 +62,7 @@ class SubscriptionLocalizationCreateRequest_Data_Attributes extends \Cantie\AppS
 
 }
 
-class SubscriptionLocalizationCreateRequest_Data_Relationships_Subscription_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionLocalizationCreateRequest_Data_Relationships_Subscription_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptions';
 	public $id;
@@ -88,7 +88,7 @@ class SubscriptionLocalizationCreateRequest_Data_Relationships_Subscription_Data
 
 }
 
-class SubscriptionLocalizationCreateRequest_Data_Relationships_Subscription extends \Cantie\AppStoreConnect\Model
+class SubscriptionLocalizationCreateRequest_Data_Relationships_Subscription extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionLocalizationCreateRequest_Data_Relationships_Subscription_Data::class;
 	protected $dataDataType = 'object';
@@ -111,7 +111,7 @@ class SubscriptionLocalizationCreateRequest_Data_Relationships_Subscription exte
 
 }
 
-class SubscriptionLocalizationCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class SubscriptionLocalizationCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $subscriptionType = SubscriptionLocalizationCreateRequest_Data_Relationships_Subscription::class;
 	protected $subscriptionDataType = 'object';
@@ -134,7 +134,7 @@ class SubscriptionLocalizationCreateRequest_Data_Relationships extends \Cantie\A
 
 }
 
-class SubscriptionLocalizationCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionLocalizationCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionLocalizations';
 	protected $attributesType = SubscriptionLocalizationCreateRequest_Data_Attributes::class;
@@ -184,7 +184,7 @@ class SubscriptionLocalizationCreateRequest_Data extends \Cantie\AppStoreConnect
 
 }
 
-class SubscriptionLocalizationCreateRequest extends \Cantie\AppStoreConnect\Model
+class SubscriptionLocalizationCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionLocalizationCreateRequest_Data::class;
 	protected $dataDataType = 'object';

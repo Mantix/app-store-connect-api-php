@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BuildBetaDetail_Attributes extends \Cantie\AppStoreConnect\Model
+class BuildBetaDetail_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $autoNotifyEnabled;
 	public $internalBuildState; // 
@@ -74,7 +74,7 @@ class BuildBetaDetail_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BuildBetaDetail_Relationships_Build_Links extends \Cantie\AppStoreConnect\Model
+class BuildBetaDetail_Relationships_Build_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -100,7 +100,7 @@ class BuildBetaDetail_Relationships_Build_Links extends \Cantie\AppStoreConnect\
 
 }
 
-class BuildBetaDetail_Relationships_Build_Data extends \Cantie\AppStoreConnect\Model
+class BuildBetaDetail_Relationships_Build_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'builds';
 	public $id;
@@ -126,7 +126,7 @@ class BuildBetaDetail_Relationships_Build_Data extends \Cantie\AppStoreConnect\M
 
 }
 
-class BuildBetaDetail_Relationships_Build extends \Cantie\AppStoreConnect\Model
+class BuildBetaDetail_Relationships_Build extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = BuildBetaDetail_Relationships_Build_Links::class;
 	protected $linksDataType = 'object';
@@ -166,7 +166,7 @@ class BuildBetaDetail_Relationships_Build extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BuildBetaDetail_Relationships extends \Cantie\AppStoreConnect\Model
+class BuildBetaDetail_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $buildType = BuildBetaDetail_Relationships_Build::class;
 	protected $buildDataType = 'object';
@@ -189,7 +189,7 @@ class BuildBetaDetail_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class BuildBetaDetail extends \Cantie\AppStoreConnect\Model
+class BuildBetaDetail extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'buildBetaDetails';
 	public $id;

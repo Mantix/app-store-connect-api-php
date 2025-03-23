@@ -24,20 +24,20 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionPriceResponse;
-use Cantie\AppStoreConnect\Services\AppStore\SubscriptionPriceCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionPriceResponse;
+use Mantix\AppStoreConnect\Services\AppStore\SubscriptionPriceCreateRequest;
 
 /**
  * The "subscriptionPrices" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $subscriptionPrices = $appStoreService->subscriptionPrices;
  *  </code>
  */
-class SubscriptionPrices extends \Cantie\AppStoreConnect\Services\Resource
+class SubscriptionPrices extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

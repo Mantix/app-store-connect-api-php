@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class BuildBetaNotificationResponse extends \Cantie\AppStoreConnect\Model
+class BuildBetaNotificationResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = BuildBetaNotification::class;
 	protected $dataDataType = '';

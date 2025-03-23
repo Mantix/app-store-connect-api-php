@@ -24,21 +24,21 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\AppPreOrderResponse;
-use Cantie\AppStoreConnect\Services\AppStore\AppPreOrderCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppPreOrderUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppPreOrderResponse;
+use Mantix\AppStoreConnect\Services\AppStore\AppPreOrderCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppPreOrderUpdateRequest;
 
 /**
  * The "appPreOrders" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $appPreOrders = $appStoreService->appPreOrders;
  *  </code>
  */
-class AppPreOrders extends \Cantie\AppStoreConnect\Services\Resource
+class AppPreOrders extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

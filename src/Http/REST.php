@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-namespace Cantie\AppStoreConnect\Http;
+namespace Mantix\AppStoreConnect\Http;
 
 use Google\Auth\HttpHandler\HttpHandlerFactory;
-use Cantie\AppStoreConnect\Client;
-use Cantie\AppStoreConnect\Task\Runner;
-use Cantie\AppStoreConnect\Services\Exception as AppleServiceException;
+use Mantix\AppStoreConnect\Client;
+use Mantix\AppStoreConnect\Task\Runner;
+use Mantix\AppStoreConnect\Services\Exception as AppleServiceException;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\Response;
@@ -95,7 +95,7 @@ class REST
   /**
    * Decode an HTTP Response.
    * @static
-   * @throws \Cantie\AppStoreConnect\Exception
+   * @throws \Mantix\AppStoreConnect\Exception
    * @param RequestInterface $response The http response to be decoded.
    * @param ResponseInterface $response
    * @param string $expectedClass
@@ -158,7 +158,7 @@ class REST
   
   private static function getResponseErrors($body)
   {
-    $expectedClass = \Cantie\AppStoreConnect\Services\AppStore\ErrorResponse::class;
+    $expectedClass = \Mantix\AppStoreConnect\Services\AppStore\ErrorResponse::class;
     $json = json_decode($body, true);
     return new $expectedClass($json);
   }

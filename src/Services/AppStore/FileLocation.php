@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class FileLocation extends \Cantie\AppStoreConnect\Model
+class FileLocation extends \Mantix\AppStoreConnect\Model
 {
 	public $path;
 	public $lineNumber;

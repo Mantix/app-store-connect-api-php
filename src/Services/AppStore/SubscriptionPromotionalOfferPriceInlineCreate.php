@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionPromotionalOfferPriceInlineCreate_Relationships_Territory_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionPromotionalOfferPriceInlineCreate_Relationships_Territory_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'territories';
 	public $id;
@@ -52,7 +52,7 @@ class SubscriptionPromotionalOfferPriceInlineCreate_Relationships_Territory_Data
 
 }
 
-class SubscriptionPromotionalOfferPriceInlineCreate_Relationships_Territory extends \Cantie\AppStoreConnect\Model
+class SubscriptionPromotionalOfferPriceInlineCreate_Relationships_Territory extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionPromotionalOfferPriceInlineCreate_Relationships_Territory_Data::class;
 	protected $dataDataType = 'object';
@@ -75,7 +75,7 @@ class SubscriptionPromotionalOfferPriceInlineCreate_Relationships_Territory exte
 
 }
 
-class SubscriptionPromotionalOfferPriceInlineCreate_Relationships_SubscriptionPricePoint_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionPromotionalOfferPriceInlineCreate_Relationships_SubscriptionPricePoint_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionPricePoints';
 	public $id;
@@ -101,7 +101,7 @@ class SubscriptionPromotionalOfferPriceInlineCreate_Relationships_SubscriptionPr
 
 }
 
-class SubscriptionPromotionalOfferPriceInlineCreate_Relationships_SubscriptionPricePoint extends \Cantie\AppStoreConnect\Model
+class SubscriptionPromotionalOfferPriceInlineCreate_Relationships_SubscriptionPricePoint extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionPromotionalOfferPriceInlineCreate_Relationships_SubscriptionPricePoint_Data::class;
 	protected $dataDataType = 'object';
@@ -124,7 +124,7 @@ class SubscriptionPromotionalOfferPriceInlineCreate_Relationships_SubscriptionPr
 
 }
 
-class SubscriptionPromotionalOfferPriceInlineCreate_Relationships extends \Cantie\AppStoreConnect\Model
+class SubscriptionPromotionalOfferPriceInlineCreate_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $territoryType = SubscriptionPromotionalOfferPriceInlineCreate_Relationships_Territory::class;
 	protected $territoryDataType = 'object';
@@ -164,7 +164,7 @@ class SubscriptionPromotionalOfferPriceInlineCreate_Relationships extends \Canti
 
 }
 
-class SubscriptionPromotionalOfferPriceInlineCreate extends \Cantie\AppStoreConnect\Model
+class SubscriptionPromotionalOfferPriceInlineCreate extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionPromotionalOfferPrices';
 	public $id;

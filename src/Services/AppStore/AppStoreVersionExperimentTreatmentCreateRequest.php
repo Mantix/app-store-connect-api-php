@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppStoreVersionExperimentTreatmentCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $name;
 	public $appIconName;
@@ -52,7 +52,7 @@ class AppStoreVersionExperimentTreatmentCreateRequest_Data_Attributes extends \C
 
 }
 
-class AppStoreVersionExperimentTreatmentCreateRequest_Data_Relationships_AppStoreVersionExperiment_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentCreateRequest_Data_Relationships_AppStoreVersionExperiment_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionExperiments';
 	public $id;
@@ -78,7 +78,7 @@ class AppStoreVersionExperimentTreatmentCreateRequest_Data_Relationships_AppStor
 
 }
 
-class AppStoreVersionExperimentTreatmentCreateRequest_Data_Relationships_AppStoreVersionExperiment extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentCreateRequest_Data_Relationships_AppStoreVersionExperiment extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersionExperimentTreatmentCreateRequest_Data_Relationships_AppStoreVersionExperiment_Data::class;
 	protected $dataDataType = 'object';
@@ -101,7 +101,7 @@ class AppStoreVersionExperimentTreatmentCreateRequest_Data_Relationships_AppStor
 
 }
 
-class AppStoreVersionExperimentTreatmentCreateRequest_Data_Relationships_AppStoreVersionExperimentV2_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentCreateRequest_Data_Relationships_AppStoreVersionExperimentV2_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionExperiments';
 	public $id;
@@ -127,7 +127,7 @@ class AppStoreVersionExperimentTreatmentCreateRequest_Data_Relationships_AppStor
 
 }
 
-class AppStoreVersionExperimentTreatmentCreateRequest_Data_Relationships_AppStoreVersionExperimentV2 extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentCreateRequest_Data_Relationships_AppStoreVersionExperimentV2 extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersionExperimentTreatmentCreateRequest_Data_Relationships_AppStoreVersionExperimentV2_Data::class;
 	protected $dataDataType = 'object';
@@ -150,7 +150,7 @@ class AppStoreVersionExperimentTreatmentCreateRequest_Data_Relationships_AppStor
 
 }
 
-class AppStoreVersionExperimentTreatmentCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appStoreVersionExperimentType = AppStoreVersionExperimentTreatmentCreateRequest_Data_Relationships_AppStoreVersionExperiment::class;
 	protected $appStoreVersionExperimentDataType = 'object';
@@ -190,7 +190,7 @@ class AppStoreVersionExperimentTreatmentCreateRequest_Data_Relationships extends
 
 }
 
-class AppStoreVersionExperimentTreatmentCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionExperimentTreatments';
 	protected $attributesType = AppStoreVersionExperimentTreatmentCreateRequest_Data_Attributes::class;
@@ -240,7 +240,7 @@ class AppStoreVersionExperimentTreatmentCreateRequest_Data extends \Cantie\AppSt
 
 }
 
-class AppStoreVersionExperimentTreatmentCreateRequest extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersionExperimentTreatmentCreateRequest_Data::class;
 	protected $dataDataType = 'object';

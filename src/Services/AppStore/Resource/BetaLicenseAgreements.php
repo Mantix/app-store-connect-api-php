@@ -24,22 +24,22 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\BetaLicenseAgreementsResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaLicenseAgreementResponse;
-use Cantie\AppStoreConnect\Services\AppStore\BetaLicenseAgreementUpdateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppWithoutIncludesResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaLicenseAgreementsResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaLicenseAgreementResponse;
+use Mantix\AppStoreConnect\Services\AppStore\BetaLicenseAgreementUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppWithoutIncludesResponse;
 
 /**
  * The "betaLicenseAgreements" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $betaLicenseAgreements = $appStoreService->betaLicenseAgreements;
  *  </code>
  */
-class BetaLicenseAgreements extends \Cantie\AppStoreConnect\Services\Resource
+class BetaLicenseAgreements extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

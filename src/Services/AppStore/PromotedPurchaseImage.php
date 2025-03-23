@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class PromotedPurchaseImage_Attributes extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseImage_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $fileSize;
 	public $fileName;
@@ -126,7 +126,7 @@ class PromotedPurchaseImage_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class PromotedPurchaseImage_Relationships_PromotedPurchase_Links extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseImage_Relationships_PromotedPurchase_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -152,7 +152,7 @@ class PromotedPurchaseImage_Relationships_PromotedPurchase_Links extends \Cantie
 
 }
 
-class PromotedPurchaseImage_Relationships_PromotedPurchase_Data extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseImage_Relationships_PromotedPurchase_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'promotedPurchases';
 	public $id;
@@ -178,7 +178,7 @@ class PromotedPurchaseImage_Relationships_PromotedPurchase_Data extends \Cantie\
 
 }
 
-class PromotedPurchaseImage_Relationships_PromotedPurchase extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseImage_Relationships_PromotedPurchase extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = PromotedPurchaseImage_Relationships_PromotedPurchase_Links::class;
 	protected $linksDataType = 'object';
@@ -218,7 +218,7 @@ class PromotedPurchaseImage_Relationships_PromotedPurchase extends \Cantie\AppSt
 
 }
 
-class PromotedPurchaseImage_Relationships extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseImage_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $promotedPurchaseType = PromotedPurchaseImage_Relationships_PromotedPurchase::class;
 	protected $promotedPurchaseDataType = 'object';
@@ -241,7 +241,7 @@ class PromotedPurchaseImage_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class PromotedPurchaseImage extends \Cantie\AppStoreConnect\Model
+class PromotedPurchaseImage extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'promotedPurchaseImages';
 	public $id;

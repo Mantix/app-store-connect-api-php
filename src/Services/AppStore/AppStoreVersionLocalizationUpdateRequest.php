@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppStoreVersionLocalizationUpdateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionLocalizationUpdateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $description;
 	public $keywords;
@@ -92,7 +92,7 @@ class AppStoreVersionLocalizationUpdateRequest_Data_Attributes extends \Cantie\A
 
 }
 
-class AppStoreVersionLocalizationUpdateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionLocalizationUpdateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionLocalizations';
 	public $id;
@@ -135,7 +135,7 @@ class AppStoreVersionLocalizationUpdateRequest_Data extends \Cantie\AppStoreConn
 
 }
 
-class AppStoreVersionLocalizationUpdateRequest extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionLocalizationUpdateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersionLocalizationUpdateRequest_Data::class;
 	protected $dataDataType = 'object';

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppCustomProductPageVersionResponse extends \Cantie\AppStoreConnect\Model
+class AppCustomProductPageVersionResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppCustomProductPageVersion::class;
 	protected $dataDataType = '';

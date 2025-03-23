@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class CiMacOsVersionResponse extends \Cantie\AppStoreConnect\Model
+class CiMacOsVersionResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = CiMacOsVersion::class;
 	protected $dataDataType = '';

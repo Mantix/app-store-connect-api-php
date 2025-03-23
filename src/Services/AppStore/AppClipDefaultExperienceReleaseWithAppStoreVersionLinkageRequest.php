@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppClipDefaultExperienceReleaseWithAppStoreVersionLinkageRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceReleaseWithAppStoreVersionLinkageRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersions';
 	public $id;
@@ -52,7 +52,7 @@ class AppClipDefaultExperienceReleaseWithAppStoreVersionLinkageRequest_Data exte
 
 }
 
-class AppClipDefaultExperienceReleaseWithAppStoreVersionLinkageRequest extends \Cantie\AppStoreConnect\Model
+class AppClipDefaultExperienceReleaseWithAppStoreVersionLinkageRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppClipDefaultExperienceReleaseWithAppStoreVersionLinkageRequest_Data::class;
 	protected $dataDataType = 'object';

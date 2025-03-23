@@ -24,20 +24,20 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore\Resource;
+namespace Mantix\AppStoreConnect\Services\AppStore\Resource;
 
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardReleaseResponse;
-use Cantie\AppStoreConnect\Services\AppStore\GameCenterLeaderboardReleaseCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardReleaseResponse;
+use Mantix\AppStoreConnect\Services\AppStore\GameCenterLeaderboardReleaseCreateRequest;
 
 /**
  * The "gameCenterLeaderboardReleases" collection of methods.
  * Typical usage is:
  *  <code>
- *   $appStoreService = new Cantie\AppStoreConnect\Service\AppStore(...);
+ *   $appStoreService = new Mantix\AppStoreConnect\Service\AppStore(...);
  *   $gameCenterLeaderboardReleases = $appStoreService->gameCenterLeaderboardReleases;
  *  </code>
  */
-class GameCenterLeaderboardReleases extends \Cantie\AppStoreConnect\Services\Resource
+class GameCenterLeaderboardReleases extends \Mantix\AppStoreConnect\Services\Resource
 {
 
     /**

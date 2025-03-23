@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppStoreVersionPromotion extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionPromotion extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionPromotions';
 	public $id;

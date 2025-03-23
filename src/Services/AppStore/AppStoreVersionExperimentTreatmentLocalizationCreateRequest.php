@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class AppStoreVersionExperimentTreatmentLocalizationCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentLocalizationCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $locale;
 
@@ -42,7 +42,7 @@ class AppStoreVersionExperimentTreatmentLocalizationCreateRequest_Data_Attribute
 
 }
 
-class AppStoreVersionExperimentTreatmentLocalizationCreateRequest_Data_Relationships_AppStoreVersionExperimentTreatment_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentLocalizationCreateRequest_Data_Relationships_AppStoreVersionExperimentTreatment_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionExperimentTreatments';
 	public $id;
@@ -68,7 +68,7 @@ class AppStoreVersionExperimentTreatmentLocalizationCreateRequest_Data_Relations
 
 }
 
-class AppStoreVersionExperimentTreatmentLocalizationCreateRequest_Data_Relationships_AppStoreVersionExperimentTreatment extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentLocalizationCreateRequest_Data_Relationships_AppStoreVersionExperimentTreatment extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersionExperimentTreatmentLocalizationCreateRequest_Data_Relationships_AppStoreVersionExperimentTreatment_Data::class;
 	protected $dataDataType = 'object';
@@ -91,7 +91,7 @@ class AppStoreVersionExperimentTreatmentLocalizationCreateRequest_Data_Relations
 
 }
 
-class AppStoreVersionExperimentTreatmentLocalizationCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentLocalizationCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $appStoreVersionExperimentTreatmentType = AppStoreVersionExperimentTreatmentLocalizationCreateRequest_Data_Relationships_AppStoreVersionExperimentTreatment::class;
 	protected $appStoreVersionExperimentTreatmentDataType = 'object';
@@ -114,7 +114,7 @@ class AppStoreVersionExperimentTreatmentLocalizationCreateRequest_Data_Relations
 
 }
 
-class AppStoreVersionExperimentTreatmentLocalizationCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentLocalizationCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersionExperimentTreatmentLocalizations';
 	protected $attributesType = AppStoreVersionExperimentTreatmentLocalizationCreateRequest_Data_Attributes::class;
@@ -164,7 +164,7 @@ class AppStoreVersionExperimentTreatmentLocalizationCreateRequest_Data extends \
 
 }
 
-class AppStoreVersionExperimentTreatmentLocalizationCreateRequest extends \Cantie\AppStoreConnect\Model
+class AppStoreVersionExperimentTreatmentLocalizationCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = AppStoreVersionExperimentTreatmentLocalizationCreateRequest_Data::class;
 	protected $dataDataType = 'object';

@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class Build_Attributes extends \Cantie\AppStoreConnect\Model
+class Build_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $version;
 	public $uploadedDate;
@@ -155,7 +155,7 @@ class Build_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Build_Relationships_PreReleaseVersion_Links extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_PreReleaseVersion_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -181,7 +181,7 @@ class Build_Relationships_PreReleaseVersion_Links extends \Cantie\AppStoreConnec
 
 }
 
-class Build_Relationships_PreReleaseVersion_Data extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_PreReleaseVersion_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'preReleaseVersions';
 	public $id;
@@ -207,7 +207,7 @@ class Build_Relationships_PreReleaseVersion_Data extends \Cantie\AppStoreConnect
 
 }
 
-class Build_Relationships_PreReleaseVersion extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_PreReleaseVersion extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = Build_Relationships_PreReleaseVersion_Links::class;
 	protected $linksDataType = 'object';
@@ -247,7 +247,7 @@ class Build_Relationships_PreReleaseVersion extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class Build_Relationships_IndividualTesters_Links extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_IndividualTesters_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -273,7 +273,7 @@ class Build_Relationships_IndividualTesters_Links extends \Cantie\AppStoreConnec
 
 }
 
-class Build_Relationships_IndividualTesters_Data extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_IndividualTesters_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaTesters';
 	public $id;
@@ -299,7 +299,7 @@ class Build_Relationships_IndividualTesters_Data extends \Cantie\AppStoreConnect
 
 }
 
-class Build_Relationships_IndividualTesters extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_IndividualTesters extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = Build_Relationships_IndividualTesters_Links::class;
 	protected $linksDataType = 'object';
@@ -356,7 +356,7 @@ class Build_Relationships_IndividualTesters extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class Build_Relationships_BetaGroups_Links extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_BetaGroups_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -382,7 +382,7 @@ class Build_Relationships_BetaGroups_Links extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Build_Relationships_BetaGroups_Data extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_BetaGroups_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaGroups';
 	public $id;
@@ -408,7 +408,7 @@ class Build_Relationships_BetaGroups_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Build_Relationships_BetaGroups extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_BetaGroups extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = Build_Relationships_BetaGroups_Links::class;
 	protected $linksDataType = 'object';
@@ -465,7 +465,7 @@ class Build_Relationships_BetaGroups extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Build_Relationships_BetaBuildLocalizations_Links extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_BetaBuildLocalizations_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -491,7 +491,7 @@ class Build_Relationships_BetaBuildLocalizations_Links extends \Cantie\AppStoreC
 
 }
 
-class Build_Relationships_BetaBuildLocalizations_Data extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_BetaBuildLocalizations_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaBuildLocalizations';
 	public $id;
@@ -517,7 +517,7 @@ class Build_Relationships_BetaBuildLocalizations_Data extends \Cantie\AppStoreCo
 
 }
 
-class Build_Relationships_BetaBuildLocalizations extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_BetaBuildLocalizations extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = Build_Relationships_BetaBuildLocalizations_Links::class;
 	protected $linksDataType = 'object';
@@ -574,7 +574,7 @@ class Build_Relationships_BetaBuildLocalizations extends \Cantie\AppStoreConnect
 
 }
 
-class Build_Relationships_AppEncryptionDeclaration_Links extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_AppEncryptionDeclaration_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -600,7 +600,7 @@ class Build_Relationships_AppEncryptionDeclaration_Links extends \Cantie\AppStor
 
 }
 
-class Build_Relationships_AppEncryptionDeclaration_Data extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_AppEncryptionDeclaration_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appEncryptionDeclarations';
 	public $id;
@@ -626,7 +626,7 @@ class Build_Relationships_AppEncryptionDeclaration_Data extends \Cantie\AppStore
 
 }
 
-class Build_Relationships_AppEncryptionDeclaration extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_AppEncryptionDeclaration extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = Build_Relationships_AppEncryptionDeclaration_Links::class;
 	protected $linksDataType = 'object';
@@ -666,7 +666,7 @@ class Build_Relationships_AppEncryptionDeclaration extends \Cantie\AppStoreConne
 
 }
 
-class Build_Relationships_BetaAppReviewSubmission_Links extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_BetaAppReviewSubmission_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -692,7 +692,7 @@ class Build_Relationships_BetaAppReviewSubmission_Links extends \Cantie\AppStore
 
 }
 
-class Build_Relationships_BetaAppReviewSubmission_Data extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_BetaAppReviewSubmission_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'betaAppReviewSubmissions';
 	public $id;
@@ -718,7 +718,7 @@ class Build_Relationships_BetaAppReviewSubmission_Data extends \Cantie\AppStoreC
 
 }
 
-class Build_Relationships_BetaAppReviewSubmission extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_BetaAppReviewSubmission extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = Build_Relationships_BetaAppReviewSubmission_Links::class;
 	protected $linksDataType = 'object';
@@ -758,7 +758,7 @@ class Build_Relationships_BetaAppReviewSubmission extends \Cantie\AppStoreConnec
 
 }
 
-class Build_Relationships_App_Links extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_App_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -784,7 +784,7 @@ class Build_Relationships_App_Links extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Build_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_App_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'apps';
 	public $id;
@@ -810,7 +810,7 @@ class Build_Relationships_App_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Build_Relationships_App extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_App extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = Build_Relationships_App_Links::class;
 	protected $linksDataType = 'object';
@@ -850,7 +850,7 @@ class Build_Relationships_App extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Build_Relationships_BuildBetaDetail_Links extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_BuildBetaDetail_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -876,7 +876,7 @@ class Build_Relationships_BuildBetaDetail_Links extends \Cantie\AppStoreConnect\
 
 }
 
-class Build_Relationships_BuildBetaDetail_Data extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_BuildBetaDetail_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'buildBetaDetails';
 	public $id;
@@ -902,7 +902,7 @@ class Build_Relationships_BuildBetaDetail_Data extends \Cantie\AppStoreConnect\M
 
 }
 
-class Build_Relationships_BuildBetaDetail extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_BuildBetaDetail extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = Build_Relationships_BuildBetaDetail_Links::class;
 	protected $linksDataType = 'object';
@@ -942,7 +942,7 @@ class Build_Relationships_BuildBetaDetail extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Build_Relationships_AppStoreVersion_Links extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_AppStoreVersion_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -968,7 +968,7 @@ class Build_Relationships_AppStoreVersion_Links extends \Cantie\AppStoreConnect\
 
 }
 
-class Build_Relationships_AppStoreVersion_Data extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_AppStoreVersion_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'appStoreVersions';
 	public $id;
@@ -994,7 +994,7 @@ class Build_Relationships_AppStoreVersion_Data extends \Cantie\AppStoreConnect\M
 
 }
 
-class Build_Relationships_AppStoreVersion extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_AppStoreVersion extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = Build_Relationships_AppStoreVersion_Links::class;
 	protected $linksDataType = 'object';
@@ -1034,7 +1034,7 @@ class Build_Relationships_AppStoreVersion extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Build_Relationships_Icons_Links extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_Icons_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -1060,7 +1060,7 @@ class Build_Relationships_Icons_Links extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Build_Relationships_Icons_Data extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_Icons_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'buildIcons';
 	public $id;
@@ -1086,7 +1086,7 @@ class Build_Relationships_Icons_Data extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Build_Relationships_Icons extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_Icons extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = Build_Relationships_Icons_Links::class;
 	protected $linksDataType = 'object';
@@ -1143,7 +1143,7 @@ class Build_Relationships_Icons extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Build_Relationships_BuildBundles_Links extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_BuildBundles_Links extends \Mantix\AppStoreConnect\Model
 {
 	public $self;
 	public $related;
@@ -1169,7 +1169,7 @@ class Build_Relationships_BuildBundles_Links extends \Cantie\AppStoreConnect\Mod
 
 }
 
-class Build_Relationships_BuildBundles_Data extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_BuildBundles_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'buildBundles';
 	public $id;
@@ -1195,7 +1195,7 @@ class Build_Relationships_BuildBundles_Data extends \Cantie\AppStoreConnect\Mode
 
 }
 
-class Build_Relationships_BuildBundles extends \Cantie\AppStoreConnect\Model
+class Build_Relationships_BuildBundles extends \Mantix\AppStoreConnect\Model
 {
 	protected $linksType = Build_Relationships_BuildBundles_Links::class;
 	protected $linksDataType = 'object';
@@ -1252,7 +1252,7 @@ class Build_Relationships_BuildBundles extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Build_Relationships extends \Cantie\AppStoreConnect\Model
+class Build_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $preReleaseVersionType = Build_Relationships_PreReleaseVersion::class;
 	protected $preReleaseVersionDataType = 'object';
@@ -1445,7 +1445,7 @@ class Build_Relationships extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Build extends \Cantie\AppStoreConnect\Model
+class Build extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'builds';
 	public $id;

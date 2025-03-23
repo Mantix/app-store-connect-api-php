@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class SubscriptionAvailabilityCreateRequest_Data_Attributes extends \Cantie\AppStoreConnect\Model
+class SubscriptionAvailabilityCreateRequest_Data_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $availableInNewTerritories;
 
@@ -42,7 +42,7 @@ class SubscriptionAvailabilityCreateRequest_Data_Attributes extends \Cantie\AppS
 
 }
 
-class SubscriptionAvailabilityCreateRequest_Data_Relationships_Subscription_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionAvailabilityCreateRequest_Data_Relationships_Subscription_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptions';
 	public $id;
@@ -68,7 +68,7 @@ class SubscriptionAvailabilityCreateRequest_Data_Relationships_Subscription_Data
 
 }
 
-class SubscriptionAvailabilityCreateRequest_Data_Relationships_Subscription extends \Cantie\AppStoreConnect\Model
+class SubscriptionAvailabilityCreateRequest_Data_Relationships_Subscription extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionAvailabilityCreateRequest_Data_Relationships_Subscription_Data::class;
 	protected $dataDataType = 'object';
@@ -91,7 +91,7 @@ class SubscriptionAvailabilityCreateRequest_Data_Relationships_Subscription exte
 
 }
 
-class SubscriptionAvailabilityCreateRequest_Data_Relationships_AvailableTerritories_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionAvailabilityCreateRequest_Data_Relationships_AvailableTerritories_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'territories';
 	public $id;
@@ -117,7 +117,7 @@ class SubscriptionAvailabilityCreateRequest_Data_Relationships_AvailableTerritor
 
 }
 
-class SubscriptionAvailabilityCreateRequest_Data_Relationships_AvailableTerritories extends \Cantie\AppStoreConnect\Model
+class SubscriptionAvailabilityCreateRequest_Data_Relationships_AvailableTerritories extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionAvailabilityCreateRequest_Data_Relationships_AvailableTerritories_Data::class;
 	protected $dataDataType = 'array';
@@ -140,7 +140,7 @@ class SubscriptionAvailabilityCreateRequest_Data_Relationships_AvailableTerritor
 
 }
 
-class SubscriptionAvailabilityCreateRequest_Data_Relationships extends \Cantie\AppStoreConnect\Model
+class SubscriptionAvailabilityCreateRequest_Data_Relationships extends \Mantix\AppStoreConnect\Model
 {
 	protected $subscriptionType = SubscriptionAvailabilityCreateRequest_Data_Relationships_Subscription::class;
 	protected $subscriptionDataType = 'object';
@@ -180,7 +180,7 @@ class SubscriptionAvailabilityCreateRequest_Data_Relationships extends \Cantie\A
 
 }
 
-class SubscriptionAvailabilityCreateRequest_Data extends \Cantie\AppStoreConnect\Model
+class SubscriptionAvailabilityCreateRequest_Data extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'subscriptionAvailabilities';
 	protected $attributesType = SubscriptionAvailabilityCreateRequest_Data_Attributes::class;
@@ -230,7 +230,7 @@ class SubscriptionAvailabilityCreateRequest_Data extends \Cantie\AppStoreConnect
 
 }
 
-class SubscriptionAvailabilityCreateRequest extends \Cantie\AppStoreConnect\Model
+class SubscriptionAvailabilityCreateRequest extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = SubscriptionAvailabilityCreateRequest_Data::class;
 	protected $dataDataType = 'object';

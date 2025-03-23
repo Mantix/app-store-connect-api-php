@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class GameCenterMatchmakingQueueSizesV1MetricResponse_Data_DataPoints_Values extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingQueueSizesV1MetricResponse_Data_DataPoints_Values extends \Mantix\AppStoreConnect\Model
 {
 	public $count;
 	public $averageNumberOfRequests;
@@ -72,7 +72,7 @@ class GameCenterMatchmakingQueueSizesV1MetricResponse_Data_DataPoints_Values ext
 
 }
 
-class GameCenterMatchmakingQueueSizesV1MetricResponse_Data_DataPoints extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingQueueSizesV1MetricResponse_Data_DataPoints extends \Mantix\AppStoreConnect\Model
 {
 	public $start;
 	public $end;
@@ -115,7 +115,7 @@ class GameCenterMatchmakingQueueSizesV1MetricResponse_Data_DataPoints extends \C
 
 }
 
-class GameCenterMatchmakingQueueSizesV1MetricResponse_Data extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingQueueSizesV1MetricResponse_Data extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataPointsType = GameCenterMatchmakingQueueSizesV1MetricResponse_Data_DataPoints::class;
 	protected $dataPointsDataType = 'object';
@@ -148,7 +148,7 @@ class GameCenterMatchmakingQueueSizesV1MetricResponse_Data extends \Cantie\AppSt
 
 }
 
-class GameCenterMatchmakingQueueSizesV1MetricResponse extends \Cantie\AppStoreConnect\Model
+class GameCenterMatchmakingQueueSizesV1MetricResponse extends \Mantix\AppStoreConnect\Model
 {
 	protected $dataType = GameCenterMatchmakingQueueSizesV1MetricResponse_Data::class;
 	protected $dataDataType = 'array';

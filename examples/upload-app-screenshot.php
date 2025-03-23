@@ -26,8 +26,8 @@
 
 include_once __DIR__ . '/../vendor/autoload.php';
 include_once "templates/base.php";
-use Cantie\AppStoreConnect\Services\AppStore\AppScreenshotCreateRequest;
-use Cantie\AppStoreConnect\Services\AppStore\AppScreenshotUpdateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppScreenshotCreateRequest;
+use Mantix\AppStoreConnect\Services\AppStore\AppScreenshotUpdateRequest;
 
 echo pageHeader("Upload App Screenshot");
 if (!$apiKeyPath = getData('api_key_path')) {

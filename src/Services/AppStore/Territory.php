@@ -24,9 +24,9 @@
  * SOFTWARE.
 */
 
-namespace Cantie\AppStoreConnect\Services\AppStore;
+namespace Mantix\AppStoreConnect\Services\AppStore;
 
-class Territory_Attributes extends \Cantie\AppStoreConnect\Model
+class Territory_Attributes extends \Mantix\AppStoreConnect\Model
 {
 	public $currency;
 
@@ -42,7 +42,7 @@ class Territory_Attributes extends \Cantie\AppStoreConnect\Model
 
 }
 
-class Territory extends \Cantie\AppStoreConnect\Model
+class Territory extends \Mantix\AppStoreConnect\Model
 {
 	public $type = 'territories';
 	public $id;

@@ -7,10 +7,10 @@ if (class_exists('AppleClient', false)) {
 }
 
 $classMap = [
-    'Cantie\\AppStoreConnect\\Client' => 'AppleClient',
-    'Cantie\\AppStoreConnect\\Service' => 'AppleService',
-    'Cantie\\AppStoreConnect\\Services\\AppStore' => 'AppleService_AppStore',
-    'Cantie\\AppStoreConnect\\Services\\Upload' => 'AppleService_Upload'
+    'Mantix\\AppStoreConnect\\Client' => 'AppleClient',
+    'Mantix\\AppStoreConnect\\Service' => 'AppleService',
+    'Mantix\\AppStoreConnect\\Services\\AppStore' => 'AppleService_AppStore',
+    'Mantix\\AppStoreConnect\\Services\\Upload' => 'AppleService_Upload'
 ];
 
 foreach ($classMap as $class => $alias) {
@@ -19,8 +19,12 @@ foreach ($classMap as $class => $alias) {
 
 /** @phpstan-ignore-next-line */
 if (\false) {
-    class AppleClient extends \Mantix\AppStoreConnect\Client {}
-    class AppleService extends \Mantix\AppStoreConnect\Service {}
-    class AppleService_AppStore extends \Mantix\AppStoreConnect\Services\AppStore {}
-    class AppleService_Upload extends \Mantix\AppStoreConnect\Services\Upload {}
+    class AppleClient extends \Mantix\AppStoreConnect\Client {
+    }
+    class AppleService extends \Mantix\AppStoreConnect\Service {
+    }
+    class AppleService_AppStore extends \Mantix\AppStoreConnect\Services\AppStore {
+    }
+    class AppleService_Upload extends \Mantix\AppStoreConnect\Services\Upload {
+    }
 }
